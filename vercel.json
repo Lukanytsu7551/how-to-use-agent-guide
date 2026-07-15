@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "docs/.vuepress/dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/guide.html",
+      "destination": "/guide",
+      "permanent": true
+    },
+    {
+      "source": "/start.html",
+      "destination": "/start",
+      "permanent": true
+    },
+    {
+      "source": "/advanced.html",
+      "destination": "/advanced",
+      "permanent": true
+    },
+    {
+      "source": "/recipes.html",
+      "destination": "/recipes",
+      "permanent": true
+    },
+    {
+      "source": "/manual.html",
+      "destination": "/manual",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}

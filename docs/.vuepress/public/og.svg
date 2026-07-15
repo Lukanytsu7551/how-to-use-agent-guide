@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect x="72" y="72" width="1056" height="486" rx="36" fill="#111827" stroke="#263244" stroke-width="2"/>
+  <rect x="112" y="112" width="132" height="132" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <rect x="146" y="138" width="50" height="70" rx="9" fill="#F8FAFC"/>
+  <path d="M181 138V154C181 156.761 183.239 159 186 159H196" fill="#DCEBFF"/>
+  <path d="M181 138L196 159" stroke="#BFD7FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="156" y="166" width="26" height="6" rx="3" fill="#2563EB"/>
+  <rect x="156" y="180" width="34" height="6" rx="3" fill="#0F766E"/>
+  <rect x="156" y="194" width="22" height="6" rx="3" fill="#64748B"/>
+  <path d="M205 173L218 186L205 199" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 151H144" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 166H139" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 181H144" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <text x="112" y="330" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">How to Use Codex</text>
+  <text x="116" y="410" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="32">Codex 企业实践指南 · App / CLI / Cloud / IDE</text>
+  <text x="116" y="494" fill="#67E8F9" font-family="Arial, sans-serif" font-size="28">Permissions · AGENTS.md · Skills · Workflows</text>
+</svg>

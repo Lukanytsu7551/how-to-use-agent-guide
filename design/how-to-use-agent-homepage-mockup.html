@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to Use Agent - 首页设计稿</title>
+    <style>
+      :root {
+        --canvas: #f4f7fa;
+        --surface: #ffffff;
+        --ink: #172b3a;
+        --muted: #5b6977;
+        --line: #dbe3ea;
+        --codex: #5b63e8;
+        --codex-soft: #eef0ff;
+        --workbuddy: #00b982;
+        --workbuddy-soft: #e6f9f2;
+        --manual: #073b5c;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--canvas);
+        color: var(--ink);
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      }
+
+      .topbar {
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 max(32px, calc((100vw - 1240px) / 2));
+        background: rgba(255, 255, 255, .96);
+        border-bottom: 1px solid var(--line);
+      }
+      .brand, .nav, .product-head, .section-head, .item-row { display: flex; align-items: center; }
+      .brand { gap: 12px; font-weight: 700; font-size: 20px; }
+      .brand-mark {
+        position: relative; width: 34px; height: 34px; border-radius: 9px;
+        background: conic-gradient(from 210deg, var(--workbuddy), var(--workbuddy) 28%, var(--codex) 28%, var(--codex));
+      }
+      .brand-mark::after { content: ""; position: absolute; inset: 9px; border-radius: 5px; background: #fff; }
+      .nav { gap: 4px; height: 100%; }
+      .nav a { color: var(--muted); text-decoration: none; padding: 26px 16px 23px; font-weight: 600; border-bottom: 3px solid transparent; }
+      .nav a.active { color: var(--ink); border-color: var(--manual); }
+      .search { border: 0; background: none; color: var(--muted); font: inherit; font-size: 15px; }
+
+      main { max-width: 1240px; margin: 0 auto; padding: 78px 32px 80px; }
+      .eyebrow { color: var(--manual); font-size: 14px; font-weight: 700; letter-spacing: .08em; }
+      h1 { max-width: 800px; margin: 14px 0 14px; font-size: clamp(40px, 5vw, 64px); line-height: 1.14; letter-spacing: 0; }
+      .lead { max-width: 600px; margin: 0; color: var(--muted); font-size: 19px; line-height: 1.7; }
+      .product-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 24px; margin-top: 54px; }
+      .product {
+        min-height: 348px; padding: 32px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+        display: flex; flex-direction: column; align-items: flex-start;
+      }
+      .product.codex { border-top: 5px solid var(--codex); }
+      .product.workbuddy { border-top: 5px solid var(--workbuddy); }
+      .product-head { gap: 15px; }
+      .app-icon { width: 46px; height: 46px; border-radius: 14px; position: relative; overflow: hidden; }
+      .codex .app-icon { background: radial-gradient(circle at 70% 25%, #a7b5ff, transparent 35%), linear-gradient(140deg, #6579f3, #594de4); }
+      .workbuddy .app-icon { background: linear-gradient(145deg, #04d1a3, #00a875); }
+      .app-icon::after { content: ""; position: absolute; width: 28px; height: 12px; left: 9px; top: 17px; border: 5px solid #fff; border-top: 0; border-radius: 0 0 14px 14px; transform: rotate(-11deg); }
+      .product h2 { margin: 0; font-size: 27px; }
+      .product p { margin: 8px 0 24px; color: var(--muted); font-size: 16px; }
+      .modules { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: auto; }
+      .modules span { padding: 7px 9px; color: var(--ink); background: #f5f7f9; border: 1px solid #e5ebef; border-radius: 4px; font-size: 14px; }
+      .product a { margin-top: 30px; padding: 11px 15px; color: #fff; text-decoration: none; font-weight: 700; border-radius: 4px; }
+      .codex a { background: var(--codex); }
+      .workbuddy a { background: var(--workbuddy); }
+
+      .section { margin-top: 80px; padding-top: 25px; border-top: 1px solid var(--line); }
+      .section-head { justify-content: space-between; gap: 20px; }
+      h3 { margin: 0; font-size: 25px; }
+      .section-head p { color: var(--muted); margin: 0; }
+      .task-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; margin-top: 25px; background: var(--line); border: 1px solid var(--line); }
+      .task { min-height: 118px; padding: 22px; background: var(--surface); }
+      .task b { display: block; font-size: 17px; }
+      .task small { display: block; margin-top: 9px; color: var(--muted); line-height: 1.5; }
+      .bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; margin-top: 80px; }
+      .bottom-grid h3 { padding-bottom: 17px; border-bottom: 2px solid var(--ink); }
+      .item-row { justify-content: space-between; padding: 16px 0; border-bottom: 1px solid var(--line); gap: 20px; }
+      .item-row b { font-size: 15px; }
+      .tag { padding: 4px 7px; border-radius: 3px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+      .tag.codex { color: var(--codex); background: var(--codex-soft); }
+      .tag.workbuddy { color: #058867; background: var(--workbuddy-soft); }
+      .tag.manual { color: var(--manual); background: #e9f0f4; }
+      @media (max-width: 760px) {
+        .topbar { height: auto; padding: 16px 20px; align-items: flex-start; gap: 18px; }
+        .nav { display: none; }
+        main { padding: 56px 20px; }
+        .product-grid, .bottom-grid { grid-template-columns: 1fr; }
+        .task-row { grid-template-columns: 1fr 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"></span><span>How to Use Agent</span></div>
+      <nav class="nav"><a class="active" href="#home">首页</a><a href="#codex">Codex Guide</a><a href="#workbuddy">WorkBuddy Guide</a><a href="#manual">参考手册</a></nav>
+      <button class="search" type="button">⌕&nbsp; 搜索</button>
+    </header>
+    <main id="home">
+      <div class="eyebrow">AGENT LEARNING &amp; WORKFLOW NAVIGATION</div>
+      <h1>选择合适的 Agent，<br />推进真实工作。</h1>
+      <p class="lead">面向技术与业务团队的 Agent 使用导航。先按任务选择产品，再从安装、实践到问题排查建立可靠的工作方式。</p>
+      <section class="product-grid">
+        <article class="product codex" id="codex">
+          <div class="product-head"><span class="app-icon"></span><div><h2>Codex Guide</h2><p>代码、终端与复杂工作流</p></div></div>
+          <div class="modules"><span>学习路线</span><span>快速上手</span><span>进阶教程</span><span>实战案例</span><span>问题排查</span></div>
+          <a href="#codex">进入 Codex Guide</a>
+        </article>
+        <article class="product workbuddy" id="workbuddy">
+          <div class="product-head"><span class="app-icon"></span><div><h2>WorkBuddy Guide</h2><p>国内办公、资料与协作工作流</p></div></div>
+          <div class="modules"><span>学习路线</span><span>快速上手</span><span>进阶教程</span><span>实战案例</span><span>问题排查</span></div>
+          <a href="#workbuddy">进入 WorkBuddy Guide</a>
+        </article>
+      </section>
+      <section class="section">
+        <div class="section-head"><h3>从任务开始</h3><p>不确定该选哪个产品时，先从你要完成的工作进入。</p></div>
+        <div class="task-row">
+          <div class="task"><b>写代码</b><small>读项目、改代码、运行与验证</small></div>
+          <div class="task"><b>整理资料</b><small>文档、知识库与信息提炼</small></div>
+          <div class="task"><b>自动化办公</b><small>协作流程与重复任务</small></div>
+          <div class="task"><b>研究与分析</b><small>调研、归纳与可追溯输出</small></div>
+          <div class="task"><b>排查问题</b><small>安装、登录、使用与工具接入</small></div>
+        </div>
+      </section>
+      <section class="bottom-grid" id="manual">
+        <div><h3>近期产品更新</h3><div class="item-row"><b>Codex：版本与能力更新</b><span class="tag codex">CODEX</span></div><div class="item-row"><b>WorkBuddy：近期功能更新</b><span class="tag workbuddy">WORKBUDDY</span></div></div>
+        <div><h3>参考手册</h3><div class="item-row"><b>精选资源</b><span class="tag manual">资源</span></div><div class="item-row"><b>参考来源和致谢</b><span class="tag manual">说明</span></div></div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+# Notices
+
+This project is a modified version of CodexGuide.
+
+Original project:
+
+- Repository: https://github.com/freestylefly/CodexGuide
+- License: MIT License
+- Original copyright notice: Copyright (c) 2026 canghe
+
+Major modifications in this repository:
+
+- Rebranded the public site as `How to Use Codex`.
+- Removed sponsor, personal community, QR code, and original project promotion surfaces.
+- Updated repository, deployment, SEO, and documentation metadata for `Lukanytsu7551/how-to-use-codex-`.
+- Kept the original MIT license notice as required by the license.

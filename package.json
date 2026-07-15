@@ -1,0 +1,30 @@
+{
+  "name": "how-to-use-codex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "How to Use Codex：面向企业团队和个人开发者的 Codex 实践教程站",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --host 0.0.0.0",
+    "build": "pnpm clean && vuepress build docs",
+    "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
+    "preview": "vuepress dev docs --host 0.0.0.0",
+    "check:links": "node scripts/check-built-links.mjs docs/.vuepress/dist /how-to-use-codex-/ && node scripts/check-source-links.mjs docs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/plugin-feed": "2.0.0-rc.128",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
+    "sass-embedded": "^1.97.2",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-hope": "2.0.0-rc.106"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
