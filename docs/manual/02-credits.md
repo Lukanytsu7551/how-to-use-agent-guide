@@ -1,5 +1,5 @@
 ---
-description: "How to Use Codex 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。"
+description: "How to Use Agent 参考来源与致谢，整理 Codex、WorkBuddy 案例涉及的第三方工具、官方文档、仓库链接和内容来源。"
 ---
 
 # 参考来源与致谢
@@ -9,6 +9,12 @@ description: "How to Use Codex 参考来源与致谢，整理案例中涉及的�
 > 所有案例截图均为作者本人实际操作所得，文字内容在参考基础上重新整理与二次创作。如有侵权，请联系删除。
 
 本仓库基于 MIT 许可项目二次开发，版权与修改说明见仓库根目录的 `LICENSE` 和 `NOTICE`。
+
+## WorkBuddy Guide 来源说明
+
+WorkBuddy Guide 的信息架构与公开学习入口参考了 [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) 及其在线阅读站 [workbuddy.homes](https://workbuddy.homes/)。该开源仓库使用 [MIT License](https://github.com/AlephAITech/WorkBuddyGuide/blob/main/LICENSE)。
+
+本站当前仅链接和重新组织其公开资料入口，未复制其教程正文。后续若直接引用或改编具体页面，将在对应页面和本节补充原始链接、许可证与改编范围。
 
 ---
 

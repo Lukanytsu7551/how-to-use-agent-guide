@@ -10,11 +10,9 @@ const withSiteBase = (path: string): string =>
   `${siteBase}${path.replace(/^\//u, "")}`;
 
 const navbarDropdownLinks: Record<string, string> = {
-  快速上手导航: withSiteBase("/start/"),
-  进阶教程导航: withSiteBase("/advanced/"),
-  实战案例导航: withSiteBase("/recipes/"),
+  "Codex Guide 导航": withSiteBase("/codex/"),
+  "WorkBuddy Guide 导航": withSiteBase("/workbuddy/"),
   参考手册导航: withSiteBase("/manual/"),
-  社区优秀教程合集: withSiteBase("/community/tutorials.html"),
 };
 
 const legacySectionPaths: Record<string, string> = {

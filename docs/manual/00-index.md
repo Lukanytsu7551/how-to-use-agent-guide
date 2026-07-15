@@ -1,11 +1,20 @@
 ---
-description: "Codex 参考手册，汇总 OpenAI 官方资料、Codex 更新记录、参考来源与致谢，帮助读者回到原始资料核对。"
+description: "Agent 参考手册，汇总精选资源、近期 Codex 更新、近期 WorkBuddy 更新与参考来源，帮助读者回到原始资料核对。"
 permalink: /manual/
 ---
 
 # 参考手册
 
-本栏目整理 Codex 相关官方资料、更新记录和参考来源。涉及价格、计划、模型、可用地区、功能开关、账号权限等时间敏感信息时，请优先打开原文确认。
+本栏目整理 Codex、WorkBuddy 相关的精选资源、更新记录和参考来源。涉及价格、计划、模型、可用地区、功能开关、账号权限等时间敏感信息时，请优先打开原文确认。
+
+## 栏目入口
+
+| 栏目 | 内容 |
+| --- | --- |
+| [精选资源](./resources.md) | Codex、WorkBuddy 和模型能力的优先阅读资料 |
+| [近期 Codex 更新](./01-codex-updates.md) | 依据 OpenAI 官方 Changelog 整理 |
+| [近期 WorkBuddy 更新](./workbuddy-updates.md) | 以官方蓝皮书与开源仓库为核对入口 |
+| [参考来源和致谢](./02-credits.md) | 第三方工具、教程、仓库和改编来源 |
 
 
 ## OpenAI 官方
@@ -32,13 +41,6 @@ permalink: /manual/
 - [Codex skills](https://developers.openai.com/codex/skills)：Skills 官方说明。
 - [Codex Cloud docs](https://platform.openai.com/docs/codex)：云端任务、环境、仓库连接和任务执行入口。
 
-## 精选资源
-
-### GPT‑5.6
-
-- [预览 GPT-5.6 Sol：新一代模型](https://openai.com/zh-Hans-CN/index/previewing-gpt-5-6-sol/)：OpenAI 官方文章，介绍 GPT-5.6 Sol 的模型能力、定位和预览信息。
-- [GPT5.6测评：GPT5.6 与 GPT5.5 实测体验](https://www.cnblogs.com/wlor/articles/21308810)：GPT5.6测评，围绕前端生成、页面还原和模型体验对比展开，可作为观察 Codex/前端 Agent 实战效果的延伸阅读。
-
 ## GitHub 官方仓库
 
 - [openai/codex](https://github.com/openai/codex)：Codex CLI 开源仓库。
@@ -63,5 +65,7 @@ permalink: /manual/
 
 ## 延伸阅读
 
+- [精选资源](./resources.md)
 - [近期 Codex 更新](./01-codex-updates.md)
-- [参考来源与致谢](./02-credits.md)
+- [近期 WorkBuddy 更新](./workbuddy-updates.md)
+- [参考来源和致谢](./02-credits.md)

@@ -1,18 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
-  <rect width="1200" height="630" fill="#0F172A"/>
-  <rect x="72" y="72" width="1056" height="486" rx="36" fill="#111827" stroke="#263244" stroke-width="2"/>
-  <rect x="112" y="112" width="132" height="132" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2"/>
-  <rect x="146" y="138" width="50" height="70" rx="9" fill="#F8FAFC"/>
-  <path d="M181 138V154C181 156.761 183.239 159 186 159H196" fill="#DCEBFF"/>
-  <path d="M181 138L196 159" stroke="#BFD7FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="156" y="166" width="26" height="6" rx="3" fill="#2563EB"/>
-  <rect x="156" y="180" width="34" height="6" rx="3" fill="#0F766E"/>
-  <rect x="156" y="194" width="22" height="6" rx="3" fill="#64748B"/>
-  <path d="M205 173L218 186L205 199" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M128 151H144" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
-  <path d="M128 166H139" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
-  <path d="M128 181H144" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
-  <text x="112" y="330" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="92" font-weight="700">How to Use Codex</text>
-  <text x="116" y="410" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="32">Codex 企业实践指南 · App / CLI / Cloud / IDE</text>
-  <text x="116" y="494" fill="#67E8F9" font-family="Arial, sans-serif" font-size="28">Permissions · AGENTS.md · Skills · Workflows</text>
+  <rect width="1200" height="630" fill="#F4F7FA"/>
+  <path d="M72 94H1128" stroke="#C7D2DC" stroke-width="2"/>
+  <text x="76" y="72" fill="#073B5C" font-family="Arial, PingFang SC, sans-serif" font-size="24" font-weight="700" letter-spacing="3">HOW TO USE AGENT</text>
+  <text x="76" y="220" fill="#172B3A" font-family="Arial, PingFang SC, sans-serif" font-size="82" font-weight="700">选择合适的 Agent，</text>
+  <text x="76" y="312" fill="#172B3A" font-family="Arial, PingFang SC, sans-serif" font-size="82" font-weight="700">推进真实工作。</text>
+  <text x="80" y="370" fill="#5B6977" font-family="Arial, PingFang SC, sans-serif" font-size="30">Codex 与 WorkBuddy 的企业级使用导航、学习路径与工作流参考</text>
+  <rect x="76" y="436" width="456" height="118" fill="#EEF0FF" stroke="#5B63E8" stroke-width="3"/>
+  <text x="106" y="480" fill="#5B63E8" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">CODEX GUIDE</text>
+  <text x="106" y="524" fill="#172B3A" font-family="Arial, PingFang SC, sans-serif" font-size="28" font-weight="700">代码、终端与复杂工作流</text>
+  <rect x="566" y="436" width="556" height="118" fill="#E6F9F2" stroke="#00B982" stroke-width="3"/>
+  <text x="596" y="480" fill="#008765" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">WORKBUDDY GUIDE</text>
+  <text x="596" y="524" fill="#172B3A" font-family="Arial, PingFang SC, sans-serif" font-size="28" font-weight="700">国内办公、资料与协作工作流</text>
+  <rect x="921" y="112" width="72" height="72" fill="#5B63E8"/>
+  <rect x="1013" y="142" width="72" height="72" fill="#00B982"/>
+  <path d="M993 146H1013M993 178H1013" stroke="#073B5C" stroke-width="4"/>
 </svg>

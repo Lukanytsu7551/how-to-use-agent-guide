@@ -1,6 +1,41 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  "/codex/": [
+    {
+      text: "Codex Guide",
+      icon: "code",
+      prefix: "/codex/",
+      children: ["index.md", "learning-path.md", "troubleshooting.md"],
+    },
+    {
+      text: "原有教程",
+      icon: "book",
+      children: [
+        { text: "快速上手", icon: "rocket", link: "/start/" },
+        { text: "进阶教程", icon: "book", link: "/advanced/" },
+        { text: "实战案例", icon: "lightbulb", link: "/recipes/" },
+        { text: "完整问题库", icon: "debug", link: "/troubleshooting/" },
+      ],
+    },
+  ],
+
+  "/workbuddy/": [
+    {
+      text: "WorkBuddy Guide",
+      icon: "briefcase",
+      prefix: "/workbuddy/",
+      children: [
+        "index.md",
+        "learning-path.md",
+        "getting-started.md",
+        "advanced.md",
+        "recipes.md",
+        "troubleshooting.md",
+      ],
+    },
+  ],
+
   "/guide/": [
     {
       text: "学习路线",
@@ -97,7 +132,7 @@ export default sidebar({
       text: "参考手册",
       icon: "gear",
       prefix: "/manual/",
-      children: ["00-index.md", "01-codex-updates.md", "02-credits.md"],
+      children: ["00-index.md", "resources.md", "01-codex-updates.md", "workbuddy-updates.md", "02-credits.md"],
     },
   ],
 
@@ -121,16 +156,12 @@ export default sidebar({
 
   "/": [
     {
-      text: "How to Use Codex",
+      text: "How to Use Agent",
       icon: "home",
       children: [
-        "/guide/",
-        "/start/",
-        "/advanced/",
-        "/recipes/",
-        "/troubleshooting/",
+        "/codex/",
+        "/workbuddy/",
         "/manual/",
-        "/community/tutorials.md",
       ],
     },
   ],

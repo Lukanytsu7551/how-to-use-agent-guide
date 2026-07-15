@@ -1,144 +1,108 @@
 ---
-home: true
-icon: home
-title: OpenAI Codex 企业级教程与实战指南
-description: "How to Use Codex 是面向企业团队和个人开发者的 OpenAI Codex 教程，帮助你从第一次任务快速上手 Codex，并通过进阶教程与团队实践掌握实用技巧。"
-pageClass: codex-home-page
-heroImage: /logo.svg
-heroText: How to Use Codex
-tagline: 面向团队落地的 Codex App、CLI、权限治理与实战交付指南
-actions:
-  - text: 开始学习
-    link: ./start/
-    type: primary
-  - text: 查看学习路线
-    link: ./guide/
-    type: default
-  - text: 团队实践
-    link: ./advanced/10-team-playbook.html
-    type: default
+title: How to Use Agent
+description: "How to Use Agent 是 Codex 与 WorkBuddy 的企业级使用导航，帮助团队按任务选择合适的 Agent，并从上手、实践到排障建立可靠工作流。"
+pageClass: agent-home-page
 ---
 
-<div class="codex-home">
+<div class="agent-home">
 
-<section class="home-section home-overview">
+<section class="agent-hero-stage">
 
-<div class="home-section-kicker">学习路径</div>
+<div class="agent-hero-copy">
 
-## 从个人上手到团队落地
+<p class="agent-overline">HOW TO USE AGENT</p>
 
-按入口、能力和场景组织教程，减少试错成本，把 Codex 使用经验沉淀成可复用流程。
+<h1>从一个真实任务开始，<br />选择合适的 Agent。</h1>
 
-<div class="home-core-layout">
-  <a class="home-core-card home-core-card-primary" href="./start/">
-    <span class="home-core-index">01</span>
-    <strong>快速上手</strong>
-    <span>完成安装、账号准备、桌面 App 入门和第一个可验证任务。</span>
-    <em>适合第一次使用 Codex 的读者</em>
+<p>Codex 面向代码、终端和复杂工作流；WorkBuddy 面向国内办公、资料处理和协作流程。这里提供同一套清晰的上手、实践与排查路径。</p>
+
+<div class="agent-hero-links">
+  <a class="agent-button agent-button-codex" href="./codex/">进入 Codex Guide</a>
+  <a class="agent-button agent-button-workbuddy" href="./workbuddy/">进入 WorkBuddy Guide</a>
+</div>
+
+</div>
+
+<div class="agent-hero-system" aria-hidden="true">
+  <div class="agent-system-grid"></div>
+  <div class="agent-system-node agent-system-node-codex"><span>01</span><strong>CODEX</strong><small>Build</small></div>
+  <div class="agent-system-node agent-system-node-workbuddy"><span>02</span><strong>WORKBUDDY</strong><small>Operate</small></div>
+  <div class="agent-system-line agent-system-line-top"></div>
+  <div class="agent-system-line agent-system-line-bottom"></div>
+  <div class="agent-system-center"><b>WORK</b><span>INPUT · CHECK · OUTPUT</span></div>
+</div>
+
+</section>
+
+<section class="agent-value-strip" aria-label="网站价值">
+  <div><strong>真实任务</strong><span>从具体目标进入，而不是从概念开始。</span></div>
+  <div><strong>可复现</strong><span>保留输入、步骤、验证和结果。</span></div>
+  <div><strong>问题可排查</strong><span>按安装到反馈的顺序定位阻塞。</span></div>
+  <div><strong>持续更新</strong><span>将官方变更和来源集中整理。</span></div>
+</section>
+
+<section class="agent-section agent-product-section">
+
+<div class="agent-section-heading">
+  <div><p>选择产品</p><h2>两套 Guide，同一套工作闭环。</h2></div>
+  <span>先选择任务匹配的产品，再进入学习、实践与排查。</span>
+</div>
+
+<div class="agent-product-rail">
+  <a class="agent-product agent-product-codex" href="./codex/">
+    <span class="agent-product-code">C</span>
+    <span class="agent-product-label">CODEX GUIDE</span>
+    <strong>代码、终端与复杂工作流</strong>
+    <em>适合读项目、改代码、运行命令、连接 MCP 和建立团队工程流程。</em>
+    <span class="agent-product-modules">学习路线 · 快速上手 · 进阶教程 · 实战案例 · 问题排查</span>
+    <b>进入 Codex Guide →</b>
   </a>
-  <a class="home-core-card" href="./advanced/">
-    <span class="home-core-index">02</span>
-    <strong>进阶教程</strong>
-    <span>理解 AGENTS.md、Skills、Plugins、权限、Hooks、配置和线程管理。</span>
-    <em>适合长期使用和团队推广</em>
-  </a>
-  <a class="home-core-card" href="./recipes/">
-    <span class="home-core-index">03</span>
-    <strong>实战案例</strong>
-    <span>学习浏览器、PPT、Obsidian、Figma、CI 和远程排障等真实流程。</span>
-    <em>适合寻找模板和复用方式</em>
+  <a class="agent-product agent-product-workbuddy" href="./workbuddy/">
+    <span class="agent-product-code">W</span>
+    <span class="agent-product-label">WORKBUDDY GUIDE</span>
+    <strong>国内办公、资料与协作工作流</strong>
+    <em>适合整理资料、推进办公协作、沉淀重复流程和连接业务工具。</em>
+    <span class="agent-product-modules">学习路线 · 快速上手 · 进阶教程 · 实战案例 · 问题排查</span>
+    <b>进入 WorkBuddy Guide →</b>
   </a>
 </div>
 
 </section>
 
-<section class="home-section home-enterprise">
+<section class="agent-section">
 
-<div class="home-section-kicker">企业关注点</div>
+<div class="agent-section-heading">
+  <div><p>从任务开始</p><h2>不确定选哪个？先看你要推进的工作。</h2></div>
+</div>
 
-## 把工具能力变成交付规范
-
-<div class="home-principle-grid">
-  <a href="./advanced/04-permissions-security.html">
-    <strong>权限治理</strong>
-    <span>明确文件、命令、网络和敏感信息边界。</span>
-  </a>
-  <a href="./advanced/02-agents-md.html">
-    <strong>项目规则</strong>
-    <span>用 AGENTS.md 固化团队约定、命令和验证方式。</span>
-  </a>
-  <a href="./advanced/08-thread-management.html">
-    <strong>任务管理</strong>
-    <span>用 thread、worktree 和 subagent 管理复杂任务。</span>
-  </a>
-  <a href="./troubleshooting/">
-    <strong>问题排查</strong>
-    <span>查找安装、登录、网络、权限、CLI、Desktop 和插件问题。</span>
-  </a>
+<div class="agent-task-rail">
+  <a href="./codex/"><strong>写代码</strong><span>读项目、改代码、运行与验证</span><em>Codex</em></a>
+  <a href="./workbuddy/"><strong>整理资料</strong><span>提取、分类、归档与知识沉淀</span><em>WorkBuddy</em></a>
+  <a href="./workbuddy/"><strong>自动化办公</strong><span>协作流程与重复任务</span><em>WorkBuddy</em></a>
+  <a href="./codex/"><strong>研究与分析</strong><span>调研、归纳与可核对输出</span><em>Codex</em></a>
+  <a href="./codex/troubleshooting.html"><strong>排查问题</strong><span>安装、登录、使用与工具接入</span><em>Guides</em></a>
 </div>
 
 </section>
 
-<section class="home-section home-featured">
+<section class="agent-section agent-learning-section">
 
-<div class="home-section-kicker">推荐阅读</div>
-
-## 先读这几篇，建立稳定工作流
-
-<div class="home-gallery-frame">
-  <div class="home-gallery-track">
-    <a class="home-gallery-card" href="./start/06-first-task.html">
-      <span>快速上手</span>
-      <strong>用 Codex 完成第一个任务</strong>
-      <em>从选择工作目录到验证结果，跑通最小闭环。</em>
-    </a>
-    <a class="home-gallery-card" href="./start/07-task-design.html">
-      <span>快速上手</span>
-      <strong>任务设计</strong>
-      <em>把目标、范围、上下文、禁止事项和验收方式写清楚。</em>
-    </a>
-    <a class="home-gallery-card" href="./advanced/03-skills-plugins-mcp.html">
-      <span>进阶教程</span>
-      <strong>Skills 和 Plugins</strong>
-      <em>把重复任务沉淀成专项流程和可复用能力。</em>
-    </a>
-    <a class="home-gallery-card" href="./recipes/03-playwright-mcp.html">
-      <span>实战案例</span>
-      <strong>让 Codex 操控浏览器</strong>
-      <em>用 Playwright MCP 完成点击、截图和网页验证。</em>
-    </a>
-    <a class="home-gallery-card" href="./troubleshooting/">
-      <span>问题排查</span>
-      <strong>安装和使用问题速查</strong>
-      <em>按现象定位登录、网络、权限、CLI、Desktop 和 MCP 问题。</em>
-    </a>
-  </div>
+<div class="agent-section-heading">
+  <div><p>学习路径</p><h2>从会用，到可交付，再到可复用。</h2></div>
 </div>
+
+<ol class="agent-learning-path">
+  <li><span>01</span><div><strong>选择产品</strong><p>根据任务性质进入 Codex Guide 或 WorkBuddy Guide。</p></div></li>
+  <li><span>02</span><div><strong>完成第一个任务</strong><p>从小范围、低风险、可人工验证的工作开始。</p></div></li>
+  <li><span>03</span><div><strong>沉淀工作流</strong><p>将成功步骤、输入模板和验证方式复用到下一次任务。</p></div></li>
+  <li><span>04</span><div><strong>持续排查与更新</strong><p>按问题阶段定位阻塞，并回到官方资料核对变化。</p></div></li>
+</ol>
 
 </section>
 
-<section class="home-section home-community">
-
-<div class="home-community-copy">
-
-<div class="home-section-kicker">持续维护</div>
-
-## 建立可复用的 Codex 实践库
-
-Codex 更新很快，教程也需要持续维护。你可以把团队里的成功任务沉淀成案例、规则、排障记录和验证清单，让经验变成下一次交付的起点。
-
-<div class="home-action-row">
-  <a class="home-primary-link" href="./community/tutorials.html">社区优秀教程合集</a>
-  <a href="./manual/">查看参考手册</a>
-</div>
-
-</div>
-
-<div class="home-community-panel">
-  <strong>企业落地重点</strong>
-  <span>任务模板、AGENTS.md、权限策略、验证命令、复盘记录和参考来源。</span>
-</div>
-
+<section class="agent-bottom-grid">
+  <div><h2>近期产品更新</h2><a href="./manual/01-codex-updates.html"><span>CODEX</span><strong>近期 Codex 更新</strong><em>查看官方 Changelog 的整理</em></a><a href="./manual/workbuddy-updates.html"><span>WORKBUDDY</span><strong>近期 WorkBuddy 更新</strong><em>以官方蓝皮书与开源仓库为准</em></a></div>
+  <div><h2>参考手册</h2><a href="./manual/resources.html"><span>RESOURCES</span><strong>精选资源</strong><em>官方文档、开源项目与延伸阅读</em></a><a href="./manual/02-credits.html"><span>CREDITS</span><strong>参考来源和致谢</strong><em>第三方工具、教程与改编说明</em></a></div>
 </section>
 
 </div>
