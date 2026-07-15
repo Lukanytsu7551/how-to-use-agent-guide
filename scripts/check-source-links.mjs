@@ -20,8 +20,8 @@ const walk = (dir) => {
 
     const source = readFileSync(file, "utf8");
     const patterns = [
-      { label: "markdown root link", re: /\]\(\/(?!how-to-use-codex-|\/|#)/gu },
-      { label: "html root href", re: /href="\/(?!how-to-use-codex-|\/|#)/gu },
+      { label: "markdown root link", re: /\]\(\/(?!how-to-use-agent-guide\/|\/|#)/gu },
+      { label: "html root href", re: /href="\/(?!how-to-use-agent-guide\/|\/|#)/gu },
     ];
 
     for (const pattern of patterns) {

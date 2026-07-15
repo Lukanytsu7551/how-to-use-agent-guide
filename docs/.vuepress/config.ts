@@ -7,7 +7,7 @@ import { getPageDescription, siteDescription, toSiteUrl } from "./seo.js";
 import theme from "./theme.js";
 
 const rewriteSitemapCleanUrlsPlugin = {
-  name: "codexguide-clean-sitemap-urls",
+  name: "agent-guide-clean-sitemap-urls",
   onGenerated: (app) => {
     const sitemapPath = app.dir.dest("sitemap.xml");
 
@@ -15,7 +15,7 @@ const rewriteSitemapCleanUrlsPlugin = {
 
     const sitemap = readFileSync(sitemapPath, "utf-8");
     const cleanedSitemap = sitemap.replace(
-      /<loc>(https:\/\/codexguide\.ai[^<]*)<\/loc>/gu,
+      /<loc>(https:\/\/lukanytsu7551\.github\.io\/how-to-use-agent-guide[^<]*)<\/loc>/gu,
       (_, url: string) => {
         const { pathname, search, hash } = new URL(url);
 
@@ -28,10 +28,10 @@ const rewriteSitemapCleanUrlsPlugin = {
 };
 
 export default defineUserConfig({
-  base: "/how-to-use-codex-/",
+  base: "/how-to-use-agent-guide/",
   dest: "docs/.vuepress/dist",
   lang: "zh-CN",
-  title: "How to Use Codex",
+  title: "How to Use Agent",
   description: siteDescription,
 
   head: [
@@ -42,17 +42,17 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "How to Use Codex,Codex 教程,Codex教程,OpenAI Codex 中文教程,Codex 使用教程,Codex CLI 教程,Codex App,AGENTS.md,AI 编程,AI Agent,企业工作流,实战指南",
+          "How to Use Agent,Codex Guide,WorkBuddy Guide,AI Agent 教程,企业工作流,Agent 使用指南,AI 自动化,实战指南",
       },
     ],
-    ["meta", { name: "theme-color", content: "#0f766e" }],
+    ["meta", { name: "theme-color", content: "#073b5c" }],
     ["meta", { name: "format-detection", content: "telephone=no" }],
-    ["link", { rel: "icon", href: "/how-to-use-codex-/logo.svg", type: "image/svg+xml" }],
+    ["link", { rel: "icon", href: "/how-to-use-agent-guide/logo.svg", type: "image/svg+xml" }],
   ],
 
   plugins: [
     {
-      name: "codexguide-seo-defaults",
+      name: "agent-guide-seo-defaults",
       extendsPage: (page) => {
         page.frontmatter.description = getPageDescription(page.path);
       },

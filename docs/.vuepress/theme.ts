@@ -26,7 +26,7 @@ export default hopeTheme({
     url: "https://github.com/Lukanytsu7551",
   },
 
-  repo: "https://github.com/Lukanytsu7551/how-to-use-codex-",
+  repo: "https://github.com/Lukanytsu7551/how-to-use-agent-guide",
   docsDir: "docs",
 
   navbar,
@@ -37,7 +37,7 @@ export default hopeTheme({
   focus: false,
   breadcrumb: true,
   displayFooter: true,
-  footer: "MIT Licensed | Modified for How to Use Codex",
+  footer: "MIT Licensed | How to Use Agent",
   pageInfo: ["Category", "Tag", "Date", "Original", "Word", "ReadingTime"],
 
   blog: false,
@@ -56,7 +56,7 @@ export default hopeTheme({
   plugins: {
     copyCode: true,
     copyright: {
-      author: "How to Use Codex",
+      author: "How to Use Agent",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
@@ -75,7 +75,7 @@ export default hopeTheme({
         ...ogp,
         "og:description": getPageDescription(page.path),
         "og:image": page.frontmatter.cover || page.frontmatter.banner ? ogp["og:image"] : siteOgImage,
-        "og:image:alt": `${page.title} - How to Use Codex`,
+        "og:image:alt": `${page.title} - How to Use Agent`,
         "og:locale": "zh_CN",
       }),
       jsonLd: (jsonLD, page) =>
@@ -86,19 +86,19 @@ export default hopeTheme({
                 {
                   "@type": "Organization",
                   "@id": `${siteUrl}/#organization`,
-                  name: "How to Use Codex",
+                  name: "How to Use Agent",
                   url: toSiteUrl("/"),
                   logo: {
                     "@type": "ImageObject",
                     url: `${siteUrl}/logo.svg`,
                   },
-                  sameAs: ["https://github.com/Lukanytsu7551/how-to-use-codex-"],
+                  sameAs: ["https://github.com/Lukanytsu7551/how-to-use-agent-guide"],
                 },
                 {
                   "@type": "WebSite",
                   "@id": `${siteUrl}/#website`,
-                  name: "How to Use Codex",
-                  alternateName: ["OpenAI Codex 中文教程", "Codex 教程"],
+                  name: "How to Use Agent",
+                  alternateName: ["Codex Guide", "WorkBuddy Guide", "Agent 使用指南"],
                   url: toSiteUrl("/"),
                   description: getPageDescription(page.path),
                   inLanguage: "zh-CN",
@@ -113,19 +113,18 @@ export default hopeTheme({
                 },
                 {
                   "@type": ["LearningResource", "Course"],
-                  "@id": `${siteUrl}/#codex-course`,
-                  name: "How to Use Codex：OpenAI Codex 企业级教程与实战指南",
+                  "@id": `${siteUrl}/#agent-course`,
+                  name: "How to Use Agent：Codex 与 WorkBuddy 企业级使用指南",
                   url: toSiteUrl("/"),
                   description: getPageDescription(page.path),
                   image: [siteOgImage],
                   inLanguage: "zh-CN",
                   educationalLevel: "Beginner to Intermediate",
                   teaches: [
-                    "Codex 桌面 App 使用",
-                    "Codex CLI 安装与登录",
-                    "OpenAI Codex 配置",
-                    "AGENTS.md 项目规则",
-                    "Codex 实战案例",
+                    "Codex 工作流",
+                    "WorkBuddy 工作流",
+                    "Agent 自动化",
+                    "问题排查与团队实践",
                   ],
                   provider: {
                     "@id": `${siteUrl}/#organization`,
@@ -141,12 +140,12 @@ export default hopeTheme({
               inLanguage: "zh-CN",
               isPartOf: {
                 "@type": "WebSite",
-                name: "How to Use Codex",
+                name: "How to Use Agent",
                 url: toSiteUrl("/"),
               },
               publisher: {
                 "@type": "Organization",
-                name: "How to Use Codex",
+                name: "How to Use Agent",
                 url: toSiteUrl("/"),
                 logo: {
                   "@type": "ImageObject",
@@ -156,13 +155,13 @@ export default hopeTheme({
             },
       customHead: (head, page) => {
         const description = getPageDescription(page.path);
-        const title = `${page.title} | How to Use Codex`;
+        const title = `${page.title} | How to Use Agent`;
 
         addMeta(head, "name", "twitter:card", "summary_large_image");
         addMeta(head, "name", "twitter:title", title);
         addMeta(head, "name", "twitter:description", description);
         addMeta(head, "name", "twitter:image", siteOgImage);
-        addMeta(head, "name", "twitter:image:alt", `${page.title} - How to Use Codex`);
+        addMeta(head, "name", "twitter:image:alt", `${page.title} - How to Use Agent`);
       },
     },
     sitemap: {
@@ -174,7 +173,7 @@ export default hopeTheme({
       maxSuggestions: 10,
       locales: {
         "/": {
-          placeholder: "搜索 How to Use Codex",
+          placeholder: "搜索 How to Use Agent",
         },
       },
     },

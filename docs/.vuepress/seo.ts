@@ -1,9 +1,9 @@
 export const siteOrigin = "https://lukanytsu7551.github.io";
-export const siteBase = "/how-to-use-codex-/";
+export const siteBase = "/how-to-use-agent-guide/";
 export const siteUrl = `${siteOrigin}${siteBase.slice(0, -1)}`;
 
 export const siteDescription =
-  "How to Use Codex 是面向企业团队和个人开发者的 OpenAI Codex 实践教程，系统整理 Codex App、CLI、IDE、Cloud、权限治理、团队规则和实战案例。";
+  "How to Use Agent 是面向企业团队与知识工作者的 Agent 使用导航，覆盖 Codex 与 WorkBuddy 的学习路径、实战案例、问题排查和参考资料。";
 
 export const siteOgImage = `${siteUrl}/og.svg`;
 
@@ -28,11 +28,13 @@ export const toCleanPath = (path: string): string => {
 
 export const pageDescriptions: Record<string, string> = {
   "/": siteDescription,
-  "/guide/": "How to Use Codex 学习路线，总览快速上手、进阶教程、实战案例、参考手册和团队实践的阅读顺序。",
+  "/codex/": "Codex Guide：面向代码、终端、MCP 和复杂工作流的学习路径、教程、案例与问题排查入口。",
+  "/workbuddy/": "WorkBuddy Guide：面向国内办公、资料处理与协作工作流的学习路径、教程、案例与问题排查入口。",
+  "/manual/": "Agent 参考手册：精选资源、近期 Codex 更新、近期 WorkBuddy 更新、参考来源与致谢。",
+  "/guide/": "Codex 历史学习路线，保留原有教程阅读顺序。",
   "/start/": "Codex 快速上手教程，从认识 Codex、安装账号、费用上下文到第一个任务和任务执行闭环。",
   "/advanced/": "Codex 进阶教程，整理 CLI、IDE、Cloud、权限安全、AGENTS.md、Skills、MCP、Hooks、团队协作和排障路径。",
   "/recipes/": "Codex 实战案例库，收录 PPT、Draw.io、Playwright、Obsidian、临床文献综述、Hatch Pet、移动协同、CI 和远程排障案例。",
-  "/manual/": "Codex 参考手册，整理 OpenAI 官方资料、Codex 更新记录、参考来源与致谢。",
   "/community/tutorials.html": "Codex 社区优秀教程合集，收录社区维护的 Codex 开源教程、在线阅读资料和 PDF。",
 
   "/start/01-what-is-codex.html": "Codex 入口地图，比较 CLI、桌面 App、Cloud、IDE、ChatGPT 和集成生态，帮助选择合适工作入口。",
@@ -64,7 +66,7 @@ export const pageDescriptions: Record<string, string> = {
   "/recipes/00-index.html": "Codex 非开发工作流指南，说明如何用于文档、学习、研究、内容整理、知识库和团队运营任务。",
 
   "/manual/01-codex-updates.html": "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex changelog 自 2025 年起整理。",
-  "/manual/02-credits.html": "How to Use Codex 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源。",
+  "/manual/02-credits.html": "How to Use Agent 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源。",
 };
 
 export const getPageDescription = (path: string): string => {

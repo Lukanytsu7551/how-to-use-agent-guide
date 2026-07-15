@@ -1,8 +1,8 @@
 {
-  "name": "how-to-use-codex",
+  "name": "how-to-use-agent-guide",
   "version": "0.1.0",
   "private": true,
-  "description": "How to Use Codex：面向企业团队和个人开发者的 Codex 实践教程站",
+  "description": "How to Use Agent：Codex 与 WorkBuddy 的企业级使用导航与实战教程站",
   "type": "module",
   "engines": {
     "node": ">=22 <25"
@@ -12,7 +12,7 @@
     "build": "pnpm clean && vuepress build docs",
     "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
     "preview": "vuepress dev docs --host 0.0.0.0",
-    "check:links": "node scripts/check-built-links.mjs docs/.vuepress/dist /how-to-use-codex-/ && node scripts/check-source-links.mjs docs"
+    "check:links": "node scripts/check-built-links.mjs docs/.vuepress/dist /how-to-use-agent-guide/ && node scripts/check-source-links.mjs docs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1"

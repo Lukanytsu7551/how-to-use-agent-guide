@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { dirname, extname, join, normalize, relative, resolve, sep } from "node:path";
 
 const root = resolve(process.argv[2] ?? "docs/.vuepress/dist");
-const base = process.argv[3] ?? "/how-to-use-codex-/";
+const base = process.argv[3] ?? "/how-to-use-agent-guide/";
 const files = [];
 const broken = [];
 

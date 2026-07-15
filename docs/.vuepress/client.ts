@@ -4,7 +4,7 @@ import { defineClientConfig } from "vuepress/client";
 import CodexIssueAssistant from "./components/CodexIssueAssistant.vue";
 
 const analyticsHosts = new Set(["lukanytsu7551.github.io"]);
-const siteBase = "/how-to-use-codex-/";
+const siteBase = "/how-to-use-agent-guide/";
 
 const withSiteBase = (path: string): string =>
   `${siteBase}${path.replace(/^\//u, "")}`;
