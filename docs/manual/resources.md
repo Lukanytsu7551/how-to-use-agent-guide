@@ -12,8 +12,6 @@ description: "Agent 精选资源：Codex、WorkBuddy 与模型能力的官方资
 
 ## WorkBuddy
 
-- [WorkBuddy 实战蓝皮书](https://workbuddy.homes/)
-- [WorkBuddyGuide 开源仓库](https://github.com/AlephAITech/WorkBuddyGuide)
 
 ## 模型与延伸阅读
 
