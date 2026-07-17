@@ -1,17 +1,18 @@
-## 改动内容
+## 改动内容 / What changed
 
-- 
+-
 
-## 为什么需要
+## 为什么需要 / Why
 
-- 
+-
 
-## 验证方式
+## 验证方式 / Validation
 
-- [ ] `pnpm build`
-- [ ] 我已检查相关链接和命令
+- [ ] `npm run docs:build`
+- [ ] 已检查相关链接、图片和视频
+- [ ] 已检查桌面和移动端可读性
 
-## 是否涉及官方资料更新
+## 产品事实更新 / Product fact updates
 
-- [ ] 是，已附来源链接并标注核对日期
-- [ ] 否
+- [ ] 否 / No
+- [ ] 是，已附来源和核对日期 / Yes, sources and review date included

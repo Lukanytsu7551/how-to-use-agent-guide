@@ -68,19 +68,19 @@ permissions:
   pull-requests: write
 jobs:
   auto-fix:
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    if: ${​{ github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      FAILED_WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
-      FAILED_RUN_URL: ${{ github.event.workflow_run.html_url }}
-      FAILED_HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
-      FAILED_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+      OPENAI_API_KEY: ${​{ secrets.OPENAI_API_KEY }}
+      FAILED_WORKFLOW_NAME: ${​{ github.event.workflow_run.name }}
+      FAILED_RUN_URL: ${​{ github.event.workflow_run.html_url }}
+      FAILED_HEAD_BRANCH: ${​{ github.event.workflow_run.head_branch }}
+      FAILED_HEAD_SHA: ${​{ github.event.workflow_run.head_sha }}
     steps:
       - name: Checkout Failing Ref
         uses: actions/checkout@v4
         with:
-          ref: ${{ env.FAILED_HEAD_SHA }}
+          ref: ${​{ env.FAILED_HEAD_SHA }}
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -91,7 +91,7 @@ jobs:
       - name: Run Codex
         uses: openai/codex-action@main
         with:
-          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          openai-api-key: ${​{ secrets.OPENAI_API_KEY }}
           prompt: "这是一个 Node.js 项目，使用 Jest 做测试。请读取仓库代码，运行测试套件，找到导致测试失败的最小改动范围，修复它，然后停止。不要修改与失败无关的代码。"
           sandbox: workspace-write
       - name: Verify tests pass
@@ -101,14 +101,14 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "fix: Codex 自动修复失败的测试"
-          branch: codex/auto-fix-${{ github.event.workflow_run.run_id }}
-          base: ${{ env.FAILED_HEAD_BRANCH }}
+          branch: codex/auto-fix-${​{ github.event.workflow_run.run_id }}
+          base: ${​{ env.FAILED_HEAD_BRANCH }}
           title: "🤖 Codex 自动修复 CI 失败"
           body: |
             Codex 检测到 CI 失败，自动生成了这个修复 PR。
 
-            失败的工作流：${{ env.FAILED_WORKFLOW_NAME }}
-            失败记录链接：${{ env.FAILED_RUN_URL }}
+            失败的工作流：${​{ env.FAILED_WORKFLOW_NAME }}
+            失败记录链接：${​{ env.FAILED_RUN_URL }}
 
             请检查改动内容，确认无误后合并。
 ```
@@ -119,7 +119,7 @@ jobs:
 
 **记录失败现场**：把失败那次 run 的分支、提交 SHA、日志链接都存进环境变量。这些信息最终会写进 PR 描述，方便事后追溯是哪次 CI 触发了这个修复。
 
-**检出失败的代码**：`ref: ${{ env.FAILED_HEAD_SHA }}` 拉取失败那次提交的代码，确保 Codex 改的是真正出问题的版本。
+**检出失败的代码**：`ref: ${​{ env.FAILED_HEAD_SHA }}` 拉取失败那次提交的代码，确保 Codex 改的是真正出问题的版本。
 
 **Codex 修复**：使用官方的 `openai/codex-action@main`，prompt 用中文写清楚要求——跑测试、找最小改动范围、修完停手，不碰无关代码。`sandbox: workspace-write` 允许它写文件。
 

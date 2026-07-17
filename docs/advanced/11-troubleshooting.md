@@ -144,4 +144,4 @@ NO_PROXY = "localhost,127.0.0.1,::1,*.local"
 
 ## 下一步
 
-下一步：[实战案例库](../recipes/00-index.md)。
+下一步：[实战案例库](../recipes/)。

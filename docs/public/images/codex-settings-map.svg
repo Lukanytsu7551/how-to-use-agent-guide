@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 设置入口速查</title>
+  <desc id="desc">以信息表格方式整理 Codex 桌面 App 设置入口、用途和建议。</desc>
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+      .title { fill: #050505; font-size: 32px; font-weight: 760; letter-spacing: 0; }
+      .meta { fill: #737373; font-size: 13px; letter-spacing: 0; }
+      .head { fill: #737373; font-size: 12px; font-weight: 680; letter-spacing: .08em; text-transform: uppercase; }
+      .group { fill: #050505; font-size: 18px; font-weight: 720; letter-spacing: 0; }
+      .item { fill: #111111; font-size: 16px; font-weight: 650; letter-spacing: 0; }
+      .body { fill: #525252; font-size: 14px; letter-spacing: 0; }
+      .tag { fill: #050505; font-size: 12px; font-weight: 680; letter-spacing: 0; }
+      .muted { fill: #8a8a8a; font-size: 12px; letter-spacing: 0; }
+      .line { stroke: #e5e5e5; stroke-width: 1; }
+      .soft { fill: #fafafa; }
+      .chip { fill: #ffffff; stroke: #d4d4d4; stroke-width: 1; }
+      .accent { fill: #0f766e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="#ffffff" />
+
+  <g class="font" transform="translate(52 46)">
+    <text class="title" x="0" y="0" dominant-baseline="hanging">Codex 设置矩阵</text>
+    <text class="meta" x="1018" y="6" text-anchor="end">2026-06-13</text>
+  </g>
+
+  <g class="font" transform="translate(52 96)">
+    <rect width="1096" height="596" rx="14" fill="#ffffff" stroke="#d4d4d4" />
+    <rect width="1096" height="48" rx="14" class="soft" />
+    <path d="M0 48H1096" class="line" />
+
+    <text class="head" x="24" y="30">分组</text>
+    <text class="head" x="210" y="30">入口</text>
+    <text class="head" x="430" y="30">用途</text>
+    <text class="head" x="770" y="30">建议</text>
+    <text class="head" x="954" y="30">风险</text>
+
+    <path d="M186 0V596" class="line" />
+    <path d="M406 0V596" class="line" />
+    <path d="M746 0V596" class="line" />
+    <path d="M930 0V596" class="line" />
+
+    <g transform="translate(0 48)">
+      <path d="M0 64H1096M0 128H1096M0 192H1096M0 256H1096M0 320H1096M0 384H1096M0 448H1096M0 512H1096" class="line" />
+      <rect x="0" y="0" width="1096" height="64" fill="#ffffff" />
+      <rect x="0" y="128" width="1096" height="64" class="soft" />
+      <rect x="0" y="256" width="1096" height="64" class="soft" />
+      <rect x="0" y="384" width="1096" height="64" class="soft" />
+      <rect x="0" y="512" width="1096" height="12" fill="#ffffff" />
+
+      <text class="group" x="24" y="40">个人</text>
+      <text class="item" x="210" y="30">常规</text>
+      <text class="body" x="210" y="50">模式 · 权限 · 默认打开</text>
+      <text class="body" x="430" y="30">默认行为</text>
+      <rect class="chip" x="770" y="18" width="116" height="28" rx="14" />
+      <text class="tag" x="828" y="37" text-anchor="middle">编程模式</text>
+      <text class="muted" x="954" y="37">中</text>
+
+      <text class="item" x="210" y="94">外观</text>
+      <text class="body" x="210" y="114">主题 · 字体 · 密度</text>
+      <text class="body" x="430" y="94">阅读体验</text>
+      <rect class="chip" x="770" y="82" width="92" height="28" rx="14" />
+      <text class="tag" x="816" y="101" text-anchor="middle">按习惯</text>
+      <text class="muted" x="954" y="101">低</text>
+
+      <text class="item" x="210" y="158">配置</text>
+      <text class="body" x="210" y="178">模型 · 沙盒 · 审批</text>
+      <text class="body" x="430" y="158">执行策略</text>
+      <rect class="chip" x="770" y="146" width="92" height="28" rx="14" />
+      <text class="tag" x="816" y="165" text-anchor="middle">默认</text>
+      <text class="muted" x="954" y="165">中</text>
+
+      <text class="item" x="210" y="222">个性化</text>
+      <text class="body" x="210" y="242">语气 · 偏好 · 习惯</text>
+      <text class="body" x="430" y="222">协作规则</text>
+      <rect class="chip" x="770" y="210" width="104" height="28" rx="14" />
+      <text class="tag" x="822" y="229" text-anchor="middle">少量规则</text>
+      <text class="muted" x="954" y="229">低</text>
+
+      <text class="group" x="24" y="296">集成</text>
+      <text class="item" x="210" y="286">MCP</text>
+      <text class="body" x="210" y="306">工具 · 数据 · 服务</text>
+      <text class="body" x="430" y="286">外部能力</text>
+      <rect class="chip" x="770" y="274" width="104" height="28" rx="14" />
+      <text class="tag" x="822" y="293" text-anchor="middle">按需开启</text>
+      <text class="muted" x="954" y="293">高</text>
+
+      <text class="item" x="210" y="350">浏览器</text>
+      <text class="body" x="210" y="370">页面 · 点击 · 截图</text>
+      <text class="body" x="430" y="350">预览检查</text>
+      <rect class="chip" x="770" y="338" width="104" height="28" rx="14" />
+      <text class="tag" x="822" y="357" text-anchor="middle">先本地</text>
+      <text class="muted" x="954" y="357">中</text>
+
+      <text class="item" x="210" y="414">电脑操控</text>
+      <text class="body" x="210" y="434">屏幕 · 输入 · 应用</text>
+      <text class="body" x="430" y="414">桌面流程</text>
+      <rect class="chip" x="770" y="402" width="104" height="28" rx="14" />
+      <text class="tag" x="822" y="421" text-anchor="middle">先观察</text>
+      <text class="muted" x="954" y="421">高</text>
+
+      <text class="group" x="24" y="488">编码</text>
+      <text class="item" x="210" y="478">Git / 环境</text>
+      <text class="body" x="210" y="498">分支 · 命令 · 运行时</text>
+      <text class="body" x="430" y="478">回滚复现</text>
+      <rect class="chip" x="770" y="466" width="116" height="28" rx="14" />
+      <text class="tag" x="828" y="485" text-anchor="middle">先看 diff</text>
+      <text class="muted" x="954" y="485">中</text>
+    </g>
+  </g>
+</svg>

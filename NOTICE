@@ -1,6 +1,6 @@
 # Notices
 
-This project is a modified version of CodexGuide.
+This project includes modifications derived from CodexGuide.
 
 Original project:
 
@@ -10,7 +10,7 @@ Original project:
 
 Major modifications in this repository:
 
-- Rebranded the public site as `How to Use Codex`.
-- Removed sponsor, personal community, QR code, and original project promotion surfaces.
-- Updated repository, deployment, SEO, and documentation metadata for `Lukanytsu7551/how-to-use-codex-`.
+- Rebranded the public site as `How to Use Agent`.
+- Added separate Codex Guide and WorkBuddy Guide learning paths.
+- Updated repository, deployment, SEO, navigation, and documentation metadata for `Lukanytsu7551/how-to-use-agent-guide`.
 - Kept the original MIT license notice as required by the license.

@@ -1,81 +1,46 @@
-# How to Use Codex
+# How to Use Agent
 
-面向企业团队和个人开发者的 Codex 实践教程站，覆盖 Codex App、CLI、Cloud、IDE、权限治理、团队规则、自动化和真实工作流案例。
+面向中文用户的 Agent 教程中心，帮助你选择适合自己的工具，并从第一个真实任务开始建立可复用的工作方式。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square)](./LICENSE)
-[![Repository](https://img.shields.io/badge/GitHub-Lukanytsu7551%2Fhow--to--use--codex---111827?style=flat-square)](https://github.com/Lukanytsu7551/how-to-use-codex-)
+[在线阅读](https://lukanytsu7551.github.io/how-to-use-agent-guide/) · [贡献指南](./CONTRIBUTING.md) · [安全政策](./SECURITY.md) · [行为准则](./CODE_OF_CONDUCT.md)
 
-## 在线阅读
+## 学习什么
 
-默认发布地址：
+| Guide | 适合场景 | 学习重点 |
+| --- | --- | --- |
+| Codex Guide | 代码编写、终端操作、工程重构与复杂开发 | 桌面 App、CLI、IDE、MCP、项目规则与工程工作流 |
+| WorkBuddy Guide | 日常办公、资料处理、桌面自动化与协作 | 安装入门、办公任务、Skill、连接器、自动化与多 Agent 协作 |
 
-<https://lukanytsu7551.github.io/how-to-use-codex-/>
+## 使用路径
 
-如果后续绑定自定义域名，只需要更新 `docs/.vuepress/seo.ts`、`docs/.vuepress/public/CNAME` 和部署平台配置。
+1. 先根据任务类型、使用环境和技术门槛选择 Codex 或 WorkBuddy。
+2. 从快速上手完成安装、登录与第一个可验证的任务。
+3. 在实战案例中找到可复现的工作方式。
+4. 进入进阶教程，学习配置、工具接入、自动化与协作流程。
+5. 遇到问题时，按安装、登录、使用、工具接入与反馈路径排查。
 
-## 内容定位
+## 本地开发
 
-这个教程站关注三个问题：
-
-- **如何开始**：选择适合自己的 Codex 入口，完成安装、登录、设置和第一个低风险任务。
-- **如何交付**：把目标、上下文、验证方式和边界说清楚，让 Codex 产出可检查结果。
-- **如何治理**：把个人经验沉淀成团队规则、权限策略、模板、案例和复盘流程。
-
-## 适合谁
-
-- 第一次使用 Codex 的学习者。
-- 想把 Codex 接入真实项目的开发者。
-- 需要沉淀团队规范、权限边界和交付流程的技术负责人。
-- 希望把 Codex 用在文档、研究、PPT、知识库和自动化场景的知识工作者。
-
-## 快速入口
-
-| 模块 | 适合解决什么问题 |
-| --- | --- |
-| [学习路线](./docs/guide/index.md) | 从入门、进阶到团队化使用的阅读顺序 |
-| [快速上手](./docs/start/00-index.md) | 桌面 App、账号、首个任务和任务闭环 |
-| [CLI 安装与登录](./docs/start/10-cli-installation.md) | 在本地终端安装 Codex CLI 并完成登录 |
-| [进阶教程](./docs/advanced/00-index.md) | CLI、IDE、Cloud、权限、AGENTS.md、自动化和团队实践 |
-| [实战案例库](./docs/recipes/00-index.md) | 可复制到真实项目的任务模板和复盘结构 |
-| [参考手册](./docs/manual/00-index.md) | OpenAI 官方资料、更新记录和参考来源 |
-
-## 本地预览
-
-环境要求：
-
-- Node.js 22.12+，且低于 25
-- pnpm 10.33.0
-
-安装依赖：
+需要 Node.js 22 和 pnpm。
 
 ```bash
 pnpm install
-```
-
-启动开发服务：
-
-```bash
-pnpm dev
+pnpm run dev
 ```
 
 构建静态站点：
 
 ```bash
-pnpm build
+pnpm run build
+pnpm run preview
 ```
 
-构建产物位于 `docs/.vuepress/dist`。
+## 参与贡献
 
-## 部署
+欢迎修正失效链接、过时内容和不准确表述，或补充可复现的教程、案例、问题排查与无障碍改进。提交前请阅读 [贡献指南](./CONTRIBUTING.md)，并避免提交密钥、个人数据或无权公开的资料。
 
-推荐使用 GitHub Pages 发布 `docs/.vuepress/dist`。当前站点配置默认面向：
+产品功能、价格、可用范围、安全策略等时效性信息，请附可靠来源与核对日期。
 
-```text
-https://lukanytsu7551.github.io/how-to-use-codex-/
-```
+## 许可证
 
-如果使用 Vercel、Cloudflare Pages 或自定义域名，请同步更新站点 URL、CNAME 和 canonical 配置。
-
-## 合规说明
-
-本项目基于 MIT 许可的 CodexGuide 二次开发。MIT License 要求保留原始版权声明，相关说明见 [LICENSE](./LICENSE) 和 [NOTICE](./NOTICE)。
+本项目采用 [MIT License](./LICENSE) 开源。上游项目和修改范围见 [NOTICE](./NOTICE)。

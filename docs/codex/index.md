@@ -1,6 +1,6 @@
 ---
 description: "Codex Guide：面向代码、终端、MCP 与复杂工作流的学习路径、教程、案例和问题排查入口。"
-pageClass: codex-guide-page
+containerClass: codex-guide-page
 ---
 
 # Codex Guide

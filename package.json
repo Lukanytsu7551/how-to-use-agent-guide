@@ -1,30 +1,30 @@
 {
   "name": "how-to-use-agent-guide",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "How to Use Agent：Codex 与 WorkBuddy 的企业级使用导航与实战教程站",
   "type": "module",
+  "description": "Codex 与 WorkBuddy 的使用教程中心",
+  "packageManager": "pnpm@11.9.0",
   "engines": {
-    "node": ">=22 <25"
+    "node": ">=20 <25"
   },
   "scripts": {
-    "dev": "vuepress dev docs --host 0.0.0.0",
-    "build": "pnpm clean && vuepress build docs",
-    "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
-    "preview": "vuepress dev docs --host 0.0.0.0",
-    "check:links": "node scripts/check-built-links.mjs docs/.vuepress/dist /how-to-use-agent-guide/ && node scripts/check-source-links.mjs docs"
-  },
-  "dependencies": {
-    "@vercel/analytics": "^2.0.1"
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "docs:dev": "vitepress dev docs --host 127.0.0.1",
+    "test": "vitest run",
+    "build": "vitepress build docs",
+    "docs:build": "vitepress build docs",
+    "preview": "vitepress preview docs --host 127.0.0.1",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "@vuepress/plugin-feed": "2.0.0-rc.128",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
-    "sass-embedded": "^1.97.2",
-    "vue": "^3.5.26",
-    "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-hope": "2.0.0-rc.106"
-  },
-  "packageManager": "pnpm@10.33.0"
+    "@fontsource/silkscreen": "^5.2.8",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.10.6",
+    "mermaid": "11.16.0",
+    "vitepress": "1.6.4",
+    "vue": "^3.5.33",
+    "vitest": "^4.1.10"
+  }
 }

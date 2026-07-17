@@ -1,9 +1,17 @@
 ---
 description: "WorkBuddy 问题排查：按安装、登录、使用、工具接入和反馈组织。"
-pageClass: workbuddy-guide-page
+containerClass: workbuddy-guide-page
 ---
 
 # WorkBuddy 问题排查
+
+当 WorkBuddy 没有按预期运行时，不要马上重复尝试。先记录产品版本、系统、任务输入、预期结果、实际现象和发生时间；再按“安装 -> 登录 -> 使用 -> 工具接入 -> 反馈”逐层缩小范围。
+
+## 使用方法
+
+1. 找到与当前现象最接近的分类，先完成其中的基础检查。
+2. 用最小任务复现问题，避免一次同时改变多个设置。
+3. 需要反馈时，提供脱敏后的版本、环境、复现步骤、错误截图或日志。
 
 ## 安装
 
@@ -23,4 +31,4 @@ pageClass: workbuddy-guide-page
 
 ## 反馈
 
-向官方或社区求助前，请提供脱敏后的版本号、系统、复现步骤、错误截图或日志。优先查看 [官方帮助入口](https://workbuddy.homes/help/) 和 [开源项目 Issue](https://github.com/AlephAITech/WorkBuddyGuide/issues)。
+向产品支持或团队成员求助前，请提供脱敏后的版本号、系统、复现步骤、错误截图或日志。

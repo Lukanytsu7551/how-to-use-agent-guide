@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukanytsu7551.github.io/how-to-use-agent-guide/sitemap.xml
