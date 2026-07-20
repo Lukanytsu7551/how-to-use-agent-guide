@@ -119,6 +119,7 @@ const workbuddyItems: DefaultTheme.SidebarItem[] = [
     ["08 / 接入小程序与 IM 助理", "第 8 章 WorkBuddy 接入小程序与 IM 助理"],
     ["09 / 接入外部 API", "第 9 章 如何接入外部 API"],
     ["10 / 自动化任务", "第 10 章 WorkBuddy 自动化任务"],
+    ["11 / 高效使用小技巧", "第 11 章 WorkBuddy 高效使用小技巧"],
     ["扩展阅读 / 一章看懂 AI 工作系统", "课外阅读：一章看懂 AI 工作系统"],
   ]),
   bluebookVolume("实战案例", "第二篇 案例篇：从一项任务到一支 AI 团队", [
