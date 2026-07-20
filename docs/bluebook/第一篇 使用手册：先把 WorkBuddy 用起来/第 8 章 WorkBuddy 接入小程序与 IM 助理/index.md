@@ -172,8 +172,6 @@ sequenceDiagram
 | URL 验证失败 | Webhook URL 是否复制完整，`Token` 和 `Encoding-AESKey` 是否与 WorkBuddy 中填写的一致 |
 | 任务执行异常 | 电脑是否在线，目标文件是否在授权目录内，是否需要在 WorkBuddy 侧确认高风险操作 |
 
-***来源：[腾讯云代码助手 CodeBuddy 官方文档：WorkBuddy 接入企业微信指南](https://www.codebuddy.cn/docs/workbuddy/Wecom-Guide)。***
-
 
 
 ## 接入飞书
