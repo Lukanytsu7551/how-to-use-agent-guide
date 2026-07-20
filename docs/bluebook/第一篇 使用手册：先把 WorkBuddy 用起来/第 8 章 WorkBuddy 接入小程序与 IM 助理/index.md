@@ -59,6 +59,123 @@ sequenceDiagram
 
 
 
+## 接入企微
+
+企微助理适合把 WorkBuddy 放进团队日常协作场景：在企业微信群里 @机器人 下发任务、查看进度、确认高风险操作，并把任务结果同步回群聊。它的本质是让企业微信负责接收指令与消息通知，真正的任务执行仍然发生在你的电脑和 WorkBuddy 工作区中。
+
+| 准备项 | 说明 |
+|-|-|
+| WorkBuddy 桌面端 | 建议使用 4.6.4 或更新版本，并保持运行中 |
+| 企业微信账号 | 管理员可在管理后台创建机器人，普通成员可在客户端工作台创建 |
+| 网络与电脑状态 | 电脑和手机都需要联网，远程任务期间电脑不能关机 |
+| 接入方式 | 优先选择 WebSocket 长连接；URL 回调作为备选方案 |
+
+### 管理员创建企微机器人
+
+1. 使用管理员账号进入企业微信管理后台，按「安全与管理」→「管理工具」→「智能机器人」→「创建机器人」进入创建流程；
+
+![](assets/007_wecom-admin-create.png)
+
+2. 如果页面先进入 AI 自动生成机器人流程，点击左下角「手动创建」；
+
+![](assets/008_wecom-manual-create.png)
+
+3. 在创建方式里选择「API 模式创建」；
+
+![](assets/009_wecom-api-mode.png)
+
+4. 填写机器人名称，并通过「可见范围」选择可以使用机器人的成员、部门或标签；
+
+![](assets/010_wecom-visible-range.png)
+
+5. 完成基础信息后先保存，再到右侧「API 配置」区域选择「使用长连接」。
+
+### 普通成员创建企微机器人
+
+1. 打开企业微信客户端，进入「工作台」→「智能机器人应用」→「创建机器人」；
+
+![](assets/011_wecom-member-create.png)
+
+2. 如果先进入 AI 自动生成页面，同样选择「手动创建」，再进入「API 模式创建」；
+
+![](assets/008_wecom-manual-create.png)
+
+3. 填写机器人名称，并在「可使用成员」里选择允许使用该机器人的成员或范围；
+
+![](assets/012_wecom-member-range.png)
+
+4. 完成基础信息后，在下方「API 配置」区域选择「使用长连接」。
+
+### 使用长连接完成绑定
+
+长连接是更适合快速上手的接入方式：不需要回填 Webhook URL，也不需要额外配置 Token 或 Encoding-AESKey。
+
+1. 在企微机器人的「API 配置」区域选择「使用长连接」；
+2. 复制 `Bot ID`；
+3. 点击「点击获取」拿到 `Secret`，并妥善保存；
+
+![](assets/013_wecom-longlink-credentials.png)
+
+4. 回到 WorkBuddy，进入「设置」→「助理设置」；
+5. 在「集成」区域找到企微助理集成，点击「配置」；
+6. 选择「WebSocket 长连接」，填写 `Bot ID` 和 `Secret` 后点击「注册」；
+
+![](assets/014_wecom-workbuddy-config.png)
+
+7. 注册成功后，在企业微信通讯录的「企业创建的」分组中找到机器人，点击「发消息」；
+
+![](assets/015_wecom-find-bot.png)
+
+8. 发送一条简单消息测试联通。如果机器人能正常回复，就说明 WorkBuddy 与企业微信已经完成对接。
+
+### 远程任务怎么理解
+
+企微助理并不是把 WorkBuddy 搬到云端，而是让企业微信成为远程入口。企业微信负责发送指令、接收结果和确认操作；你的电脑负责调用本地文件、Shell 环境、插件、凭证和已授权工具。
+
+| 对比项 | 普通任务 | 企微助理任务 |
+|-|-|-|
+| 入口 | WorkBuddy 主界面 | 企业微信聊天窗口 |
+| 工作目录 | 可按任务自由指定 | 使用助理专属任务空间 |
+| 会话管理 | 可以新建多个任务 | 远程指令集中在助理会话里 |
+| 适合场景 | 本地深度操作 | 远程触发、群内协作、进度通知 |
+
+重要文件、批量修改和需要人工判断的任务，建议先在电脑端普通任务里验证流程；确认稳定后，再放到企微助理里远程触发。
+
+### URL 回调接入：备选方案
+
+如果企业网络或已有系统要求使用 Webhook 回调，可以改用 URL 回调模式。
+
+1. 在企业微信「API 配置」区域选择「使用 URL 回调」；
+2. 随机生成并保存 `Token` 和 `Encoding-AESKey`；
+
+![](assets/016_wecom-url-callback-credentials.png)
+
+3. 回到 WorkBuddy 的企微助理配置弹窗，切换到「使用 URL 回调」；
+4. 填入 `Token` 和 `Encoding-AESKey`，点击「注册」；
+
+![](assets/017_wecom-workbuddy-url-callback.png)
+
+5. 注册成功后复制 WorkBuddy 生成的 Webhook URL；
+
+![](assets/018_wecom-webhook-url.png)
+
+6. 回到企业微信机器人创建页面，将 Webhook URL 回填到 `URL` 输入框并保存。
+
+![](assets/019_wecom-fill-callback-url.png)
+
+### 常见排查
+
+| 问题 | 重点检查 |
+|-|-|
+| 机器人没有响应 | WorkBuddy 是否正在运行，助理服务是否开启，企微和 WorkBuddy 是否选择了同一种接入方式 |
+| 长连接注册失败 | `Bot ID` 和 `Secret` 是否复制完整，是否带入多余空格，`Secret` 是否已失效 |
+| URL 验证失败 | Webhook URL 是否复制完整，`Token` 和 `Encoding-AESKey` 是否与 WorkBuddy 中填写的一致 |
+| 任务执行异常 | 电脑是否在线，目标文件是否在授权目录内，是否需要在 WorkBuddy 侧确认高风险操作 |
+
+***来源：[腾讯云代码助手 CodeBuddy 官方文档：WorkBuddy 接入企业微信指南](https://www.codebuddy.cn/docs/workbuddy/Wecom-Guide)。***
+
+
+
 ## 接入飞书
 
 1. WorkBuddy → 设置 → 助理设置 → 选择飞书；
