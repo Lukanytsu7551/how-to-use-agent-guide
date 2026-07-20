@@ -2,7 +2,7 @@
 
 
 
-**MCP**指的是 **Model Context Protocol（模型上下文协议），**是由 Anthropic 于 2024 年底推出并开源的一个开放标准协议，目前已经成为 AI 领域最热门的基础设施之一。
+**MCP**指的是 **Model Context Protocol（模型上下文协议），** 是由 Anthropic 于 2024 年底推出并开源的一个开放标准协议，目前已经成为 AI 领域最热门的基础设施之一。
 
 用一个通俗的比喻：**MCP 就是 AI 世界的“USB-C 接口”。**
 
