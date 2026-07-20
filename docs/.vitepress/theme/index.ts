@@ -4,6 +4,7 @@ import GroupQrMenu from "./components/GroupQrMenu.vue";
 import CodexIssueAssistant from "./components/CodexIssueAssistant.vue";
 import HomePage from "./components/HomePage.vue";
 import ImageLightbox from "./components/ImageLightbox.vue";
+import SidebarToggles from "./components/SidebarToggles.vue";
 
 import "./fonts.css";
 import "./style.css";
@@ -43,7 +44,7 @@ export default {
   extends: DefaultTheme,
   Layout: () =>
     h(DefaultTheme.Layout, null, {
-      "layout-bottom": () => h(ImageLightbox),
+      "layout-bottom": () => [h(ImageLightbox), h(SidebarToggles)],
     }),
   enhanceApp({ app, router }) {
     app.component("GroupQrMenu", GroupQrMenu);

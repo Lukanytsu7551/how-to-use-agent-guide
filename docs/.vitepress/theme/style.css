@@ -901,6 +901,100 @@ button {
   border-right: 1px solid var(--wb-line);
 }
 
+/* Desktop document navigation can be tucked away without affecting mobile navigation. */
+.agent-sidebar-toggles {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .agent-sidebar-toggles {
+    display: block;
+    position: fixed;
+    top: calc(var(--vp-nav-height) + 18px);
+    right: 0;
+    left: 0;
+    z-index: calc(var(--vp-z-index-sidebar) + 1);
+    pointer-events: none;
+  }
+
+  .agent-sidebar-toggle {
+    position: absolute;
+    display: inline-grid;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--wb-line);
+    border-radius: 4px;
+    color: var(--wb-ink);
+    background: var(--wb-surface);
+    box-shadow: 2px 2px 0 rgb(18 20 15 / 12%);
+    cursor: pointer;
+    place-items: center;
+    pointer-events: auto;
+    transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+  }
+
+  .agent-sidebar-toggle:hover {
+    border-color: var(--wb-ink);
+    background: var(--wb-acid-soft);
+    transform: translate(-1px, -1px);
+  }
+
+  .agent-sidebar-toggle:focus-visible {
+    outline: 2px solid var(--vp-c-brand-1);
+    outline-offset: 3px;
+  }
+
+  .agent-sidebar-toggle--chapter {
+    left: calc(var(--vp-sidebar-width) - 16px);
+  }
+
+  .agent-sidebar-toggle--outline {
+    right: 20px;
+  }
+
+  html.agent-chapter-sidebar-collapsed .VPSidebar {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+  }
+
+  html.agent-chapter-sidebar-collapsed .VPContent.has-sidebar,
+  html.agent-chapter-sidebar-collapsed .VPLocalNav.has-sidebar {
+    padding-left: 0;
+  }
+
+  html.agent-chapter-sidebar-collapsed .agent-sidebar-toggle--chapter {
+    left: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html.agent-outline-sidebar-collapsed .VPDoc .aside {
+    display: none;
+  }
+
+  html.agent-outline-sidebar-collapsed .VPDoc .content {
+    min-width: 0;
+  }
+
+  html.agent-outline-sidebar-collapsed .agent-sidebar-toggle--outline {
+    right: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html.agent-chapter-sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1279px) {
+  .agent-sidebar-toggle--outline {
+    display: none;
+  }
+}
+
 .VPSidebarItem.level-0 > .item > .text {
   font-size: 15px;
   font-weight: 800;
