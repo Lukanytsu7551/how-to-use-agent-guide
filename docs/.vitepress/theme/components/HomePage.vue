@@ -15,17 +15,17 @@ const moduleCopy: Record<LearningModule, { title: string; codex: string; workbud
   start: {
     title: "选择“快速上手”的学习产品",
     codex: "./start/",
-    workbuddy: "./workbuddy/getting-started",
+    workbuddy: "./bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/",
   },
   advanced: {
     title: "选择“进阶教程”的学习产品",
     codex: "./advanced/",
-    workbuddy: "./workbuddy/advanced",
+    workbuddy: "./bluebook/%E7%AC%AC%E4%B8%89%E7%AF%87%20%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%9A%E6%8A%8A%E6%A1%88%E4%BE%8B%E5%8F%98%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/",
   },
   recipes: {
     title: "选择“实战案例”的学习产品",
     codex: "./recipes/",
-    workbuddy: "./workbuddy/recipes",
+    workbuddy: "./bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/",
   },
   troubleshooting: {
     title: "选择“问题排查”的产品",
