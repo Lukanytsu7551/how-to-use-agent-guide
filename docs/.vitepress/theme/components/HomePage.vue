@@ -1,15 +1,41 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { computed, onMounted, ref } from "vue";
 import { withBase } from "vitepress";
 
 import PixelIcon from "./PixelIcon.vue";
 import PixelIconSprite from "./PixelIconSprite.vue";
 
 type LearningModule = "start" | "advanced" | "recipes" | "troubleshooting";
+type AgentName = "codex" | "workbuddy";
+type TaskIntent = "engineering" | "office";
 
 const selectedModule = ref<LearningModule | null>(null);
+const selectedAgent = ref<AgentName>("codex");
+const selectedIntent = ref<TaskIntent>("engineering");
 const codexMark = withBase("/brand/codex-mark.png");
 const workbuddyMark = withBase("/brand/workbuddy-mark.png");
+
+const taskRecommendations: Record<
+  TaskIntent,
+  { agent: AgentName; label: string; summary: string; reason: string; href: string }
+> = {
+  engineering: {
+    agent: "codex",
+    label: "推荐从 Codex Guide 开始",
+    summary: "代码、终端与工程任务",
+    reason: "它更适合读项目、改代码、运行命令和处理复杂开发工作流。",
+    href: "./codex/",
+  },
+  office: {
+    agent: "workbuddy",
+    label: "推荐从 WorkBuddy Guide 开始",
+    summary: "办公、资料与桌面自动化",
+    reason: "它更适合文档、数据、协作和日常办公任务的连续推进。",
+    href: "./workbuddy/",
+  },
+};
+
+const activeRecommendation = computed(() => taskRecommendations[selectedIntent.value]);
 
 const moduleCopy: Record<LearningModule, { title: string; codex: string; workbuddy: string }> = {
   start: {
@@ -37,6 +63,25 @@ const moduleCopy: Record<LearningModule, { title: string; codex: string; workbud
 const openModuleChooser = (module: LearningModule) => {
   selectedModule.value = module;
 };
+
+const selectTask = (intent: TaskIntent) => {
+  selectedIntent.value = intent;
+  selectedAgent.value = taskRecommendations[intent].agent;
+  localStorage.setItem("how-to-use-agent-guide:preferred-agent", selectedAgent.value);
+};
+
+const selectAgent = (agent: AgentName) => {
+  selectedAgent.value = agent;
+  localStorage.setItem("how-to-use-agent-guide:preferred-agent", agent);
+};
+
+onMounted(() => {
+  const storedAgent = localStorage.getItem("how-to-use-agent-guide:preferred-agent");
+  if (storedAgent === "codex" || storedAgent === "workbuddy") {
+    selectedAgent.value = storedAgent;
+    selectedIntent.value = storedAgent === "codex" ? "engineering" : "office";
+  }
+});
 </script>
 
 <template>
@@ -61,15 +106,42 @@ const openModuleChooser = (module: LearningModule) => {
           </div>
         </div>
 
-        <div class="wb-hero__art" aria-label="Codex 与 WorkBuddy 的学习工具">
-          <span class="wb-icon-card wb-icon-card--codex"><img :src="codexMark" alt="Codex" /></span>
-          <span class="wb-icon-card wb-icon-card--workbuddy"><img :src="workbuddyMark" alt="WorkBuddy" /></span>
-          <span class="wb-icon-card wb-icon-card--flow"><PixelIcon name="sitemap" /></span>
-          <span class="wb-icon-card wb-icon-card--work"><PixelIcon name="briefcase" /></span>
-          <div class="wb-hero__metrics" aria-label="教程范围">
-            <span><b>2</b> AGENTS</span>
-            <span><b>4</b> MODULES</span>
-            <span><b>∞</b> WORKFLOWS</span>
+        <div class="wb-hero__art im-hero__art" aria-label="从任务选择适合的 Agent">
+          <div class="im-agent-console">
+            <div class="im-agent-console__chrome" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <b>agent-guide / choose</b>
+            </div>
+            <div class="im-agent-console__body">
+              <p class="im-agent-console__eyebrow">START WITH THE TASK</p>
+              <strong>你想把 Agent 用在什么地方？</strong>
+              <div class="im-agent-console__choices" aria-label="选择任务场景">
+                <button
+                  type="button"
+                  :class="{ 'is-selected': selectedIntent === 'engineering' }"
+                  :aria-pressed="selectedIntent === 'engineering'"
+                  @click="selectTask('engineering')"
+                >
+                  <img :src="codexMark" alt="Codex" />
+                  <span><b>Codex Guide</b><small>代码、终端与工程任务</small></span>
+                  <PixelIcon name="arrow-right" />
+                </button>
+                <button
+                  type="button"
+                  :class="{ 'is-selected': selectedIntent === 'office' }"
+                  :aria-pressed="selectedIntent === 'office'"
+                  @click="selectTask('office')"
+                >
+                  <img :src="workbuddyMark" alt="WorkBuddy" />
+                  <span><b>WorkBuddy Guide</b><small>办公、资料与桌面自动化</small></span>
+                  <PixelIcon name="arrow-right" />
+                </button>
+              </div>
+              <a class="im-agent-console__prompt" :href="activeRecommendation.href">
+                <span><b>{{ activeRecommendation.label }}</b><small>{{ activeRecommendation.reason }}</small></span>
+                <PixelIcon name="arrow-right" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -107,16 +179,18 @@ const openModuleChooser = (module: LearningModule) => {
         <p>两种 Agent 的目标不同。根据工作任务、使用环境与执行方式，进入更合适的学习路径。</p>
       </div>
       <div class="agent-choice__grid">
-        <a class="agent-choice__card agent-choice__card--codex" href="./codex/">
+        <a class="agent-choice__card agent-choice__card--codex" :class="{ 'is-recommended': selectedAgent === 'codex' }" href="./codex/" @click="selectAgent('codex')">
           <span class="agent-choice__tag">01 / CODEX GUIDE</span>
+          <span class="agent-choice__recommendation">{{ selectedAgent === 'codex' ? '与你的任务匹配' : '代码与复杂开发' }}</span>
           <img class="agent-product-mark" :src="codexMark" alt="Codex" />
           <strong>面向代码与复杂开发</strong>
           <p>适合读项目、改代码、运行终端命令、工程重构和深度技术开发。</p>
           <em>IDE · CLI · MCP · 工程工作流</em>
           <b>进入 Codex Guide <PixelIcon name="arrow-right" /></b>
         </a>
-        <a class="agent-choice__card agent-choice__card--workbuddy" href="./workbuddy/">
+        <a class="agent-choice__card agent-choice__card--workbuddy" :class="{ 'is-recommended': selectedAgent === 'workbuddy' }" href="./workbuddy/" @click="selectAgent('workbuddy')">
           <span class="agent-choice__tag">02 / WORKBUDDY GUIDE</span>
+          <span class="agent-choice__recommendation">{{ selectedAgent === 'workbuddy' ? '与你的任务匹配' : '办公与桌面自动化' }}</span>
           <img class="agent-product-mark" :src="workbuddyMark" alt="WorkBuddy" />
           <strong>面向办公与桌面自动化</strong>
           <p>适合周报、资料整理、数据处理、PPT、文件归档和协作推进等日常工作。</p>
@@ -134,28 +208,23 @@ const openModuleChooser = (module: LearningModule) => {
         </div>
         <p>两个产品分别有独立的教程和问题排查。选择一条路线，从第一个任务开始逐步深入。</p>
       </div>
-      <div class="wb-reading-grid agent-learning-grid">
-        <button class="wb-reading-card" type="button" @click="openModuleChooser('start')">
-          <span class="wb-reading-card__icon"><PixelIcon name="user" /></span>
-          <span class="wb-reading-card__content"><small>01 / 快速上手</small><strong>从安装到第一个真实任务</strong><span>选择产品后，完成安装、登录、基础设置与第一项可验证的任务。</span></span>
-          <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
-        </button>
-        <button class="wb-reading-card" type="button" @click="openModuleChooser('recipes')">
-          <span class="wb-reading-card__icon"><PixelIcon name="briefcase" /></span>
-          <span class="wb-reading-card__content"><small>02 / 实战案例</small><strong>在真实场景中复用 Agent</strong><span>从对应产品的真实案例中，找到可以复现与迁移的工作方式。</span></span>
-          <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
-        </button>
-        <button class="wb-reading-card" type="button" @click="openModuleChooser('advanced')">
-          <span class="wb-reading-card__icon"><PixelIcon name="sitemap" /></span>
-          <span class="wb-reading-card__content"><small>03 / 进阶教程</small><strong>配置、工具接入与可靠工作流</strong><span>按所选产品学习配置、能力扩展、自动化与协作工作方式。</span></span>
-          <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
-        </button>
-        <button class="wb-reading-card" type="button" @click="openModuleChooser('troubleshooting')">
-          <span class="wb-reading-card__icon"><PixelIcon name="check-box" /></span>
-          <span class="wb-reading-card__content"><small>04 / 问题排查</small><strong>按安装到反馈定位问题</strong><span>选择产品后，沿对应路径处理安装、登录、使用与工具接入问题。</span></span>
-          <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
-        </button>
-      </div>
+      <ol class="agent-path" aria-label="Agent 学习路径">
+        <li class="agent-path__entry">
+          <a href="#agent-choice"><span>01</span><b>选择 Agent</b><small>先从任务场景判断该走哪一条路线。</small><PixelIcon name="arrow-right" /></a>
+        </li>
+        <li>
+          <button type="button" @click="openModuleChooser('start')"><span>02</span><b>完成第一个任务</b><small>快速上手：安装、登录、基础设置和首个结果。</small><PixelIcon name="arrow-right" /></button>
+        </li>
+        <li>
+          <button type="button" @click="openModuleChooser('recipes')"><span>03</span><b>复用真实案例</b><small>实战案例：把一次成功迁移到相似工作中。</small><PixelIcon name="arrow-right" /></button>
+        </li>
+        <li>
+          <button type="button" @click="openModuleChooser('advanced')"><span>04</span><b>建立工作流</b><small>进阶教程：配置、工具接入与可靠执行。</small><PixelIcon name="arrow-right" /></button>
+        </li>
+        <li>
+          <button type="button" @click="openModuleChooser('troubleshooting')"><span>05</span><b>处理问题与反馈</b><small>问题排查：按产品定位、验证并解决障碍。</small><PixelIcon name="arrow-right" /></button>
+        </li>
+      </ol>
     </section>
 
     <div v-if="selectedModule" class="agent-module-dialog" role="dialog" aria-modal="true" :aria-labelledby="`${selectedModule}-chooser-title`" @click.self="selectedModule = null">
@@ -165,12 +234,12 @@ const openModuleChooser = (module: LearningModule) => {
         <h2 :id="`${selectedModule}-chooser-title`">{{ moduleCopy[selectedModule].title }}</h2>
         <p>两种产品的能力与使用场景不同。选择后进入对应的学习内容。</p>
         <div class="agent-module-dialog__choices">
-          <a class="agent-module-dialog__choice agent-module-dialog__choice--codex" :href="moduleCopy[selectedModule].codex">
+          <a class="agent-module-dialog__choice agent-module-dialog__choice--codex" :class="{ 'is-preferred': selectedAgent === 'codex' }" :href="moduleCopy[selectedModule].codex" @click="selectAgent('codex')">
             <img class="agent-product-mark" :src="codexMark" alt="Codex" />
             <span><strong>Codex Guide</strong><em>代码、终端与复杂开发</em></span>
             <PixelIcon name="arrow-right" />
           </a>
-          <a class="agent-module-dialog__choice agent-module-dialog__choice--workbuddy" :href="moduleCopy[selectedModule].workbuddy">
+          <a class="agent-module-dialog__choice agent-module-dialog__choice--workbuddy" :class="{ 'is-preferred': selectedAgent === 'workbuddy' }" :href="moduleCopy[selectedModule].workbuddy" @click="selectAgent('workbuddy')">
             <img class="agent-product-mark" :src="workbuddyMark" alt="WorkBuddy" />
             <span><strong>WorkBuddy Guide</strong><em>办公、资料处理与自动化</em></span>
             <PixelIcon name="arrow-right" />
