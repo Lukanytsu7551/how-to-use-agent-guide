@@ -59,7 +59,11 @@ watch(outlineSidebarCollapsed, (collapsed) => {
       :title="chapterSidebarCollapsed ? '展开章节目录' : '收起章节目录'"
       @click="toggleChapterSidebar"
     >
-      <span class="vpi-chevron-left" aria-hidden="true" />
+      <span
+        class="vpi-chevron-left"
+        :class="{ 'is-expanded': chapterSidebarCollapsed }"
+        aria-hidden="true"
+      />
     </button>
 
     <button
@@ -70,7 +74,11 @@ watch(outlineSidebarCollapsed, (collapsed) => {
       :title="outlineSidebarCollapsed ? '展开本页目录' : '收起本页目录'"
       @click="toggleOutlineSidebar"
     >
-      <span class="vpi-chevron-right" aria-hidden="true" />
+      <span
+        class="vpi-chevron-right"
+        :class="{ 'is-expanded': outlineSidebarCollapsed }"
+        aria-hidden="true"
+      />
     </button>
   </div>
 </template>

@@ -956,6 +956,10 @@ button {
     outline-offset: 3px;
   }
 
+  .agent-sidebar-toggle .is-expanded {
+    transform: rotate(180deg);
+  }
+
   .agent-sidebar-toggle--chapter {
     left: calc(var(--vp-sidebar-width) - 16px);
   }
@@ -996,8 +1000,28 @@ button {
 }
 
 @media (min-width: 1440px) {
+  /* VitePress centers both desktop sidebars inside the layout max width. */
+  .agent-sidebar-toggle--chapter {
+    left: calc(
+      (100vw - (var(--vp-layout-max-width) - 64px)) / 2 +
+        var(--vp-sidebar-width) - 48px
+    );
+  }
+
+  .agent-sidebar-toggle--outline {
+    right: calc((100vw - var(--vp-layout-max-width)) / 2 - 16px);
+  }
+
   html.agent-chapter-sidebar-collapsed .VPContent.has-sidebar {
     padding-left: 0;
+  }
+
+  html.agent-chapter-sidebar-collapsed .agent-sidebar-toggle--chapter {
+    left: max(16px, calc((100vw - var(--vp-layout-max-width)) / 2));
+  }
+
+  html.agent-outline-sidebar-collapsed .agent-sidebar-toggle--outline {
+    right: max(16px, calc((100vw - var(--vp-layout-max-width)) / 2 - 16px));
   }
 }
 
