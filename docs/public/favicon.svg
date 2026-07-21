@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WorkBuddy Guide">
-  <rect width="64" height="64" rx="8" fill="#d8f238"/>
-  <path fill="#11130e" d="M8 8h48v48H8z"/>
-  <path fill="#d8f238" d="M14 15h7v23h7V22h7v16h7V15h7v30h-7v6H14z"/>
-  <path fill="#fff" d="M21 44h14v7H21z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="How to Use Agent">
+  <rect width="64" height="64" rx="14" fill="#17352a"/>
+  <path fill="#f4f7f1" d="M17 15h30v25H17zm4 4v17h22V19z"/>
+  <path fill="#cbe3a3" d="M24 42h16v4H24zm-5 6h26v4H19z"/>
+  <path fill="#f4f7f1" d="M35 23h7v4h-7zm0 7h7v4h-7z"/>
+  <path fill="#cbe3a3" d="M24 24h7v7h-7z"/>
 </svg>

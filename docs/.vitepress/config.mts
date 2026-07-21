@@ -28,8 +28,15 @@ export default defineConfig({
     hostname: siteUrl,
   },
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
-    ["meta", { name: "theme-color", content: "#d8f238" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/how-to-use-agent-guide/favicon.svg?v=2",
+      },
+    ],
+    ["meta", { name: "theme-color", content: "#17352a" }],
     ["meta", { name: "author", content: "How to Use Agent Contributors" }],
     [
       "meta",
