@@ -523,7 +523,19 @@ button {
 .agent-choice__card > b { grid-column: 1 / -1; }
 .agent-choice__tag { color: var(--agent-accent); font-family: var(--wb-pixel); font-size: 11px; }
 .agent-choice__card > .hn { grid-row: 2 / span 2; color: currentcolor; font-size: 70px; }
-.agent-product-mark { display: block; width: 70px; height: 70px; border: 0; background: transparent; box-shadow: none; object-fit: contain; image-rendering: auto; }
+.agent-product-mark {
+  display: block;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  padding: 6px;
+  border: 1px solid rgb(21 39 30 / 14%);
+  border-radius: 7px;
+  background: #f4f6ee;
+  box-shadow: none;
+  object-fit: contain;
+  image-rendering: auto;
+}
 .agent-choice__card > .agent-product-mark { grid-row: 2 / span 2; width: 76px; height: 76px; align-self: center; }
 .agent-choice__card > strong { align-self: end; color: var(--wb-ink); font-size: 36px; line-height: 1.12; }
 .agent-choice__card > p { margin: 0; color: var(--vp-c-text-2); line-height: 1.7; }
@@ -1847,7 +1859,16 @@ body.wb-lightbox-open {
   transform: translateX(3px);
 }
 
-.im-agent-console__choices img { width: 42px; height: 42px; object-fit: contain; }
+.im-agent-console__choices img {
+  box-sizing: border-box;
+  width: 42px;
+  height: 42px;
+  padding: 4px;
+  border: 1px solid rgb(21 39 30 / 14%);
+  border-radius: 7px;
+  background: #f4f6ee;
+  object-fit: contain;
+}
 .im-agent-console__choices span { display: grid; gap: 4px; min-width: 0; }
 .im-agent-console__choices b { font-size: 15px; line-height: 1.2; }
 .im-agent-console__choices small { color: #9ea79e; font-size: 12px; line-height: 1.35; }
@@ -2414,6 +2435,12 @@ body.wb-lightbox-open {
 .dark .agent-home .agent-choice__card--workbuddy { background: oklch(25% 0.035 158); }
 .dark .agent-home .agent-choice__card--codex:hover { background: oklch(29% 0.045 238); }
 .dark .agent-home .agent-choice__card--workbuddy:hover { background: oklch(29% 0.045 158); }
+.dark .agent-home .agent-product-mark,
+.dark .im-agent-console__choices img {
+  border-color: rgb(244 246 238 / 18%);
+  background: #f4f6ee;
+  filter: none;
+}
 .dark .agent-home .agent-choice__recommendation { color: oklch(78% 0.075 238); }
 .dark .agent-home .agent-choice__card--workbuddy .agent-choice__recommendation { color: oklch(80% 0.07 158); }
 .dark .agent-path { border-color: var(--im-line); }

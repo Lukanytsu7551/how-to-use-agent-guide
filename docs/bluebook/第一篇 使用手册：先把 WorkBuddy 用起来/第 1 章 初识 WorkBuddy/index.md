@@ -1,4 +1,4 @@
-# 第 1 章 初识 WorkBuddy
+# 01 / 初识 WorkBuddy
 
 **WorkBuddy** 是腾讯最新推出的全场景职场 AI 智能体工作台，
 

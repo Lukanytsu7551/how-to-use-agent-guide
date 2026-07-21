@@ -1,4 +1,4 @@
-# 第 21 章 WorkBuddy也能做GEO专家
+# 11 / WorkBuddy 也能做 GEO 专家
 
 GEO 是 Generative Engine Optimization，中文常叫生成式引擎优化。
 

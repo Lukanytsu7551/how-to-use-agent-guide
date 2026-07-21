@@ -1,4 +1,4 @@
-# 第 4 章 快速完成第一个 WorkBuddy 任务
+# 04 / 完成第一个 WorkBuddy 任务
 
 ## 快速创建一个 WorkBuddy 任务
 

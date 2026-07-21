@@ -33,7 +33,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: "/how-to-use-agent-guide/favicon.svg?v=2",
+        href: "/how-to-use-agent-guide/favicon.svg?v=3",
       },
     ],
     ["meta", { name: "theme-color", content: "#17352a" }],

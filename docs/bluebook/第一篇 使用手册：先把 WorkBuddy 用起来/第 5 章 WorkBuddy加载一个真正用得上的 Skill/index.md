@@ -1,4 +1,4 @@
-# 第 5 章 WorkBuddy加载一个真正用得上的 Skill
+# 05 / 加载一个真正用得上的 Skill
 
 ## Skill 是什么
 
