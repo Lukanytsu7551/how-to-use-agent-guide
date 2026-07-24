@@ -71,7 +71,7 @@ Playwright 录制的是 webm 格式，需要转换为 MP4。WorkBuddy 自动执�
 
 ### 结果证明
 
-![HTML 文件经 Playwright 录制为 MP4 视频的流程示意](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMAiad9txzaESlWSERzGQhAyaOCiaHTIzyU5GJqicaml6fzPL7cWeZicRMnmPIUXyu9XjDVnWyjKGoT27u6dXAj9eCuPlbAxKGG0WE/640?wx_fmt=png&watermark=1#imgIndex=0)
+![HTML 文件经 Playwright 录制为 MP4 视频的流程示意](/images/workbuddy-cases/case-39/01.png)
 
 ### 传统方式 vs WorkBuddy 方式
 

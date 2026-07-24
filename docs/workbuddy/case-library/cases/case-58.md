@@ -74,13 +74,13 @@
 
 ### 结果证明
 
-![专家中心AI师傅课程制作专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO6PZrX5Z9uZDickqJ92zZjhgkcg8Jp6jlZ7XMSQM79XY1WVPBMujfKM1SmPibniaWjgiaKvicvzr7lcPv9rtjBOwicvAG8MC31FxxSA/640?from=appmsg&watermark=1#imgIndex=0)
+![专家中心AI师傅课程制作专家](/images/workbuddy-cases/case-58/01.png)
 
-![专家自动填好prompt开始干活](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMK1tCwOBAoiaW730UmkWdo67suEt26VicxSMSqL2WoicdIjTAbibn95pOZzEEkNeA8oVoazKpstyMLWogygCFnu7tJJl2orFVG9Kk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![专家自动填好prompt开始干活](/images/workbuddy-cases/case-58/02.png)
 
-![短信验证码登录AI师傅](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN49NibgSNJzLUkr31l1L3RhafaJibibrzr0bnHjBkhK4Rcjxf3T7mM5DAzicObwpxC7CEpuPQhjw1J1sD3OPQOxpxI0rrwcQc2apo/640?from=appmsg&watermark=1#imgIndex=2)
+![短信验证码登录AI师傅](/images/workbuddy-cases/case-58/03.png)
 
-![课程上线页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROFnr5NAicLicXU37wPr2jw090cJuXHxWKkfLvTLAAia3uJYib2s43vu5cVdvzoJMcvZdbjIJXiasZJ10XVCSQwO3APhoLjHwajsrIM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![课程上线页面](/images/workbuddy-cases/case-58/04.png)
 
 ## 八、验收标准
 

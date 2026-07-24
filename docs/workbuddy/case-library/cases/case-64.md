@@ -67,19 +67,19 @@
 
 ### 结果证明
 
-![Agnes AI 官网首页](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPwUKYPZicRyG4F5WtuF3PjGUMSf9xTJG4YUYMKUcvR87abpv5vatMEI9l3VFhHo0CtjsGibUdt70D0UYvCvVxcxVPASTaR1PPag/640?wx_fmt=jpeg&watermark=1#imgIndex=0)
+![Agnes AI 官网首页](/images/workbuddy-cases/case-64/01.jpg)
 
-![Google 账号登录](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMeb7mBXQ8ia8RamyVYMjYoNgvvf5p4QklFho8SsurYX8rZCjicdJh1exNXfV9XMUEcYvkbc3unhYzkYpAmax2TicK07NhtmwD7Jc/640?wx_fmt=jpeg&watermark=1#imgIndex=1)
+![Google 账号登录](/images/workbuddy-cases/case-64/02.jpg)
 
-![API Keys 页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNOibOII9hdniaSGj050pZdWnt2VIS0yibjhTC2VhicjpOq59gon8zppL0hIgrH9eibqc4NbLj4LR0dJcYu6wM1Vhk6lfhODNnbvKmg/640?wx_fmt=png&watermark=1#imgIndex=2)
+![API Keys 页面](/images/workbuddy-cases/case-64/03.png)
 
-![生成 API Key](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP8CaD4P2aW22MzcxZfkIL8dV2ricWa72SoicLGJa0icJw07icutoR7ZTHXoaevW7V9GJYNlJhYmZOLPBz1GD93xROccfZlbfrtoYw/640?wx_fmt=png&watermark=1#imgIndex=4)
+![生成 API Key](/images/workbuddy-cases/case-64/04.png)
 
-![WorkBuddy 自动配置](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNXcibRFThhRpReqLhfIkbRePBe13tASib9SoCEamVJhuZAfFh6icUqY3XIlibYeZzCMRVVW13nJFHqadsYKF8kZMXGicSepaGTzNQ4/640?wx_fmt=png&watermark=1#imgIndex=5)
+![WorkBuddy 自动配置](/images/workbuddy-cases/case-64/05.png)
 
-![模型下拉菜单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN03ibRXV6ztXEdtVOQK5TicSLMOHjBTU4jl8iaN5oX7UdymxnWcwrnN3ptxrDWXicLF3QhkXZyRWYQj3lWiajbYBABYNQLvsyBFYpI/640?wx_fmt=png&watermark=1#imgIndex=6)
+![模型下拉菜单](/images/workbuddy-cases/case-64/06.png)
 
-![对话测试成功](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM3JCSIyXKic8VzicsmVK749He4hk4TDvOL7yGEx3gKsEW6UTZqBpA7ZyX9DBIabHNUiaY0eI6XKLptiay7KTmkoYHicSgwia8jzsWLw/640?wx_fmt=png&watermark=1#imgIndex=7)
+![对话测试成功](/images/workbuddy-cases/case-64/07.png)
 
 ## 八、验收标准
 

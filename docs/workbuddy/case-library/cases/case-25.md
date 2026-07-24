@@ -76,7 +76,7 @@
 
 ### 结果证明
 
-![关键对话还原：用户指令与 WorkBuddy 行动 6 步](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO4ujrjUNWbg2olqqNSXMAU6Pw6EK8KNqCFGciccB0eibqr7USl6pic51uUZb3wgNXLQA9yxYk3OVtGZzWiblQkjnMd2x1lZS6qnjA/640?wx_fmt=png&watermark=1#imgIndex=0)
+![关键对话还原：用户指令与 WorkBuddy 行动 6 步](/images/workbuddy-cases/case-25/01.png)
 
 ### 字段口径梳理结果表
 

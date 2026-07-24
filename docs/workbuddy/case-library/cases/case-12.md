@@ -64,13 +64,13 @@ WorkBuddy 自动读取下载目录文件列表，识别 32 个文件类型，规
 
 ### 结果证明
 
-![WorkBuddy 读取下载目录并给出分类方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRND06biaicrtCPgzoOphzs8qbuQQiaIVTXMEDXtbJDBvve2sUZronkcIpiareibiaGBQp2hMr4SUZQ34bcw1qSzCofQvK0knwJvvQfO4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 读取下载目录并给出分类方案](/images/workbuddy-cases/case-12/01.png)
 
-![WorkBuddy 主动提出 3 个确认问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROVRHcW8QYiay0TqPJfvPzUsJd255WqhfCjHtRFQpSgocQGxibqviaaVJ0CuaGYQfJOWexNsglezJnjRwD3JIF4gjUdKxGXPo4b6Y/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 主动提出 3 个确认问题](/images/workbuddy-cases/case-12/02.png)
 
-![整理前后效果对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLOagaUGEicDKwTqBkW24el293qmicOSbNFc27vOZMIItTxraaEyuaWjSmsOqg47gJaRFcq0ZzoI3Px7HX0akwuv89JkDbE9vdI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![整理前后效果对比](/images/workbuddy-cases/case-12/03.png)
 
-![整理后下载目录全貌](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNCrPsUVHhh6Vc2AI0AlRL5jY7P3ciaTIKmaeoa0EibCgycSG7pdLiah4WOLOBhYNZ3Wfo2C2lRyCJYVdgCia9RhkPMWPINXSIPBibs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![整理后下载目录全貌](/images/workbuddy-cases/case-12/04.png)
 
 ### 整理前后目录结构对比
 

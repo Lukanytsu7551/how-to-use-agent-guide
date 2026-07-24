@@ -82,13 +82,13 @@
 
 ### 结果证明
 
-![专家中心召唤高级开发工程师](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7bnOibRtrUtoqVNgT7TUAtHlspmxFzcSbRvLT6JvoOs1YWIhUEGEPgibkuHevFp9M2UWwdl6CGjhe0ZFjhS8bsCEnc7YxcBjtE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![专家中心召唤高级开发工程师](/images/workbuddy-cases/case-54/01.png)
 
-![AI自动建任务清单](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMQUasnkaWFgNAN0dysVyuVEYVemGKHZb6bmdk62sFxwP26YrFcF27hWllOovHJmYfdP9zJ3IiaAXT9GWbnSG3GfBibjIhV9uicHc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![AI自动建任务清单](/images/workbuddy-cases/case-54/02.png)
 
-![完整功能清单表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPicHz2WxV57s5E7b7eGuJc08mYrmwXzFQJR74IChHL3I7AAwVYiaNGQgRRCH3mjkJuIZ5LlUCF50YGDVpokw6VYP5O5eoOoP4lg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![完整功能清单表](/images/workbuddy-cases/case-54/03.png)
 
-![游戏开始页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNJ6m7f3mqJzkUhhIos8ogo0GwxBs9ms87AdIkgUt4yRFGBWCciaicVqMWwqtHnCc01IhMvvqnyGllVnrTdYu9u8aDFPhISw2Yibw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![游戏开始页面](/images/workbuddy-cases/case-54/04.png)
 
 ## 八、验收标准
 

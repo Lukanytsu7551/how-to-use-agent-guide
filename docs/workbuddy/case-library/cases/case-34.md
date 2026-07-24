@@ -78,25 +78,25 @@ AI 主动梳理四大风险：1）宏观/地缘政治风险（中美关系、香
 
 ### 结果证明
 
-![股票研究专家接收需求并调用 NeoData 拉取数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROZZzVXMwxYgoklzXz4g4MYFt1pwSyd9gsDe3rYTyJ4IlMLyrWs6qlk87iaicZrFLzFCjt8pPSlOxOb0OQRwNYBQymSfktMKERnE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![股票研究专家接收需求并调用 NeoData 拉取数据](/images/workbuddy-cases/case-34/01.png)
 
-![WorkBuddy 获取访问凭证并查询腾讯数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMxhftJk6Ypib98KSC6uKgOgvq78GJZ5jX42s2eYxMsKgHpWSlSOz9YH8pZEOppLxIbficiawibwIboouUG70MsHicXlxBxrz4vnITY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 获取访问凭证并查询腾讯数据](/images/workbuddy-cases/case-34/02.png)
 
-![技术面分析：股价与均线系统图表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP7aCJpQFkMZ1L9cSynzokNeDJ39k7iaNN5UwACvx9PHUkVXsoXVib67clCq80lGK8bgX6K9LqYgia20zGzqx6K96YZmSRrWHUhBw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![技术面分析：股价与均线系统图表](/images/workbuddy-cases/case-34/03.png)
 
-![技术指标分析：布林带与 MACD](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNlksypNUVDKwHmWz3YYZyNUTTRcT1d3gWnibYg6smfV7TWSLYxAqyjzhjasIrPoDL2gUomd5fjwlSfbpkZN13L3W1mTaDQRtNw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![技术指标分析：布林带与 MACD](/images/workbuddy-cases/case-34/04.png)
 
-![基本面分析：营收与净利润图表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPm60PAlw9sXnNbXibiajc6xEzT563rU8kTPsy3iak1QAoM6GQdG1hsDc2eNIfTTNicibDJgznZdhBFm3rwur8Z1vCppdL53ZR18WGk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![基本面分析：营收与净利润图表](/images/workbuddy-cases/case-34/05.png)
 
-![估值分析与机构评级分布](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNq8cW940L7piazzGqCYcicsLsFCRcxTeKicMZWFJzptFmoSmbic3EWVBR1cGj7RWkUlpCvsPdZgsgj1PYh4Yiby40Toc1QCjicD1hso/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![估值分析与机构评级分布](/images/workbuddy-cases/case-34/06.png)
 
-![目标价分布与上涨空间](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROU5aOfiaEYE0HUY9UxMsM9QClic2dsoNOWge8L31lHfbDibG16L7jpS8YRrNPotNo0l9h4r188l8rBbMWFqhZg3Db6ZGEd2cZreg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![目标价分布与上涨空间](/images/workbuddy-cases/case-34/07.png)
 
-![综合分析报告：评级买入，目标价 730-780 HKD](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNQoTydZly90djIt4ZSE9hia07tbFS6RIREEWO6gKGXUgea0mMag9QCamSCiaMl2SUIqYpXglpgIB1ytzNHjP4u4UEEazLBYO0wI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![综合分析报告：评级买入，目标价 730-780 HKD](/images/workbuddy-cases/case-34/08.png)
 
-![分批建仓方案 A 与 B](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPa9hd6kn3HabbAbsSBlcSalQS2563RjHKFjgD7s8BoEf0CgCVZjAW7Ye3wzFY3zOogoQokdO0VOA3eVWmj2xre8Ah2mVibDaWg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![分批建仓方案 A 与 B](/images/workbuddy-cases/case-34/09.png)
 
-![风险因素汇总表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNyyZnTDgEUf923oHFYia1DWYZDP3ELlibxMYNIJzwd8ITyEwicZXATicicO1Id65XEDBTzffX89C8ZN4NEues9w61EKCNaHicmTXEh8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![风险因素汇总表](/images/workbuddy-cases/case-34/10.png)
 
 ### 效率对比
 

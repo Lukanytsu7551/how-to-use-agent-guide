@@ -71,21 +71,21 @@ Mac 又弹「存储空间不足」。256G 硬盘，系统数据占了 80G，各�
 
 ### 结果证明
 
-![意外触发的设计稿](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNPs8pFeQdDS5dzXNooMFnty2xBJdiandV4ommq9vUlic9HyPcQSnpm2r0ic7g4Yl9q74DRGTVPnplxhS01HdbfPlFwVicxjzagUKs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![意外触发的设计稿](/images/workbuddy-cases/case-88/01.png)
 
-![第一页存储概览仪表盘](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROlOTm784zUUF0OCWfZcOP1yYz3NB9e2Uianm3QKg0ZxB8RmMoIBOY9oSk9N7yFYT3kY6ia929mEbWV1gQFPFemxgL1qMcs7CJgc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![第一页存储概览仪表盘](/images/workbuddy-cases/case-88/02.png)
 
-![扩展到完整系统指令](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROk5tl1Z5bTREoNlfhTR7eicmTqBgh2ia9xKo0dddF98UqgK9An9HVK6Y7gzZibWzM18jWTxcBBh8G7YGmhG2icbiagKs1rCtmlvBibw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![扩展到完整系统指令](/images/workbuddy-cases/case-88/03.png)
 
-![第二页存储管理 SMART 表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMFPVYYP4WQbVdKfIfDfVmHt2JdTwUR8ic4CeStWzlp1Ykn3YJC7HAaS5EianIoDoz29CY264ibianpJ2dBD1bCfp0yVXJGod0cfUU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![第二页存储管理 SMART 表](/images/workbuddy-cases/case-88/04.png)
 
-![第三页文件浏览双栏布局](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNiahAPCue3zc86CRibuKVsFQARdISQCEIPV74BQUklzPr6eTEsBK0X9Sic6icSZakeGGria6Hg0zodynPNZbeDFG2ktXh4QEAOGRao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第三页文件浏览双栏布局](/images/workbuddy-cases/case-88/05.png)
 
-![第四页智能清理预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN3ic7fZWpHdPhberQScRTa9qsd7QP25uLmp5n8DFw9XdlMXg7ias9pSCfelqDpE5rvib0KeNSjlibSibViacJD6esh4lwxtW5j0eibRI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![第四页智能清理预览](/images/workbuddy-cases/case-88/06.png)
 
-![第五页扫描历史趋势图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROY2SEhspBIAKevZPoGSMsjMNiblw4fU5AzxbyX9RRx9dy1mkulaN7nknQFcvq8OE62kvFlq7duCS9ictb5Tzn1q6h12yicgmLnUQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![第五页扫描历史趋势图](/images/workbuddy-cases/case-88/07.png)
 
-![第六页设置 toggle 开关](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPvUH87Hudfyibo492ohVl6LibibGNSuxDPGH5pzJVgL3hrtA3r5xheg0z7hzFQnr39PtcLvTpP96pnuwV32N4j7v5ru0YwrzmUEg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![第六页设置 toggle 开关](/images/workbuddy-cases/case-88/08.png)
 
 ## 八、验收标准
 

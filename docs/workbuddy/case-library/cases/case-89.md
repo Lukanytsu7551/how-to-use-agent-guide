@@ -64,19 +64,19 @@ Footer 含品牌名、导览链接、社交图标（X、LinkedIn、微信、GitH
 
 ### 结果证明
 
-![一句话需求指令](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO3kCN746aXahvd8slL7mrackvWYD6sunZq6s2gIxW92dMXRcxPaP33VdwE5BfdKwTXx9r9Tib6mSxIq6wPA5t3vVmK9pibax8y0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![一句话需求指令](/images/workbuddy-cases/case-89/01.png)
 
-![Hero 区域含倒计时](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN2qY75j2InzzpqPTRbY2piaoCVN1B6uJj86ph30EddsJMFgs5TBOia36jWrlUYTatRY8HZfticrSMl33hWKKrkibEv1Z2MgYic3Qs0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![Hero 区域含倒计时](/images/workbuddy-cases/case-89/02.png)
 
-![演讲者阵容 6 位嘉宾](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPKCsbtBj3UYicRTwjMzicyWkKLib4pd2d4YAojxEdeic65FjTfib7yOalFlqha94YQX7RZFb4BibgKQLB3PibxxwNj8biaWTSPqoY2MRg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![演讲者阵容 6 位嘉宾](/images/workbuddy-cases/case-89/03.png)
 
-![日程时间线布局](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPs9ZeyrzJjyosa2ttjn7KMdzPgtkib6JAEOFthqqZhgN8hwAyJOeJdIdEttre7S8HSHdH5zgJyXibObb9uLdYORkzob3SIicBaGk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![日程时间线布局](/images/workbuddy-cases/case-89/04.png)
 
-![数字亮点黑底白字](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPiaJMZLv8kXu51zicIJCriaGa2xSLiaia51gaWpo5esicX5N0K3KRNS6euruD4xlza5eJjvXffzmWPvSuCgTekdsPkpr3u4ibpcm3oEE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![数字亮点黑底白字](/images/workbuddy-cases/case-89/05.png)
 
-![报名表单含校验](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROrRTLAyDJ9e6eLiaUMJbwiaP1rLQf7Y1nicuUiat832eTOpe1X2IA9hyxLOEplomzhwWX3gKdaHX2AIh342tEsB8xWic0sO4dTyI7c/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![报名表单含校验](/images/workbuddy-cases/case-89/06.png)
 
-![cloudstudio-deploy 部署上线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPI4l2VpASRmDLLut9kpc88uNEsSiaR0q8tFicDlGmOSMLXQt823m4QCvECLyG3bXKr4uFRX11NZjyL34DP3ho1YBbv7DGnzfAX8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![cloudstudio-deploy 部署上线](/images/workbuddy-cases/case-89/07.png)
 
 ## 八、验收标准
 

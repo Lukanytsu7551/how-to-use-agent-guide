@@ -79,13 +79,13 @@ git push origin main
 
 ### 结果证明
 
-![加载 frontend-design 技能并询问关键信息](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMC9Utic0IHibZxWXe2TVAIeiahqGGuIBlPzBNLotKtL5JIcP2BuRDBByC1NlJonuaLiaFGu3K8bv7gdI5klAiaVPNvxJSdTjeiaJWkk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![加载 frontend-design 技能并询问关键信息](/images/workbuddy-cases/case-21/01.png)
 
-![AI 生成设计方案并输出 index.html](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMu80sY7tYp3Sa8S4d5jx5ckI4mSqoZZO7KZXicInv7IvuicL6JOFxBrRM34aP2ISZUZLrRLsYawpjq8CmhjbPibnEic8t5aphP2o0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![AI 生成设计方案并输出 index.html](/images/workbuddy-cases/case-21/02.png)
 
-![个人作品集网站作品展示页预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPhl05iagPUYhxkQEJfWoPcS3LGDGKCuaZmicqLbEPmUFibCtRfJocX1sjV1FUuK4EjMR5zTicDjHRSYgBPCES1QQrG0aCgqEUPk6w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![个人作品集网站作品展示页预览](/images/workbuddy-cases/case-21/03.png)
 
-![个人作品集网站联系方式页预览](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPxTzShrwCRGiaXLwRlHCP81G02bNHs6icGshnzo4CH4rLrQkiady6tjOfjl1R2HibcPnNydGS5wP2icAaibicvkHY9F3OAO8mLcebMmo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![个人作品集网站联系方式页预览](/images/workbuddy-cases/case-21/04.png)
 
 ### 普通 AI 生成 vs frontend-design 生成 对比表
 

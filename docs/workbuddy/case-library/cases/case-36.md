@@ -73,17 +73,17 @@ Markdown 报告生成后，追加一句"把完整报告处理成 HTML 格式"。
 
 ### 结果证明
 
-![深度研究模式触发指令与 WorkBuddy 响应](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMIuVqmfTENhzicXQLGvQJia2FXib8uBiayVm2f7ffRk66bUZcTia8QDzM7Up1M6bkNCO2CRv5ljfnxn7EOUgJhTWlkDnS6oyicOZnJw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![深度研究模式触发指令与 WorkBuddy 响应](/images/workbuddy-cases/case-36/01.png)
 
-![报告生成后要求转换为 HTML 格式](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMKJdBU72pibfhHTric8tymEB5RzDGwEoHdcWcFibvrcJuIzB89zibm0LWkeXRauGSTiaFqPCZOP0JGibq1RGJGX9TomRyuchHRLROvU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![报告生成后要求转换为 HTML 格式](/images/workbuddy-cases/case-36/02.png)
 
-![HTML 报告封面与目录页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPccPVLicHygU2zZa5AaF2pPFUExXyR1eWcCZGcQpqHpUuCvvGWvaVKAxdLM2KmdR2Xia0obQoRofXfY44mBvSmrwuYpGmZT47tA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![HTML 报告封面与目录页](/images/workbuddy-cases/case-36/03.png)
 
-![Trae 免费策略引发的行业连锁反应与厂商应对策略](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP1qpwkWoPF8em11iaI2sicTiaLV7pCIPHwBicqxs6JSECSxddQksJHOtiaiakpiaxCiarMLKCqR1cBDIhXsn8Diby0zQJJwGlyztjpSQCA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![Trae 免费策略引发的行业连锁反应与厂商应对策略](/images/workbuddy-cases/case-36/04.png)
 
-![Agent 模式 Token 消耗量与成本估算表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROQ3FUCPxdzQJY9u6ibSFTpasglibBlIk2g1iaURDyOL7NVCXfCMKJJZhGEGic1Y9PJZC8nz19x9sEP1ceic6sf15L8icsEV99Cxp2oU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![Agent 模式 Token 消耗量与成本估算表](/images/workbuddy-cases/case-36/05.png)
 
-![国内外商业模式差异分析表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROBmtYnyv2ckq0Y1qM8oqcJiaHhgRPWxYAq30LGI6xicCWGYO00GHibQsFOeoGL7q8gvLJszTRIqaoKQOpbx0Hws60NGoGPJJcxZY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![国内外商业模式差异分析表](/images/workbuddy-cases/case-36/06.png)
 
 ### 效率对比
 

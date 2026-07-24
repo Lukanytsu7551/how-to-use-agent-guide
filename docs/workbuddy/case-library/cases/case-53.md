@@ -73,17 +73,17 @@ WorkBuddy 自动调用 NeoData 金融搜索服务技能，并行查实时数据�
 
 ### 结果证明
 
-![探索模块港股资金流向场景](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPV2JS2S7bO26wuUnYKCYQ6UbXl5PB9lGgarBOD8leYIMZYnRpSGcchldT2w4qPTCHhEQGDnGaIwt8uE0XWLHDibibwyBiahSC74g/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![探索模块港股资金流向场景](/images/workbuddy-cases/case-53/01.png)
 
-![圆桌团队创建并行调度三人](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROUVwYNwEAubiajZSgreTMAgmWemNia8qq4fSLSGbsXZiac1AgeH6qKrAxjaN3gubW1iblEKAIAEhhlksufK2KGjUvthzu0wb8TtJA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![圆桌团队创建并行调度三人](/images/workbuddy-cases/case-53/02.png)
 
-![NeoData并行拉取实时行情](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMIcClbTrQiahgsiaB6CHtJg2icbEazAdXvklwItSZVkPUz0UpWJcXo1UPBFQyp8uL97nstHYt8jCq3WLUBc98CmBOGArX2UUN2nQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![NeoData并行拉取实时行情](/images/workbuddy-cases/case-53/03.png)
 
-![三人并行独立查询分析状态](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROCdTd8U1t9ibL1T8T9TNsZzcARbL4eeJMhjG7rBKF71N18hXJSPfwB1RHuF5PVoNtUtvaOdbibFtIDKGkYPUEtPiazTaFnGwribQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![三人并行独立查询分析状态](/images/workbuddy-cases/case-53/04.png)
 
-![三位成员核心结论汇总](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMYMrbP1IOiaB12sjuy8HRUME3mtF5WaIbzHV8vXhSm02ic36SF7WghkFKdcibgOQXKL9bS0kPDWxmN4oLWqPQu0WeHGV0p876SmY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![三位成员核心结论汇总](/images/workbuddy-cases/case-53/05.png)
 
-![HTML圆桌报告在线版](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMsguT5fdzAC5lTsf7SzA5QwbfDsXFguJqicOO0SUnhQ8gF5iaoaotVSW62rtG6s9qZBQn7QuNhMicI3VVLsPv9J4iaicXlFPYUcS7w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![HTML圆桌报告在线版](/images/workbuddy-cases/case-53/06.png)
 
 ## 八、验收标准
 

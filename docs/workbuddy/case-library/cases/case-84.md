@@ -71,15 +71,15 @@ WorkBuddy 先检查环境：Bun 已装、FFmpeg 已装，只差 HyperFrames CLI�
 
 ### 结果证明
 
-![HyperFrames 项目介绍](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPXFicxBBg1UjSSrzu3cGB83OGCaXlEjgurI3FDslOunlnGhZXTasHpdwrTLaX8Y61WicphlvUv0kW2zmsrmyoic1DxJulH3xDGnk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![HyperFrames 项目介绍](/images/workbuddy-cases/case-84/01.png)
 
-![写 composition 并渲染](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROibk53WuZWB2InvCySwiaibXLMH6jgcnYEicZyCVMia297DIsPF90vZ8nLWsmkKJwHIH2ibWoPBVyFejS3IIT8TYic7TBJHmI5ISmJ7w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![写 composition 并渲染](/images/workbuddy-cases/case-84/02.png)
 
-![Kokoro 翻车切 edge-tts](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqDdRTwfFKD1icjCyyqOkvltI7FByKrfNqSEvW2NibVXH4yrpDTslH80eJEjUoH4SLriawlwKzDxJyysReTd1uEPtGuOqN57Kicrw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Kokoro 翻车切 edge-tts](/images/workbuddy-cases/case-84/03.png)
 
-![竖屏处理方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMWhibIraoYN2CZ9BWgrxynXvwjYHUxlHP7kS3T1OZDKnRRa2BExG9Q4RPxMkQenIMhJGvDDUeG5tPSe1NvMYwuESoTccEbd3ns/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![竖屏处理方案](/images/workbuddy-cases/case-84/04.png)
 
-![修复 HyperFrames 特殊语法](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMn7MwaIAxibyEQlZ2ozCGh3arPE8Tzx4bn03xojG3OFWeibNVZ3h6CEgE60vvjwWoag4vC14icPy2WOrzFXDIiajibcVWx9M9IMS6M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![修复 HyperFrames 特殊语法](/images/workbuddy-cases/case-84/05.png)
 
 ## 八、验收标准
 

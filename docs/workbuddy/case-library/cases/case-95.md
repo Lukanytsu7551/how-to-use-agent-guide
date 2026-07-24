@@ -81,21 +81,21 @@ WorkBuddy 没让继续死磕控制台，换了个思路：服务器上 3000 端�
 
 ### 结果证明
 
-![Flask 活码系统三个模块实现完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPGBxQf9fZSWYrdMCl3CdWWEseBCvBAic3ibIB5oickctuUxT18UcjkaHsDEgiacb3aIdMrblSyj08vW5S0cz5icsOHZKjv93Zdia9e8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Flask 活码系统三个模块实现完成](/images/workbuddy-cases/case-95/01.png)
 
-![项目文件结构：tree 命令输出](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPfUECiawpeXNuxmfeCNz3jRXx3nic5b5WkQQwAWTVc81y7ibtNEaoPgHnk5ZfGeib8dBH2lIBEBlIiaulaAUUBPM5fjjUs8tXpC5OA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![项目文件结构：tree 命令输出](/images/workbuddy-cases/case-95/02.png)
 
-![管理后台样式炸了：虚线边框显示不出来](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNSQ2ww2yaNBWOXH6yGYB0r8jyBqKSws2QTwiaPnSWXH61LsoGhbiav70dT2hE69WaJKeicA5fbRJv34zJ2EukhqB5EBXUPmjUMdI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![管理后台样式炸了：虚线边框显示不出来](/images/workbuddy-cases/case-95/03.png)
 
-![三轮排查后改用 box-shadow: inset 解决](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMMzcj1CsA6p7SjibyZmuzH5w5AaDv47VfXrN5hvibqA0R4KJCQ5j4kDibAoIrF11oiblcl2VNaAyySwpwNjXEvpVROWiaot6GU6OdM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![三轮排查后改用 box-shadow: inset 解决](/images/workbuddy-cases/case-95/04.png)
 
-![config.py：过期天数 6.5 天](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROej6EiaZqd3Z5ZQ1WdD1VJDNOqp2y2aMkrNFLEfGB5f9WPCEsbDiaVqrPrmZcee9C1Gm44Utv5zMFDribJ6tiay1cTnibMjGQSZN7w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![config.py：过期天数 6.5 天](/images/workbuddy-cases/case-95/05.png)
 
-![AWS 控制台登不进去](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNxBPgG0PVeoRSw7pWRR3uWibPKUU5NjuMibggiaFXzlea6vfDjrHic8TUFmlOsQgsapJLLy67LOK0A8rkYX5JbTlfmnD119r4nC6g/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![AWS 控制台登不进去](/images/workbuddy-cases/case-95/06.png)
 
-![活码展示页五版迭代：付款码+群码+警告卡片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROgeYib2uh7zaibeeklFFtdic7qJjQb1hsTTziaofJ5iasaiaobTYGj380z1cUgYo9dvf0V7ic1nt2IMMJLSr6ibxzMjpYjWibhzQbRMNgo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![活码展示页五版迭代：付款码+群码+警告卡片](/images/workbuddy-cases/case-95/07.png)
 
-![后台上传页：手机端密码登录+选图上传+状态面板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROzomQYrYlTwBnoKbCH4mJlqhH0DKvXNKR8Y8lOJpPrSiab6mO8phCl6q5CFXW2Uw2vSmUdtWIoZd56Ezr4L4WNHRJiaELXvSrw0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![后台上传页：手机端密码登录+选图上传+状态面板](/images/workbuddy-cases/case-95/08.png)
 
 ## 八、验收标准
 

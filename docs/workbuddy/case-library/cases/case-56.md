@@ -80,21 +80,21 @@ PPT 写完后自动调用 CloudStudio 沙箱部署，几秒钟返回公网链接
 
 ### 结果证明
 
-![一句话触发PPT生成全流程](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNy9WbdgicLOyB7KQWKf8lgLt8ErcNx6r9nDzPdZW3ia9ojW7I1gZAYiaTbs7XOzjBoiabjwKh1WqibiacwXdnp3LnFXmiarJX6Ed1Qms/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![一句话触发PPT生成全流程](/images/workbuddy-cases/case-56/01.png)
 
-![西游记封面页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM8WZkedg0sIibP7ptsiaB4YvhQuDG93nsu8rRs2ngKZdO6hWgYib7rPRLRFAsk6mhHuEam7J9gpDaJy6BxI2N9tu4BFlOrPQ6oo4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![西游记封面页](/images/workbuddy-cases/case-56/02.png)
 
-![西游记内容页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN95fomw2diaFoUgkonk5GWuOuP9tW7AmANTFomu3GQSzHOq92iaWWyZxp5SnTXX5rSa8fVu0SVzcwNPXAFdBj4OtTvw5z5x21LQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![西游记内容页](/images/workbuddy-cases/case-56/03.png)
 
-![西游记章节过渡页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPe6jnWE2FejjImYP3hdkwkNcT1txkI6x5cel11SU1RLyiaFndMVR0b9uRR4GQ6I5UHYoswSyoz7CyfmUrUApKkXPS9XFSI2zSM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![西游记章节过渡页](/images/workbuddy-cases/case-56/04.png)
 
-![西游记人物对比卡](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROStuy3x8VjibQXZ9p6PU9Vk7EkkJzs587ojX8O9CMkSqvXE71MQO7oPA2cdnnD6Ag30MX0b9QTVBoquic1sXnvgmynY8BibibHtlY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![西游记人物对比卡](/images/workbuddy-cases/case-56/05.png)
 
-![西游记文化价值页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROuQok0fbAVsL1ibAJ3vjq4aG0drqicM5JeSmZvNPjrzt5akkQRuOEcicMH28dfDXgeOQOyxugLm25OFWYKQDrvLouYRNKkATKDQU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![西游记文化价值页](/images/workbuddy-cases/case-56/06.png)
 
-![混元无水印生图结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMDVw3iaiaYYAgf5ibuHDUiatIlgP2oOiclISmU8b4JhBMic2DCr1E2icQMFmaoZM5LycwoDmCQXfcS2b5r82jibia6Jn8eicMIs2QarDePo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![混元无水印生图结果](/images/workbuddy-cases/case-56/07.png)
 
-![在线网页PPT翻页效果](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPPCc2xB9WDvibAqn3yMurBq0cbma7xuicBaO7FLVtWOMAl8K4WUj12icc1cx6aWjMrK3ibzibKia36m7Z0VzV6GwhH7dIq17QNSxkBw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![在线网页PPT翻页效果](/images/workbuddy-cases/case-56/08.png)
 
 ## 八、验收标准
 

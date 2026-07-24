@@ -70,19 +70,19 @@ WorkBuddy 先读取源文件 origin_data.xlsx 的结构，调用 xlsx_reader.py 
 
 ### 结果证明
 
-![探索模块搜索清洗找到 CSV 数据清洗分析报告功能](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM3haVH2MlVRL9XFdzCe7Auicg2arZaE8v1YnEyey5Tcuv5P7gWTKgenuVuwSKRMUa5uqoLPh5k5krg91GM99FZqWZ3icCegI1ib4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![探索模块搜索清洗找到 CSV 数据清洗分析报告功能](/images/workbuddy-cases/case-42/01.png)
 
-![一次性粘贴完整需求与 WorkBuddy 自动读取源文件](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNnw168VWWoYczOhg19LiaQANhF0kBmy4RkYYqFDBqpibeDkLomNQrPaZfC4X5cWh7KHicCUf8SbZpdbh3ibia9ianousdQ5K3CLHueY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![一次性粘贴完整需求与 WorkBuddy 自动读取源文件](/images/workbuddy-cases/case-42/02.png)
 
-![Sheet1 原始数据（4 色问题标记）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROjibqo219mozaKBAkNrSBt9AfOBBwIicBnMjhFAneypATjDtXibqVCzNFACib6WTmrrwjnMeyicyz8MQN7sxBBXpmibSdhugUviaRvIM/640?wx_fmt=png&watermark=1#imgIndex=2)
+![Sheet1 原始数据（4 色问题标记）](/images/workbuddy-cases/case-42/03.png)
 
-![Sheet2 清洗日志（每步操作完整记录）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPuWfNGJZuUJpK0fz1f03jCibEg8qboMicLLJgpTwoLmLldDT2LbGL03IewC7Kct0sib8qmRNsx4y7oXVseIGiaInK9VicC7sIDUudk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![Sheet2 清洗日志（每步操作完整记录）](/images/workbuddy-cases/case-42/04.png)
 
-![Sheet3 数据质量评分（公式自动计算清洗前后对比）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROnxSRiay11JAyicDdibpLwPicrXsIF73GyTticUUdvWgPdcRZHriazN7Q1tFlznVNuUmxZHNxqxpyeldib92FRtPnrzgvdTymib1o9wibU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![Sheet3 数据质量评分（公式自动计算清洗前后对比）](/images/workbuddy-cases/case-42/05.png)
 
-![Sheet4 统计汇总（按分类+按月份汇总表）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNxsySWRpTt3l1TshgqaxrPJQjgUTCQP24d4KlA8v1I0JSquftUFia54cPvOr7UP9D97RAicXGu3jSnTw8wKS86ibBHkgAlQqtvSw/640?wx_fmt=png&watermark=1#imgIndex=5)
+![Sheet4 统计汇总（按分类+按月份汇总表）](/images/workbuddy-cases/case-42/06.png)
 
-![Sheet5 清洗后数据（1000 行干净数据）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNJvkabxIpKibSndNeQNtxHxs8Th0r2WJ5s3KOxjw03IW6GuckNfgkR9E3hbdgAVSR8e6SOgibaibWPjNoeEjW0wW0rL0NOViaDfxo/640?wx_fmt=png&watermark=1#imgIndex=6)
+![Sheet5 清洗后数据（1000 行干净数据）](/images/workbuddy-cases/case-42/07.png)
 
 ### 数据质量评分对比表
 

@@ -69,13 +69,13 @@ WorkBuddy 一页一页翻，一条一条记。几分钟不到，63 篇文章的�
 
 ### 结果证明
 
-![Playwright 打开微信后台](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM4fJeUlH8Swnf58Teia8yMo8ic0ziaAiaaU8596A5NJs0H8CukFS5zCkgovLNARhy0T800xX7xax729Q1SzpgfIicXoITFiaTnFG8fE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Playwright 打开微信后台](/images/workbuddy-cases/case-62/01.png)
 
-![抓取的数据文件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfPL4JjgjI8wtgJBcias1wK3HIoFXSo8URKa4uw851oLd2prVn7wMrFQa0fG2Zks0tiaTDMBTTohwvayZbyiao8hAweoRLuzDQ8k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![抓取的数据文件](/images/workbuddy-cases/case-62/02.png)
 
-![结构化 JSON 数据](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPpKLqH7aKAZPd7hM6NRQCWUNXQdlbOwrfjoGQeRhSZVW4PSiafJFt89go4TXjicFoCxQ5kQWb1d5KGWlYuzicypT9hiaicsuNTqqYo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![结构化 JSON 数据](/images/workbuddy-cases/case-62/03.png)
 
-![5月16-31日统计表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMpdzYYqeN0aWhCvTaue9ud5f4S2DsZFop5uDYH6hicE57YEXUdFkQAKGYffsN0Lq9uhv0tyu2bp6HMKiaaEEE2hkJNcknjoicG1E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![5月16-31日统计表](/images/workbuddy-cases/case-62/04.png)
 
 ## 八、验收标准
 

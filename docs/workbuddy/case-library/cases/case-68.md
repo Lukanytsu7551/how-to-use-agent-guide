@@ -70,31 +70,31 @@
 
 ### 结果证明
 
-![你能帮我发小红书吗](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN6JNMAicz8aAMiatTZepicg4xnUxZUzjEgXEyiah2tYcexS7nVxXKMEyic62PxrjRCI9ibNhmPW1oibbXWAOUmYZsiajOPdzTExuXibbeo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![你能帮我发小红书吗](/images/workbuddy-cases/case-68/01.png)
 
-![能力检查结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN0dT0OicURZth6lkXIVovSwibpGZg1mawONsyaibhnZqSibwpcThINsmj4a5dntVXub3urLmKjMB2uSI2ZhAmr8Xap6FLLiaFSmm7Y/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![能力检查结果](/images/workbuddy-cases/case-68/02.png)
 
-![GitHub 搜索](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMFvVl5vHtLKuvpktaURgTGUdZOIl14UHjOTqZabpmFOzXDNBlD3D5kBiaYm0M9ePtNQCgooHh0RRYwpnrhh6tiaIBN6noEba3U8/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![GitHub 搜索](/images/workbuddy-cases/case-68/03.png)
 
-![项目对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPPriby8bfYbHEjicC0kQUc0NmyTUx2O0DWde7U57hMRBrNvt41MAbOMzHRMs7vb4R08elflj7cPiaqB99JFs3RxfX6ia3Yd9lwUG0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![项目对比](/images/workbuddy-cases/case-68/04.png)
 
-![自动修复架构](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPwoFGCyOx43P8TUDibBk2ZjW9BoweEYGlMN9Vs5SI4ibAPUBCaYeR3vAMls2RkEootvxmPe3bEW7G5dSX9ftaV8kN2HFt4OhicjQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![自动修复架构](/images/workbuddy-cases/case-68/05.png)
 
-![MCP 配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMPwWLQy7qcy5niaRnexDAvjaAvLo2VUf1zfX8z4Bq6qSRnjfCILs9PqfHCM7GOhbLL2VafWBrfQuNSSSXzEdEOdNOaXjIEWq30/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![MCP 配置](/images/workbuddy-cases/case-68/06.png)
 
-![扫码登录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPMOHr3ZyVic3KQ5WzpD69XmfmUKdmcwcziaQTuNr8wkT326YzXJicpAN9qQRribzxpgNziavnL9Ucv5ezwD0e6Sp11cibGbGeas3Xzg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![扫码登录](/images/workbuddy-cases/case-68/07.png)
 
-![13个工具列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNtdh60a2VtwhhX86gia7zVOn4e8wXwQutzRd9wiaZfCVJZjpmXoK2zuqvklUmmd9XUnabH0stmPddrSHeOuL2tCBwicbCGiavCbGE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![13个工具列表](/images/workbuddy-cases/case-68/08.png)
 
-![信任连接器](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM26ic1ITTEIBmlkFORC70KPEG6WenjUxKYJtlkibib4uCDJPxT9RGQric2qW9EibAFMTZs0wiaicrIEcoPqCPUt889m52ibQ0yJmzenMA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![信任连接器](/images/workbuddy-cases/case-68/09.png)
 
-![验证登录成功](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMcHx1Micpkkz2USVABretUEWSFg3bn9ibyVJ6KD5cFiaj2T3Zoyic1udvR3S0RiaUyXibBGibsIYxSOxOv0Qm9icoqHdwCiabUzp60VnLM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![验证登录成功](/images/workbuddy-cases/case-68/10.png)
 
-![生成的配图文件](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMHnTQcLlFPEqrwBZ1oBR76jhKdibO5wiabOgW8zRKiaLtDjUHcvicibj1M9ebqD8kjU9ovKLAAlIjyCVnVwLwJZkAiacSMPKhgJleKU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![生成的配图文件](/images/workbuddy-cases/case-68/11.png)
 
-![发布成功](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMKJb1yicPZIsFJT1WYOFb7TAsMy0rVqSGBN7efHUxouadtfHI6pd7dSstc7YicL15iaPP790VxB5VAcOQmoHOqvuDuP0frAvpVH4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![发布成功](/images/workbuddy-cases/case-68/12.png)
 
-![手机端发布效果](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNgPCwwVkPDUrGmj3l9Fkl2IVaXYBaVD80ic3NqkdW5waV1hqEaSqDXiaR3jMyW89J2iaqYEg70QzialiaGReLU2hAb1yAOObVMs4W0/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=12)
+![手机端发布效果](/images/workbuddy-cases/case-68/13.jpg)
 
 ## 八、验收标准
 

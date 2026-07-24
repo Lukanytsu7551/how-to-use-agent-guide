@@ -83,27 +83,27 @@
 
 ### 结果证明
 
-![读者留言要求出钉钉教程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPVuCkibMKfvMv2IFQNmZibwEDPF5ZExNVonzeAxAoyGsNtiaOENkxYSIicMZIj9fOhDTUzuczpdibI8VwtBUEBDUibkv6kqcoMF1EnM/640?wx_fmt=png&watermark=1#imgIndex=0)
+![读者留言要求出钉钉教程](/images/workbuddy-cases/case-78/01.png)
 
-![连接器市场找到 DingTalk](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMGrOfIsrIwTkYzoqiajAh8JQzcj721jcOS2Imb9lWria7D9LTPk2RoibM0GpiajBOGibljytxR4uicOmic1pS8UnsQxChVBjOAvGNCIg/640?wx_fmt=png&watermark=1#imgIndex=1)
+![连接器市场找到 DingTalk](/images/workbuddy-cases/case-78/02.png)
 
-![钉钉授权窗口功能列表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPaiaUYHxjB2dEU0lhA9e7aS9oGC5UoHeEyKeVg1bshq0tgufuloM3dS4WLYmJFmq7iabqAHkcaoHg3VDVg7fEtiaGqf6YMt3l53A/640?wx_fmt=png&watermark=1#imgIndex=2)
+![钉钉授权窗口功能列表](/images/workbuddy-cases/case-78/03.png)
 
-![手机扫码登录确认](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMcqibEBGwhZMO3R4ULAdLo3us9n0VliadV9TzoL4YTc7nC431293YRzEZFvz31mht6EUSknricXPnCy2iaGRHq8MjQE9icrVp2pdtA/640?wx_fmt=jpeg&watermark=1#imgIndex=4)
+![手机扫码登录确认](/images/workbuddy-cases/case-78/04.jpg)
 
-![选择要连接的组织](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROfdEo7mjobxK7CyDrFSwJBchIphPfyVCkQEURSwGnHPGunTOjq8kn7ZGaUmWfIicODsECtRmtGagXyNMAKeyNdubHOSWwwdOyM/640?wx_fmt=png&watermark=1#imgIndex=5)
+![选择要连接的组织](/images/workbuddy-cases/case-78/05.png)
 
-![CLI 数据访问权限未开通申请页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROWT5mRvCleRRUSibKRjIULZw38uUbduHaeOBr9pqV9K63VBxeSaicmvu7r2EObTwQneRRhgAfahAAibaS56ZV0icHXibAliaiarS8jvM/640?wx_fmt=png&watermark=1#imgIndex=7)
+![CLI 数据访问权限未开通申请页](/images/workbuddy-cases/case-78/06.png)
 
-![授权成功页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMcUfoD3UrGMYwxktNbIeN30iavWSzVt2sgiaxMdalor8IAjs6jjnJa8MVSiaDPIjrBqxQB0p1xHSwEoDFlmtprLbSmliaq7RpibMNc/640?wx_fmt=png&watermark=1#imgIndex=8)
+![授权成功页面](/images/workbuddy-cases/case-78/07.png)
 
-![8个未读会话列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMmCIDNdYBDctk1TM8mVodsddFic0R9K9uJrwM2FRXA2klGqxFprZObSuw78veCFXVjoNt2fKyXocYt1GUBpwiaDL56TVG2Xtm5M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![8个未读会话列表](/images/workbuddy-cases/case-78/08.png)
 
-![淘宝ods群全是机器人播报](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP49oYyUbxUJDqKvicdoFic7mNwXYQI8ZibURQlicCcyCMbO6cjM2xX5ajrVYQmfRUvnX4dzK5pLVMZGjGRYr28wicDKfoUyRmPCNibg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![淘宝ods群全是机器人播报](/images/workbuddy-cases/case-78/09.png)
 
-![魔搭群回表情操作](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNcGmLN4Tsr5z5ck4QYvKKdQMzMbMicBMriau5qcXUpJtT309q99DuM6TuuDw6S3OfickrH98zZzKobKamulTe95ORdYH4PPcQNaQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![魔搭群回表情操作](/images/workbuddy-cases/case-78/10.png)
 
-![待办查询结果](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPWtk6OCbgJFdj0GE9fEzWnicgkrvEeYE42w8cKBpCGictPqoWImBNBTudqB9MrhiagP63ia1RmtyMbPvIEcxbmoQRelIicPeLcnIHs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![待办查询结果](/images/workbuddy-cases/case-78/11.png)
 
 ## 八、验收标准
 

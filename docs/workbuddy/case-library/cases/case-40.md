@@ -77,21 +77,21 @@
 
 ### 结果证明
 
-![WorkBuddy 探索模块入口与在线问卷功能](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM9DT2MeTJebYO41yhTcsbhXkCxwOouWYnTNoXhGmEaJ42GxcJKx9vzXKXsZVcISUpmpuXr23H4hN08bk980icXQZ1HKNlhHBsw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 探索模块入口与在线问卷功能](/images/workbuddy-cases/case-40/01.png)
 
-![一次性提交完整问卷需求与 WorkBuddy 响应](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPSKSibkcSSgyyE8TJHWKTEQ8o7kuRZQytTk9fCz7QIgoX7QVYfiawppcV1CZytvRNOL80quMLTvQRb18bU1T7Zot2byBnEqM03c/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![一次性提交完整问卷需求与 WorkBuddy 响应](/images/workbuddy-cases/case-40/02.png)
 
-![问卷欢迎页（标题、简介、预计用时、开始按钮）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN8uNvwDWSI8oWQH8glk1XaGG1n1GO9jgkY4sCFibiahM6iaMyGcblYRKhcfYyhwqXceyO59Ct4SyUhkCkQianvVnopeM3BjviaAWXk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![问卷欢迎页（标题、简介、预计用时、开始按钮）](/images/workbuddy-cases/case-40/03.png)
 
-![完成页（SVG 勾选动画 + 回答摘要）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfpmwuUWScRPJichLvqZsg8nAjNp66z6DpibNZ6zSdsQoX1GScqdokXptLC7zmpAib29FTLTGIG2cWEPIcOwziaAl2bj0ibrn6ZB0w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![完成页（SVG 勾选动画 + 回答摘要）](/images/workbuddy-cases/case-40/04.png)
 
-![第一版 Bug：切题时页面抖动](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROia6AUA4mK8zBsIwaYZxEjbWZDwWaYFSic9JNAcLvwnBv3BjDcwMnFoosJVZicroV9NKszlGyYAvPYI0m3kEVnCv6On2z2rhPxJQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第一版 Bug：切题时页面抖动](/images/workbuddy-cases/case-40/05.png)
 
-![WorkBuddy 定位 Bug 根源并重写 goToSlide 函数](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROe1gfI8K4icXUicJeRYtDQmxfQYf7f8yibugfzoMaia9VVKKvM5YwLot8T5n9IQj6yhustiaNWDzxJibaNeG0IYVjpG8NzfYPscfRMM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![WorkBuddy 定位 Bug 根源并重写 goToSlide 函数](/images/workbuddy-cases/case-40/06.png)
 
-![Bug 修复方案与移动端适配细节](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMZKNjPkv96dddNFXRsNvzmDpv7f9icpuic3scNgiaufRJpI4ibSvIYNkaYBI2hIqwH8A0LxyBBYQs97rItD8ibeLkQfyic1TKKicreuU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![Bug 修复方案与移动端适配细节](/images/workbuddy-cases/case-40/07.png)
 
-![文件复制改名上线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLsg1Xsa5aSd0m6JNyOhtrZtQfwwuAsC9RXiaE0TDEmzBAxexibWKy1AWbC7ibpQMuqFmNx9kjFXF24EduqAGnTOAzy4icRtjgPbA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![文件复制改名上线](/images/workbuddy-cases/case-40/08.png)
 
 ### 传统方式 vs WorkBuddy 方式
 

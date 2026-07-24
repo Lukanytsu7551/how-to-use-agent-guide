@@ -76,25 +76,25 @@
 
 ### 结果证明
 
-![Skill 作用介绍](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMnzqouQ1FBuSgzg4JI22YJt5WvXMPibQDSP32IyGzXYthFTA1wVm31d5LWDE4Xy4aOT9EM5gTzwhJyGicqGQUMvZSr3VPqVxk9M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Skill 作用介绍](/images/workbuddy-cases/case-82/01.png)
 
-![华宇元典 MCP 能力表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO3t9QUyTxg3uEbicv3jSdb5aD8SUqTLibSyV7mIL93na5dfVCYQOWDiau8ZRNibibbcJSqy3jufFWUob1oVWrM0v8vMjETBatI5kjc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![华宇元典 MCP 能力表](/images/workbuddy-cases/case-82/02.png)
 
-![连接器列表找到华宇元典](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMM3ibqz0WWqV8vic0ftR7LXTrVMVwsqoDDM3udSEicFOlzdCJxLtWHn9sJfDk5Zpkc8qIhENy6MlRM9t6dWyL4arLQEo6iatfYXic8/640?from=appmsg&watermark=1#imgIndex=2)
+![连接器列表找到华宇元典](/images/workbuddy-cases/case-82/03.png)
 
-![点击连接弹窗](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNEPPWhnKhicbftXqjQJDg8yH9ibHB3OFXD5ZwcH7ibibm3IiakVxSMkicHWxX8s3naJ7lODVyBe50Ojevd6jznsibS3xG7hso3ibapKiaA/640?from=appmsg&watermark=1#imgIndex=3)
+![点击连接弹窗](/images/workbuddy-cases/case-82/04.png)
 
-![微信扫码登录华宇元典](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPZiaDFbxTTP3WIJJxZ3yPtkjpAJD93S74nRGUE8iabe8117e7nHjcNXMbcHu9U8cx8K7oFfNEFQzDbJVdkUY6y2aKl5zY35ePVQ/640?from=appmsg&watermark=1#imgIndex=4)
+![微信扫码登录华宇元典](/images/workbuddy-cases/case-82/05.jpg)
 
-![同意协议页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMWRbEEoTnSA9mlapguUr6xlRIrbgaeXvddEzEY5dM31NKxbiafGtmZAibvQ1Po3iaNtEttdNfsNQcA9ibpZTnbtaneRmbaG39natI/640?from=appmsg&watermark=1#imgIndex=5)
+![同意协议页面](/images/workbuddy-cases/case-82/06.png)
 
-![确认授权页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNib5BDnbhkHTXNyHnXwl7upOLP4hnoibWox6gmCKzZDKXlNsI1Ukib74icAFQIFZd2rLjQe4AzHzEu62ciaoPCcE98XhysncVRXw7A/640?from=appmsg&watermark=1#imgIndex=6)
+![确认授权页面](/images/workbuddy-cases/case-82/07.png)
 
-![MCP 已连接并安装 Skill](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMVEKvTCiaWGJr1Q0oEnSAVVtzvrBhSFpVVrVKo7b2NibxqFagDXoXPgPB7MOjquykISk67s4F0XRz7apq1yHPbcbA6ogMibSPmjI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![MCP 已连接并安装 Skill](/images/workbuddy-cases/case-82/08.png)
 
-![Markdown 案件分析报告](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROw4B3SJhuy5aUyxRMncvweROz8qK8C9Xdo3icEy6MOQLPiaibLYfibOFU8Dom9p2ZsHpPdMcoGuQCCkUlcTDcMovzH8hPVyZyxsrQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![Markdown 案件分析报告](/images/workbuddy-cases/case-82/09.png)
 
-![HTML 司法墨韵风格页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMqfOCAbCerYFOQjO1K2zgqqMjZ8sYllokr1WiaQQebRPDWNTQHW6qIDDHJUicdA65D5xItKMpWjhoicgHCyPicaiacQUSNJGlT7mV4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![HTML 司法墨韵风格页面](/images/workbuddy-cases/case-82/10.png)
 
 ## 八、验收标准
 

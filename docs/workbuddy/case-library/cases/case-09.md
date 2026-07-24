@@ -120,15 +120,15 @@ CHECKIN_CARD_Y = 550   # 签到卡片
 
 ### 结果证明
 
-![WorkBuddy 签到活动页面：连续签到领积分](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfmLKAdbhtLpHShgn5iadJ1wqxiajDicaEklicvfTSsRYXgbBugJQt9wLXckP6JQhiaa0bezF4dibehM3RqgYUQDE2E0WJ7zgiaDx0zM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 签到活动页面：连续签到领积分](/images/workbuddy-cases/case-09/01.png)
 
-![图像识别方案失败：WorkBuddy 找不到界面元素](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMelZiaX9zrFCLtRdxIFTvNVx8mO5OxfgfNACXXzUmmpOzASGR8q84LzEHN3SJgKLo52uW4buESTLeVyMtOW6kvqnWswkYiblXkM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![图像识别方案失败：WorkBuddy 找不到界面元素](/images/workbuddy-cases/case-09/02.png)
 
-![运行坐标检测脚本实时显示鼠标位置](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPEk1O94YqQK4Bic2TJOQaVrKslnrJ9Bias99vL6xDyANxgo0BIwD0nmn393f7L5QuMsXV6icxib9heeV70qxFcRIVEibv0dRS0auiak/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![运行坐标检测脚本实时显示鼠标位置](/images/workbuddy-cases/case-09/03.png)
 
-![WorkBuddy 编辑自动化任务页面配置每天 8 点执行](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMCGKMbMwbs8ia4rXYaHNw3YPW3ekdW0TEKxe7Kg5ZV6D98M8LAiaFJu98xS4qAtr7S9wv7Zs6fZ2O6qZe8o7ztS6t61FgSwhdz8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![WorkBuddy 编辑自动化任务页面配置每天 8 点执行](/images/workbuddy-cases/case-09/04.png)
 
-![微信收到 WorkBuddy 签到完成推送消息](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPEuGm1BCn0LUvIz3g1nfhMLWMbeBn61NUPg18tAEIQgflpjhJAC1dK2qGyTccdpdPZKW0CdYRGicT4RAPzabCvVB8vLhRMcmJ0/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+![微信收到 WorkBuddy 签到完成推送消息](/images/workbuddy-cases/case-09/05.jpg)
 
 ### 三种方案对比
 

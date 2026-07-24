@@ -81,31 +81,31 @@ WorkBuddy 调用混元生图出了第一版「可乐」，但有水印。换用�
 
 ### 结果证明
 
-![IP 形象方案设计](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN6s77OmhcJTJu9F1ZlaE89LrAKj0piaqffksTBZIy2JgmhIZDicTibuGxfDh3YxqZmvzy3WcGYNSKPO4Tq44caXRsDaCBhLhApqc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![IP 形象方案设计](/images/workbuddy-cases/case-80/01.png)
 
-![第一版定型图有水印](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP2lmFKsKXjJ42NmUSBT1FDbAhXRrYiaPibTTYicy5uicicGag62aHFKCLYfB9ajCZLEkLzW41pmTYbibu6BfnkdhzJ2mKOQZKice8EKo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![第一版定型图有水印](/images/workbuddy-cases/case-80/02.png)
 
-![无水印版定型图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMib4abxia2oP5pLf4k4BV9fEUmJpPXsbnavPzhnqgIBX4ZecPick2wXc6t0LtZjjrhsOlYXu84MOFa744xR8ibrnsMaVVqiaVibdqFk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![无水印版定型图](/images/workbuddy-cases/case-80/03.png)
 
-![动态 GIF 技术路线验证](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPBev2TIord0icDumyUvvlOM24ialVJv6lOWAbp9gvkllaTHrfsYaBYNkBy216F9mHiab3axoZJQAwxom4kugq5aEPNiaHTibJAoibg0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![动态 GIF 技术路线验证](/images/workbuddy-cases/case-80/04.png)
 
-![第一张动态 GIF 样张](https://mmbiz.qpic.cn/mmbiz_gif/s516EMWvbRPEL8G52ghhYZBW9nibQjdtxabiceHXRnWSLuwkFxEr5ra2eueRSF8k51nlkyicWfG9aYxhIyeo8hgaQLtrpucIVCVewoOctRoBTE/640?wx_fmt=gif&from=appmsg#imgIndex=5)
+![第一张动态 GIF 样张](/images/workbuddy-cases/case-80/05.gif)
 
-![批量生成进度 11/16](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROwHiauPnC4hn6Gexc4TSZRqEoZwsSm74sebhC7crdumnHuEuktjGwnkMskPDXYJ0Qf82rmjx61YUXLxHklzhVRpJpYonWhq6S0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![批量生成进度 11/16](/images/workbuddy-cases/case-80/06.png)
 
-![16 张表情动图全套](https://mmbiz.qpic.cn/mmbiz_gif/s516EMWvbRMbZmawnXUUck4je7EXz7iauxumAVprh20AppRN4PSH7ia3OiaSeOQoukFoV9ia1Wibtnf5GRIf6zibtVuEibFeHMGyKCWxxpoOfvJGnk/640?wx_fmt=gif&from=appmsg#imgIndex=7)
+![16 张表情动图全套](/images/workbuddy-cases/case-80/07.gif)
 
-![透明背景处理后的表情](https://mmbiz.qpic.cn/mmbiz_gif/s516EMWvbRPbJHoVAzI2CywOy2vRK7c8ny9USONcmNXuFxCNz3PrAiaTqRb4qcFM0SWRT1KISwEkjQbXw1LfOp3Llmhl3w6WRvLR77JHm6ia0/640?wx_fmt=gif&from=appmsg#imgIndex=23)
+![透明背景处理后的表情](/images/workbuddy-cases/case-80/08.gif)
 
-![配套素材自动排版](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPhj4lGibgvNeMgeeQUvktRShWFCntMxxeUdfNYDFNp7mCiay4hwectG0quTIhrGTYMzQef142B62XCypNaSA2HjaHl5oCIicpKQA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=39)
+![配套素材自动排版](/images/workbuddy-cases/case-80/09.png)
 
-![提交表情专辑页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMOibNZamRnrJjkgR0WicueNKy7JW3Qrg4yKzBDQAjL2VrhndBibosv6n0auTnXSZEwTHiccQtQlVGfUzmaRsVricoQ1fURNicoJzqHw/640?from=appmsg&watermark=1#imgIndex=40)
+![提交表情专辑页面](/images/workbuddy-cases/case-80/10.png)
 
-![上传表情实时预览](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN8fQfW5QYd1XfvyaHFUicH5xaYC8fRkibmh6CtDdsuYmYWB0yxRzzl9J8fjNRl0ufJiaVP69yaZSRLia8JxYdT9bRhVV3w7XgtEY0/640?from=appmsg&watermark=1#imgIndex=41)
+![上传表情实时预览](/images/workbuddy-cases/case-80/11.png)
 
-![填基本信息页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNUaMNa0x2m1MSqibWy4L3BbkH24ibNa3OhCGy08tdSLRHg1kiaKjFMtM9N3s6hp4VoGticJlYRWJQibe0aib9pjAibPsNiaEVnu5oyCaI/640?from=appmsg&watermark=1#imgIndex=42)
+![填基本信息页面](/images/workbuddy-cases/case-80/12.png)
 
-![提交审核页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNaqaGovN8BCAX6mCrgkGpr4CvOubCY88ccnDL0sfIw8U25CRpBtgfNnBazPNoNEYze1Sf3Dzs3M1CSOUevmHmg6LCy14g5ank/640?from=appmsg&watermark=1#imgIndex=43)
+![提交审核页面](/images/workbuddy-cases/case-80/13.png)
 
 ## 八、验收标准
 

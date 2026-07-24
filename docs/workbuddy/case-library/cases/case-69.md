@@ -77,19 +77,19 @@ SKILL 架构：每个 SKILL 是独立子包，包含 SKILL.md（业务说明书�
 
 ### 结果证明
 
-![微信开放公告](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPgnC66H88Zgzc9W8IicQr5ibH9hpY7D7LAoibR8CB49Nh5UlO1HhjD4XAKgahFUgJcE7zKxOg2XJxzXzs8XcbQenBpdA1yPeufCE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![微信开放公告](/images/workbuddy-cases/case-69/01.png)
 
-![直接问核心问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN7JicmJUDicLIacfHjbNqosWnPt2kuwpMwHicYFBQgmn459W0ETMDFhEibticYYDEcQ4ObFS5X5mfePhXk9A4rprQ2KHSYoWCBs1Ys/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![直接问核心问题](/images/workbuddy-cases/case-69/02.png)
 
-![你能做的事](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7MibJ2Wpv5oSK9faPgarib3GfauMUDEfzPmZCibicmeMDtyzSuD44GYqFfuqn9EQQUiayDzA8yPP8AiapNgJqSAd18eFQaNmMVic5rc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![你能做的事](/images/workbuddy-cases/case-69/03.png)
 
-![要操作清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPc8MiaZEfp1hZq9qOYpPzwzKl8uIptKQEZrrvTOXBayibvZuI2CnDepIroiaiaPIFr2P3vrQTej3fu0lrxx8JgN5exxicl6kzBtVicc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![要操作清单](/images/workbuddy-cases/case-69/04.png)
 
-![后台开自动模式](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPQyvLrv4AK1wMtMdibKS0ciaH2VjTEAibc4AQmGBWsWLcK57GroKLibAF5r0MAqndGBkEbEALnLDVxtsAc87TYKmewwC0s3hxXL34/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![后台开自动模式](/images/workbuddy-cases/case-69/05.png)
 
-![SKILL 架构](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO5ULv53LNhsGyGBibcCm5QmyKkfUSpMy1P422YTSZHTuC5gicTykTCUHYtC2CcBzYXBaBs6JVAwhvE3xp97jM2Iavvp5qO5q0vQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![SKILL 架构](/images/workbuddy-cases/case-69/06.png)
 
-![清单概览表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNIKK3wtxaSUuGcckiaicKnQa7zq5pHbAmQ6t4GdcH6iaqroZgZcAAL1Qdsia8WAS1cpibh7YqgbdW2hY1tMtZUiblkzkcsFljEwf6Ko/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![清单概览表](/images/workbuddy-cases/case-69/07.png)
 
 ## 八、验收标准
 

@@ -74,17 +74,17 @@
 
 ### 结果证明
 
-![社群提问截图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROwMlj2IKqvFXuiazQezn4rZRCggEROoIsXNC9OObHL9A7Yn6ZQ28SA3aMHeWshYHicc4icBsibj8EmXoDfsAcPDk30JJezWY7Ez58/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![社群提问截图](/images/workbuddy-cases/case-52/01.png)
 
-![社群回答多Agent功能](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNMo6tfJcvqhnOIpNquytHPJpDiaKXWVich9GG7t4LquUso2S1poqb3e4bS1qibh1HRbIGLUmwjokBicgSKFgN1hP4K0sK7g8zE9gI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![社群回答多Agent功能](/images/workbuddy-cases/case-52/02.png)
 
-![要求出教程加两个案例](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMTTLbgOADBV4K4A3icWdnDsHQJX3zXvCUppwfNjhtnuZvGTmPqHNj4sl0UN206w6O8Famj6ZMYqWTz9hKiaNxibbP96j2JEwB0a4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![要求出教程加两个案例](/images/workbuddy-cases/case-52/03.png)
 
-![并行子Agent同时工作截图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROyNAiaxRrgjic9l6gib9FgHQf1wo5Aia80PoeOiapB9RMB9H7YW7EOrFpejzNdZEdXQ7tIzaCURPncKI4EFzjicbTI8swetA95XtkTo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![并行子Agent同时工作截图](/images/workbuddy-cases/case-52/04.png)
 
-![Team模式创建团队截图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO86pmFtfkic9dzDfdkibmRvJqYJ68ktR05ChdTLZZSiclYapiaABQ5r7euibFgtN8icfcIvWA8caVdx2mWsOm5icPMRibibqtjSOyDhzKo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![Team模式创建团队截图](/images/workbuddy-cases/case-52/05.png)
 
-![三个角色并行调度状态表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN5RWaAgKarDcldLkiaiboXrq1UcwkdfWCNU5vv11aY0PmsuuHuYibwxYJTZgX84jdQy9EA52YznahpoNoAZxP5NzhriaOvRBicaLibo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![三个角色并行调度状态表](/images/workbuddy-cases/case-52/06.png)
 
 ## 八、验收标准
 

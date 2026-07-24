@@ -90,27 +90,27 @@
 
 ### 结果证明
 
-![WorkBuddy 多模态内容生成能力概览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNEfNiafcJl4SqWpM6WAKaXpBkRDCl01jHIiaPrvF2GGoV3wnf56eRuAhQsdTwO4b9bZ8XcicqcZzUq9iboK81VTwKnzPmMl74erc4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 多模态内容生成能力概览](/images/workbuddy-cases/case-44/01.png)
 
-![雪林火车测试视频生成成功约 90 秒 16MB](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROxcCV69NrRCLaIyfXL0Rmbt4j0JITicFVicjL1feibGZA6m7COeay47juyAOUtbRic7EeNPvHKEuHJ63ibw9nuxHSBWnIqK3wA0wPU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![雪林火车测试视频生成成功约 90 秒 16MB](/images/workbuddy-cases/case-44/02.png)
 
-![5 秒是模型硬性上限，不支持 30 秒](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNh2HmdqUCX8vLO0XAFtjuWNdYbNQGKrOAwr3JUVv9W8Uib7FpU7xFChPJDXWjCLWzGNtTGOGgZaIchPhVFzew6fmKFkaF9W4vc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![5 秒是模型硬性上限，不支持 30 秒](/images/workbuddy-cases/case-44/03.png)
 
-![底层模型是腾讯混元 Kling v2.6](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNxh4TzDsQ4N1Lst9hgSVt8U8ucxAyam5wqwGYpOBHrEib7Aj1Tc2EtF1HxeUumFE2dibRAq4cOObjJtqRiaMPvGRddxbG3YEXKFk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![底层模型是腾讯混元 Kling v2.6](/images/workbuddy-cases/case-44/04.png)
 
-![WorkBuddy 读源码查文档给各模型时长对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMdFmgoC6oCWFibuHeRicegVYia54tJQqqkiaxqibInQwiaZFoBzGG3dEADRrDjwHHUHrnYK8rSgRe6AbicdmVqIicMgddg2FECCyA9Ty8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![WorkBuddy 读源码查文档给各模型时长对比](/images/workbuddy-cases/case-44/05.png)
 
-![30 秒雪林火车无声视频拼接完成 74MB](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN2RnjtwT76RJkFznFsjmCsI6n2BiazRCpRcs5ibudO9oa33uZ9LxTzpaUBruaZPVbAnrXAiaso9WiciaXDoJLP5zHpl6h7JOWeuPZ4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![30 秒雪林火车无声视频拼接完成 74MB](/images/workbuddy-cases/case-44/06.png)
 
-![追问出处后 AI 改口：sound: "on" 可开启音频](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROs4NibA4m8icqibOs53Fhk5xMn8NcJ5KKwmFjwvwjmlAfXzgrVLRicia5QAPk4xCThKNtIial7JEjlW4X0v8E0hIU9xiccCmZBACq8Zo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![追问出处后 AI 改口：sound: "on" 可开启音频](/images/workbuddy-cases/case-44/07.png)
 
-![pro 模式 + sound on 参数详情](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMQH0y4BencxVvLMQFX5icw4ia1aXmJL5tWE1S0nl1lsTr7hPg7vIFNOOK9U0eOZiaBLwczLIIGj2gd1iaplD8FRtfs09udOmBVtq0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![pro 模式 + sound on 参数详情](/images/workbuddy-cases/case-44/08.png)
 
-![带声音脱口秀脚本与生成过程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROXxoVDToyxas9DjcKYXAx3lmzNnFn3hBMX8vBTqlic9wXpa7obevNXDRCe22WlqsXfuNaXoRs8MPPibyZP5c3pJ6mPEwjAUKLaA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![带声音脱口秀脚本与生成过程](/images/workbuddy-cases/case-44/09.png)
 
-![API 额度耗尽等待刷新](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMicxEeCr06z0CwxgnkNEIqGicR3fu7Zlibjm0b6c0nNRW7NezLw1iapxFzKs4kD7V89BFweWYzCCM3AVPF0yZA2JYcGWAoxscG3YY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![API 额度耗尽等待刷新](/images/workbuddy-cases/case-44/10.png)
 
-![最终 30 秒带声音脱口秀视频 28MB](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNQQAVYEzdZx3lVJfYqxrMiatSrTBRIEOKHEhe0akH88EQoVkQ4yGNLx7oaPTiaxtfpY8OIe9wR75PFp2tGNQTSvN7cgjafiaXXec/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14)
+![最终 30 秒带声音脱口秀视频 28MB](/images/workbuddy-cases/case-44/11.png)
 
 ### 各模型最长视频时长对比表
 

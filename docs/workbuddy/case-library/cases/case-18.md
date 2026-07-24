@@ -86,17 +86,17 @@ Ollama 正常运行后即可接入 WorkBuddy，接入后走本地模型，不扣
 
 ### 结果证明
 
-![ollama --version 安装验证](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPa2RshnUibibPE2w2Mml4msibicntbwoLr68zgYa6yeQuoGMoLs3UPzwctUkq8iakcfaWetYcjEoZ7yPAB8p8aCzOFWaia6B3Tnn7F4/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![ollama --version 安装验证](/images/workbuddy-cases/case-18/01.png)
 
-![下载并运行 Gemma 4 2B 版本](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNItwADlbU6AlEgY7vLliaUB1sibXuUic499YmgSMkLvvksbaEmAlPo4jmN4Fh03XFsN6OFHG8mjJJhbTncQr0G94FWmetj4FRTw0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![下载并运行 Gemma 4 2B 版本](/images/workbuddy-cases/case-18/02.png)
 
-![Ollama 服务启动成功](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNicYJickicnXyvvBy6aok0BhQiarHX5y60Vtn56tF4c3dDCsQicMTmYQ2COQQT9nic8Ptkjz47gRbx81IA67Mcd10zkUib3AHUj7icN6Y/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Ollama 服务启动成功](/images/workbuddy-cases/case-18/03.png)
 
-![WorkBuddy 设置页面自定义模型入口](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNg1RG1QKcBst2sEicZTPClbQ55MB122eqvMdlNZvicGoW3MSdAhyeuNeyyO2pJkQcicAGCqibGM30IcqWWzqhoSTmq9fPhkL4yibF8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![WorkBuddy 设置页面自定义模型入口](/images/workbuddy-cases/case-18/04.png)
 
-![添加模型配置信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNWSoEDWq5PJmxGNFTGkA8ewvjvUeb7RvgDric6n370wHyWbF7cjnYARDc6cewb8ZXhiaVjLohaQMYOj51NYFibdtc4BF4nZhdj5M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![添加模型配置信息](/images/workbuddy-cases/case-18/05.png)
 
-![WorkBuddy 中切换 Gemma 4 测试对话](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNiaXJic9FGCL5cmbI5T5o0HXzA7iccYCRhxw6rtD1lGdxicUIJFHnSSXY8oNBXfSibCs5ia3jPZ7ib8utLPHU6S37tBQiaqwPJnWtW1yQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![WorkBuddy 中切换 Gemma 4 测试对话](/images/workbuddy-cases/case-18/06.png)
 
 ### Gemma 4 模型规格对照
 

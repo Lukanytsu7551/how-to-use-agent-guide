@@ -71,27 +71,27 @@ WorkBuddy 把数据生成 HTML 报告，KPI 卡片、TOP 榜单、月度趋势�
 
 ### 结果证明
 
-![触发统计需求](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMJ0ka4czgEGkLPFZBc5AOzEgo3bvy4LhkqtXAvKsdGZJbww1wiaeGmGKuJtK2sq8zc6q8X92Gia1KFYNG1u7CRDQ5sldZIohDiaU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![触发统计需求](/images/workbuddy-cases/case-87/01.png)
 
-![三种数据来源方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROekIBiaoS2f9NXQl3A0LTToxz80MoicetUK0jGtlwzQfbSj4b9cMjd2CgibHWzmSyu07QpmOaHB950foBIehJ6srVYmyLtSe0Ee8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![三种数据来源方案](/images/workbuddy-cases/case-87/02.png)
 
-![弹出 Chromium 扫码登录](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPpJ8NibVl0XyhVoibEPyyqYqJcaVAIDiaPViaaM8MlrFj6AyfpatVwJqHKjs4ubWDaQbYpM4fM1XicYQe4D9ljSdUIHAWd0zpFCdRg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![弹出 Chromium 扫码登录](/images/workbuddy-cases/case-87/03.png)
 
-![自动翻页爬 194 条记录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP7nU3kzPga5ibQNPVs8Q4BVaWQz9rOzjPQrWLCIViaLk5HWAiaEP6Cnjnc1QFoia8KB6TI9NF0wuVBYDRLAianUkqSQNK44AE9r3C0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![自动翻页爬 194 条记录](/images/workbuddy-cases/case-87/04.png)
 
-![核心数据速览表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMrz3tTSu1k7LDEtMz6xPmhavh9Ahs98ITZX3Lf8vxBsUQPApDSv5YnyaPFUJGtVcib9d1NDbianV7aibkRYKCnd3nibZB2oIPKRkE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![核心数据速览表](/images/workbuddy-cases/case-87/05.png)
 
-![TOP 10 阅读量条形图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN0JxcwI4PxBkvfibUMKagnribTFJ1s7ZraOI2gRpZ309opaDnQEt8lO5D4qZjthH4ib9aupsXcs817CBzUhl6u9VsDsN9N3a0o9U/640?wx_fmt=png&watermark=1#imgIndex=5)
+![TOP 10 阅读量条形图](/images/workbuddy-cases/case-87/06.png)
 
-![月度阅读趋势图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMicrSZyicsSI7Z1pqTZshfHpqweUaKcmGK1ErtYXyia0Jq8PFr8IURXk2410CUSQKLmedQMSpSnpeicZoqGibtQ8kd0aTbbwUxvrxM/640?wx_fmt=png&watermark=1#imgIndex=6)
+![月度阅读趋势图](/images/workbuddy-cases/case-87/07.png)
 
-![阅读量分布饼图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROKQAXuKyN5e242SgwcPdsRsbMqbqaP9xHu6fMfWhLmWkppNhUvuIS7TmNUiaVlMh6m9lUghr1FnLibPbI2bVVRRYAHK0CarjTgw/640?wx_fmt=png&watermark=1#imgIndex=7)
+![阅读量分布饼图](/images/workbuddy-cases/case-87/08.png)
 
-![封装成 Skill 介绍](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPibwpiavtdzZRxWdH66iaHNoXJXkEhkB12tTLMia6g6ePWImWZ1XRfHMQxqTP6GacxEjWubCLDCHzSibvJuRNezozJwpMOOo4QRzyo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![封装成 Skill 介绍](/images/workbuddy-cases/case-87/09.png)
 
-![一句话触发已封装 Skill](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM2ePHYyocT2CNo54bYPXE2Y3AcJFMfZAxZiaCdeOLG4omHiau7sALhbd98jys85u1FUiaFJla4X9FcLmlL5g9kW88icpXiaibKGD5mU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![一句话触发已封装 Skill](/images/workbuddy-cases/case-87/10.png)
 
-![HTML 可视化报告暖调编辑风格](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMiaM7icL0KKgNUI6kVa5rx2NDKuTPDhUdLfPuTog3macAMQLGNKFpglP8mwfG0ehvtQkGzmNqU2GlEyDvZquzQHsLLACkas7yd8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![HTML 可视化报告暖调编辑风格](/images/workbuddy-cases/case-87/11.png)
 
 ## 八、验收标准
 

@@ -64,15 +64,15 @@ WorkBuddy 自动设了三套逻辑自洽的假设：Base Case（CAGR 25%，WACC 
 
 ### 结果证明
 
-![金融服务指令](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM7EsrW410hIH0czcrrKkB6iaicaHHpHCqNwdc0r7UATflOGIKFichbhvKCJq5KFBsBVbVskWsv52RRWvNdg5ZwQQNtto4WgThKPQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![金融服务指令](/images/workbuddy-cases/case-66/01.png)
 
-![三情景框架表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROQq9FZpb8IEySaLfDYYMicaibdjZjM2GlQtwnQrwo13k9ibDPc18wgocYIKtFI85y4EcpARoHDUNh9P23DzMtBZvqlScEicZrdD6A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![三情景框架表](/images/workbuddy-cases/case-66/02.png)
 
-![WACC 计算与敏感性分析](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPIVicSs62ujDPRQtjnibuSY0xTN188dibiaIbKeC35FdnKkk0PcEibfu7ZJGIgatY48W39RbKD0VrbWWsic4HE04XeqQpzUaHTd9acw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![WACC 计算与敏感性分析](/images/workbuddy-cases/case-66/03.png)
 
-![DCF Sheet](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROVuic2xJ9HJ5ePHCJWVqg4AaUicliaQGaWKBagzTCsibOlcNtq7oib2QICMyK3w1mzV9co9iccTOib3hKyKBEJr9LKxAibBDzGNtcx1kU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![DCF Sheet](/images/workbuddy-cases/case-66/04.png)
 
-![WACC Sheet](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMpXhXDqHPsCWb0h5vVdhrgr94wqaSTkrXW3Ce59LiberO9q5AAayedpahqw1lVHtuCKb5bnfFTMXk1jhibr9ZAjWJHHyhfykOe8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![WACC Sheet](/images/workbuddy-cases/case-66/05.png)
 
 ## 八、验收标准
 

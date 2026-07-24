@@ -80,13 +80,13 @@ Bug 修完后生成一张公众号封面图："微信公众号封面图，极简
 
 ### 结果证明
 
-![默认生图带"图片由 AI 生成"水印](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPRKPzXBYUua50nzZZRueBmLrpTeIQUDDQT5UHXwNoqFDAWKPibRwzqeTvmbb4IzicxicQqDfE3oHQTx7oU0stGxE5aOjPKibXNgTU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![默认生图带"图片由 AI 生成"水印](/images/workbuddy-cases/case-38/01.png)
 
-![封装好的 Skill 目录结构（SKILL.md + scripts/hunyuan_nowm.py）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPGJ6WqgiaYBltHC1nenQ7mIFaBCd8o5QbgQHp9MFR9gO3yiaRoatBPe42DLfoOtCUGoiaOWjuPwHIR2b8gZrYocVEhfhZ46icSDCc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![封装好的 Skill 目录结构（SKILL.md + scripts/hunyuan_nowm.py）](/images/workbuddy-cases/case-38/02.png)
 
-![无水印公众号封面图（极简科技风）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNKYUq7Xpymh75NAOQic3fU7RgsraiboNRlhtLa9cm0RLWPYY7l9fqsiaSJlETFQBAy1apRRSm9Lv5uAx4tD5JvKj5lWeWaZP85pM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![无水印公众号封面图（极简科技风）](/images/workbuddy-cases/case-38/03.png)
 
-![5 种风格无水印生图测试（30 秒完成）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNCmOq1LdC9k6m4p05gibqandbVoELiaoel5jfyfycNJe5DkeiaSt5sEbptxBkDbWEb1IZSeiaoGvauHcxicC9FXaORrEdMN66EABCo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![5 种风格无水印生图测试（30 秒完成）](/images/workbuddy-cases/case-38/04.png)
 
 ### 系统内置 ImageGen vs 无水印 Skill 对比
 

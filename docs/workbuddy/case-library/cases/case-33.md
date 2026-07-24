@@ -77,17 +77,17 @@ WorkBuddy 同时给出决策建议：适合开启 Proxied 的情况（服务器�
 
 ### 结果证明
 
-![火山引擎备案不合格短信提醒](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNwRSlLr0ia5jg1ocS8TpcJSDDBgoEor8r1clIJNaibWzzXBOk6bpE26QWkeHJG1rIJ2CBsmyYSkicIERzia939ZWNXkpgkJRtzmAk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![火山引擎备案不合格短信提醒](/images/workbuddy-cases/case-33/01.png)
 
-![ping yaniw.com 返回海外 IP 172.67.180.114](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMgHo1O5icXw9ibDF99iagUeIGq5mFMDlqG32Ft14ZiavLGbDTwXWzHflHzu36YypcTlM5cl9pEwJI8psAzjUpAYMdDU7k2oGKKPMM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![ping yaniw.com 返回海外 IP 172.67.180.114](/images/workbuddy-cases/case-33/02.png)
 
-![WorkBuddy 分析截图并画出流量路径图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROicXGRdF2hpJUjjUo5a3kR7WVzHF2dcO8BL16ItwOq4IhEkzQN2ygSIG3Y4U4onbXwqLAQdb0ibwtS0fTSbt92YlXz4Aj9MZHtA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![WorkBuddy 分析截图并画出流量路径图](/images/workbuddy-cases/case-33/03.png)
 
-![修改前 Proxied 橙色云朵状态](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRONuuIc5AKn3ACYo97kHwicnibL5miaCMyLlyr88ydzHCXPN0dTD4ovDG5ePtqeJltIyzjib3RtX4zYlejxCxFa7j7KcvL58icPgiaSU/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![修改前 Proxied 橙色云朵状态](/images/workbuddy-cases/case-33/04.png)
 
-![修改后 DNS only 灰色云朵状态](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNdO9tdu1YC6CZTfJMsFibZGhKSNVftwsXhOFxvIx6vobJMgR6czMT1F6t7mgbQSgqJ41DnNAkiaibTbGN1icrcjicRHg9auWbZdm9k/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![修改后 DNS only 灰色云朵状态](/images/workbuddy-cases/case-33/05.png)
 
-![修复后 ping yaniw.com 返回 115.xx.xx.xx 真实服务器 IP](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMD3WjGEiaJg9eDOdAvzTEyXydX9NYbib55660hRficB8iaHibBjVM5Am11GV4lZllWpUtx3DMRVRr25yEFhGXt6m7BMrTy9YZib28xI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![修复后 ping yaniw.com 返回 115.xx.xx.xx 真实服务器 IP](/images/workbuddy-cases/case-33/06.png)
 
 ### 效率对比
 

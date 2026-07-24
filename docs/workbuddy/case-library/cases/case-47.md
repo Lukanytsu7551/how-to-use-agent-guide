@@ -90,19 +90,19 @@ WorkBuddy 把色调数据化了：主色 #E8A954（暖金色）、辅色 #4A7C59
 
 ### 结果证明
 
-![专家中心搜索视频解剖专家团](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMEk55zkjibrBIsWoia2icKxSicVBxo9xa6uvmhzhykr86PgJoHgib4BL8U8rLeNj2OjrJeByiaukwO4yXrJicSn81lhS9lg5xOKsf7zk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![专家中心搜索视频解剖专家团](/images/workbuddy-cases/case-47/01.png)
 
-![发送抖音链接，WorkBuddy 开始建立任务团队](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRND8XFV0wC1F002X3nE2hPPmPHwXQTr455ibvn0XApRjY4exFJ27T3AvVMNUBI2l60iaQSPcoHXZ7iccqSWdxrURUUH79icDo6DSZ8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![发送抖音链接，WorkBuddy 开始建立任务团队](/images/workbuddy-cases/case-47/02.png)
 
-![视频封面：吉卜力风格治愈系动画](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMbxs5O7Klu0SIicSeIxw8vB0MmcUCEzeFzm5X9xXBJ3IAmJmxQ28JVsjibCfP1Y7ntk3VjibWictdz5wFMEKz6m51vUtJbsyvqz9Y/640?wx_fmt=jpeg&watermark=1#imgIndex=2)
+![视频封面：吉卜力风格治愈系动画](/images/workbuddy-cases/case-47/03.jpg)
 
-![开场：红色锅具特写，手部入画](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRM7e2XibOfqKBqESsOtbic2icny9OJj5AMvMcL6ZsiaClOsLteMMcLVx33WlKVUjiaShJj5X29leSKAbwYKmzBWARInoXgphcuauw7I/640?wx_fmt=jpeg&watermark=1#imgIndex=3)
+![开场：红色锅具特写，手部入画](/images/workbuddy-cases/case-47/04.jpg)
 
-![蔬菜放入锅中](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbROaCIYZicvXcCOV1FQ9SG5sKRvVkbWHCG6Mzq5RARicicTibNlkt6ia2Ijic68et7xcUH03SryuuW2I3oyy98zyRfNqDIDvb27Dqalls/640?wx_fmt=jpeg&watermark=1#imgIndex=4)
+![蔬菜放入锅中](/images/workbuddy-cases/case-47/05.jpg)
 
-![水沸腾，蒸汽升腾](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPxhoeElJd1pcBTr8ZerE8fgZccLBpBsHuI0WnGIOAHfffZ9fNljTNuRjjAyuKgGHMz5FTkWOYk3qMXEtvFsmjWtw3Ux4JIOUk/640?wx_fmt=jpeg&watermark=1#imgIndex=5)
+![水沸腾，蒸汽升腾](/images/workbuddy-cases/case-47/06.jpg)
 
-![最终成品，热气腾腾](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMVl0cDeZq4dvtELESyxWQ6dWb67YMK9icdbWEEAX9zBNveAykU0ecWIaPcg9l0MCAyE6C5zmqWLy6MfFKDSuLRKVGznfNUiaTBA/640?wx_fmt=jpeg&watermark=1#imgIndex=6)
+![最终成品，热气腾腾](/images/workbuddy-cases/case-47/07.jpg)
 
 ### 景别量化统计表
 

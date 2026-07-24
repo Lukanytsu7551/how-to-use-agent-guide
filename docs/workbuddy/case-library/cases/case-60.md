@@ -80,11 +80,11 @@ WorkBuddy 的 Education 技能被自动触发，输出了涵盖四阶段的完�
 
 ### 结果证明
 
-![灵感库入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNMGDyVtaRaeGhMp8opqn9jH0XHBrs1pthlphNjFhwsjXdrfaBOB0Np0sUMC9RQqNuAEJBAiaJaesG3FlF3DLEg2lSf91Scj52I/640?wx_fmt=png&watermark=1#imgIndex=0)
+![灵感库入口](/images/workbuddy-cases/case-60/01.png)
 
-![Python零基础学习路径场景](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNTmqxNzF0u123WicEIVFicrVZxq0qSL3nZ2DicibrrcbDEzsl2ZRGNXSzB4Kv1ibzyiaI8Qhl8jju778sqQUZPlQOFxE2wOGL1bW4Zw/640?wx_fmt=png&watermark=1#imgIndex=1)
+![Python零基础学习路径场景](/images/workbuddy-cases/case-60/02.png)
 
-![一句话生成HTML并部署](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM2JtMcviayUxaHpTkkDlVJ9I3BlT9bT9tMPPBeBy14wXHfJnj6Oe6YrzIbL8iahKH4SD5qQPg87OBQG5xOJLich6PamOia47pmfGI/640?wx_fmt=png&watermark=1#imgIndex=2)
+![一句话生成HTML并部署](/images/workbuddy-cases/case-60/03.png)
 
 ## 八、验收标准
 

@@ -77,21 +77,21 @@ WorkBuddy 在给建议的同时特别提醒：色盲色弱限制（生物类专�
 
 ### 结果证明
 
-![专家面板搜索高考找到专家](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROXz8V9GeIrJUuGH1I7f4voicbJD6axGSoaAplk2kFCbhib3UrLkITXKpt1icGDRgMMTAVuVEaQVbCYQGH4ic42vLpqia6pMKOHViacg/640?wx_fmt=png&watermark=1#imgIndex=0)
+![专家面板搜索高考找到专家](/images/workbuddy-cases/case-73/01.png)
 
-![高考我帮你专家能力介绍](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN4nuO7GTNRf6G28KAZIAWXd0Hq6zw5oNz9EyR72HgicY23icFVvSTDpITvyTft4KibFWUkuykRfCFeyp80wCiaTc4VUqNdzfyAdcQ/640?wx_fmt=png&watermark=1#imgIndex=1)
+![高考我帮你专家能力介绍](/images/workbuddy-cases/case-73/02.png)
 
-![我想报志愿能帮我一步步梳理吗](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMlF1326Zj5TiaL4nKlOSR1ugxTyibicicodicib6TtUC8483Sr6hGZHmJvdPLAUQDL5tic04xaa5qqxjcYk6LibvyRiaRLtHU2nHH2PT2E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![我想报志愿能帮我一步步梳理吗](/images/workbuddy-cases/case-73/03.png)
 
-![生物专业选科要求汇总表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROfe9a1gL0xGrdjaicUNpu5miaMCz2dRXHwc08ibEFT7VduIVZnZt2YoXWek4QEHy0owicT0fHqbGnZvzCa5xYprZpKJqXLgWeR5OA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![生物专业选科要求汇总表](/images/workbuddy-cases/case-73/04.png)
 
-![成绩定位与批次线](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNPKdXL0SSX2MgJ37Zoc5mja4WDWF6Yp866ERKSBXSib2QghNloVjW1tKtmQG3O5k6dpibKNGMEAPyBGt191d06JcSQibXqy4SG3s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![成绩定位与批次线](/images/workbuddy-cases/case-73/05.png)
 
-![分档推荐方案表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPVCdLv3vTeulUOZqiaO4iccZOibEHsYaCmNyIko0RtNmrgF48ZW5RV1yCkDRhKLJEHYK9M0lfia3DysTcfpNIlwDkTzZBiaAPibYvGg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![分档推荐方案表](/images/workbuddy-cases/case-73/06.png)
 
-![风险提醒与注意事项](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMUA2uWicdWPRtFx6eKcTgcWntWEUVrsvfibfCD6B2UgZ676jxHoiaK7gqtywJDAq0fC6CPB1IdRfNGXPqJkEJXCgxCcGIcRcsGk0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![风险提醒与注意事项](/images/workbuddy-cases/case-73/07.png)
 
-![最终报考建议方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNuzGG3icCRhKUonQIlv7bOZveMarrIPLY6kWUiaicztBInAfD6oO7diaYkqrzgMayhlUpmYThWia3R1eiadkvia5ic4RB8B3NCdfBCaN4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![最终报考建议方案](/images/workbuddy-cases/case-73/08.png)
 
 ## 八、验收标准
 

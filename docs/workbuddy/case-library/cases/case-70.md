@@ -69,15 +69,15 @@
 
 ### 结果证明
 
-![瑞幸 MCP 官网](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMmGD1K61X5kd5icfAtthyQSibPX0ueF7D36I2eMgstaX8VQPU5WnhU6XuyC8FaSXBryQJ1b867D3Fa3lNuogKHZg4Q5ia6sPrDRM/640?from=appmsg&watermark=1#imgIndex=0)
+![瑞幸 MCP 官网](/images/workbuddy-cases/case-70/01.png)
 
-![手机号验证码登录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROq6laHATEibbCehfcCF1LHujVxoUgMc3mwBGAfcialunxAM1oeAMgFkTe1tDbf3G59KLyW1zhQAcff6cNET7m4fy0cAjulP6Vnk/640?from=appmsg&watermark=1#imgIndex=1)
+![手机号验证码登录](/images/workbuddy-cases/case-70/02.png)
 
-![AI控制台创建 Token](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMMoo9HlBQ1Lic2WuUXHTeyR2DSmuUuFQKDEBjD5HMnwqSrGLicIQ9ZIdSPCzp8hgmqhSzXoFXYuAKN4RoTOgJTGbibuW1hEtWibzA/640?from=appmsg&watermark=1#imgIndex=2)
+![AI控制台创建 Token](/images/workbuddy-cases/case-70/03.png)
 
-![复制 MCP 配置 JSON](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROPibibDrXZZCDvuBcFCW7fvsyGjCnecEHVzcjnzwicuxQ48MtT9FrjEFnak7AZ7ruT7tWG0LdNU8T8Cj9kImDbEjRVlHV3K8Y50A/640?from=appmsg&watermark=1#imgIndex=3)
+![复制 MCP 配置 JSON](/images/workbuddy-cases/case-70/04.png)
 
-![信任 my-coffee 服务](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROWmnJOdj84Emia9L3uwUl5ILfnYfeZKibAFH7bonUpxEnU0XR1icibc31Y8m3VgRxnnsVhLvhs7g4kC17ZK9K9Gl3picUhKiceEra1c/640?from=appmsg&watermark=1#imgIndex=4)
+![信任 my-coffee 服务](/images/workbuddy-cases/case-70/05.png)
 
 ## 八、验收标准
 

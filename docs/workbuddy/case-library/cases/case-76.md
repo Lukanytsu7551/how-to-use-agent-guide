@@ -70,19 +70,19 @@
 
 ### 结果证明
 
-![乐享与 IMA 知识库对比图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMqWR6kiciaEaAoPw4BjmhbAcCZod48zkG3DcP2Jf7y19P8dX5cd2A7nxGHNqcL3jQaZZF3Jxia3UwcibFZO0ic9L8u5RiatibDIpqVd8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![乐享与 IMA 知识库对比图](/images/workbuddy-cases/case-76/01.png)
 
-![两个产品定位对比详情](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMjU5YnAD2UcRYH0SBtUm1g1JibzNp1LICPFtz23dbTmhV3YZy923TibnPtWgJOZUQvzeluDkMGHuhj9MwRBy7XI6BkEcy0ibNFZ4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![两个产品定位对比详情](/images/workbuddy-cases/case-76/02.png)
 
-![IMA 可直接放微信群乐享不行](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN8STD38AwlibQvfiah1YOKDsribuQMPGoTUq1bTq3y2RwnOEhmntsmibrHSibJ8QQMx5UUK4ia4ZwryFxCLuBQ0DJYX2dlXwZz5UZGw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![IMA 可直接放微信群乐享不行](/images/workbuddy-cases/case-76/03.png)
 
-![IMA 权限设置整体流程图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP89W6AL8PsTlKDjD5XQvl6ORXqNM3kFUf2MwMl4KdpvDwTjeGDrJQNNn0Mz2eg8D1IZSjnHcj5xV8YGhzTBa0eTXfwudiaHjeg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![IMA 权限设置整体流程图](/images/workbuddy-cases/case-76/04.png)
 
-![创建知识库与权限设置指南](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMb1BZ9g1iaRUNEnoXCxKqnE7CoUyYj1BGnhQGhEGtw6icAxOTUeMm42ou4sDhcq5mqXLIJlEiauPGNygJ8OpeaDuoiagZXTkaW0icM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![创建知识库与权限设置指南](/images/workbuddy-cases/case-76/05.png)
 
-![当前权限状态查询结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM2ibPdrRFZT3s4uXGykP6XHvKUI9AVM4zx1gtghLgU33ibKzPiatzGUMSO0icZp5d0wqLzYwfHgiccOq84otzHJibAc6UjW8OMCmqqE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![当前权限状态查询结果](/images/workbuddy-cases/case-76/06.png)
 
-![防泄露改为仅邀请操作指引](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNvbKxp9ib1m8mb9iaLYghLo5LODMcGXnQrMrhEeE9ib9TWzooG4EKTpibyfvoia6ERH0FKP5lcnGawl9Z8A73KicxVAEJsnibA76I2V8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![防泄露改为仅邀请操作指引](/images/workbuddy-cases/case-76/07.png)
 
 ## 八、验收标准
 

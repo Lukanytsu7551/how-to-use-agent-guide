@@ -65,11 +65,11 @@
 
 ### 结果证明
 
-![火山引擎控制台 Seedance 模型列表](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRO2cwHbC8ib2tl1ibod1k6F3ibrQoIlg1tLroNOux6xwxmq8dePbz0GLh7ticCnOLJKC3lqCKkQB3YnFfw9HwvQ46mzzQ3tWS8dJQQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![火山引擎控制台 Seedance 模型列表](/images/workbuddy-cases/case-15/01.jpg)
 
-![购买咨询对话确认充值规则](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPC4jogMKRZF3UicqFno2cjeSxMf8nwoGTtjKSXbZxia9847zwupQeRKAYCK1As5exeOaWIr3YicicMy5yibKFOUjTNG0ia55IpoRGuk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![购买咨询对话确认充值规则](/images/workbuddy-cases/case-15/02.png)
 
-![使用豆包 Seedance 1.5 Pro 官方 API 创建图生视频任务](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROxtmnuoyKWQYxGIEUGh5YFfdeVcRTP3iaLCbd3a7gMkMGEpt6zWdibUib3ic7JAkPMhuYu2ahPZAPRdT4yZCdcQCzTdG1JMzAccPc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![使用豆包 Seedance 1.5 Pro 官方 API 创建图生视频任务](/images/workbuddy-cases/case-15/03.png)
 
 ### 任务状态流转日志
 

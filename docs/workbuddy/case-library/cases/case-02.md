@@ -73,23 +73,23 @@ WorkBuddy 自动执行以下调整：
 
 **修改前：三张图背景不统一（1 白 2 深）**
 
-![修改前配图背景不统一](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNNFX2oVncQE6oSU6NwheBXZ4yQJD4d4weqNFlZjQf8bFKnbz7ib7otEx2FJNkOyJrxA9A2He7YMvKOibcGIy1XA5rvPIPvh8pA0/640?wx_fmt=png&watermark=1#imgIndex=0)
+![修改前配图背景不统一](/images/workbuddy-cases/case-02/01.png)
 
-![修改前深色背景配图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNYzMELKPM4bicLxpiaHulHEdCo9SvNU4NRFH5f8p26eeR8Zmr9F2XLfKMKH6e8y3J0CtQs4ZBEd48E2X02UHAzz1Z0Slkj8IjCc/640?wx_fmt=png&watermark=1#imgIndex=1)
+![修改前深色背景配图](/images/workbuddy-cases/case-02/02.png)
 
-![修改前模式对比图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPaYA4PEDjpX56dZRawwxaa23cFOMT7VoLULXHFIuKpIOjdNoZ0wuibiaJbcNjLfLtLRcvX67SLH3fdW1aicKlnQb8ibx1whvmbY60/640?wx_fmt=png&watermark=1#imgIndex=2)
+![修改前模式对比图](/images/workbuddy-cases/case-02/03.png)
 
 **WorkBuddy 修改对话过程**
 
-![WorkBuddy修改对话过程](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNJYABSp7AyebloM3qpC4PVxRhLUxXAhqPkBYXpnm2CpyURy9mSLdYnMic1lhRQf6VgZAYvN8L33c1LWzibbR0licweSN8Rbfb8Bk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![WorkBuddy修改对话过程](/images/workbuddy-cases/case-02/04.png)
 
 **修改后：三张图背景统一为深色**
 
-![修改后配图背景统一](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPCMsllmnll2P1wXopNjDuFIPKrtkKuJicGAjdq4DkekmnAVmgMnuT9zqTR4eyZPQ9gq7dE2xScZREpy2eSjDqKnhtrNNnLtHy0/640?wx_fmt=png&watermark=1#imgIndex=4)
+![修改后配图背景统一](/images/workbuddy-cases/case-02/05.png)
 
-![修改后工具泛滥图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNYzMELKPM4bicLxpiaHulHEdCo9SvNU4NRFH5f8p26eeR8Zmr9F2XLfKMKH6e8y3J0CtQs4ZBEd48E2X02UHAzz1Z0Slkj8IjCc/640?wx_fmt=png&watermark=1#imgIndex=5)
+![修改后工具泛滥图](/images/workbuddy-cases/case-02/06.png)
 
-![修改后模式对比图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPaYA4PEDjpX56dZRawwxaa23cFOMT7VoLULXHFIuKpIOjdNoZ0wuibiaJbcNjLfLtLRcvX67SLH3fdW1aicKlnQb8ibx1whvmbY60/640?wx_fmt=png&watermark=1#imgIndex=6)
+![修改后模式对比图](/images/workbuddy-cases/case-02/07.png)
 
 ### 时间对比
 

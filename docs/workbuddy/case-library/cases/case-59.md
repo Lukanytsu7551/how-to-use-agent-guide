@@ -86,21 +86,21 @@ AI 确认了想法——嘉实超短债C的赎回到账是 T+1，如果突然需
 
 ### 结果证明
 
-![第一版含股票方案](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNZWibM06Ifiaic9JsqcjgUUlLc2wibdIqJZUcV9TpayDLFT1lbTiaGDkAKCFPWcwibHug8DUuLpWD7VQYujPqibalEKfzA8zFAQcbDRc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![第一版含股票方案](/images/workbuddy-cases/case-59/01.jpg)
 
-![纯固收无股票配置方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPArLZOLtnl1HALcWaSlrXdS7aVoNDlJsj7crO9Vwzgq02RfCKicbGhtADHYhFF0qKnsoWvBZiaF4cIcP5sV3ROricQYzVo8XeT70/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![纯固收无股票配置方案](/images/workbuddy-cases/case-59/02.png)
 
-![彻底隔离股票方案](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNh2iaPW2jOqpLtxrF6RAlzLNVXE5AiaaruePKCfD0e0KJudtoiagM9T3B27HSsbscglvR6iayIzVXtfiamEJZyw9gV6rvLZbJUqQJc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+![彻底隔离股票方案](/images/workbuddy-cases/case-59/03.jpg)
 
-![短债基金和纯债基金推荐](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMlS8tajicsXjk4vGJUtqLNGxiaFKFHvQiaxGciakP78e4KHeOQDc4xfPpUvyuYAgia03XskLLHG7DnsfBp0tzO7jUz2quOrb7hKC3c/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3)
+![短债基金和纯债基金推荐](/images/workbuddy-cases/case-59/04.jpg)
 
-![确认去掉货币基金全买短债](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNtIjAVX7C50PxjSR3bL3yKUsOBho9m8oeQEK1QlN8VapyU3hXyTc7ZEVPlERiacXqWEcibHkzLRzjibykuqicicQgZY1xfHvicfJ4nI/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+![确认去掉货币基金全买短债](/images/workbuddy-cases/case-59/05.jpg)
 
-![最终两只基金方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROs7YZTbemAXclmkw8HopOwia3p80jZdpyf9g9GVIvEf5FlB3tzOjCVElJPQEoriaibwvad6vibst4MWrSlMYvMr3g0WaCebbDDVEs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![最终两只基金方案](/images/workbuddy-cases/case-59/06.png)
 
-![支付宝下单完成交易记录](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNzNPZ39AdRWAMPib51zFLMkKsRsBARIOwkpRp03EJB6yJ9QGfXDyOyKicuq0xrTQWfK0Pcb8IRyYTkAbvmicctQ2A1Ij5Wsq2aTY/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=6)
+![支付宝下单完成交易记录](/images/workbuddy-cases/case-59/07.jpg)
 
-![持有期间建议](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRN2M58icGaib7gmljmdYNSgV43hXmo4uUT22qp3mc7helZlf9qwtd0JpM4ibEzTQRVZfdL9zEZxgypRrFpqtXoYX20PSIdaX2syPU/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=7)
+![持有期间建议](/images/workbuddy-cases/case-59/08.jpg)
 
 ## 八、验收标准
 

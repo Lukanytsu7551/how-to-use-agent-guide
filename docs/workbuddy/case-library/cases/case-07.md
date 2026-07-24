@@ -88,43 +88,43 @@
 
 **定时任务对话（发现问题）**
 
-![定时任务对话发现推送结果丢失](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPZIwibKADtLibicbicmqmO0xU8XK9PN07w0HRoIYJLGe5HcHoe2RB2JIrGpWlnxzgVLA1YyD0rdSrcT0KeO8jgJKaX9t4ETK57bV4/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![定时任务对话发现推送结果丢失](/images/workbuddy-cases/case-07/01.jpg)
 
 **WorkBuddy 设计邮件收发 Skill**
 
-![WorkBuddy设计邮件收发Skill功能表格](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM8zvlezmKpg5wgz5OYQnLH4wAD1nNCK2sgWibzXicgzmIdlSsI69stFSnBXicYNRNibYyc4aLYibeickLiaDPU0ZTtYmPrPBMo10haxk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy设计邮件收发Skill功能表格](/images/workbuddy-cases/case-07/02.png)
 
 **第 1 步：进入 126 邮箱设置**
 
-![126邮箱设置入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO3YqOrOaIJQ6GWqdjiaT1fqfIsvFNsofyMia4rOyl7pMy7H96w2SppvNlUZCxAic7QefPMsPVu0yIhpHicq4Fz1woDmzKb4pswyHs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![126邮箱设置入口](/images/workbuddy-cases/case-07/03.png)
 
 **第 2 步：选择 POP3/SMTP/IMAP**
 
-![126邮箱设置选择POP3SMTPIMAP](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPWrTyOxxtngIaGfgoCjjiaExQNpnUyFBicxhwKNMlqeWb0yPHQ3u8yn1jvDRQcmu1rxgQKibsDMeWDBhYS7VaicktChEgqPZgXIaE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![126邮箱设置选择POP3SMTPIMAP](/images/workbuddy-cases/case-07/04.png)
 
 **第 3 步：开启 IMAP/SMTP 服务**
 
-![126邮箱开启IMAPSMTP服务](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN8TJL3yrRLI5mQRpeMMt5gS4xD4icWEqqFzmWvBNVH6VWUIViaJDGVfOXfocRJJRtBq78prN8HcHZic8G349vCjJva8VJhvSONN8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![126邮箱开启IMAPSMTP服务](/images/workbuddy-cases/case-07/05.png)
 
 **第 4 步：安全验证继续开启**
 
-![安全验证点击继续开启](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMZnnsHgqeicibCZV1kjBDcB72z0gUYsc0dAXIk7lPxOlHbnc4BASMe9oxLlGcJLm7acU7LicKVE7hibbYTh2NklQcFKBIwHUSoHK8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![安全验证点击继续开启](/images/workbuddy-cases/case-07/06.png)
 
 **第 5 步：手机短信验证**
 
-![手机短信验证输入验证码](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP42GR78v5vz2ic6P3kKoI0BXDS18jTjbiaUJkPTK1cKu634nZhJfJiaM4p5v9pngk7C5BHoQshRhMncHa57LwUZ8Uic2ibMaFj8mjk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![手机短信验证输入验证码](/images/workbuddy-cases/case-07/07.png)
 
 **第 6 步：获取授权码**
 
-![获取126邮箱授权码16位字符](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROMvoT4mbMprlCuryoak3JQ78kT9QcmeWspKzbU3vHlDD0zvmJ0b88T5PzydN0jTgzRpG8TR1wicicrhre3QK1EbfXbMgN3rWtkE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![获取126邮箱授权码16位字符](/images/workbuddy-cases/case-07/08.png)
 
 **WorkBuddy 发送测试邮件**
 
-![WorkBuddy发送带附件的测试邮件](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMbMX9waqykXnrO9LfibicUFGNLmmogOqP2Rp7LeyiaKGnpxxNZsGbJVekYsYoib90lyhibibGT9EKNNEox9wKv2wNicRlXmCNDNWyqQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![WorkBuddy发送带附件的测试邮件](/images/workbuddy-cases/case-07/09.png)
 
 **手机收到测试邮件**
 
-![手机收到带附件的测试邮件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMUcsPkLjQc3DxBPw5CaMowDBMo4M6EJ0xeNqk7NPToEXAicdYFibPNS3iaK2gxGQ3z3O9FvcOZ3y9icxicNPNeibcicjOiaiaqTmhpoepY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![手机收到带附件的测试邮件](/images/workbuddy-cases/case-07/10.png)
 
 ### 支持的指令
 

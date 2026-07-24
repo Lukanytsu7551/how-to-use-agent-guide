@@ -79,9 +79,9 @@ SBTI 全称 Silly Big Personality Test，傻大个儿人格测试。以 MBTI 为
 
 ### 结果证明
 
-![SBTI 27种人格头像预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROzcibk4nd8oLgGQnnmtTicnick2onAOcjpicJOSaSlwZYnAsGNYnBbtGP2vFSV0Svdts4jEyECib13P7elgfUZdu6dvq7Xnk79NtjU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![SBTI 27种人格头像预览](/images/workbuddy-cases/case-11/01.png)
 
-![SBTI测试网站首页效果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNbiaNGYYs5z4aPxNibCbHAeekUjQ6jWejeNRy09PjM11dS5AicyhHPiaHYBz1bRUYdevhQia7nOicQ068QhhK8By6a2fFDPjovEHmDE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![SBTI测试网站首页效果](/images/workbuddy-cases/case-11/02.png)
 
 ### 全程工作量对比
 

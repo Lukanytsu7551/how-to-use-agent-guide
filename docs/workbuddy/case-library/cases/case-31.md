@@ -73,15 +73,15 @@
 
 ### 结果证明
 
-![WorkBuddy 专家中心流水线协作示意图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMlVgmIzJ9icHJYh71yHJaYs8YjTicynHn3mbyXiafZ2oVvpKKBbmxeP4bD7gz0wkMf6vxjtFAH40qW17IXZMhC53GiaseJoKRP2Os/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 专家中心流水线协作示意图](/images/workbuddy-cases/case-31/01.png)
 
-![架构师交付的智能派单引擎设计方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN6MVf4ZoTFoxIiarYmeDU9PKvyy7mN71bflU9WEjMSqqFCP0PUEibkKu4FWnDJiaxmEianP28PibrHLIy0JPM5mlhZIWsHibHpv8lRQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![架构师交付的智能派单引擎设计方案](/images/workbuddy-cases/case-31/02.png)
 
-![架构师交付的三阶段演进路线图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPQo8nIM1vXql5d2X7fMw04zLctuAZc1j4n4chRDUicNxQxzJJf5Ewp2Qtc7kFKIzCnppRy3vUDV6UmXkpwibYERA0SUeCicjQPWY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![架构师交付的三阶段演进路线图](/images/workbuddy-cases/case-31/03.png)
 
-![开发工程师接收架构文档并产出开发方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP1dGp3oO6qpgV2LW27dfmeoVPP2nlddeRwsq1picua19tMHl2CevvEicnevUibCSibtudUzb4Br1YibiaYwd411FXgxCHTQKXIMCVfQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![开发工程师接收架构文档并产出开发方案](/images/workbuddy-cases/case-31/04.png)
 
-![原型工程师接收方案并搭建可交互原型](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP5IYicBw3PsguJWaQGqoibW3dIZibuib2lLziblwNcrQbwermD0ytDqPDFJK1bC6CNDtrjYOtvyGPk0nWxtqogQAG7gTTc9ic1bPLcs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![原型工程师接收方案并搭建可交互原型](/images/workbuddy-cases/case-31/05.png)
 
 ### 效率对比
 

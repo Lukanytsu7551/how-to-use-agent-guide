@@ -82,31 +82,31 @@
 
 ### 结果证明
 
-![WorkBuddy 专家团 Beta 入口与中文法律咨询团](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNDrGOUcwZ0glBh63TYYDlqBrMRpVj5thNKWW6ksGfA8119zxCKTkhIacMr1l8cHu2m4zhAkgX7vZKa7v15cHvrlFrKL5Juiazw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 专家团 Beta 入口与中文法律咨询团](/images/workbuddy-cases/case-35/01.png)
 
-![林律师说明 4 阶段 SOP 咨询流程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMYicMekLtsvbCb5yhqZ6FrF6y7NgA8Q5JngLg1nEw8icmnknTsWsDHziamlLxyDVqz7QQ7aQiaoviaTSdRda4gmvOqJyNmZlCpiaSL4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![林律师说明 4 阶段 SOP 咨询流程](/images/workbuddy-cases/case-35/02.png)
 
-![方助理发送结构化信息采集问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROT3eEHseXghojPGbW1TrfnoG9XxkThLlGw81FjVk8WRxLX9gFv1iaAP2csZd3ib882tNGRktPS3yXibybUDHR4UWYL7Iibv8Iksrs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![方助理发送结构化信息采集问卷](/images/workbuddy-cases/case-35/03.png)
 
-![补充真实案情后多专家协作启动](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMpv49SnFTcYG0Gs8SHfzR4oHSVJ2SKJzAQL2Zdn4vK1IuDQkbc904SznBEiaddic1YLyAmNghAjOQ0UNdH6fd6JNib1LticGOJVoI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![补充真实案情后多专家协作启动](/images/workbuddy-cases/case-35/04.png)
 
-![任务收尾总结：4 阶段 SOP 完成情况](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMJTgFeVtLloIG2UVZib66MY4XPuTttTE2p86sQG42GCIk1iaEd0kocyHib7wnUATwh6FCYDz0eZKHAZ6vA7AMM8aueD0j4WD8kpA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![任务收尾总结：4 阶段 SOP 完成情况](/images/workbuddy-cases/case-35/05.png)
 
-![周法官检索的 47 条适用法条清单](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROUun4Z3tYJbtZqMY6Of461vfY1PxFMqxsaCtulAVexSnrw6gribRe6cibIudIibEC9vEPkxrp5xeWBAkhaXJ5VFW9tMSoaicfCe9Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![周法官检索的 47 条适用法条清单](/images/workbuddy-cases/case-35/06.png)
 
-![沈判官检索的参考判例清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMr2wesp9jd4I9VM1kQkiaDrBSkxkgXT4cYqOaRFnrFCL8Xqd1TJ4FDunicdiaXWQuiaml2XqNm3844zEyXl11h6dsFWz9KF0GxxSI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![沈判官检索的参考判例清单](/images/workbuddy-cases/case-35/07.png)
 
-![技术出资相关判例补充](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROafxoShF2iabaaqS2Z6euicfVuV511EhA0eXtnInu3KSUJW9ag2iayjtYTvkzicibPguYBe8IqIvr1z5vZ0snOGFE40CBZsrfghUxw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![技术出资相关判例补充](/images/workbuddy-cases/case-35/08.png)
 
-![股份有限公司 vs 有限责任公司对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMOGW0Prul5ciaCwq9OkAPicTne6PGMvdXyrlNTlJDSv2Vf6auRdENzo6ezKthObkD28SgubfNn8Q09IXWfLn3iaHsGO3Vqra5nAM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![股份有限公司 vs 有限责任公司对比表](/images/workbuddy-cases/case-35/09.png)
 
-![完整咨询报告目录结构](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPxTgmpAmze3W5JEhuW4cPAzibcMF02CYFB2EU9ibvV2Pdz9bQ2IwhuoyV20QJjjWian6QaoYhibxc2o9etGsq2OvudPgbqudaBnl0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![完整咨询报告目录结构](/images/workbuddy-cases/case-35/10.png)
 
-![咨询报告 TL;DR 一页摘要与核心结论卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN1ol9DABJtwUHlxYYy8DTLm9m4P5xGyD7Mgg7hxvNiaFLkOIeKyMuGKdibL31JPiaWWQTnW57bJD6ad3vQ26cNTkH5l4eC1OBZbo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![咨询报告 TL;DR 一页摘要与核心结论卡片](/images/workbuddy-cases/case-35/11.png)
 
-![案情时间线与当事人诉求](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMmd4e6Xc5Xf5WibBQS5iaax4Hbk5RWLLGvFPxOA8GkMO9pz3h7h8bC1vtOR9dlsapvqL6Lpicz7RxPgwzkdTK1Utzjr6oWRun6MA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![案情时间线与当事人诉求](/images/workbuddy-cases/case-35/12.png)
 
-![风险与时效提醒及待补充信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPBErALz1ol4MjdQLO1P07DRM2PLVd1SFs8sBwtN1OLKSaF1HLia5VoJ369aa9Tw71bibTEA54fzJWppFM51icrfoE3DOySSSE9LQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![风险与时效提醒及待补充信息](/images/workbuddy-cases/case-35/13.png)
 
 ### 成本对比
 

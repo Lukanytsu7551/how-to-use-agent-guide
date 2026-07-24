@@ -93,31 +93,31 @@ bug 修好后动画不流畅，用户要求加滑动动画和合并音效。
 
 **第一步：语音提需求并修正**
 
-![语音提需求并修正为2048](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNNQC8h8Quic7k76EEdsxHwjW1LYqZX5d6GMsqzQ6M3FrZvI3sPfwHP7FEWgzibcGoksRpvDHc1uanjcZu2R0w5cn1bkC2zRiaNvg/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![语音提需求并修正为2048](/images/workbuddy-cases/case-03/01.jpg)
 
 **第二步：部署到原熊猫游戏同一位置**
 
-![部署到原熊猫游戏位置](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNWc2TVtwDHOQGaNwC8GkzhWo98wMDDojTZLD1TMJic4bEArpMgImFsBCc1ZxNBhkWvSBAudopXnyLQg86wllZehpOx0KxibG7z0/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=1)
+![部署到原熊猫游戏位置](/images/workbuddy-cases/case-03/02.jpg)
 
 **第三步：推送到 Git 并用 Cloudflare Pages 部署**
 
-![推送到Git并用Cloudflare Pages部署](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPY7MCGFBEMkkTnEiaibzQHLreIaftfmOfWP4fibiaMWtS0SfwoT3KAluEEp3vXmVB2uw39P8QXtdB6Ej8llf49fibJe7zcAPEMqD7c/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+![推送到Git并用Cloudflare Pages部署](/images/workbuddy-cases/case-03/03.jpg)
 
 **第四步：截图反馈界面 bug 并修复**
 
-![截图反馈界面bug并修复](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbROtlRgQu1MtNDf17rn22WdX3CrRTzunq3icXlzicnJKfogKU4BvAvQuwXb6iaSG1Qzavich364EMhWjchD3A0zHG9jiaYgHIEy4FAZo/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3)
+![截图反馈界面bug并修复](/images/workbuddy-cases/case-03/04.jpg)
 
 **第五步：加滑动动画和合并音效**
 
-![加滑动动画和合并音效](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMxiciaM3LK1YAxxsceV48uSMXlmLkDgJMwvJqNFVuLuWgnGP4F0Nqjr1pXEqlic6xRHEVQuWA5uBoicNYvfce8TmXyqQVuurlerfo/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+![加滑动动画和合并音效](/images/workbuddy-cases/case-03/05.jpg)
 
 **第六步：修复音效引发的新 bug**
 
-![修复音效引发的新bug](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRN3mJUqQhmpicWuZMWya2008jUfoJwp3nEiaQzB9UULEbTVzgkqBTuZWia81YDkqD2oZsWJCrGVibyGR3QxmALd3Tvk15Vyn8icNJbY/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=5)
+![修复音效引发的新bug](/images/workbuddy-cases/case-03/06.jpg)
 
 **最终上线效果**
 
-![2048游戏最终上线效果](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNTyfyegt98d6IKZBmLRWoFzkTq73EicAdCiaz25lH9GhnChf2FgVUloer04t623IVMdrcg5uVFfkaDTuXJ8MWcz6zwNCWk3F68A/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=6)
+![2048游戏最终上线效果](/images/workbuddy-cases/case-03/07.jpg)
 
 ### 效果对比
 

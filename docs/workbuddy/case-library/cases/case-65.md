@@ -60,13 +60,13 @@
 
 ### 结果证明
 
-![灵感库入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMQVxic2g16FGrdIb9CDOIo2vDibSY1wSqr3oN5upt6l0p2sr8aS7QOMzk7f0ibGCkJ1WkNOjLsQ1nedO2DWsQAiaNjNrjdKk5iaNf0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![灵感库入口](/images/workbuddy-cases/case-65/01.png)
 
-![资讯速递专家](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMaJkx8szRBatiacd5nX57AcibaL4zj8Iae7urVnNsTakq5IpIEPbzFUhL71SmZ2kia55JFWXjAeicjozahtuVCFH0yeuicr9yHOfico/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![资讯速递专家](/images/workbuddy-cases/case-65/02.png)
 
-![一句话生成简报](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROAc11KDEgVVaPUcF988lpx3xGRffGkBYxqKsiamib7xq3JtG7vRibjZ5dwtwdJfOyxNLuvUHPUDGBKbSWHia7uA26W6FGlT3ruJDw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![一句话生成简报](/images/workbuddy-cases/case-65/03.png)
 
-![AI HOT 简报页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO6bElTfMQWHKtUzXEqFhcLG6xXF1DNKDcMxdD5UvTThXxpBibLoJ73k2iaB9A8hW8sraZmJRv2T3pL6oaaanvdLezKPRnlL5IGo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![AI HOT 简报页面](/images/workbuddy-cases/case-65/04.png)
 
 ## 八、验收标准
 

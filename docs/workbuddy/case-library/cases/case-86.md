@@ -72,25 +72,25 @@
 
 ### 结果证明
 
-![深度研究团队启动](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNLpJWmj88hmquLFwcA1V8xPic2usiaJrY5ibKhpShL2oXM0MibdvRxvjJ95kwMk1OKQhInzmRx4aqdMQ6Kq5EPJtFOXSicX03SLwcc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![深度研究团队启动](/images/workbuddy-cases/case-86/01.png)
 
-![Phase 1 初始调研摘要 + 大纲](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROIzQXztBnRP659YkEq5z0tMiaTicX3xpL4upxknMvvGvcxTFn5hU3p8XkqY4cNadWdLfFOS7jyRB31WK7xdx5v9esibhuoDV11jk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![Phase 1 初始调研摘要 + 大纲](/images/workbuddy-cases/case-86/02.png)
 
-![Phase 3 功能矩阵章节草稿](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMGQZnvEhRbVNhZgJEeCZtnibxd8oK8thkoJkAOj6Uq7kFqQf4AmXzVt36blNHD3VqLHHDh3222vJeAlOdSoClUjS4rDE6C5LXk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Phase 3 功能矩阵章节草稿](/images/workbuddy-cases/case-86/03.png)
 
-![HTML 报告顶部标题区](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM7d4STricYdbKX8cNq9BicfKz8jVV3oKQokamxXLWYWp8GxJKIUrO2UtMdUxKl0PiaWx0VTic6hicPTCibByRSPGA68vwjRk90iaiaNz4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![HTML 报告顶部标题区](/images/workbuddy-cases/case-86/04.png)
 
-![CSS 竞品功能矩阵星级表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROLy6B01DbL7TJzcDBjxRqqRRrHicUWAWFeLMQWnQKQv9ow4Zfod7TgzTANvM35Maul6uAjUicWcSZF3z4fQjukBD9Yp9ZzFHeUw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![CSS 竞品功能矩阵星级表](/images/workbuddy-cases/case-86/05.png)
 
-![SVG 五维雷达图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMBkSULElpicYdtRIV37zz8MqA5JJPqy79Yajstiaavj2iaqjSo39lJLPGalPsoTsvzTnh8bO13Jq9lbg1icsibRvdgC9ib7wlSWloxk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![SVG 五维雷达图](/images/workbuddy-cases/case-86/06.png)
 
-![SWOT 四宫格卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNWrqt6ibT2ibp1icgYQcJurG2wuVzPrYsiaVYwGhL1g1icZxer0r4olEHeExHgK2Kmy7fWnWD1pdV56bDYSpKwGf36eYZBudvibqmdY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![SWOT 四宫格卡片](/images/workbuddy-cases/case-86/07.png)
 
-![5 条差异化机会点卡片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMo7v03UgASepZhsGC6rlJL54rpmdA3NAqlRHfIC0r8mb620F47VGv88gYhQt3g7cTv5Kl9McYibG4CcCdoQXKT6z88tZfjQuR4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![5 条差异化机会点卡片](/images/workbuddy-cases/case-86/08.png)
 
-![cloudstudio-deploy 部署上线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNe83YicGZclDPvNiceJlR7M3unySTK9RhWtml60rtOxmPMFrkuqwhTURxLYgEgQfDHf6N9C6yBKVDnSicHaW12icvGiaLZKwXgXXQ0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![cloudstudio-deploy 部署上线](/images/workbuddy-cases/case-86/09.png)
 
-![部署成功返回公网链接](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNXgCdDBibVtEwDFU4j5u9XJPaarxiaRdasnGQtODJCiaFkQZpuHRLMw9ux6uRb2UXzZqsdPEtvziadwBBLicYbeaTvgsvyEkicIBYDI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![部署成功返回公网链接](/images/workbuddy-cases/case-86/10.png)
 
 ## 八、验收标准
 

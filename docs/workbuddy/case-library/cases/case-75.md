@@ -83,23 +83,23 @@ WorkBuddy v5.1.0 更新了「创意设计」模块，一排场景模板：网页
 
 ### 结果证明
 
-![WorkBuddy v5.1.0 创意设计模块](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNOVKtgrR4raLPaYkbpOBFl8qsiaf4kicjbdeBROXwlu87z1uMtBD8r9BYIoyD6tRib6gNWqqxLdFiaBayEXTG4B4nrgiaSYPfEo1RY/640?from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy v5.1.0 创意设计模块](/images/workbuddy-cases/case-75/01.png)
 
-![视觉海报场景模板列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP0ZypyIOMiag6K6XwNZzV3NyukRKKaI90bbvmW6RAkBONsSmcf6JQWOvrYlv0PFthCqfpCmFxR3mXeFj9pbB47mWic7fJxwnha0/640?from=appmsg&watermark=1#imgIndex=1)
+![视觉海报场景模板列表](/images/workbuddy-cases/case-75/02.png)
 
-![第一版翻车：标题断行二维码占位嘉宾没对齐](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROUMlg8hZKxF9puDCSBC3SVxvDC0b3BCCOPqeDtsb8XStcicE70KzSZBibXn6mOqwE6wfuGmQO3dNdoCQepyx5pnuIWYokINLhaM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![第一版翻车：标题断行二维码占位嘉宾没对齐](/images/workbuddy-cases/case-75/03.png)
 
-![第一轮修复：补真二维码+对齐嘉宾](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMRl5j2qxEP8BG5UiaYcwiblmzmIEUrqQ2G8pbjwaadon6xgWFWbAw1tkR4bdUE6icAO094CvoPuUnvgsJkB4icbjTuj6eEgYY3CrQ/640?from=appmsg&watermark=1#imgIndex=4)
+![第一轮修复：补真二维码+对齐嘉宾](/images/workbuddy-cases/case-75/04.png)
 
-![第二轮修复：标题降字号卡片加高](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM5LUt8u96b12CVYHWeLkOvgVuibMtq0IzEyB7Qtz2cmpMQ38BgykXh09rPB0jCia0vyBD5ZGOPQhQ2KbhjsWJr4ibiafHckZISTEM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![第二轮修复：标题降字号卡片加高](/images/workbuddy-cases/case-75/05.png)
 
-![让 AI 自己看效果列出5个结构性问题](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROos9mKwj1sNqUjnlsChjIHuFPibHibah7LdtPytuBYicYABGupT2pJ00EjrpJE7nDDTRX4g64vOfeT4nqqBwicV0EmVibMTEaz7Ww4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![让 AI 自己看效果列出5个结构性问题](/images/workbuddy-cases/case-75/06.png)
 
-![重制版居中沉浸式布局](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPwia4s2UDT2kNLsAcFt8GFrUcMC0Ujwmhl9ibm8ficSibiaZnLhfpgxZ3xnqxrsIZVyEoPZtA8QZnVaM5ORFUpoicN9FD42FpCIfEhI/640?from=appmsg&watermark=1#imgIndex=9)
+![重制版居中沉浸式布局](/images/workbuddy-cases/case-75/07.png)
 
-![配色重叠问题：机构名青色与背景重叠](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN2gJCpZquk8LpQ2Uql5Ug2uQEyk11z70fWDvJ8wCaShCudDeHILn8Kux4qmJFMicKMXHrolfDMg9NIODsibFUKN95v5PshqHdVU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![配色重叠问题：机构名青色与背景重叠](/images/workbuddy-cases/case-75/08.png)
 
-![最终版：机构名改暖金色](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNgrWqdjpDIKYsvUoG47q6zby9Q4TkF1LDZJ7AQl37W0WqBNicNdg4GEyKYNwTXOP5Kohb8cmJ9n9StCbSMIeMsx8foibiaF8eozE/640?from=appmsg&watermark=1#imgIndex=11)
+![最终版：机构名改暖金色](/images/workbuddy-cases/case-75/09.jpg)
 
 ## 八、验收标准
 

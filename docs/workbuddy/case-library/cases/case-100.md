@@ -77,19 +77,19 @@
 
 ### 结果证明
 
-![把两个文件丢进 WorkBuddy 开始流水线](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPGn89ejbPLzMb1Wq6hC07vy50Zumx8wbEtKaibgal8U2d1wxdwRhc25wLbzk9o3STrXBu4VYZfHZnzkUpsYqiaicGs5eUZ7nt2Nk/640?from=appmsg&watermark=1#imgIndex=0)
+![把两个文件丢进 WorkBuddy 开始流水线](/images/workbuddy-cases/case-100/01.png)
 
-![PPTX解包+扫描PDF用OCR读出12页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNdZkgziardSian83auicrVic67W7WRxLAeIpIs4HpaaTOoic63uFJicodvw84vEZ6bom9vic4Cll7SNC4kMk6vPejRc4bMR6FxpsMeMI/640?from=appmsg&watermark=1#imgIndex=1)
+![PPTX解包+扫描PDF用OCR读出12页](/images/workbuddy-cases/case-100/02.png)
 
-![追问截止日期出处：贴出PDF第6页原文](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMic4Mdwjed8ghibmTAfgtcAdEOxUdmS6mFpOqDjianuZ1wibmouV2BaibfgagjRUzzuOBe9clseicKGWOzBJfZBpJFydTUcyzFQ0Hec/640?from=appmsg&watermark=1#imgIndex=2)
+![追问截止日期出处：贴出PDF第6页原文](/images/workbuddy-cases/case-100/03.png)
 
-![官网实时倒计时：还剩6天推翻原结论](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPsGP6a20Y5zZlsE4NLpiakYklcK1FhQ3BbUNjX9TOw7Y8MLtSk2CoDmIp7icVGluuctSVYM7QocD8KDmSY3tjfes8PGbr7tZmrQ/640?from=appmsg&watermark=1#imgIndex=3)
+![官网实时倒计时：还剩6天推翻原结论](/images/workbuddy-cases/case-100/04.png)
 
-![HTML版解读报告：一句话结论+两份文件解读](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMibEefibRrJwiazIVDhiabWWIh3zGiapfMia400viaKevp8oHIOY52ibibEcUbNcl96J5dYt8KUoxUs7QWGicq83tXfJzryqERoKxa9wqDU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![HTML版解读报告：一句话结论+两份文件解读](/images/workbuddy-cases/case-100/05.png)
 
-![改HTML格式+补奖励和报名准备清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO23vWTMqqtOn4HjVcjKLiaOPsibSPmClQx4JUsA316eRfXgibhk1fDVOZicXicHDXUBdicyYzIJ0tAD038UVveZJEhuVZ7ptAicib5Fu8/640?from=appmsg&watermark=1#imgIndex=5)
+![改HTML格式+补奖励和报名准备清单](/images/workbuddy-cases/case-100/06.png)
 
-![一键部署上线拿到可分享链接](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPwYZzv5gXdwdZL1HJe4rcKFrnwAooCstyT0tq6te2JLHrib4OAaicfpWz9uO6NjeRubopRu9lUFHypRxe72kzZuB5eLsx6rHTUc/640?from=appmsg&watermark=1#imgIndex=6)
+![一键部署上线拿到可分享链接](/images/workbuddy-cases/case-100/07.png)
 
 ## 八、验收标准
 

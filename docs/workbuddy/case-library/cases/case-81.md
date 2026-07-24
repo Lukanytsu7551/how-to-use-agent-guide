@@ -62,27 +62,27 @@ WorkBuddy 调用 Excel 处理技能，用 Python 的 openpyxl 库生成 Excel �
 
 ### 结果证明
 
-![灵感页面膳食规划卡片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROVibMVwoGn2qcD6Q256mGibAfd3iaR5cWYBFSKxAerYJpwe9cLAtib6Pdic5dIpkTmIlS61ZrcapSuicOGvfmSeN0cOhtjzhXMj5fMk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![灵感页面膳食规划卡片](/images/workbuddy-cases/case-81/01.png)
 
-![开同款后自动填好提示词](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNEI01icysv3APVomZLVq0rLvzicnxQC7xmkLdvcP8erOqlIm4KXBjmmlUz8cXwVyibyuFXeAWuCs7Swwk2N62XzKvlicuFMgcf3NE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![开同款后自动填好提示词](/images/workbuddy-cases/case-81/02.png)
 
-![Excel 周餐计划 Sheet](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROtUR24XevQ9N3fEE9K9l8Nk2xbqbibYqEFUhVKmT9ibMCrM2S8dbec06vTibulnyDe8oHxDRAyAQUuDf8TyUzcia7iaT7aTtCUERCg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Excel 周餐计划 Sheet](/images/workbuddy-cases/case-81/03.png)
 
-![Excel 采购清单 Sheet](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqZvpjh57eXh0acPwaKX4iaTt5xqQC9Fa2IE5RncXQxSicDXcxmCLEXgKUPp8y6oz3EfM5DT1EgRKlyVMicLgibBnwhLjxJRC77xs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![Excel 采购清单 Sheet](/images/workbuddy-cases/case-81/04.png)
 
-![Excel 营养摘要 Sheet](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP4lic7PmnNhZyAcicUYMeY1ic98icS6iaynEfFwTvyxiccyHUlWw9KKp0KD2hHZqAhOy4zD3os5HiblZR3joa6H3pLEodr9icbicR8NJKw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![Excel 营养摘要 Sheet](/images/workbuddy-cases/case-81/05.png)
 
-![HTML 版生成完成](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMrRZN7eY48xXicLtLhGb05xdsoHxHTMb1MNZ4ibGic9jrOsM1sX4TgvqooiaibcZ7vpTk4OqibIhNInbldAT4lPvsIxerrNNTdN4umU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![HTML 版生成完成](/images/workbuddy-cases/case-81/06.png)
 
-![网页顶部三 Tab 切换](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMHic1wbpBNwMN4fYELRSZjMOw91ialmPzqgfGoqgIyfnDMNiaI96SLC7LNcARfwT5Gcr3Dg9HWTDYlbnn4VQ52WWp3FkdWkJMaCQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![网页顶部三 Tab 切换](/images/workbuddy-cases/case-81/07.png)
 
-![周餐计划 Tab 卡片布局](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMlkcJXP4dasgmypjykcFr0bPQgf8LnRw2s8Gic4kV8fcrCdiaqndyQpicP6BSLRtD52zcZcwJbRcH7iat856UlBH0ibPVnkAVbZkOU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![周餐计划 Tab 卡片布局](/images/workbuddy-cases/case-81/08.png)
 
-![采购清单 Tab 预算柱状图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPJufCWc5109leiagyR7cwwJp4GbczYEq9ca1DWGodnW55FuPMibt1fgBPWM1GnJv3MWqnkJibIK8sETC3muxPI7qhBYDlX0ea2f4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![采购清单 Tab 预算柱状图](/images/workbuddy-cases/case-81/09.png)
 
-![营养摘要 Tab 进度条对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPMLHSYqiakXZNV7ogwOf4ibqNWeI81t9xWficsMmV8unia8VYbphqial5wVqMnBa8ibicAh6K8Jx0STFtEnb0tibWou05nzqpLwTKibuhI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![营养摘要 Tab 进度条对比](/images/workbuddy-cases/case-81/10.png)
 
-![部署上线返回公网链接](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNuicxS5BOUIWER0lxqloEXNBpV3O15lvaGa2G9eBmnPpXGRIgSRJNEPqQLo6bsicicuibb0FWJ2aex7ibZST9IZmscBM5ibqlwiaJXM8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![部署上线返回公网链接](/images/workbuddy-cases/case-81/11.png)
 
 ## 八、验收标准
 

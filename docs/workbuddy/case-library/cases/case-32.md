@@ -73,21 +73,21 @@ PPT 做完后，专家额外附赠一份 BP 附件文件（road-rescue-BP-append
 
 ### 结果证明
 
-![PPT 制作专家接收需求并生成 BP](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMdRFXkwzXeqc1JVda5Rw59fvZRVNWnoMe032YguoaUa5CibKUlPprJ59EH7WUdfTHZXY9Ou4ek6WlGyKBAf9ybWCIFYnibaAHib4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![PPT 制作专家接收需求并生成 BP](/images/workbuddy-cases/case-32/01.png)
 
-![BP 封面页：救援快车 RescueGo](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROBNv93oOoaEogXkb67kMaLvn25eEPtqcaTPZ9icUPI8tiaLor5oOfmhSfGb0Fggw0aBicLhlkiayLIQGcCHWEL5OOV20vibjXC9yics/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![BP 封面页：救援快车 RescueGo](/images/workbuddy-cases/case-32/02.png)
 
-![行业痛点页：四大痛点与系统性空白结论](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN1WJV1FBIyK2RUV1LW4Rqhhc2MktKicI0tFgR7HwDf04icbDiaGVxFWpGde4W7In30160RTOOAVSv68MAU7Ifw83GibDukaj9wqAQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![行业痛点页：四大痛点与系统性空白结论](/images/workbuddy-cases/case-32/03.png)
 
-![市场规模页：4000 亿+ / 1200 亿 / 3.5 亿三大数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPBicO8kg95V5gFnCa82vQGIfzricS0yEbyxmnND06TzpNSe4rZibenYyxfs0hg8WzLibJwO0ibFoolrC3MHIJiaKc1oBccj51rlRqCw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![市场规模页：4000 亿+ / 1200 亿 / 3.5 亿三大数据](/images/workbuddy-cases/case-32/04.png)
 
-![竞品分析页：差异化竞争格局对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMCR6PwsyTZkkOVYO44mNuiaUYHC2S46G3xr3hjC6xpTmNvjwKTVJI2WcUWWJQ1wpSdYBNbW262NJp3ycichZ3YAnHt0QIn2bl7o/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![竞品分析页：差异化竞争格局对比表](/images/workbuddy-cases/case-32/05.png)
 
-![产品功能页：三端全覆盖完整救援闭环](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROGbRrqHx4IqoyTkJ5TTbNq4qLZ108yO4CoCTma3KCLgPRPF7Kniabb7XXG0Zgc93DZTngtDfXN1CqWoLOwsK05gdrWDa2NRhLI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![产品功能页：三端全覆盖完整救援闭环](/images/workbuddy-cases/case-32/06.png)
 
-![融资方案页：500 万天使轮与资金用途进度条](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPIdN5SmBl7btmt5dXbK3dLiblJxicsAUbX4LbVQdLhFC9xiaffc7QvxUWREXu5eEGar6gbGmdcE85nx52KtRQicYicXmX9U9cvN80c/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![融资方案页：500 万天使轮与资金用途进度条](/images/workbuddy-cases/case-32/07.png)
 
-![路演演讲稿与投资人 Q&A 附件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNl6uzicykSWibRu980icwAlm24ojib0NArqa24m84cnUA4OmvdoWs0oZHBQlOgcnmHWKmBINJg90XISUpBq6of34E07mQvAdn0avk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![路演演讲稿与投资人 Q&A 附件](/images/workbuddy-cases/case-32/08.png)
 
 ### 效率对比
 

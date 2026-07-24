@@ -86,23 +86,23 @@ WorkBuddy 帮建了两个自动化任务：早间同步（每天 9:00 拉 RSS �
 
 ### 结果证明
 
-![WeRSS 项目介绍](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMYpsXffKSFO9jYG5oJ4bKxwRUl4gCFHLVVlvGujgYuP8fWVav91xI8VicmFiawWd8pFOXdE6WibL6P16IfphRlcmIKmySgmibKGvA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WeRSS 项目介绍](/images/workbuddy-cases/case-74/01.png)
 
-![内容情报系统架构方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROHPXHucN0p2jylntC9jKjJd5geVPL9Cic7ZnxGjib1Wapxo80DZbsGH9NiczcB23R8aicZosJjMvW2tx4ibp02g0CoBA3N96YWXAVA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![内容情报系统架构方案](/images/workbuddy-cases/case-74/02.png)
 
-![WeWe RSS 采集原理](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMqda6iaibeRYzTm4ABxDe2mDsHAu9YOZFjJHkwUY0CkMr8uIyLRib3TyLNPcUXxH3rmBCpiarmnhm8aAtZNIfNxsT6daEg1icyEoWg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![WeWe RSS 采集原理](/images/workbuddy-cases/case-74/03.png)
 
-![WeRSS 与 WeWe RSS 对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNOJMRM2lEbTHtiboWLdJMYcCkH7o4IzpJTrDib7k8qVrFjfYjHBBV9x69ONXI5Fu9vh77X5QY5fUQicjImUmNxfaeGwMyvwB8jHw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![WeRSS 与 WeWe RSS 对比表](/images/workbuddy-cases/case-74/04.png)
 
-![AWS 安全组放行 8888 端口](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMHyFzAOd58ffe5E6b2vhZpmSYEwXLibHNYrFTwaFdVSlfTiafFber1l1uEaqbw5lb2F4EfxfxYkJU5RJBFibfnkAC75CD3UDqs8s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![AWS 安全组放行 8888 端口](/images/workbuddy-cases/case-74/05.png)
 
-![WeRSS 订阅管理页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNl9pfRMvJNhTqzfIFA1UlhYqTH9ibAt0CYibISTEMia5MrYBDPf5BFqXdzTtkgRnT4PSQ1Z3Qloib6YfPNkbhFWHibswk4OicoWPAA4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![WeRSS 订阅管理页面](/images/workbuddy-cases/case-74/06.png)
 
-![IMA 知识库公众号内容情报库](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMI4mQRoia0JClT34Reic1zMuq6TlW8oY7JFZpxqgYK1rCmmEPQAmtPD3ibViboibicn2U2tz5mhXpJd4WWQuo3DHDibib2Blic3wXp1t8k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![IMA 知识库公众号内容情报库](/images/workbuddy-cases/case-74/07.png)
 
-![IMA OpenAPI 凭证续期页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPZ4WVLNpO5DtQ4L2ov5jetpLOJjhXhicUHeib0rtIysK6SzTp7v0lKP7UQjq29s2TIhibUtF9QKbeBdODnCfjyu7ibnSfPx6wGQC8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=13)
+![IMA OpenAPI 凭证续期页面](/images/workbuddy-cases/case-74/08.png)
 
-![自动化任务列表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROgccMtZEe3V3Hk1nlySIMFIvvhGc7TEqovmIFqk0wdWnEuveWyDZoMiaRQlTPgibtu0K2s5e15WfPNQkhC2deJ9tKpCHGfGKibqI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14)
+![自动化任务列表](/images/workbuddy-cases/case-74/09.png)
 
 ## 八、验收标准
 

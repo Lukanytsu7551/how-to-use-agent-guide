@@ -79,35 +79,35 @@ WorkBuddy 的"合伙养虾计划"中有一系列任务，其中第五个任务�
 
 **养虾任务页面（完成前，第五个任务未勾选）**
 
-![养虾任务页面第五个任务未完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMaapvXjVhlvwBG2VtUK5LlVJlsFC6Dib3w7gOLYETL1J49mDicbF0JrHw8AoOJuMEaBZJjxGGbnZhu8yudHypGxzMYlnHVLRt80/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![养虾任务页面第五个任务未完成](/images/workbuddy-cases/case-04/01.png)
 
 **第一步：新建任务**
 
-![新建任务选择幻灯片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNuNBldTwYhTfXqiaoN61VDIicA4ZHjWNnWcLQRQibycOzwL9zjbNM6ERBqwbFb0sxSticGmdca5uRuShkuH205c7y513pEQLSmu7Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![新建任务选择幻灯片](/images/workbuddy-cases/case-04/02.png)
 
 **第二步：选模板**
 
-![选择PPT模板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNMgFjia12lAQNt5FiaMdJiamGibbXDyMuKwaZjDPG6px10zFlVbNH7DamJtvdVW1VKHsLmGvZYe1leQYFGiaziaCxwjWFlS7ia5QdXgE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![选择PPT模板](/images/workbuddy-cases/case-04/03.png)
 
-![任务类型列表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPlHHHhDP3EoZhCMibKib7qUjnFMAdI0HcLy32J09SfZvbrnsDBPQCXDgGswKxUG79HL3Liax1km6v7jGeTJro1ibFZXV02IdMKlfc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![任务类型列表](/images/workbuddy-cases/case-04/04.png)
 
 **第三步：等待生成**
 
-![PPT生成过程中](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROQsia9pIjMpR6LOtzibBrQxre0uFufCu9bibM6vNia4G4oAqgZxUCfQOsk2c7gvljaqwMgn8ZelwGQWscf72xXK8RjlSma8hOR6cY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![PPT生成过程中](/images/workbuddy-cases/case-04/05.png)
 
 **第四步：查看 PPT 效果**
 
-![PPT封面页AI Agent 2026 Trends](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMv5rib8ic7NTgDOIycOmHInSesYliaIibbgmr0CyueUkxoQz6XIodicz8G6ZcyicPGFurrHrFq7AsIoaCu3yibbN0g681WgNwhCT8b8k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![PPT封面页AI Agent 2026 Trends](/images/workbuddy-cases/case-04/06.png)
 
-![PPT内页治理与安全](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMB3epib5kkstdzFCvHfAfSnuQ4WBYpL3qKZ8AL7uQiaPIibxekDOXywswbk6qWKicXJPfWPiazPSJAUJRzMEtSX22vvvSxVAguSlGI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![PPT内页治理与安全](/images/workbuddy-cases/case-04/07.png)
 
 **第五步：养虾任务完成并领取徽章**
 
-![养虾任务第五个完成领取徽章](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMBaGbaLHQ4khZmuteFwQYErkm5ESprMKiaqRSj41SWPy8faI7X3QgwdYWuEyZAyImdY4ibugjjDfOdG1cj00qOniakU6rZmVPKicM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![养虾任务第五个完成领取徽章](/images/workbuddy-cases/case-04/08.png)
 
 **满级解锁虾控大神认证**
 
-![满级解锁虾控大神认证](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROnBWW7UDgpbbFxEo2kW5rfz6O9O4YIPTKl2q9CXnJRxWJ73BaMW4Lbuu8QiaibBgticnZLQwA3TYGibQQaeBNsskopMibZib9byXLxE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![满级解锁虾控大神认证](/images/workbuddy-cases/case-04/09.png)
 
 ### 效果对比
 

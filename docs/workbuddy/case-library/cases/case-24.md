@@ -130,23 +130,23 @@ python3 generate_image.py "一只戴着宇航员头盔的橘猫坐在火星上" 
 
 ### 结果证明
 
-![OpenAI 后台 API Keys 页面创建 Key](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP5QW2U3CXEc44pMLbalQZrvib8hYnkfRBo4LwtSOtyobKPMAJGCz46vgpDzcNic9K5yR8VYGCFDeWthjbPUermXbTAsDxPyIfCo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![OpenAI 后台 API Keys 页面创建 Key](/images/workbuddy-cases/case-24/01.png)
 
-![绑卡充值页面 Add payment method](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM5lqdZM9F92nF5ekmicg0hD8KZGg97AF2AMokVaYf3njJ8FckXaT7NxTgmVHIscvj8uYNZwJNzBXTbibT8QaXozSw5eYw6Dv3DQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![绑卡充值页面 Add payment method](/images/workbuddy-cases/case-24/02.png)
 
-![充值 10 美元确认支付页面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNWDMpWNjJbP9HuCuK3o9WiaMSXRZDWtEgAOC4kyDVZoVtOkDH1jB5xRemJDBDp7jGw3ZC1KLuw4Vj01HhvzKm6rTsVqZq763CM/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+![充值 10 美元确认支付页面](/images/workbuddy-cases/case-24/03.jpg)
 
-![接口报错 organization not verified](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPRYoBWgbwQIB1DgI8K0mySdArYSI08J2FPTtw4YP1tuZYiaOG6rF5R8GQA7RZkHB3Tiap2shgMIcgSHja9SkjgxvBDIeH55kdYs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![接口报错 organization not verified](/images/workbuddy-cases/case-24/04.png)
 
-![KYC 身份认证 Verifications 页面](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPYU8yWgQxzg35z9ZIic5oauXPMRucRsPSvt0KUkbZic49mYspgUibPm3iavoZ9x5CXO44XuCp9u5QyKQc5YbFJzRk5iaKmXIHqCoYI/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+![KYC 身份认证 Verifications 页面](/images/workbuddy-cases/case-24/05.jpg)
 
-![Organization 详情页与 Verifications 状态](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNnEz8TkfMsacp5WBWGxgJlZCngoTKIiayW6fhfDBO47YyGfpESqQpJ1HrMPVUemBkEd7cRCn5KHldkpuqIsKHRcDibD5b9ibmTZ0/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=5)
+![Organization 详情页与 Verifications 状态](/images/workbuddy-cases/case-24/06.jpg)
 
-![测试成功生成的橘猫宇航员图片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMITyfAuwca5EbFDj0TxLBhOMJBAVK7Hb9slnScxmV1KvZ7z1GfyNiatW2qibiaAVVheHGq6lZBibvWkymJq0xTdCQwf4Oh62nw8sw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![测试成功生成的橘猫宇航员图片](/images/workbuddy-cases/case-24/07.png)
 
-![gpt-image Skill 目录结构与 SKILL.md](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROylBsKga6na8fHSPUXGhxHRfFZ0kQVuh9NcH8RfI3qIch4z4hYX2gfibF8849BpTInzpHvG5rGwTlwkjqHjsebd7K1T24icsiaO8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![gpt-image Skill 目录结构与 SKILL.md](/images/workbuddy-cases/case-24/08.png)
 
-![Finder 中 gpt-image Skill 完整目录结构](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMvhkibUt1oiaicvY5P1YAkRd8IbwzxAolrgtgNriarysCtWMNvoGYDTGvHR9YlzOuJRqBMkl2KdGperq4yoK5bftjMM1V2NNMkMJ0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![Finder 中 gpt-image Skill 完整目录结构](/images/workbuddy-cases/case-24/09.png)
 
 ### 从脚本到 Skill 的三步封装对比表
 

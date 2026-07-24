@@ -91,19 +91,19 @@ PushPlus 是专注于消息推送的工具，能将各类工具的执行结果�
 
 ### 结果证明
 
-![PushPlus 官网扫码登录页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP6dXJVW0PBLolKtjm16ibFly6zVme60bP7G3BMVL492plLqnfUCee2xPBXhwIp7sV4dXOffK0ib5GWP8hqvf0kz8AzWZFcIlmlc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![PushPlus 官网扫码登录页面](/images/workbuddy-cases/case-08/01.png)
 
-![PushPlus 个人中心复制 Token 页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPfUJt28KeyhAHUcm36fTJMXibPbiccaXzWvKvTTjDkZFCaAG7Kf7Qnd5syC6qFwyXadyeRRY3zaUAEr8Oah8qIVqCzxsyJW0ytI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![PushPlus 个人中心复制 Token 页面](/images/workbuddy-cases/case-08/02.png)
 
-![PushPlus 实名认证填写页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO53PiapXMGJ2BAaogcaG3UBib8zgWjQgt9mdASMk978Sf2Jo4TusK72GSiaJzzOH5xfts90TgWIYPibPpQ9Qqy7fCPIeFWA22aOibI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![PushPlus 实名认证填写页面](/images/workbuddy-cases/case-08/03.png)
 
-![PushPlus 实名认证支付 3.9 元成功页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPnicYIX2UReTc9WulAIn6uasL3S3wicjRNRHyQQyuNFdl20VQYuKXllGvIB5gcl8xecR0MIj6W3UJqbZIRn7sZ4DKRLShQbflmM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![PushPlus 实名认证支付 3.9 元成功页面](/images/workbuddy-cases/case-08/04.png)
 
-![WorkBuddy 自动创建 PushPlus Skill 完成提示](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNuf1bFlxJ3Tkh3taic0IZriaKW0SyXzQibHEoKDAwth1ibUbCk8dQibrWDBfq4tibzlPMV2MU34F4yyq1aybq7icZiaZTP1mN0L1OX6To/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![WorkBuddy 自动创建 PushPlus Skill 完成提示](/images/workbuddy-cases/case-08/05.png)
 
-![WorkBuddy 自动测试推送成功对话](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNs10aq6FZ9Z5iaxyqrlTPa2QCVvjEIarF6jr89hkPjQmk6B9iciaSbmmoHquGjxicFEwpfZ3EaXmyvtfX0ruEFaA97OL8y2YUFJRk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![WorkBuddy 自动测试推送成功对话](/images/workbuddy-cases/case-08/06.png)
 
-![微信收到 PushPlus 推送的测试消息](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNOcLiaG2txafgORhudlduiaaqsE6Lo9lGRrwXx7saqAc6JnpoicnEmMBsQYFbmZ499nXbeW97BH2WVbdHwicyXw4bribIyDibk5P99E/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=6)
+![微信收到 PushPlus 推送的测试消息](/images/workbuddy-cases/case-08/07.jpg)
 
 ### PushPlus 与邮件方案对比
 

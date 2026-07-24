@@ -69,17 +69,17 @@
 
 ### 结果证明
 
-![Taste Skill 安装](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROjiaOaiaQtQIh8Dv1pghKqZhIQIhk9I3ALKD7ArWWQvbH3SrYh2oyMv8aVl6E0iaE2nHajJZnuauh3RsXQaHWLxPU43I8xj11LUU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Taste Skill 安装](/images/workbuddy-cases/case-67/01.png)
 
-![暗黑科技风首页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROyt7hicxl1spZB4M6wahDUiaiat6Sa7cUc9dv02UI8NWeFibB0QBrCdYaVialvR5tnqIZmNXiaUXY3Sv0k9CC7PK0ibEINZluXMMcFhc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![暗黑科技风首页](/images/workbuddy-cases/case-67/02.png)
 
-![四大核心服务板块](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMMeS0NCIpm5T9jnicldINkhwWbz5LLdicQK8nSCBtN6PDqOFZaJACrVVlq5ibic12wM7UG3dGtzvG7WxicicaxVhskVfBWiate6vzxXc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![四大核心服务板块](/images/workbuddy-cases/case-67/03.png)
 
-![实力数据区](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO33gPMibrKOpacWqWl4GLkIAb7JQE4LkxtTVfRcWqt3kbt7oibMnLckasIGID9lsvoiaTYkrCaeibzqoaje4PcOZhzwylJic50sW5A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![实力数据区](/images/workbuddy-cases/case-67/04.png)
 
-![联系表单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPNVMWq3HicSDGzbyjMhE4sdJH5nEaAHccfOZLpyC0uUwNPQukib6n9Olo4oIhynrXjibAthjKUFh5U9xbuhfNibjbL2WAiaoVwtbFk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![联系表单](/images/workbuddy-cases/case-67/05.png)
 
-![移动端适配后](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMwlLWILTC090pQ5xYvE6obPmiawPIve7Fufm5U1QjMiajZ92tyaib9UicDQWfm690UhO3UOp6JqCHav0lFnqdXqZmNYhF29J3iaVAY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![移动端适配后](/images/workbuddy-cases/case-67/06.png)
 
 ## 八、验收标准
 

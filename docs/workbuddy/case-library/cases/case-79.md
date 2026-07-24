@@ -79,25 +79,25 @@ WorkBuddy 回答：可以，但不是暴富的路。1. 赞赏收入（开赞赏�
 
 ### 结果证明
 
-![完整上架指南回复](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLFpSIqgNZ9xrFG4BZiad2RaGgtYzw3gThjCBSf3nK8RGsRriarPIXsJ7o1KBc2poaVbGAwD8Bon8ibrTcCwvoxGACuV494H2O7o/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![完整上架指南回复](/images/workbuddy-cases/case-79/01.png)
 
-![素材规格表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMI2AzZYNIlBLu6a3WBl2kFvfSs7A7DTd7FYpHezz5AuIUGgFKkKeGU1SJfUTOdDXWWhvibx3g8ehINYW2nMgwbl6fQN4iaetrU4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![素材规格表](/images/workbuddy-cases/case-79/02.png)
 
-![三种制作方式对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMqI72aBGkCI2Xb2SPTCvvzof3PfqLeJJxZr4xj1jrOuPGYZI1Nb1Y3JKstzsP2uUPdYLAIiamJSVwGpzT51eibWYDClnarPbibiaU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![三种制作方式对比](/images/workbuddy-cases/case-79/03.png)
 
-![注册须知页面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbROYpCZib4eDffn7tS4173TibiaZx0pRqmG7QQaibUibjPS8ukA4YWTfpvGTrM90R77oAUVa7PXIcpRhuxUt5kD5CNvmPPHI7t7OKQibc/640?from=appmsg&watermark=1#imgIndex=3)
+![注册须知页面](/images/workbuddy-cases/case-79/04.jpg)
 
-![阅读注册须知](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROBqrVHU92cAribS7rZ1el3X4aKKq7U2djtZBRePvibTfMOMiaGDrXrfegUdeBQfUOXvqLjvicf6p2TZl6DzxudicUmKF9OL5RodpMs/640?from=appmsg&watermark=1#imgIndex=4)
+![阅读注册须知](/images/workbuddy-cases/case-79/05.png)
 
-![选择账号类型](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNSwLulIpJSK8V9KRR8QkBXRrvT6fQlOFmzOZHzmC13A2qCHb47iaic5y7usfNPicWkSDTVBoAlBOicymYVEYXscRlQibRcktvVAog4/640?from=appmsg&watermark=1#imgIndex=5)
+![选择账号类型](/images/workbuddy-cases/case-79/06.png)
 
-![填写注册信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO5pUuDUKXhj7HI6iae8wBWLGBOGk8rE6Dw7TUOwdzWaL8Vo4AlXv4JoXBanadIaRGLCxa91130yGgvjtyjk32T1YyywNPNan70/640?from=appmsg&watermark=1#imgIndex=6)
+![填写注册信息](/images/workbuddy-cases/case-79/07.png)
 
-![验证邮箱](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPr4WvoPVjhA5MoIGHwCRg4ibtCNxsblibHBrSjst21Fibx8n50IbcSSFQhtILK3ZXXA4X20SztgyY3D7GUhVHxFyqoSgRRWflk94/640?from=appmsg&watermark=1#imgIndex=7)
+![验证邮箱](/images/workbuddy-cases/case-79/08.png)
 
-![微信扫码验证身份](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM57DppxlhjHEgrxUHx4A415IictFUdWMV6c8xCDnOhJ93YgvrRtw126KbR1xsrkbUqaFTSibtDO2Kib1QjS91uByaMnrw0TkicTSY/640?from=appmsg&watermark=1#imgIndex=9)
+![微信扫码验证身份](/images/workbuddy-cases/case-79/09.png)
 
-![已完成注册页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPT9LKOCiaaYGCksibML7TsaYXYBVM19XFHIlhzvutVfgjpDicbcfRJibzvSGhH3PEtbUg2Len0Gvh4fKoWib88ZB9LszVt374InLWg/640?from=appmsg&watermark=1#imgIndex=11)
+![已完成注册页面](/images/workbuddy-cases/case-79/10.png)
 
 ## 八、验收标准
 

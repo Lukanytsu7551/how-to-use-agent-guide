@@ -69,25 +69,25 @@
 
 ### 结果证明
 
-![第一问：FDE是什么+职责+国内岗位](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMZdacf9nBLsrJWOdTDTmUYcQRGoM9UhtKe7BcM6VBia3zAicc1UMOR6zpUsjeW0RjGPJwBUGGoib7ccy1HbBlAx1KkUF3eWEdqlE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![第一问：FDE是什么+职责+国内岗位](/images/workbuddy-cases/case-96/01.png)
 
-![FDE职责六块+国内岗位薪资表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMc0GibIPwfZCRrkuf0Bicw5ic85D7tkNx1XUNdtEj34UibsQL1pmQSIYdiaJdgf9mWLukujyYUretTd77jMWpGaOFL5VRYo6JiaeDLM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![FDE职责六块+国内岗位薪资表](/images/workbuddy-cases/case-96/02.png)
 
-![第二问：能力差距+反问四个变量](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO7JTtYumHPuLfBSS30tNNnbhWSZsqtWmaKNQcgGH9bPAY45V0BGibYCsrDJZ903Gz0kyicAJsmrTboTlibBu83Dl19G8Cic6NhKrk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![第二问：能力差距+反问四个变量](/images/workbuddy-cases/case-96/03.png)
 
-![第三问：读记忆定位真实起点+Word版计划](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM7EpGHnbsiaPKHQRHEcykLcpB8vCt37t47exTHSSibIfmXN0V2fFjzNFP9gFGt8eNlxsgS0u1eVFljy2O8I0jjI0xqTibQibrWgtY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![第三问：读记忆定位真实起点+Word版计划](/images/workbuddy-cases/case-96/04.png)
 
-![第四问：改成HTML可视化路线图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROnqJFY4c6Y5iaUCyFDr4xIQaMsDo0IIQVZ6zmbia9swt6LibD9WFZEbibYoajveRRvibBuDghnsWxWXcoTBZCsFawLdXxxNKiaRZY14/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第四问：改成HTML可视化路线图](/images/workbuddy-cases/case-96/05.png)
 
-![HTML版：起点画像（底牌/待补缺口）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPsNXFNkUA8aia1UndZlSc7e5rBLu3HRVce7kAibtoItyG9nxZVZzkarolpZictEaXyONajRibR2HrDWQSPO3gJ0icPaSWYcnyqmYzM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![HTML版：起点画像（底牌/待补缺口）](/images/workbuddy-cases/case-96/06.png)
 
-![HTML版：总体策略+三个月路线总览表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPcORHkZAXCHTpz33xTWh6BcWdskxQvmqjqDQstEtYBu2kGAsZRfzl9UnWzvYEP04AANpwK7nDQyib4KBFEL9uU83mOKiafZHsNI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![HTML版：总体策略+三个月路线总览表](/images/workbuddy-cases/case-96/07.png)
 
-![HTML版：逐月路线与周任务](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO1WCjmAKar7XYvJUBjKBp9f5DlwhNW4mmbPDT0Ue3MtRjyNnrbETxDdDXzxibXSxs5eIwLCpLwfpaX7c5TxZf5UPH6rD9H0nz4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![HTML版：逐月路线与周任务](/images/workbuddy-cases/case-96/08.png)
 
-![HTML版：第3月行业实战+求职冲刺](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMjyHJMLWWc3OEIDKcQPJmzBn91H2guGNKeOODyLTmYXce9gLhiamW8t136u34awmvAUJJ0ozyqbia1XPJBmHv0ASMZuLzGKUEic0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![HTML版：第3月行业实战+求职冲刺](/images/workbuddy-cases/case-96/09.png)
 
-![HTML版：作品集清单+推荐资源+反馈闭环](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNsCEibzQmFU505QwJfgDTuictE3piaNJbs3gIjib10yq5R4dKCSgzgxBuDWib1mAcwticeiaicOD51DD3Eiczz8zzENAzml1VhG308fFGA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![HTML版：作品集清单+推荐资源+反馈闭环](/images/workbuddy-cases/case-96/10.png)
 
 ## 八、验收标准
 

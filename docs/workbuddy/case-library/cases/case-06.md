@@ -97,27 +97,27 @@ WorkBuddy 几分钟后回复：这个测试基于一个叫 OEJTS 的开源量表
 
 **WorkBuddy 研究 MBTI Skill 原理**
 
-![WorkBuddy研究MBTI人格诊断Skill原理](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPeckX9E9GhYvhF1DRakzTNCbGcNThvicrhEWSaRaKnW7UpYtfbQhMhtg33YRibLgSa8x0zrPFqDaNuRibeOlRLhboOCoazGl8Coc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy研究MBTI人格诊断Skill原理](/images/workbuddy-cases/case-06/01.png)
 
 **网站首页**
 
-![MBTI人格测试网站首页深色背景大按钮](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRM9K5OMsAIpoNUaYzA36ib5nqBKYFTy2QR9U3TiaAgB8wiaH6piaOCuwtWb8HDKTBGClHqE0RQXJ2nlDicYAEZd1fz0xiacsyXr1C3EQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=1)
+![MBTI人格测试网站首页深色背景大按钮](/images/workbuddy-cases/case-06/02.jpg)
 
 **答题页**
 
-![MBTI答题页滑块选择左右描述](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRM2ZicXfaMNI3uUFpxn8d18O0J6MsstEmMT8RMSm29MEHP7BLANuB71icMurx5Cial8sVckuJibSmo3OAvZhyjyyaPU3pqkDbFz0pM/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+![MBTI答题页滑块选择左右描述](/images/workbuddy-cases/case-06/03.jpg)
 
 **结果页**
 
-![MBTI测试结果页人格类型和维度分析](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPhxvg0K3DDaFPwfZsUWrPFh5h7Ayz7wqP5MRrAmibbodRcakJOoP6bzYqsLhicHRibxhbLNsWfEd6NlibS1Cu9Micicy2RUvRWPRtIU/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3)
+![MBTI测试结果页人格类型和维度分析](/images/workbuddy-cases/case-06/04.jpg)
 
 **手机端访问上线后的网站**
 
-![手机端访问上线后的MBTI测试网站](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRM9AibVWL9jOlwOeU09gddM32C0qjMuVQWVw4jiagrskL6ClSp8S0Ve74DwGE3bCicTM5fbCzkMjme1Zv0wpicVy6icgJ3q0SlZpkPI/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+![手机端访问上线后的MBTI测试网站](/images/workbuddy-cases/case-06/05.jpg)
 
 **作者测试结果**
 
-![作者MBTI测试结果INTP逻辑学家](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNZX5iaGfS4Haibgic2s6TewRmWGvVx7la4KjRF4QnnWliaXROhiaq83yOe33NpiaibFpStXKUhick2ttkFZYHvJtwEHnObfLYKdXrpeib4/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=5)
+![作者MBTI测试结果INTP逻辑学家](/images/workbuddy-cases/case-06/06.jpg)
 
 ### 整个过程耗时
 

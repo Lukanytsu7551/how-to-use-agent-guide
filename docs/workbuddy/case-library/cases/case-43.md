@@ -66,23 +66,23 @@ WorkBuddy 的专家中心里有 100 多个领域专家。这次选了三位流�
 
 ### 结果证明
 
-![WorkBuddy 专家中心与三位专家](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMlVgmIzJ9icHJYh71yHJaYs8YjTicynHn3mbyXiafZ2oVvpKKBbmxeP4bD7gz0wkMf6vxjtFAH40qW17IXZMhC53GiaseJoKRP2Os/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 专家中心与三位专家](/images/workbuddy-cases/case-43/01.png)
 
-![第一步：架构师产出四层架构与智能派单引擎](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNIvicfTN5sCCJuP3usFJ93JFV01ick33UyN5OOff7Krd0OXIpDmiaBRppYvJssANSU4mOt4mTQtcq3bPVeBtSapTpq0vmpWoXV3Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![第一步：架构师产出四层架构与智能派单引擎](/images/workbuddy-cases/case-43/02.png)
 
-![智能派单引擎核心业务流程图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN6MVf4ZoTFoxIiarYmeDU9PKvyy7mN71bflU9WEjMSqqFCP0PUEibkKu4FWnDJiaxmEianP28PibrHLIy0JPM5mlhZIWsHibHpv8lRQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![智能派单引擎核心业务流程图](/images/workbuddy-cases/case-43/03.png)
 
-![三阶段演进路线（MVP→规模化→平台化）](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPQo8nIM1vXql5d2X7fMw04zLctuAZc1j4n4chRDUicNxQxzJJf5Ewp2Qtc7kFKIzCnppRy3vUDV6UmXkpwibYERA0SUeCicjQPWY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![三阶段演进路线（MVP→规模化→平台化）](/images/workbuddy-cases/case-43/04.png)
 
-![第二步：开发工程师产出项目结构与 API 清单](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP1dGp3oO6qpgV2LW27dfmeoVPP2nlddeRwsq1picua19tMHl2CevvEicnevUibCSibtudUzb4Br1YibiaYwd411FXgxCHTQKXIMCVfQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![第二步：开发工程师产出项目结构与 API 清单](/images/workbuddy-cases/case-43/05.png)
 
-![Sprint 详细规划（任务/负责人/交付物）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROY0MOiceEvJlvoaIGdZNiboUJ8DZZnsDIODz0sFQdQHXFSu8TIDO4EdkLkZXufiapVYOrjM0OA2d8635fRczG1ZuR5mpgmEZtNYo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![Sprint 详细规划（任务/负责人/交付物）](/images/workbuddy-cases/case-43/06.png)
 
-![第三步：原型工程师搭建可交互原型](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNUibBbLqRpj653h4f2lUrT4hd4CBlJqFauMmcJbEvSEKRE13qItcOy97uicZhLMl0BkQNHibqFKic3sIvl133Ckm4w1SQMDD7AZ8M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=13)
+![第三步：原型工程师搭建可交互原型](/images/workbuddy-cases/case-43/07.png)
 
-![车主端发单流程（选故障类型/费用预估/支付）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROMgUKtPHF31E0v3fcY8iaSiaDIv3jptsHvHwzEc1S3wlvLgQzIzFptOztufoRwtx7XicjFNBPTTfWDOdPxdGRFRGg4o2pibhhqMxg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14)
+![车主端发单流程（选故障类型/费用预估/支付）](/images/workbuddy-cases/case-43/08.png)
 
-![管理后台智能调度中心（地图可视化+派单评分 Top-3）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNqseYSDYv6PIWe9jyM3wjC6zWZdq2mwiaYsRXvCHcjqtBACicCxr0FYjicic461dFkjPhePeExomAzwKrDIcMO8xd90DnRLf47LRo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=20)
+![管理后台智能调度中心（地图可视化+派单评分 Top-3）](/images/workbuddy-cases/case-43/09.png)
 
 ### 传统方式 vs WorkBuddy 方式
 

@@ -65,13 +65,13 @@ Mac 磁盘只剩 9.2 GB，233 GB 的盘 95.9% 已用，微信电脑老是提醒�
 
 ### 结果证明
 
-![学习技能报告](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMrFibGfWTicOLxjFHzpiaG4u05tEHWqS0mNcRrfPPxEXd2NFKWMGNnQILzGozVykPrhfz7Rz1YafMM1LZxHof4PfmD9FTe2AJPsU/640?wx_fmt=png&watermark=1#imgIndex=0)
+![学习技能报告](/images/workbuddy-cases/case-63/01.png)
 
-![安全审计通过](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPWV3mTM7MVmISic3AyQIfccrcAx1chFhgJyfVKhX7pzaPxy86Wkpx0o7YhKNeQbBECq9s6adGobcKw8HpFHB9k6x3icE1oSaf58/640?wx_fmt=png&watermark=1#imgIndex=1)
+![安全审计通过](/images/workbuddy-cases/case-63/02.png)
 
-![一句话开扫](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM2s5cCcb75lwjdG6vCxntwrZzcfMN3e5QJSqUDeJiaDHPIboLxndP7KsiaSOA0iablym3LLZWLvb3u7FMuuJUmNeEfpXN5VpXv7U/640?wx_fmt=png&watermark=1#imgIndex=2)
+![一句话开扫](/images/workbuddy-cases/case-63/03.png)
 
-![存储分析报告](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbROnPCHZO4kBOLnvgQbJBQElhibllYf6SN0ZKZQeOje1XrnFJtLKiaWIRoVCucHrZEdp6KQPEIcYJuia2cIctLce8JWjiaCic5XD7mRM/640?wx_fmt=jpeg&watermark=1#imgIndex=3)
+![存储分析报告](/images/workbuddy-cases/case-63/04.jpg)
 
 ## 八、验收标准
 

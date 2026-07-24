@@ -86,19 +86,19 @@ WorkBuddy 调用 deploy_folder 工具，传了三个参数（builtFolderPath=fli
 
 ### 结果证明
 
-![WorkBuddy 探索列表中的实时航班追踪模块](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMrVn5ycrKsVvEHiacsdAKrPUgDdCiaoFkeqH2zefANBt8diaE0VXFbST6RfIq0vEXDZicEEfWYQq0NoZNR0LsmBf1MJ9fhLw4yMhQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 探索列表中的实时航班追踪模块](/images/workbuddy-cases/case-46/01.png)
 
-![一次性下达完整需求并开始干活](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNESRaQmvcRdDc2GpDVjHD0bbibV7suWnbFtsYJOR2X2wNCwKKJTibUibPOa10EiaCfOZiaVeBuicda2ZvbL1NBhBKD2alyJ0Rm8qibLc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![一次性下达完整需求并开始干活](/images/workbuddy-cases/case-46/02.png)
 
-![三城市查询全空，扩大范围排查](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN9Qelb3Bic7CqlFUaomxicpicxjVhbCYI2OzV7a4JJictniabo54ooOp6t2wtWSiaGaUFjniaWtusL8BSymhv6zGibTeiabNRDib0eUSqXQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![三城市查询全空，扩大范围排查](/images/workbuddy-cases/case-46/03.png)
 
-![中国全境范围 528 架航班数据筛选过程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROBrP4bOkn6qWzhtyklNTTTavfQYAwD4LoKusBHv1yJrnl3JXCG5BEWp4AZPCxDMicdNMMA6w5EyuAtTF0Nbiaf39XygEiaKiaMyGU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![中国全境范围 528 架航班数据筛选过程](/images/workbuddy-cases/case-46/04.png)
 
-![生成的深色航空雷达主题 HTML 页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMjtwRhPyctgp8cNG0JqKCLIv29e3iaATH1W93Km0LuxPqbc1e2YM5J573ic093TIL0cupRI8FicZ2hrVRo1qqQKk7gzatll3WB3w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![生成的深色航空雷达主题 HTML 页面](/images/workbuddy-cases/case-46/05.png)
 
-![EdgeOne Pages 连接器连续 6 次部署失败](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNqZ3dGpQC7KfjQAzmoQafqUgzAkEmDKiaNKcLFicA5c4S9Zjn5cBoicibO8oCFn6x0ia4rKaiajBiaricGqxpCPCWtwq1JHklF6EBxFJ0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![EdgeOne Pages 连接器连续 6 次部署失败](/images/workbuddy-cases/case-46/06.png)
 
-![EdgeOne Pages 项目概览（手动上传成功）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNdnra62kYY2aHWSPskalgulCibF8PDb4tWAJarShzOjBjpQcJLl3xwsBnmiadk73VHibDE7GMuHucrCwpcrtz7SxgQdWgodfed5A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![EdgeOne Pages 项目概览（手动上传成功）](/images/workbuddy-cases/case-46/07.png)
 
 ### 三城市航班统计表
 

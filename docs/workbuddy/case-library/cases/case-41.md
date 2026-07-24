@@ -83,15 +83,15 @@
 
 ### 结果证明
 
-![读者留言想看脱口秀视频](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNiaOTaRiaV0VZfuw2qWsjy5jkSMzme20fKRibJXe7tBwiba1teuzzBEja990Dp33gY08icZibfqoajajHrMsriciaLO4ibj4M4nFfMwSRE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![读者留言想看脱口秀视频](/images/workbuddy-cases/case-41/01.png)
 
-![WorkBuddy 专家中心找到视频生成专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMf57L3TAOqwicmRMHPqSNkhfcweOic6vB79JPCZmRvvUM65PMXcicSw3bp9Yl9FBY545QE7HLjV7IpJF7lxJyr13AZw2nfqMRVHY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 专家中心找到视频生成专家](/images/workbuddy-cases/case-41/02.png)
 
-![一句话发起需求与专家澄清问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRME4EFMWV9qAdFMnQUgDMxfJ8TZMdIzLVcibdNR12h6t17ia5LPYyfbrQsiammoS5KH7l2gmJ2ibeSPTrrwUYyRDZASzX4sRFFM9pM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![一句话发起需求与专家澄清问题](/images/workbuddy-cases/case-41/03.png)
 
-![第一版翻车：没声音，专家排查](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMKLabFpicsSnDdxf2TwY4SXibIw1icia2oyeZhYAkYpNzr5P5VtKD2XqoCjyPEuhmmx5PANUzUJTQdWvPf82foEmadPvnhicUh0bm4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![第一版翻车：没声音，专家排查](/images/workbuddy-cases/case-41/04.png)
 
-![第三版换女声 zh-CN-XiaoyiNeural](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPnJ51SJicS1XbDOicLXljmlWZBJDFNtrVvtffTqUjVaTGmJx8VxJET2iaIKO5tLic2V3iae2ynvqmmeDLQr2KaHBpcDwWJhAPSUlAA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第三版换女声 zh-CN-XiaoyiNeural](/images/workbuddy-cases/case-41/05.png)
 
 ### 4 版迭代对比表
 

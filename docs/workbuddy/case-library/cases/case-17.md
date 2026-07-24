@@ -74,11 +74,11 @@ AI 生成的 Python 脚本功能包括：指定 WorkBuddy 主目录为 `~/WorkBu
 
 ### 结果证明
 
-![WorkBuddy 目录中大量时间戳空目录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM11rMKP5zGe2JvsZrBnZZH71ia2ib4gqbdJFpxCfkUWJo4q6RQVVfk0a1oib8yGBYlGtcXbVqtibVPicqe4yNoNEJZ2TCe0r2sVWlY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 目录中大量时间戳空目录](/images/workbuddy-cases/case-17/01.png)
 
-![用户提醒 AI 找错目录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMDDFlZyEXjiaRmXia6sFjr5CdyoveyXTpwe8uZ0royKcNg0zz6a3Ursg1reJQrrOYGxRpeYHJWlL4ez5D3TxNicYHCI6nNBZboWI/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![用户提醒 AI 找错目录](/images/workbuddy-cases/case-17/02.png)
 
-![WorkBuddy 找到正确目录并统计 68 个数字目录](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMnpDJoicLVsnFlicfVEoKDL6L751q7fxgEoncFuBp5LB3sIvWbJ09PRh4muFpPgldkLdoozaAcwpbByZDrv83Cqrw7sxktZqqXc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![WorkBuddy 找到正确目录并统计 68 个数字目录](/images/workbuddy-cases/case-17/03.png)
 
 ### 清理规则表
 

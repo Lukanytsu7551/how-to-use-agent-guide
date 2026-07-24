@@ -90,23 +90,23 @@ WorkBuddy 查了启动日志，发现日志里完全没有 MCP 相关的启动�
 
 ### 结果证明
 
-![全局安装 mcp-server-weread 并配置框架](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROjFBv4KTPwNFJZaRj7j23dGicur45lPm637iaXMwnNUoZttloPbEic6WWRpRWsrVibXvlvdLrSQicdojsYvSqvQp0xvbm5tDN8kEHE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![全局安装 mcp-server-weread 并配置框架](/images/workbuddy-cases/case-45/01.png)
 
-![Cookie 填入 mcp.json 配置完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMWZ8vGsEWGSNlVDbZibXy7PGeVHhkicHDwZSHkPZG7qXX1qEMGg172Tx1Mtp9McsodAp3NXgazyoIF78RO5yy11MjibEqibV29TqQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Cookie 填入 mcp.json 配置完成](/images/workbuddy-cases/case-45/02.png)
 
-![重启后 MCP 工具搜不到，排查](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPq7hr6CC0nTByHSVSicgmTNgSTJJOIzXlspmnJzNx7gCrS2UQdPtibFzOwxRicw55bxpCZxf3h3hTZ2RbBddOVntNkAWCSlico2iaw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![重启后 MCP 工具搜不到，排查](/images/workbuddy-cases/case-45/03.png)
 
-![cookie 过期，curl 报 -201 认证失败](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMbdR59FUQnczicU4fBhmyboADbslLeq5k380fUL92P2t7TClxdrOQ4DBVe9NqAlW7vmtcz1oMIgMqPXJzzzcuuIKwXiaxYajClo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![cookie 过期，curl 报 -201 认证失败](/images/workbuddy-cases/case-45/04.png)
 
-![CookieCloud 网站打不开，回手动方式](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROOFuW0ZDvoaEuYJ9cUNps42Qqyu3ZO3Nav4A3EsRCyhrNzriah0NC2B5iaJ7kFy4jt6KrAodx1SSRc3j8JuaLvYAR9g6qB8xSxA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![CookieCloud 网站打不开，回手动方式](/images/workbuddy-cases/case-45/05.png)
 
-![MCP 服务管理手动点信任](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNAfiaUKdKib8Tp5E1dibKiaxsNMFa1n8P2IQdCOGPr0Cgd9k9QSPmK7V4zk8xs8sMAUibQQh9s40TebiapW1ZOXfXQgJQngLQnAFXtQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![MCP 服务管理手动点信任](/images/workbuddy-cases/case-45/06.png)
 
-![点信任后 4 个 MCP 工具全部可用](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM7k4icrly0F3OiaIUEwZ4Y7BQnbGE973GNicdVLUBhwySIqwf6CBpyU11grmjvV0qHeKvIglRL8IKPaSibicwicExhYLgA6lyxgc0Qo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![点信任后 4 个 MCP 工具全部可用](/images/workbuddy-cases/case-45/07.png)
 
-![书架查询结果 52 本书完整信息](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMdK3xfLZwicQkYzIDj4Zic5ZdFBl73XDpEL3iaicRoHCZuS5n6eRwhBYYBOBXQH7ga0albQyoEmgCI3DNnvYNicebosZVV5Lnt4cbY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![书架查询结果 52 本书完整信息](/images/workbuddy-cases/case-45/08.png)
 
-![书架统计与分类明细](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPiawIicSX2k7xKZRIZoIZkh2xj2t5u9IlUibGCMNEKVJfQDFwbEWxUF32q0B9tuD1V8ccI97bgS1yOd03wDPJ5q8FKuLt5qgO5xs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![书架统计与分类明细](/images/workbuddy-cases/case-45/09.png)
 
 ### 书架查询结果表（部分）
 

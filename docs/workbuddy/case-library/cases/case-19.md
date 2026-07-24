@@ -70,25 +70,25 @@
 
 ### 结果证明
 
-![yt-dlp-downloader 技能讲解](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNr71MNCva67qZeAge8iaUwpaEfevyMzsjcXspNfHU0vJQgAsz29BsQuPWltAx1B21gZe0xReicWosBIbBH9e5Ahwsl1nXQibgXAE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![yt-dlp-downloader 技能讲解](/images/workbuddy-cases/case-19/01.png)
 
-![技能典型使用方式](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPhZ0AS5o4hIadKdqWndf5R1QZbH5jSyp3T0bOBnia3Lhic4IuX45wQ3byxQI4VfHf7oGdR2nwGZiaiaB4icb3dIiciaS8qd5KBRts4o8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![技能典型使用方式](/images/workbuddy-cases/case-19/02.png)
 
-![让 WorkBuddy 帮忙安装技能](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMQ8REgdE0YSicwzb5NFd4Y8fK58XiacaFGvfUvicdWxVtjfYoZTXQSDwXBjriaJsEibSDQ74PD2iax6QxC4iabCLMMaSnEiaZfAHVt2Mc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![让 WorkBuddy 帮忙安装技能](/images/workbuddy-cases/case-19/03.png)
 
-![B 站视频转 MP3 提取指令](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN3BzNuzNYSzibWw6EJcMkYXC6rhXFPuXicA84emt74e3vjgZds3YsPrdmY86Kwrxr8LXdRgZuLHMP1cdMtOvfLMryUc7ibd2Pic7M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![B 站视频转 MP3 提取指令](/images/workbuddy-cases/case-19/04.png)
 
-![询问能否提取 MP3 内容整理成文档](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPC30vbynqnxJWM7wR8Opx59Q7uM0WVHAO1F1rCBBmFmYfRslc21mOupr7EPRx4msNiaYlmOGprHglIyOiaWqhniahj6ZWssbCt3M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![询问能否提取 MP3 内容整理成文档](/images/workbuddy-cases/case-19/05.png)
 
-![whisper-transcription 转录方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfNuWtUHtyhs8cnXzBicdwZkf7K1J1PCz7LROSRia8Y9R8zCIF0QBz1Ag8yK8DbUttwYxeU91u81ZnNYBLibiapfBdo1NVe65HEmM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![whisper-transcription 转录方案](/images/workbuddy-cases/case-19/06.png)
 
-![空间不足后给出的其他方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN1aMOXMjDZDOLOTYLtibPhA5emUhZh1rGp4uiby6s9AEfSrsKibNibYiatdiaCQtMhrAbPBur2rJt9Mcuq1IzQMRujCib00iaMTKRibqEg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![空间不足后给出的其他方案](/images/workbuddy-cases/case-19/07.png)
 
-![AI 一开始说视频没有字幕](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMF98gUpQyBYYia87z6fEcYwibILy8ib6skeWZPKdYZZDEly4ZCAEN71GjW0SAXiczbpYrhdib2JiaJ2ODaTUUbLfSBWibibGicPUWcWp2Y/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![AI 一开始说视频没有字幕](/images/workbuddy-cases/case-19/08.png)
 
-![用户指正后 AI 找到 AI 字幕](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPpmEEPdYl2A87Op4GE6Ug7s1vaylWWichhIuhYjZibdH4GgQ1fW2XElDY3aUCMicfibpiafhXrjnysOQsqu1bAXHtamkhtgrq9wYso/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![用户指正后 AI 找到 AI 字幕](/images/workbuddy-cases/case-19/09.png)
 
-![梁建章 x 罗永浩《十字路口》核心内容整理结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNcQBxMia37B2ianOSmjeAbVTlxaf0Za9CXroCKgmgibibw9EpiavUO7ZXkPbMk5hJliaOVJxJrVic91Yk6VUs5iabHJjibqEkh0ueGPhmY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![梁建章 x 罗永浩《十字路口》核心内容整理结果](/images/workbuddy-cases/case-19/10.png)
 
 ## 八、验收标准
 

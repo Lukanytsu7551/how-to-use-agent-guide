@@ -77,11 +77,11 @@ WorkBuddy 把分析结果整理成一份销售数据分析报告，包含汇总�
 
 ### 结果证明
 
-![各品类核心数据汇总表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRONAAkxbKRNibTFGyohYctM85DGEvQibI8uJibQPzyFXibib57EYibR68rAXna819ywpn5Ywy01icBicGJEzzF0cKXibjQ25Tum8VCRicW4s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![各品类核心数据汇总表](/images/workbuddy-cases/case-14/01.png)
 
-![各品类月度销售趋势折线图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMN7qyIoHTnSQRnn7a3l594rtVl1O3VTsEdOOOdd0uP4Mv4jicOQCSDoIVib33I1icE4qZ7iaVmCte3luiaYxTMogzdicWmSQKcKPB7s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![各品类月度销售趋势折线图](/images/workbuddy-cases/case-14/02.png)
 
-![品类销售额对比柱状图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROWyicszI80RNj3aO12FkpEs7MWrq0O0yAW0kh7S7ic3nN6RbjC5GrogxSvlDdrw9Iy8dz0kygee89vkdUniccVgz6TRHicLsGiatk8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![品类销售额对比柱状图](/images/workbuddy-cases/case-14/03.png)
 
 ### 效率对比
 

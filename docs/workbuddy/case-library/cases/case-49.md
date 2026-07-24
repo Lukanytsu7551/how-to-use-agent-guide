@@ -86,25 +86,25 @@ AI 开始各种尝试：第 1 次改语言参数 `tmeet record transcript-get ..
 
 ### 结果证明
 
-![WorkBuddy Nova 启航欢迎会海报](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbROibicKrvrUialm6nMdibJ0D4da0Gsiaia5afko6vXH27Wbc6HdIMrWwnSXicWErDNicazUhVLw9Ve13trkMa3b211vPAqjofsnibayiaKnw/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy Nova 启航欢迎会海报](/images/workbuddy-cases/case-49/01.jpg)
 
-![连接器面板找到腾讯会议](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqhADwPvW7D1JBsEaWQ4vAxicwmqyfzyU0uViabK4GBnemwwysp25ENyT7henh5DdAxV9jU1K7BcoHZYgZFZnImUbcRBLngY7qE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![连接器面板找到腾讯会议](/images/workbuddy-cases/case-49/02.png)
 
-![点击连接腾讯会议](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN97GLCR4icJxkFdpoticNLl0Mhp8kic46PASVhBia9dfebHIyGCWzZuBiaKhZonUBshFpia6Tclchr5B2ogeia33KXKV2VsyK6BhtYtg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![点击连接腾讯会议](/images/workbuddy-cases/case-49/03.png)
 
-![微信或腾讯会议 App 扫码登录授权](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRM4X28kzjXgCuk5JXOBNeicKRTUJrekibvicHofTqWyl8f2Q0s6icXx2yibdfQiaCic6Ry2Z54srIUvMYf2MGjCEMiaHHZU8t6sbFCuot8/640?wx_fmt=jpeg&watermark=1#imgIndex=3)
+![微信或腾讯会议 App 扫码登录授权](/images/workbuddy-cases/case-49/04.jpg)
 
-![扫码授权成功 WorkBuddy 可读取会议数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPZnhxaz0QcuFibeOxW7qAb556AqjmIu2xLtaPibajJCUqE0A2PGSrhc9IeuXD3EINic2iaYdzdNartDMwwRMLXmu1dJqiaq949shR4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![扫码授权成功 WorkBuddy 可读取会议数据](/images/workbuddy-cases/case-49/05.png)
 
-![问"我有那些会议"返回 5 场近期会议](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROJT7QZ3VDviadBcOiaHSk5py720iaXBwaHx43RrGSwUMOOAicudWOqxXyZTruYfhrwuBtF1FatgdJFDv3Fm4szLtaADTXMNMZGmOw/640?wx_fmt=png&watermark=1#imgIndex=5)
+![问"我有那些会议"返回 5 场近期会议](/images/workbuddy-cases/case-49/06.png)
 
-![AI 获取会议详情和录制内容](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMcn4IXIWvOxQNYSyroCIkvmuKlicMjtPuFE5VibWeKEU1mTJaEqVzbjvpANZiaU4L0Hq5MoU3uSia194tGk9VdnMhprQxslotF11U/640?wx_fmt=png&watermark=1#imgIndex=6)
+![AI 获取会议详情和录制内容](/images/workbuddy-cases/case-49/07.png)
 
-![AI 返回纪要但底部提示中文编码乱码](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO6RqAhIeBicE7FMSaOKF11N80LpNMNdsDeBeLt5S0LyJMBliaiaugZNF7AXgnibWMC3r0SNnC4LFtkibFaD2lPccqbJCiaRhfyVKANY/640?wx_fmt=png&watermark=1#imgIndex=7)
+![AI 返回纪要但底部提示中文编码乱码](/images/workbuddy-cases/case-49/08.png)
 
-![说"我不管"后 AI 开启深度思考模式尝试多种方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROxeXHT6eFNxoJyG5C7mEyibiaHSBUyTj8Kw2GkuiccCmqy0F4WsIba7HvYn3H0QicjqibEiaj6pIXD273P6C4ZkbwhmNUPWCicSKDa5w/640?wx_fmt=png&watermark=1#imgIndex=8)
+![说"我不管"后 AI 开启深度思考模式尝试多种方案](/images/workbuddy-cases/case-49/09.png)
 
-![最终完整会议纪要（含基本信息/参会人员/会议内容）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROJsb59NGXszwybuSC6w0w2SM0rjuecCFyUQyU1qvH3tsVneduNzXNCEKbze4v63zP4iaic3BWU0DHAL26bPvt5pHttsPUw8oWGE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![最终完整会议纪要（含基本信息/参会人员/会议内容）](/images/workbuddy-cases/case-49/10.png)
 
 ### 近期会议列表表
 

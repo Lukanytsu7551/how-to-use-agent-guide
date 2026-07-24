@@ -64,23 +64,23 @@
 
 ### 结果证明
 
-![WorkBuddy 接收一句话需求开始做PPT](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPJOpRjM68yvlXiciafToWA5D4iaTiceCtPmO7xpAUReOFshzHGH7UQKfRf2t5W0pXwvtpU5lKVsj9wGWNU68Bs25XqmOOtz8JDQ6k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 接收一句话需求开始做PPT](/images/workbuddy-cases/case-97/01.png)
 
-![9张IP角色图：LABUBU/MOLLY/DIMOO/SKULLPANDA等](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPlYx6QTOEzoBLpyKHNQ46aBqZpmtUNpvcFgaryO8C6ZokJNibYYLkHkibpVZAMZNRZoVRhVAlqErH5ic0ljZTzZWEOKBlQ4vQbz0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![9张IP角色图：LABUBU/MOLLY/DIMOO/SKULLPANDA等](/images/workbuddy-cases/case-97/02.png)
 
-![封面页：2010-2024品牌简史](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPCzlHWHwmMPSOJfnMLibAN1HCJzCeiauvN5ia9GviccKb7tbUVIThthVZcEVo4dqMSZIJE2enaKr4xZbyibv5P8m2SOBvglYp3Wgib8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![封面页：2010-2024品牌简史](/images/workbuddy-cases/case-97/03.png)
 
-![2016 MOLLY元年页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROzSxDQnuqib412oTNzAziagg8PAX8Y6hYFla05tdmjomryxEsu7w6gkylEqUpibeaYM1guLRGdCics8U9dVRUBkjUiaaUKtSJQP6pg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![2016 MOLLY元年页](/images/workbuddy-cases/case-97/04.png)
 
-![2018 THE MONSTERS出海元年页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROnVibYXEXeG3JhVNMlJFwBXhxQrk6DxChH5ooHTK7zwh3nDo3PT2LS3jRIUzuvgHeaJmNEgVj4h1ADIibn3Ia09rmWKbfuwCiaHI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![2018 THE MONSTERS出海元年页](/images/workbuddy-cases/case-97/05.png)
 
-![2024营收破百亿页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPSYczSEc1nJUiapEciayvsjPcsWZvXJRnFiaDfagib1KCVic7e1sdQRqoP5w3jnrqlReJPxibxuyzYBXhIctTQ6iaYQ1j3YeXW8bzEKA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![2024营收破百亿页](/images/workbuddy-cases/case-97/06.png)
 
-![IP宇宙总览页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNib4AqiabrcRLdu1sp4WavaDOsb2L4tnm19Pqnich4bk2C3VqyKGyopicT8mqGYk7g7ataqkayl1VEibbG1q4UwupvwZcPxvIAnpqU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![IP宇宙总览页](/images/workbuddy-cases/case-97/07.png)
 
-![部署上线拿到分享链接](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNVIqrfHkia0FWHcCmT1R1ZEKQRUNtNW1KeVZZk0Pn1kXj9m55ungn6lK0CNXkbg6qT7raSfSje5e142fQHRib9Y3r3E2IDQTO8M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![部署上线拿到分享链接](/images/workbuddy-cases/case-97/08.png)
 
-![线上预览效果：浏览器翻页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN4uibapZd8LvxtWvjTX1OxDB10L98weUVFQqDic1ibK8X3un5XPJ2K72WqhUntfjDUQBHiaLZGQHmvobMy9MmdUM3Pb1IKIh1WZao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![线上预览效果：浏览器翻页](/images/workbuddy-cases/case-97/09.png)
 
 ## 八、验收标准
 

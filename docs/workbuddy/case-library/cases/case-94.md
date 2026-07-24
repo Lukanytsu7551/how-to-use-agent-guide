@@ -75,19 +75,19 @@
 
 ### 结果证明
 
-![微信群二维码过期提示](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMYS0r89MJs1cWOQHkjVdXC20B1nbGhuqlicaXznwfNccrSjNUmbb4mKYK195Mh5YxCXndlMTRxCp3sMz8j7rN6aueDeibtsGibKw/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+![微信群二维码过期提示](/images/workbuddy-cases/case-94/01.jpg)
 
-![第一问：活码方案+机制图+三条路径](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROSKDQxAHCst9xTNStCSTj00rQtvw1zaX4HJAPa0xgkv3WH4pKJ579A4vVNEXia3rHCQBbo0usUUEnwr5aDnf4s9nfGViaO8qUicw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![第一问：活码方案+机制图+三条路径](/images/workbuddy-cases/case-94/02.png)
 
-![第二问：自建条件+微信识别机制](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP59KL0Wb5kDFcPIMrtM3JO37W9xHW40ibd3qUD5hzBtpUGGKKZLDBbib52pDYM0IhO8bbzcmyf24rID1TTjyHXNOnOEVDJWicWWI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![第二问：自建条件+微信识别机制](/images/workbuddy-cases/case-94/03.png)
 
-![第三问：新群码必须手动生成](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNYIuaJ4yia1HiaVYt9C2vWPNwZ6qmnmE92G3LG3gh4A9s0Mr7YBTXxa33IrwBcia7q2vr8hhADcs0zugR9FV2BVBrI2Wmdrs0xEA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![第三问：新群码必须手动生成](/images/workbuddy-cases/case-94/04.png)
 
-![第四问：企业微信群加入门槛](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMJiasgv0Skv0C2pDKjl4mWOv9yZHlF8nCAGuqZrE4DDJOvZjfYUpBCst0D4xSCEBia1dtlEJd95LfAaUq8Gst1icrqKqrWCF0Q2U/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第四问：企业微信群加入门槛](/images/workbuddy-cases/case-94/05.png)
 
-![第五问：没营业执照/外部群vs客户群/拉人](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROaT6owqE5ZDsn3am9htxxqnBJsIf0dmOO74oibtC2dDLqe1taV0mn4OB4DYic0eJKsYcVtVjPlKq8TsGaI3sNeUMNZYP23Hv0Lc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![第五问：没营业执照/外部群vs客户群/拉人](/images/workbuddy-cases/case-94/06.png)
 
-![第六问：定时提醒+自动更新完整链路](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMlS9ovibBBH8AbPHR8AnhkoicD7edcfhFz0GWtwVic59ZFPibrQhMDLk6Ugu8SOoNJrhyOicTQy67qBrayGyuNaRDIzgjXbhviaVFDg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![第六问：定时提醒+自动更新完整链路](/images/workbuddy-cases/case-94/07.png)
 
 ## 八、验收标准
 

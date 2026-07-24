@@ -73,15 +73,15 @@ WorkBuddy 调用所需技能后创建完整的单文件 HTML。布局结构为�
 
 ### 结果证明
 
-![WorkBuddy 探索模块入口与 3D 数据可视化大盾示例](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROfvovBIJOk6X9yPEqskoKpgYsfzqjRh9dx0xcMAG8NusfNXL6rBxPEBYrfa3WPqBXfksP5kNajwMylNRoPQFVKvJvv8M7IqqA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 探索模块入口与 3D 数据可视化大盾示例](/images/workbuddy-cases/case-37/01.png)
 
-![在探索模块对话框一次性丢出完整大屏需求](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROx0X1KcIicpHavAuxCBJ7RR3t17KWEx2jpxA6fBjiaD8pJyuYew3CZ1cdqkctTbGmQcFP7y70TbpwSAX2ZRMT4Pic9P6A57vuxcg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![在探索模块对话框一次性丢出完整大屏需求](/images/workbuddy-cases/case-37/02.png)
 
-![WorkBuddy 自动调用技能并开始写代码](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNjndebv1Imjh3ibvLUj0zLGN1kXO9OxXZSNfsDRlEy62wUX6rubUNBwx8ibYibALs6I7oo9RqVrBFP0tvibIKZlc7m9HnCVgtyHg0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![WorkBuddy 自动调用技能并开始写代码](/images/workbuddy-cases/case-37/03.png)
 
-![大屏第一版效果：KPI 卡片与 3D 柱状图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMqrrGuXicxLzqtFAGQRLyklZoB3e7ibR4ZaNaj81aIuRQrG01jibnY4ylFs98QpNv8OIn6XCZaYdbnACGg7BDzEK2fClUehYcGW4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![大屏第一版效果：KPI 卡片与 3D 柱状图](/images/workbuddy-cases/case-37/04.png)
 
-![修复后的核心指标环形盘带渐变与动画](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROj0fl2qCxAgz8QbkShRMMMXTFkXnCeecBAL4TR26qxonDSItzCs2HPFfPF7qQTtNibicc2PzOicMvibfhsABwD79rU8SrQMibS95l0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![修复后的核心指标环形盘带渐变与动画](/images/workbuddy-cases/case-37/05.png)
 
 ### 传统方式 vs WorkBuddy 方式
 

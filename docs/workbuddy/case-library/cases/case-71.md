@@ -69,15 +69,15 @@
 
 ### 结果证明
 
-![知乎扫码登录页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP3QCiaFQvKwwNr5G4Y9sV5VhtJbHSrWhNbRacAl0ic9EPf1mvSVcPz66lBDVe280dsCdzHvNnHH3qEJuLG9ACFFgpREcKOialEl8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![知乎扫码登录页](/images/workbuddy-cases/case-71/01.png)
 
-![知乎首页与创作中心](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNUEt2ibmoLQdNkUvqCNQ2qHZX3dB0foUE4snNJLCyhSOb7o67daZzuT94icWvzEMU1pnb9SOKXNhsNkRIvY2OqOdmVdxc86Q3M8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![知乎首页与创作中心](/images/workbuddy-cases/case-71/02.png)
 
-![编辑器内容换行被吞掉只剩47字](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPwMh85lHfiaibNS97ZUpnMtqqPsn9AB2m0GbfFSfmMZlKWKaQh8T4X1vEA5jsfv2icvNdqc7XficibiaGHQrNF6q5UVhZHOzJ6mzhL4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![编辑器内容换行被吞掉只剩47字](/images/workbuddy-cases/case-71/03.png)
 
-![381字完整写入编辑器](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPYSGsreoAQB6utSR55WRqceOnS3X32FQqC82k6asWhq8GsiaNAmVkmTicVribsiakV5lEOiaib4tk5nPUEduyrPqsdDVe2IZCOgzSVA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![381字完整写入编辑器](/images/workbuddy-cases/case-71/04.png)
 
-![知乎发布成功确认窗口第10篇想法](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMcH95SSeBnktibFUCN0MDS2ty5SwvjJX6nUqa3Pw2LibElibR9Jr35mEgmdqZgZOQFGaOq6ssbuhcqwIjOtBasQKdY7kQfpiax1J0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![知乎发布成功确认窗口第10篇想法](/images/workbuddy-cases/case-71/05.png)
 
 ## 八、验收标准
 

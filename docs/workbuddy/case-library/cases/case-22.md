@@ -76,15 +76,15 @@ WorkBuddy 的多 Agent 协作模式，相当于你当老板，AI 组建团队。
 
 ### 结果证明
 
-![用户询问多 Agent 工作流程](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMt3qw2VhAULu6uhLBnVhrl3piadPMuGHgjRfJJdKMbyicquzlzFAgwnT41DpmngjhTkgfRmF7ATibX4uwkkczuRKDibPCtTHBflPA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![用户询问多 Agent 工作流程](/images/workbuddy-cases/case-22/01.png)
 
-![多 Agent 协作模式说明与限制](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROPHm0tKajArhxpCfo7Jw0Nic4BCPoOiavpF1XRlWXRUFPM6icOOdTFSecNia8ViaCWDKdNGMZGrbic89WLXYUIYAaAAicfT9m6JWqxqM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![多 Agent 协作模式说明与限制](/images/workbuddy-cases/case-22/02.png)
 
-![翻译 5 段内容单 Agent 串行 vs 多 Agent 并行效率对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROe7jVTqD4dZEGYItQSUye5HNrQ97GvxTrvsQoA8sicCnTicvxPDGoFicibOoHvxay8njkbg89V09LCRRuicSBPkiadoYDdSBb75KfYs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![翻译 5 段内容单 Agent 串行 vs 多 Agent 并行效率对比](/images/workbuddy-cases/case-22/03.png)
 
-![一句话启动多 Agent 并行执行任务列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROia5d06I9QYxLHOqqDtxlaGWJbicfmia1OWuxThxKN0ebXfbRT0rXBtc6Nta00xxib2BI4kcDGS2ECgHxLibErQLdn9qF1dq6ZvFV4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![一句话启动多 Agent 并行执行任务列表](/images/workbuddy-cases/case-22/04.png)
 
-![研究员与封面设计 Agent 并行成果汇报](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROV7mtVY8WeHyianSce1W1ibrKsKr1bVT6RSWsXuRYtGSoia5NzpjSyONBeLZLKT7EyQiaS1L6j41Yv7mHjSwAaDicjcnTaWeQDCQv8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![研究员与封面设计 Agent 并行成果汇报](/images/workbuddy-cases/case-22/05.png)
 
 ### 单 Agent vs 多 Agent 对比表
 

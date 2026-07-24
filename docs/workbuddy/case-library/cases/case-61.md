@@ -68,19 +68,19 @@
 
 ### 结果证明
 
-![技能市场麦当劳助手](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROLUF50eU7TF0D5jsR1POYwh4okFPGxzSiadQUOnv9mGUh6OHibichW3icVkdhNoSASTNaxuZd7HXuWM9jyIxSCAlyRdfPqJNAlsl8/640?wx_fmt=png&watermark=1#imgIndex=0)
+![技能市场麦当劳助手](/images/workbuddy-cases/case-61/01.png)
 
-![麦当劳助手详情页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPjCIEic01cgu6USAuLQf9IwgubtvEqrtCfBlOW2Xvv8FNIibYU0xicaCH2PwHC8vA1okDDVBeFBTYDYYTmLqibCcbcfJXoDXLr5jY/640?wx_fmt=png&watermark=1#imgIndex=1)
+![麦当劳助手详情页](/images/workbuddy-cases/case-61/02.png)
 
-![首次调用提示未配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN8icNYou7I21WCiaJSohyyyhrhB9JHefOuUb41YzB6foTl0FBiaqMDLSkeuNqjTKpnScDskojUSG0vMZyZzkO2wgh7YzQTlemNU0/640?wx_fmt=png&watermark=1#imgIndex=2)
+![首次调用提示未配置](/images/workbuddy-cases/case-61/03.png)
 
-![Token 配置写入成功](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNoSDBKHKVPE3VpWe4RMIBeqJ1KeyZaToYdW6WXHpVwibnVrRGS73YJaktRP3icTyOCG9IGS5xHvMpcCYiaIZTwiaHLcUaAlD9D1S0/640?wx_fmt=png&watermark=1#imgIndex=9)
+![Token 配置写入成功](/images/workbuddy-cases/case-61/04.png)
 
-![信任连接器](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROMvxUdGdB014MUYzZ72g2cCzmicRky4yRZt7mWGE4lZ0wUK8ribp1HUtX4HHHs2TWWznKKh0MJuibdXSTRu7CicxdJt5pXOARnGNY/640?wx_fmt=png&watermark=1#imgIndex=10)
+![信任连接器](/images/workbuddy-cases/case-61/05.png)
 
-![查优惠券结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNGWw1kHeFr4gnIDYa90dNlBicicG5HuY9WLb0d4nfUga49Vqr91txHU5sXvkLxlKylRIeaTR6jmpeRhWUpo7sVCuqD9C4AtXTQU/640?wx_fmt=png&watermark=1#imgIndex=12)
+![查优惠券结果](/images/workbuddy-cases/case-61/06.png)
 
-![一键领取成功](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMuK97V4d15KqUHAP8icEJDF5YhE424A378upCyA1icFIibH8TDGuw6JSV6pa3wHibW4187UsLNKZkeQvBouZQoyibI9nEpPQnPbKa4/640?wx_fmt=png&watermark=1#imgIndex=13)
+![一键领取成功](/images/workbuddy-cases/case-61/07.png)
 
 ## 八、验收标准
 

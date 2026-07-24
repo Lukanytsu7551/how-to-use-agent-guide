@@ -77,17 +77,17 @@ WorkBuddy 直接画了一张运营框架图——从账号定位到品牌变现�
 
 ### 结果证明
 
-![WorkBuddy 专家中心搜索小红书运营专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROwdEjCaZbMeBcjdDibQibLrqgdxziaNunklup7cH0Y78ajLsxUOBR5nGicyDtSkfb5j7DdKLfLqjGlIGWDdWKSRkDyUGlCaOECW7A/640?wx_fmt=png&watermark=1#imgIndex=0)
+![WorkBuddy 专家中心搜索小红书运营专家](/images/workbuddy-cases/case-51/01.png)
 
-![账号定位公式表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO3MBQ2neoAe3PItwZ7IWNeTtFWosUtuZfatXAEXcJwVwnk8sx7Swd94ibYmlcePdBiayK4kia7ENBeUzfEapNSoqg7MI5N7x4vOA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![账号定位公式表](/images/workbuddy-cases/case-51/02.png)
 
-![小红书运营全景框架图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMss89mteR29AWnpLII592zF5qYrDscGMDWRhnJuYUqECg6gbrHJcFMrkwTSOkicSzKmkEK9dV76LfkMsmTE5F0mvNHt2VaPEcw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![小红书运营全景框架图](/images/workbuddy-cases/case-51/03.png)
 
-![爆款打造公式图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPicDXibJv1fTqBZ9XwDg0pOCJ4nlkI07Kgp7N4pzw0icxbnicelQG2cnawTpQOJiaKxUMXnwccUUd5OPo9l8J2IqvoTuczsSq60ms4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![爆款打造公式图](/images/workbuddy-cases/case-51/04.png)
 
-![30天内容日历](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPEGDESFNTqNzflib1IKAop3IunfB5lp4HtjphZl2V43RWMtsHQbxibrUXFU4HENVz41lU1oV4Jc3WN5ZEGkQicgGEDExNxW8TAYQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![30天内容日历](/images/workbuddy-cases/case-51/05.png)
 
-![头像设计方案对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNy89ZkvkYic9uEKUBZUNlHhiaib452Wn7ic86rmp0Y2RF8gZJPNwO0t7c4PMUYKlkEGYibeLcM150bJRzia0lXicSaSILHSIfZvQSGhk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![头像设计方案对比](/images/workbuddy-cases/case-51/06.png)
 
 ## 八、验收标准
 

@@ -84,39 +84,39 @@
 
 **即梦官网 API 入口**
 
-![即梦官网左侧边栏API入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP8ZHmviamBLoNrlRGVJ4dl3jn8IbD0Ix46m2jxnnEAHf3h5zAicntlT5icfiaRt7XSfGnadOJU9CKhV6kvUCMX2JibQbQ6yS5oEicXE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![即梦官网左侧边栏API入口](/images/workbuddy-cases/case-05/01.png)
 
 **火山引擎即梦产品页**
 
-![火山引擎即梦产品页立即开通](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNvic2xaUXib36nAAEJTERVBsOxiaKl7jTV8Dqx5BoYYTPyBVbOHT1mjicWnDHAico5pqfGjOyibIcialFw9Sw6Uia6jY2LGRUYyS0FlCo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![火山引擎即梦产品页立即开通](/images/workbuddy-cases/case-05/02.png)
 
 **模型广场开通服务**
 
-![火山引擎模型广场即梦AI图片生成4.0开通服务](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPvYuDJ0NtKX2EYV7rUibfODAyUZaia9aNyXos03zCufribnQGw7yVruCicJvILo1tr4oSGCHicjH8FTjOgVbt9Xbb2rjlJic3Ggb3Dg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![火山引擎模型广场即梦AI图片生成4.0开通服务](/images/workbuddy-cases/case-05/03.png)
 
 **免费试用确认**
 
-![免费试用200张额度确认开通](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROT4Y1QgKg97FiaT0yiaYjWvmSUaKmXhuToViaRJOWDTuZlATQaBJQYb3909C2eI5vmWicfhVCNzviaBAEXliay01MAAn4PJ2RE40YEI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![免费试用200张额度确认开通](/images/workbuddy-cases/case-05/04.png)
 
 **服务用量限额确认**
 
-![服务用量限额生成量200张确认开通](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNKTgElEBJ4CwCxwnabgwcr02dlqU6bKIHDeRyyOCuBu9TV88XjVNTByk1m2hTFClDW8OwciclTJJfpOpiaeBiaLTtiaryTF1eibLKo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![服务用量限额生成量200张确认开通](/images/workbuddy-cases/case-05/05.png)
 
 **开通成功状态**
 
-![开通成功状态变为绿色免费试用](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLBd2bzr2YprtUBL7c6CCUC1qF9Ae9VzxweB9HUIe4QsDVBdemWH1RNH3zPaEsqpBtaZFWHXY819ADC6icpjfeJeHtibzpRFz4A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![开通成功状态变为绿色免费试用](/images/workbuddy-cases/case-05/06.png)
 
 **WorkBuddy 自动查阅 API 文档并开发 Skill**
 
-![WorkBuddy自动查阅API文档并开发完成即梦AI图片生成Skill](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROEiaPhzclcagPg4s3S2DIuGqfiaGnOVyExc6sEsVWYSbkibC47Ptpx9zruibt6QTreV3avciapMRlTKdLswU0WGvgCYHozBA0jiaUUw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![WorkBuddy自动查阅API文档并开发完成即梦AI图片生成Skill](/images/workbuddy-cases/case-05/07.png)
 
 **AI 生成的公众号封面背景图**
 
-![WorkBuddy调用即梦API生成的高清背景图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROJc5icl7hgeyJdn46Ll4EfWSVxakvoibiaNtGveL6pqiaHquibxXexIhVazNyUfhCWh1PFszauXxwJE0mIZp3e7X6MaUGZ9QQk6cAU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![WorkBuddy调用即梦API生成的高清背景图](/images/workbuddy-cases/case-05/08.png)
 
 **最终生成的公众号封面图**
 
-![最终生成的公众号封面图带标题文字](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNaccdsnAicXCiaaPoVFE67vEeuEDEPeibSlQFBVWILAtSneRPKNficTGSdBnAQImrrNlQxjyiaIh3ESHeWP6hOLbbsZcbYEUQqD3Y4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![最终生成的公众号封面图带标题文字](/images/workbuddy-cases/case-05/09.png)
 
 ### 与第一篇 HTML+CSS 方案对比
 

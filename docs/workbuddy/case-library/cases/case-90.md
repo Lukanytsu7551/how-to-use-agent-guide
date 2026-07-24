@@ -72,17 +72,17 @@
 
 ### 结果证明
 
-![Agently Mail 后台管理页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNHqOLhYmVSB76xwUjy6ibm1LfmmCufmsVfBR9A3UoFsfT4Yc2UBKVQJZhxOOOV60ug4ZTNDOFSRcyCD3tLHC2FlyV0icdp1uZS0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Agently Mail 后台管理页](/images/workbuddy-cases/case-90/01.png)
 
-![WorkBuddy 读文档装 CLI](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNxCzGBwyh8BRib9tSApic07yI2PIRNbbfibU1C2MV6WsdZ1lplPHTqVSEHGhrbddsRI4ZqaoNJ0XmleVTOTeCbia9DsZY9HOuoXGE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 读文档装 CLI](/images/workbuddy-cases/case-90/02.png)
 
-![一句话发邮件预览确认](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNvVCEhqkd7Kz5mGu00LMUicRwXyaOtYzxAqz91JIicS4v2mwShrf6J7pwggyiagucTW8KOibVk5MNk5OWT0jUJGbS6Do8ySngmw1U/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![一句话发邮件预览确认](/images/workbuddy-cases/case-90/03.png)
 
-![126 邮箱收到邮件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPia0eiaqxVzia7tbymPRhc4zKZ4LAygzXpKzzg0EEZzlRZD2uicriae22M7uHvEN3hzyJsjSwQWZNXliaYdgMb8ntFSeYXT82WA0l0E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![126 邮箱收到邮件](/images/workbuddy-cases/case-90/04.png)
 
-![查收件箱 + 邮件能力列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPmlZufdHTnGnrTb2E6NXGkd34xstUyBlxMicP6hOsZWSnesc0yyFmeTEOpp8ILUGjTYTGcRwK2g3Y0Bvibf9Etics6WEz2SjVtck/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![查收件箱 + 邮件能力列表](/images/workbuddy-cases/case-90/05.png)
 
-![回复邮件确认预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMYFpZQNIrczpxG6MpCMTUa6Ay4MjlsjyORdeiaSZGicCbKx0oalShePrBibvG5KH6V8hRYDLY74uZ1ov79hVvFbhTKPhU8icThBAg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![回复邮件确认预览](/images/workbuddy-cases/case-90/06.png)
 
 ## 八、验收标准
 

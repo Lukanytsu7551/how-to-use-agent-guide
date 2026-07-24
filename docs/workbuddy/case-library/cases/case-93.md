@@ -80,33 +80,33 @@
 
 ### 结果证明
 
-![WorkBuddy 接收需求文档并交付完整工程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPBicRhMNibZVJzhXR8RKtUNvZmpHAeLicgicm1icb1Pbp3NdGprYwlhQoibDia3l5pkKa98rVeMAKGgFBW1E5rr5hdAica0HHzW7e1bRs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 接收需求文档并交付完整工程](/images/workbuddy-cases/case-93/01.png)
 
-![工程文件结构：app.json + pages + utils](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN0iaiawd02gIRoIbDma5jGzUOGHc1SFiafwKQ9W2diaUIIJW74S1oEehgUviatAWiaMDr7ZggpBrmtraPYZzlNJmem0g5eTEAfMb5s4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![工程文件结构：app.json + pages + utils](/images/workbuddy-cases/case-93/02.png)
 
-![第一轮修复：颜色太细问题](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNWpYc2LYjm6diaiaW8T56icemIZdKQQMvmlhAGJNxPOoQbtSF9OhWuto1RVOkaIyq6wZTRK0nNiagbYU0FaCQKicZmCbUQ0FvxlV3M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![第一轮修复：颜色太细问题](/images/workbuddy-cases/case-93/03.png)
 
-![第二轮修复：倒水方向错误](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMU3iaOmogxzNjX9G8lbQ3fDIicTreM7iajMWGXtkABrkePPAvsWkFm3h0cWlpbRrdrQjJPh9xOWt8QNJprg2SeE5TU6ydnlHtM4U/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![第二轮修复：倒水方向错误](/images/workbuddy-cases/case-93/04.png)
 
-![第三轮修复：杯子里有条细线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNHYib1GHIzoPN2xgnnuZ8bE3ymtLiaYRFUd7ibEFZksHJGhKlNSicXLNNVAdN1INjian0Td6ibRiaibSaib7UOSyOOfhWH1OHc1bibZjwiac/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![第三轮修复：杯子里有条细线](/images/workbuddy-cases/case-93/05.png)
 
-![第四轮修复：同色分段+杯口设计](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNwcX5YFlV6icRQD9P3CTKak2qxwBpwJzqC2xKAfs5WpaWjicOeEcakP3gwY4CJlAdBVTk8ibeTrc2Hg86QMcibibibseEh27zlHAbFk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![第四轮修复：同色分段+杯口设计](/images/workbuddy-cases/case-93/06.png)
 
-![第五轮修复：杯口和杯身自然贴合](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNFcMwPYibQSaBy7xSIoh8RISQDeeMEOvxF2NGkmcz4j7qEFbsz7P2JS3BgkmiaGoOFVFwLlGWMCjtymY9IaC9Ky0x2UwodZttqU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![第五轮修复：杯口和杯身自然贴合](/images/workbuddy-cases/case-93/07.png)
 
-![合成倒水音效 pour.mp3](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNquRuqiaUTF7Nl8K1uolGuGXibtm0p9U1Vf4mOp9f0EADLT79ZBhoSUTgYVmkRMetfzibO80L1jCplaxvYSnqxHdtKeCJuX2IWZg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![合成倒水音效 pour.mp3](/images/workbuddy-cases/case-93/08.png)
 
-![小程序首页：三种难度模式](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROhyjozQ3RhhFoy55npkRaOBfEibjiaibXRkwMzh3ZVjljPfyibam1KibVeJomibGPYamVgUo5rJ8QOHGlmKkw0B2micbQzsdmspiaibUic4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![小程序首页：三种难度模式](/images/workbuddy-cases/case-93/09.png)
 
-![商店页面：道具专区](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMJpSx8RNt0ib6KM6Nx7eribQvT72yvjrhuev78iaFHWOXfY5sGGeMXMOwp7UamoClDE5TROBYoSxIls8yVcxgmdS4ZiaB0kVY4PK8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![商店页面：道具专区](/images/workbuddy-cases/case-93/10.png)
 
-![七日签到页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMw2iaIEUNEtKyrFibM1Hu9CqA3oswa0MA2koWjaAG4TaPvia2DNjiaf1xy3WF9A61B2pJROBamcZe9LsopiaK3I5ic7odbtF34Fia4pU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![七日签到页面](/images/workbuddy-cases/case-93/11.png)
 
-![游戏页面：第16关](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO7tFNe5y5Kx8ljpUibKp1axCX2fs6P2YvoP1ybE09PAlrT8XUNVBDf4MlUtp2KhPeEKmS0wxrMu4aGcMp81aG0vrVNZmZI7BOA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![游戏页面：第16关](/images/workbuddy-cases/case-93/12.png)
 
-![好友闯关排行榜](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNhL7Cuq1lVU7fiaxW7rPibNvJJVEvSXmdXCtfBGxar4Qjgkvx9c59jLActNBpOtVXxGnptc9gxpelIcgmCQzF3a5SDkMpp9OoJg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=13)
+![好友闯关排行榜](/images/workbuddy-cases/case-93/13.png)
 
-![个人中心：等级与成就](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM1A5Iz5c1JJ2GYAQrzYXuqk33KJ0LGJb8OnEXhgH1Mzibf3xuNvJiaT3Lz3lcQW1BPGJibyvUU5KHaib4Q2Picgzbiaukr3Aqs5L7xs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14)
+![个人中心：等级与成就](/images/workbuddy-cases/case-93/14.png)
 
 ## 八、验收标准
 

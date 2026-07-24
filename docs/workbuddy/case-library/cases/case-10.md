@@ -93,27 +93,27 @@ WorkBuddy 自带默认模型，日常聊天、简单问答完全够用。但当�
 
 ### 结果证明
 
-![同一个 WorkBuddy 可自由切换不同模型大脑](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPHpTRgSHjwDP4rjDWXFWKanRKQ6mdxY52AS4TicmCGEnoZ4bDx28ic8rIstepiaceLiaRia6dQyZ72orMXFDntes3ib4udzMoScicem0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![同一个 WorkBuddy 可自由切换不同模型大脑](/images/workbuddy-cases/case-10/01.png)
 
-![千问官网点击右上角 API 服务入口](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMRdicLFtyqt59m51SRcgTvPByM8YsfgxC8CRUydwg0DBNGia6mtEZ3tiaDQfsWFTIYjk2ZuMMGtnCMF4O9umXRN38PajOjjPvXPQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![千问官网点击右上角 API 服务入口](/images/workbuddy-cases/case-10/02.png)
 
-![阿里云百炼平台首页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNWGRsic7y9T5RNeke2Q1kxyIyicAoQucAQH4lkWib98Jiam2V2vWO8OrdDsoZ5KC6F9XVYVV71p89QKCrlcPuMibicMia6Fsdbj6amYw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![阿里云百炼平台首页](/images/workbuddy-cases/case-10/03.png)
 
-![阿里云百炼体验中心页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNoShlBibfubLv1Zs0CRldFJV7V9ib86qDyz1fhERXGc3w4PJum6JV3G3q8oyyuic4tbAtvibfdQVJfNA8Gr0GbZatQFWVnD5Vu0D8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![阿里云百炼体验中心页面](/images/workbuddy-cases/case-10/04.png)
 
-![百炼控制台创建 API Key 页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN4XYVkTRRiapribI7zVDicl8IyyhG3CYibicwxVYJciarqKsX1koJuooJpiajp6f2ohjM18csrialzdpHibR1vgwwZ9C8dSViaapnsMbRfc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![百炼控制台创建 API Key 页面](/images/workbuddy-cases/case-10/05.png)
 
-![百炼控制台填写 API Key 描述并创建](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROE9NN9TzpPo4yzJYLr6BuSMPH8EiamlnvELmgNgtZZBnTJKJQpoYImrDMXQbx0kC3DAXibnWwFdItxsYhDFabXOVYqPNyJKdXCU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![百炼控制台填写 API Key 描述并创建](/images/workbuddy-cases/case-10/06.png)
 
-![API Key 创建成功并复制密钥](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROEd8BUoUusovNfPpF8YfNp7CX8UG70NpNjV0xz2IqgPTVv6H6L7Qt5px46iaphlHicStR4AUUrpNxk8ia63IeC8uM2BgictjkH9ib0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![API Key 创建成功并复制密钥](/images/workbuddy-cases/case-10/07.png)
 
-![WorkBuddy 设置中进入模型选项](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPXMN0HXjMK3s78picUm6UQS2tdiaibyvShwic3VLRNmtyCXB0qVictxMibQBfkFqMfGonBmdFibmOOt6Q5otCokBcQsB56knH3TQXHgA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![WorkBuddy 设置中进入模型选项](/images/workbuddy-cases/case-10/08.png)
 
-![WorkBuddy 添加自定义模型选择 Custom](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNtJHmIxPO03MmYIaYxIOibV0Y3hDibuia6o26kEW2B7ZUNuSHia2EbY6Md1AfPpYibbIKVlXTj8Ul0zD11u9ricxbVw0uBEiaGpyjSgg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![WorkBuddy 添加自定义模型选择 Custom](/images/workbuddy-cases/case-10/09.png)
 
-![WorkBuddy 填写接口地址 API Key 模型名称并保存](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROuEJGrBV7iatr4aHTblBGia55NlV4pxamm27EjDFcYGWSYS4mVzRQq6zCp5ibe56SqzzoVOPmV7C0baWS8iaIAg9OAiaukoKCuu26I/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![WorkBuddy 填写接口地址 API Key 模型名称并保存](/images/workbuddy-cases/case-10/10.png)
 
-![在聊天界面左下角模型下拉菜单切换 qwen-plus](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNiaJokKdny2M0yacOk1aicd9eQWIDGKos3IDrZJMRgZERp6icvWhBibZYgIn432ianJHKLXeIxicRV6I8HjJMkjptafo7ib3JY2ove7Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![在聊天界面左下角模型下拉菜单切换 qwen-plus](/images/workbuddy-cases/case-10/11.png)
 
 ### Qwen-Plus 与 GLM-5-Turbo 代码能力对比
 

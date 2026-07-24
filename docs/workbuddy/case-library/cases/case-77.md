@@ -79,19 +79,19 @@
 
 ### 结果证明
 
-![代码开发模块网站开发场景](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROfPqsJGyICvBxVwiadh8Lf0YbUp1LFhXlbu8Pc7AwL1x1eSPOHDyLS1PpZyg7REGiajuhwfrP3MJIcx0SJv4rzZlTlbbg7BpF0I/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=0)
+![代码开发模块网站开发场景](/images/workbuddy-cases/case-77/01.png)
 
-![后台管理系统场景模板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMKjvSRSW4PX2S1c1D0sib8DsXibhicT4WgXfn178YJOHx7ggKOOegVib8ic5Ho2EFtuTRosaOkAWKx0iaBxEFyicdg4EP74ybAQmQREc/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=1)
+![后台管理系统场景模板](/images/workbuddy-cases/case-77/02.png)
 
-![提示词自动填入](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMwY9CZbv9vTgn7ibvCZXFUdS6KSibkibPkic9AnbVsu0nKbic9MQ8gbmyL3Cm6IcwwpXRUVPopxwVjuTeaF7esaw4LXwBOpIM5ZKic8/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=2)
+![提示词自动填入](/images/workbuddy-cases/case-77/03.png)
 
-![登录页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPunoyobCQia3aH79LRSgiaCadOY9WPspibEPllAnibHWl5ZcRxyBE8Uibk9l9LRDQXIoS3WHkGmWLxggzWhTiaFbKpmAXRs2qtMWFCw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![登录页](/images/workbuddy-cases/case-77/04.png)
 
-![数据看板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO1JlAElXmZYS85CspibFByxHRB68qxICWjST5vg64kFur18hgUOkw1mpACqPJxUGz2qRwmSyEp7icia1h6cTKzrZNXubv5TV6brI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![数据看板](/images/workbuddy-cases/case-77/05.png)
 
-![笔记列表页加统计条](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPL6zwaZpibxvLOIj4EyBLSnKoutbq9pw3zF4mwL8BHKsZ6kgicUGO930AW6jicMfFyF0fVBWClicrdTXJvib7TVm0bibyflicQtIzyds/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![笔记列表页加统计条](/images/workbuddy-cases/case-77/06.png)
 
-![表单编辑弹窗](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMIYziafibibrG5ibrOjzGNgiaBZCiaP8WsbEgf2eWiaQ3pZMTbY9EJnBQ5wENo90qicMD3jknF4nIQoR8a6et3Vs1ZXTNGHybdAuGPvCE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![表单编辑弹窗](/images/workbuddy-cases/case-77/07.png)
 
 ## 八、验收标准
 

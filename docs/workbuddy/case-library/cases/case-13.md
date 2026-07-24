@@ -77,9 +77,9 @@ WorkBuddy 自动拉取 TOP10 企业核心指标：营业收入、归母净利润
 
 ### 结果证明
 
-![A股市场数据报告封面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP0GlHU2d7Yr5xNjKeEMib3xGiaPK0KtEd2XfQOHqXGLJD01cf4rJ7QDGNcjqyvzNemNx3zYAZA1ZTxQoeUdacWCseGv9Qx0Oz3g/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![A股市场数据报告封面](/images/workbuddy-cases/case-13/01.png)
 
-![WorkBuddy 启动本地服务供手机访问](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMWgcqOvXbyfGfSuvxuBjTiblZqDWtIsHicFeCtjc44PGxuH8ObzkeldajibO9XGADXaNROyu4twAOlQlzsog9NFpMQER3ib8TY2Ec/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 启动本地服务供手机访问](/images/workbuddy-cases/case-13/02.png)
 
 ### 效率对比
 

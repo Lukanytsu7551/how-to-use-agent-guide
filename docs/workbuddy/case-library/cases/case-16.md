@@ -80,9 +80,9 @@ WorkBuddy 给出技术栈选型（Vue3 + TypeScript + Element Plus + Pinia + Fas
 
 ### 结果证明
 
-![WorkBuddy 一句话需求确认](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMB4COy8boKibzyVAOZRxTArxPPzwNCicyCBzCHceqfw08CUibibYxsLPGtQOvBFnjWO4GNNtfEaJm5hNy0jP7CyKhbLaLxDNX7ENA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![WorkBuddy 一句话需求确认](/images/workbuddy-cases/case-16/01.png)
 
-![AI 智能排课系统仪表盘界面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN0MKoeAM3IocpNjOlXCyd0b2A9cce2PDHrEBF39EvyfULHj1RquMPicljPEtFGNdK1gxSOgHFKfVVIbmU0NM8nkPrhw23jJiaQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![AI 智能排课系统仪表盘界面](/images/workbuddy-cases/case-16/02.png)
 
 ### 效率对比
 

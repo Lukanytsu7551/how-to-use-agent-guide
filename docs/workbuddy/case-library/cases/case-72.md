@@ -83,15 +83,15 @@
 
 ### 结果证明
 
-![WorkBuddy 搜索贴图功能详情](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROIR3yPOgbTjVb7w5EryhQEFQkNfw9PNWPAkIv4w4ibHBPYFfs6L0lN3voK055gpFPS1XBxaDYuPgia11AkOfmtFWNwHiasd9UUYk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 搜索贴图功能详情](/images/workbuddy-cases/case-72/01.png)
 
-![draft/add 接口 article_type=newspic 确认](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN4OhdpWREnFvC5r14JCr90RWF2XmpEGQCWZgVHBR2vUv3oaGRgQG72rIpGPib7Du4XA8pEx1xfgrJEjrsMDaN2ogKxLiaNjRKibA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![draft/add 接口 article_type=newspic 确认](/images/workbuddy-cases/case-72/02.png)
 
-![贴图字段确认表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROFrFuwXqHaWKLdfFE20zNrhwZUet30yW4v3U9WtLTaGTS4I3TKwvslBkPbGCmAHrgpXhyM9xpua94VuU1M1l75FAl9bDUIKtk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![贴图字段确认表](/images/workbuddy-cases/case-72/03.png)
 
-![混元生图贴图样张](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN8cz2Hs6lyHAyFIrq0RDGRZKmXmTqxUO6RZWWzdS0FkV2zO12hCXsGwa1Zp6IebDtaVTVkQYWmmrbaPmOokyiblqpUSTGOQiaRs/640?wx_fmt=png&watermark=1#imgIndex=5)
+![混元生图贴图样张](/images/workbuddy-cases/case-72/04.png)
 
-![5篇贴图草稿在公众号后台草稿箱](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPFjA4XXIF4JVlT4c3O2boV9qKmYU95JzuTcicF2jwFsOrD8eEPQ5gDpGjX07J0iaIHpQ8ib67ADGxJAflE3sYgkSDN37g3KZw3rM/640?wx_fmt=jpeg&watermark=1#imgIndex=7)
+![5篇贴图草稿在公众号后台草稿箱](/images/workbuddy-cases/case-72/05.jpg)
 
 ## 八、验收标准
 

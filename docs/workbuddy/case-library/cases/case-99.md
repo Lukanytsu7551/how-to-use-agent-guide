@@ -67,17 +67,17 @@ PPT做完了但文件在本地——发给朋友还得传文件对方还得下�
 
 ### 结果证明
 
-![技能市场搜到 guizang：Magazine Web PPT](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPBC9kxJoYicQyMKHHUrcDqibJC4FXkKsqvicdu1zXJmksGYsyNXrtx6Q0bLk1kRYfbSVuCqXAG7khElFhQ1picMzRBibkVQ0X0UhX4/640?from=appmsg&watermark=1#imgIndex=0)
+![技能市场搜到 guizang：Magazine Web PPT](/images/workbuddy-cases/case-99/01.png)
 
-![skill详情页：已安装去试试](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNUPpZ9tP9EGSUIRtiasmLRgx5jicGUgUplrl8SKb4j6UibSlY9UPNjFlgj57NJWHRuf104GHGXQm5UJMic9k58QIGp3jDkcMwK1Ow/640?from=appmsg&watermark=1#imgIndex=1)
+![skill详情页：已安装去试试](/images/workbuddy-cases/case-99/02.png)
 
-![输入 /maga 调出 Magazine Web PPT 技能](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMEPojT3gus7XnRHtECMY6jWMG8PUEowUQkPBGIHAiaKibnEaEV0dVLXGicDuruPicH23h493fALZcu6bOWJPea8Ej23BDvyIS09ics/640?from=appmsg&watermark=1#imgIndex=2)
+![输入 /maga 调出 Magazine Web PPT 技能](/images/workbuddy-cases/case-99/03.png)
 
-![输入框下方的「增强提示词」按钮](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO3A2Cp4UTibH8Sy804E8vvRtialMibSuW95RpXjOZjaDMsMKX0W4ic1toMAgkhHyASOrhAApILzgx9ByMfdib8eeZmX09lOolaJHl4/640?from=appmsg&watermark=1#imgIndex=3)
+![输入框下方的「增强提示词」按钮](/images/workbuddy-cases/case-99/04.png)
 
-![增强后的完整结构化提示词](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM95bHRL725YwWk6jpXk3uD1N7SRuBRXz52GhHBXTrBEy1L5ribzGYNLia2G27Rqo7MOgOHwF2RLwAdGEdQjdDT0H41DxPG5AlhY/640?from=appmsg&watermark=1#imgIndex=4)
+![增强后的完整结构化提示词](/images/workbuddy-cases/case-99/05.png)
 
-![22页瑞士风PPT首页：克莱因蓝满屏](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNzwux5AvoI0GdibtQibhTCKHViaSxIuibVE1knVFNC132IFYnFUeqTetLtGDeZukrAL1R4BNNREhLhqFr2EkJ2Ns7N6O32ichnAe3E/640?from=appmsg&watermark=1#imgIndex=5)
+![22页瑞士风PPT首页：克莱因蓝满屏](/images/workbuddy-cases/case-99/06.png)
 
 ## 八、验收标准
 

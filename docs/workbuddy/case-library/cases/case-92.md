@@ -81,19 +81,19 @@
 
 ### 结果证明
 
-![WorkBuddy 连接器页面找到 Feishu](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMs9HglIbqCfjfOGIaEqOMqHVibGUsbKicnt8UNVYMjBrwTiaMGjEnxThzY1WrF0MibUkuxJxsR5V1P9VwLKaic1icLukaXQqWD5UIQI/640?wx_fmt=png&watermark=1#imgIndex=0)
+![WorkBuddy 连接器页面找到 Feishu](/images/workbuddy-cases/case-92/01.png)
 
-![飞书权限授权列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMt1Y3Uhic53DFZicWxs9ouMpaz53TRWpZof9z8H6ZyLIbwZyg0dEe7ZjBVicDlVMsRicbKMicnZaDN7A4tBSklF8feb6M3q9U18o9A/640?wx_fmt=png&watermark=1#imgIndex=3)
+![飞书权限授权列表](/images/workbuddy-cases/case-92/02.png)
 
-![7月计划多维表格建表完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO0DRMIcbq94tY44ibLkkuzNkJiayC9m90TJNvsHBnshPuLL0amdt8OfhicYBpjRTm7HpXgh8KXTHuCrQD37EDTA9kx8Mc1RG23nE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![7月计划多维表格建表完成](/images/workbuddy-cases/case-92/03.png)
 
-![查今天的日程：日程清空](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLJlzuYoWOOSWV6xDJGY7B4DbcvHic89dzooQ6ORlk2rkiaSrPUTXIUvyApwzbwsKXpeowNty7JKmr4vYkPicWAwiaMOManvsOxBo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![查今天的日程：日程清空](/images/workbuddy-cases/case-92/04.png)
 
-![建群成功：AI助手测试群](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPYicr9jSsbhDtVD7w2DtW9OdHD1YnvsTOaOJtojuXl9j0S4FeSoagXkGhlbs7TOdibjPwRkAtRaCRExibCelJO0R0tibztZUABKV0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![建群成功：AI助手测试群](/images/workbuddy-cases/case-92/05.png)
 
-![公众号选题库 Base 建表完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP9iaI8qVejccooBKvg10ico2z36cE9uISBh5RaXMWxehIxd34CsNA0lxpAjSvMSRHcWkZfll9Awx3QY8CpY5H5X6y5qTOoMDq4E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+![公众号选题库 Base 建表完成](/images/workbuddy-cases/case-92/06.png)
 
-![选题库批量录入文章记录](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPoVG3UNEbLRPa4Gia6lP4G5P4PMVpqEM9AxTtqhrwwMyk6RyLL7EgZvYtlicJ9FFMEcPaKr9fQDKNBkUjkq7yKPlW7asbc7vqC4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+![选题库批量录入文章记录](/images/workbuddy-cases/case-92/07.png)
 
 ## 八、验收标准
 

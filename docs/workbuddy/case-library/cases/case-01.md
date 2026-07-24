@@ -102,27 +102,27 @@
 
 **5 张封面预览总览：**
 
-![5张封面图总览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM8lovODlGUn1l1Z9rTFoFhR9p7rjTwbUfibCfhZRHZZMWENngRazoGQMibTwcwkba152dWLmpfQdk8Xibb51syNPa7zF28aOA0HI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![5张封面图总览](/images/workbuddy-cases/case-01/01.png)
 
 **5 种风格逐一展示：**
 
-![紫色科技风封面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPOy7k6GjkEpHUeoicmNNovw3ej8LlbXjZJlbfC8kRSn1TRcqUiaxl8HQbib8j1qh700XLp3JGd8MtyicicKco9tpNMz5X1Dy9uUmGY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![紫色科技风封面](/images/workbuddy-cases/case-01/02.png)
 
-![蓝色网格风封面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMosy8F0ujRk6YZffwPgFfHBC2bGYibnJPzerUGVxxztEOEn0Oo8tzysuOuqJ7B5UMMh5fA2Ig9gtmPg9ps3ujia366c9gFEPer4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![蓝色网格风封面](/images/workbuddy-cases/case-01/03.png)
 
-![橙色数据风封面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMOwNWA0ibcFaBXJeJcl23A0oI8DUnUt4JwcmxvAr499F3JPDvsMAagD4ibzujkXOw5gVYwI1UkPSbVzRxPQ2usYN4XkROyaKtWM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![橙色数据风封面](/images/workbuddy-cases/case-01/04.png)
 
-![绿色清新风封面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPRzGHrkJicbbkzq63RO2WwkHlL58CdUx6c5sAvVMmsiaDicICkC3oD91zMTiaUTUK44yBuQhgAVPdc8IDeCtq0Ma03rfGEJhy41g4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![绿色清新风封面](/images/workbuddy-cases/case-01/05.png)
 
-![靛蓝对话风封面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPFq3dziaDmvPxjhXgx695w96umGeqrOvJJyPibccibI6aeRhH4iaaQP5MSmFK57IYUcfSnmY1tzsf64iaykvYRMOaK0IdA14shDjrI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![靛蓝对话风封面](/images/workbuddy-cases/case-01/06.png)
 
 **AI 选图建议对话：**
 
-![AI选图建议对话](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMlCqWmgk1U6eWOnYHMUtDhD0gXgcsM5jjoZjibEyKtHuGibO1ZYHrXambDAcnq8ibibMLQWjoR9friaaW00t5RdicomibbdiaibeoXsl80/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![AI选图建议对话](/images/workbuddy-cases/case-01/07.png)
 
 **发布到草稿箱结果：**
 
-![发布到草稿箱结果](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPavbwZft4CZwyIvhMRtGzmLM2cljSSfNXxibCcOPE52t1u9bkFLLtjEhMcwav1Ukd46icyd7UP1t9eBSE0NUIxEPRpgicuWh5Wk8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![发布到草稿箱结果](/images/workbuddy-cases/case-01/08.png)
 
 ### 时间对比
 

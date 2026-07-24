@@ -90,19 +90,19 @@ WorkBuddy 给出方案——用自动化任务每天自动拉取并统计。选�
 
 ### 结果证明
 
-![连接器管理页面找到腾讯问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMhtQ2wvfJEL0iaOMCJSe7fFuqDef4mJibM6cOv67OZHs456hvV2OicBGJ8icXGZ2vaG7CsPP4t0uibldK8CD8ZzNDc6VDqvysibOAj0/640?wx_fmt=png&watermark=1#imgIndex=0)
+![连接器管理页面找到腾讯问卷](/images/workbuddy-cases/case-57/01.png)
 
-![微信扫码登录腾讯问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNODvV9TlUyuz7VRGyAM4UiblkRgKIGxk2CKemHTz0FhiaXFq2jasQQa5aVJm6rFYib1pQ3wqKhq8P8LuJyTPs6jzsv17kaian4XXI/640?wx_fmt=png&watermark=1#imgIndex=1)
+![微信扫码登录腾讯问卷](/images/workbuddy-cases/case-57/02.png)
 
-![绑定手机号输入验证码](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNm44nSO4Ocr8I3qjDXqIejsoJ1BxxrGuBosrnBDuD61To8VFKCibOkNxP0u9bKYAln7YIs2VNU8SplhGArYRnIvLickf0licfCxI/640?wx_fmt=png&watermark=1#imgIndex=2)
+![绑定手机号输入验证码](/images/workbuddy-cases/case-57/03.png)
 
-![腾讯问卷应用场景](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMx3YvYJm0IZ6Dt2gENWFkuiaVUQKdKW9IZLJFUdMHPhd8kicj1ZlrumtL7j3sPvGDFfUAt2bGHvYn76woW9SVnYWKxasYPdE3mQ/640?wx_fmt=png&watermark=1#imgIndex=3)
+![腾讯问卷应用场景](/images/workbuddy-cases/case-57/04.png)
 
-![登录成功页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMzaUxo8uLYhvT5AvjHM1CibVHN3gXMBV4MQrGDl5ECjy5JJHttDxOdpibt3POtXhY7aM574PD2eqmIjoxF8lLjEO1DiakiaqJiafVM/640?wx_fmt=png&watermark=1#imgIndex=4)
+![登录成功页面](/images/workbuddy-cases/case-57/05.png)
 
-![定时任务自动创建配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMbtHkdxr3SlTEiaghW7LWdprrKmC8T5NbBy3WficoBH7P1IFvibE5dP3KZFesDKYwyGric5y4KxcW6W6SIEHibACPv4BwCMQibnjlV0/640?wx_fmt=png&watermark=1#imgIndex=5)
+![定时任务自动创建配置](/images/workbuddy-cases/case-57/06.png)
 
-![编辑自动化任务详细配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPXeWVJGsrEm85hM5rOhLrvM3wCBNrqu4Ymices1LLLRja5lUYMIAOMpG0vlbFKOljkQXWmAmlwgtMX70zrQc9qTd9zGHLVak3Y/640?wx_fmt=png&watermark=1#imgIndex=6)
+![编辑自动化任务详细配置](/images/workbuddy-cases/case-57/07.png)
 
 ## 八、验收标准
 

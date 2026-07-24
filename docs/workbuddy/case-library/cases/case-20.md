@@ -81,21 +81,21 @@
 
 ### 结果证明
 
-![请帮我设计一个用于活动报名的落地页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNrBIv7wtUjTa22wnia3sQLsd56AEiboopFbLldN6ibSrrFq7jnFAolGHpcUmIhWZTWUDc4lNegmzibCGTq45Xf21yLFq67Cia1bpM0/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![请帮我设计一个用于活动报名的落地页](/images/workbuddy-cases/case-20/01.png)
 
-![WorkBuddy 追问核心信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROy2uY8XUdlFAfEdtJR5jDqBOAuShET40SMSz6vksnN5MoQZ9cibwgjOzU17Np6QBXxWlfUUPLBncaxsCUAGVG6c6PBEJCPgv9w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 追问核心信息](/images/workbuddy-cases/case-20/02.png)
 
-![任务列表完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNyx0Loic7R6Q33ibT5kjXhKra5hs5l86LOocL8bqZ9PIDygLsH3N0UFAGl1nhntGvlNFM8ibHJZ9ibydiamR1Aria3aGiboiaoCGTnLRw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![任务列表完成](/images/workbuddy-cases/case-20/03.png)
 
-![马拉松报名页预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROPiaYq7zHVp4miaLNWwjfUEPznCXyt8rJ6ibVzYZMbe7s9BW87c4xZs6bbnK4dmJP5lYmhCfG4SDexmcnQg9YuMxeCUYKQsn0IP0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![马拉松报名页预览](/images/workbuddy-cases/case-20/04.png)
 
-![跑步爱好者专属活动页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROmkPXExdmun2PNJMdVA6hTyvjZs5UOfDqibXhA24LTUouGydkiaLNZE4xIdIPh8Ym7dcX1SQRV6yOkYVAELia6mCIMENSYxBOAoA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![跑步爱好者专属活动页面](/images/workbuddy-cases/case-20/05.png)
 
-![腾讯文档收集表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNudiacUoTCMficiaA2HhIx4xvy18xLibBe7gzANwQWclm8pdBfJQDeoqzzpDw4OHPLk4X2JUvXLZcCmhxMVwn2vdN1Su0gU8zyib9E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![腾讯文档收集表](/images/workbuddy-cases/case-20/06.png)
 
-![跑步报名表二维码](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPR2Xfsahv87I3EgCW40f9xLnvgszP5Nz8t8AMkSCZePtLyibnIQdIRXicMfalUkibJgIgC3T2Go7aoZhPdUtiaugPhibGVX4uhuLWY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![跑步报名表二维码](/images/workbuddy-cases/case-20/07.png)
 
-![手机端预览效果](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNCZfjh8pibIdH1jnMaNdKDVkv6xC77VYz6tbOrVqt9YPKBQhehkUCib0t4smXvmpOfwS1uoHLGB5xgSPdUdiaLSme1RCS4otXbFM/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=7)
+![手机端预览效果](/images/workbuddy-cases/case-20/08.jpg)
 
 ### 核心优势对比
 

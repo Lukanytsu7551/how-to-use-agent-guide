@@ -95,27 +95,27 @@ WorkBuddy 换了个思路：直接从官方 CDN 下载 zip 包 `curl -L -o werea
 
 ### 结果证明
 
-![询问是否有 Skill，WorkBuddy 信息滞后](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMHOPmpxPQSyZ4PL9DwgbeXCicMavdzM8DmpqPRbMicNVVZIF2xIbicDF4Ajw3aSXa4iboVNBIeNRUdCZO02NohKIZ8KAW0HJfH2O0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![询问是否有 Skill，WorkBuddy 信息滞后](/images/workbuddy-cases/case-48/01.png)
 
-![WorkBuddy 联网搜索后确认官方 Skill 已发布](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN3I0pZDdPqdUsSybQH2fibiamXicKiaHKyhOlMJo6yQLVCgm0Jkl2LibTcUddwYDF8UZkwuXRXXM6BvNV8BNQDJtoAz8g5W7BNtx70/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 联网搜索后确认官方 Skill 已发布](/images/workbuddy-cases/case-48/02.png)
 
-![npx skills add 卡住，改用 curl 下载 zip 手动安装](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROTKADibVQ2msqZke8tsF8ZvZMkqx4YiazCET6XzTeTJvWCsJ20Q61JeQ1UasSkwa28lJ1icqu1ibqRdwAhXnklgKduBsPjcRS0waY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![npx skills add 卡住，改用 curl 下载 zip 手动安装](/images/workbuddy-cases/case-48/03.png)
 
-![9 个 Markdown 文件清爽的 skills 目录结构](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMo9LJUsARwdBgiaNUbAd9dPibFyUwdu9icdR7VeibwJfBTbULn764TazjFdTy0HE1UU3GHQc210R3ZICIKXVEKPafdQUK086cqDxQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![9 个 Markdown 文件清爽的 skills 目录结构](/images/workbuddy-cases/case-48/04.png)
 
-![微信读书 Skill 官网快速配置页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPlc1vL7w7eooSrIoZ7XMQKeRtES9gD3hsq7n7r6pdaKs9j0uFQalxeVjGIuUye1esmKlutLjNT1IxWhIjZmYy6nLqfviaLZz4o/640?wx_fmt=png&watermark=1#imgIndex=4)
+![微信读书 Skill 官网快速配置页](/images/workbuddy-cases/case-48/05.png)
 
-![点击获取 API Key 生成专属 Key](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMxkYLw5Uz0RARV9kfZKKB7EwP8y7JjJ61FYLXn9iaTr38MdEtLbvzYh2q59Zf3cyzooPdsfTn34gSt6HndSJicW16zSG1IOy9Nw/640?wx_fmt=png&watermark=1#imgIndex=5)
+![点击获取 API Key 生成专属 Key](/images/workbuddy-cases/case-48/06.png)
 
-![复制 Key 按钮（创建于 2026-05-17，尚未使用）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMROosgGrjDibPZedBe6rkLZnZicibcB74gOyBMGC34S0kcmZtGFeficpCp59Xyn3MlaUn9MW2kvPqicYOU9vUaoQFLRpAyG1e9YS8o/640?wx_fmt=png&watermark=1#imgIndex=6)
+![复制 Key 按钮（创建于 2026-05-17，尚未使用）](/images/workbuddy-cases/case-48/07.png)
 
-![API Key 验证通过，书架 53 条数据](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNNpgSRHRYpLZ5YaU2xStgXeVmERmic5Zxsc3N6DJHsSYxYW8a6DHxElickqgDvQU3MPDUlv3iaARAMia5aAFqbZ5nsE01ibAmPRwro/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![API Key 验证通过，书架 53 条数据](/images/workbuddy-cases/case-48/08.png)
 
-![推荐 12 本书并修正 WorkBuddy 走 Skill 路径](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMaiaNqhL0bHiaTCKPsYkibPN1NKicNQBWiajMwUEkPRdJNLcrEboFc6SAumviclN8jLdibA08ibIMKzNLznDIQLRkeicZsHTuGlPmvLk90/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![推荐 12 本书并修正 WorkBuddy 走 Skill 路径](/images/workbuddy-cases/case-48/09.png)
 
-![WorkBuddy 纠正后按 Skill 规范调用返回推荐结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROa7RLv5ict4ap9pBL9sas3QcO3Kf3I3iaJ7WD9W9sozyXP5wdl64cFIqmPHchce38Sbm7uib35YSXYciasWhzafibkSaOUic7I8VHo8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![WorkBuddy 纠正后按 Skill 规范调用返回推荐结果](/images/workbuddy-cases/case-48/10.png)
 
-![8 大能力模块完整清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM3kHupQC6R9lguXNPngR1Bsic94HP6QF6QX3Ncvp1wBgicjkIzpYZA4auFiaiaNzL7q6bjT9AF7fufGOJRsoc3rGKP8fgydFYWDF8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+![8 大能力模块完整清单](/images/workbuddy-cases/case-48/11.png)
 
 ### Skill vs MCP 对比表
 

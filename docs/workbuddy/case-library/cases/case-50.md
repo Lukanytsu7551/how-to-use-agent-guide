@@ -100,27 +100,27 @@ WorkBuddy 调用 Ardot 的设计能力，自动创建了 5 个 iPhone 尺寸的�
 
 ### 结果证明
 
-![Ardot 官网下载客户端](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPqrkfOicNiaup8vRbgh48pygz0cr4kpForLyose3icTQ9NSWXK4aUcib2akWoQHkIGqzkCicsDRuPUsaGK3Rg8R34aRwPUiaqQeZrcs/640?wx_fmt=jpeg&watermark=1#imgIndex=0)
+![Ardot 官网下载客户端](/images/workbuddy-cases/case-50/01.jpg)
 
-![微信扫码登录 Ardot](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMvqv9tWVg2JIvb4QvjUAmf8UFCha4Emf9Mgj1HhoxbukO8TsGVU8YaIxYj82NOicdetgCCAArc8826HGAGiaoFLHDFkMr48S8bU/640?wx_fmt=jpeg&watermark=1#imgIndex=1)
+![微信扫码登录 Ardot](/images/workbuddy-cases/case-50/02.jpg)
 
-![Ardot 主界面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM4S2hsp2TiaM31Oz4yfLfqhttSLVyngf7XnK5nesKgxaWNssaN4HcMYSI9awcO5Xp4kMtM6ibPcoGHo1RYpmcS1W1p4hRmGQhVg/640?wx_fmt=png&watermark=1#imgIndex=2)
+![Ardot 主界面](/images/workbuddy-cases/case-50/03.png)
 
-![MCP 集成窗口打开 WorkBuddy 开关](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMpKFZ8Is260A75PkwA6RpneAnSXLicicBvxAFibfDnNBeNZd9FGhAcURDZhVRMZtYk53diaYCCibLEYkqZY17AiaECtnSuSKlRfqpjA/640?wx_fmt=png&watermark=1#imgIndex=3)
+![MCP 集成窗口打开 WorkBuddy 开关](/images/workbuddy-cases/case-50/04.png)
 
-![WorkBuddy 里点信任 Ardot MCP](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPwrMrsI0IibEFHXGVhCaMFJg4f3NQmicxhsZQ8x160B0nD7foEURyBhSEibAJkibDB2xItbQAks9vWk9GGFSjutvSlsOZpcDU0zmA/640?wx_fmt=png&watermark=1#imgIndex=4)
+![WorkBuddy 里点信任 Ardot MCP](/images/workbuddy-cases/case-50/05.png)
 
-![专家中心召唤 Ardot 设计专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNTZ8sWlYic4Vqs1M2txPvZta1nKnTtf3xb3qTkgGuqPzWwZB2qtBmkPjbSRWYJToJJRcjjMMnDlyUhoFIWwuUfcq7hCCSKMa3w/640?wx_fmt=png&watermark=1#imgIndex=5)
+![专家中心召唤 Ardot 设计专家](/images/workbuddy-cases/case-50/06.png)
 
-![生成的首页 Dashboard（绿色主题当月收支总览）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMGLzWlwWFvXQ8xtb4hf3dT09tWNOGU57BdnTI2ZfeD4DUv6gqC2jLpwTFBcB2xSrdtb9yLE7vMibmQpmpGzEsGro8PiaibJLgkiaY/640?wx_fmt=png&watermark=1#imgIndex=6)
+![生成的首页 Dashboard（绿色主题当月收支总览）](/images/workbuddy-cases/case-50/07.png)
 
-![生成的记一笔 Add Record（10 个分类红绿切换）](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNQZIOEdkBXVW3fRsklwjXeic0ydgISF6UHc82IicbKYQUWLwywSfGnKTHhzibPRdyAPdGBIKW7y8l9hrzHcrLub5c52cbXAGsQaE/640?wx_fmt=png&watermark=1#imgIndex=7)
+![生成的记一笔 Add Record（10 个分类红绿切换）](/images/workbuddy-cases/case-50/08.png)
 
-![生成的统计 Statistics（SVG 环形图+分类排行榜）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPt9Gl2NTdSDiacyia4HurVA6Gf37sk6G2gmP34kreMhE7kCPnyxLrJBlYpuY3NTdftGzOYln1Zu0xnZgsnt8QrUCwXTyzkVXcrc/640?wx_fmt=png&watermark=1#imgIndex=8)
+![生成的统计 Statistics（SVG 环形图+分类排行榜）](/images/workbuddy-cases/case-50/09.png)
 
-![生成的账户 Accounts（3 种账户类型卡片展示）](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO13exsLibqRC7PQdqH62HEjV9cbfPqQPTRnvKyVKEKqXMHbpoOxdeic3jk5Vzjx9Nqiciadicia76tYLpfL9iaTdoYEibsdepoukJ0W64/640?wx_fmt=png&watermark=1#imgIndex=9)
+![生成的账户 Accounts（3 种账户类型卡片展示）](/images/workbuddy-cases/case-50/10.png)
 
-![生成的我的 Profile（设置菜单+关于页面）](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNL4Z0TuotZibt5NreJ1GUuTUE925P6XlsJTtYzjhGoDew5cK9H6mmHibM8NaW1operu7Z1oibFR8RCNBjSL75QjDLqUxCCPFNcfg/640?wx_fmt=png&watermark=1#imgIndex=10)
+![生成的我的 Profile（设置菜单+关于页面）](/images/workbuddy-cases/case-50/11.png)
 
 ### 5 个页面功能清单表
 

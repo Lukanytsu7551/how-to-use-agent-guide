@@ -83,29 +83,29 @@ AI 做了一个可玩的版本：index.html（+1045 行），包含超萌小熊�
 
 ### 结果证明
 
-![描述需求触发 AI 反问关键信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPlGeW1WM2aib2ZBAl8UzHzwTTYXJ9icmLnuBibraFplPiafwgib4mjHibRBuW7ibCAWiba9I8nVQEdpVXMB9gedA4jZNvyBHwmZ9yZGao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![描述需求触发 AI 反问关键信息](/images/workbuddy-cases/case-23/01.png)
 
-![AI 设计小熊猫历险记游戏方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP4R0S3qrPMGhzwES4Lo7kWNkDtWHwqqXtVz81siaOOxT2XmBFB3JoCS8jUynb9iceBYOesdZyOASAxfHf4FIES3YtKDP2ibibPtuM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![AI 设计小熊猫历险记游戏方案](/images/workbuddy-cases/case-23/02.png)
 
-![生成 index.html 并部署到 GitHub](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMAFBECwWSv7PssMzsXehGpicmEu1VkUiajuWXFvw3LshXmeicdB6fiakkOO2RWp6aP5wzGiarfiaZUj0LVmia6GgDf06aYWkJqvicnLvg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![生成 index.html 并部署到 GitHub](/images/workbuddy-cases/case-23/03.png)
 
-![访问地址与手机平板兼容说明](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPkX14uYEzbrFazVStib39APY4Dbf7EPTxY9dS6IXdJeaibdKugdvAgkiaCgolKc0cSEsQ2qIcmaGmY0d5gtNicKuExdlPaB059GH0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![访问地址与手机平板兼容说明](/images/workbuddy-cases/case-23/04.png)
 
-![移除背景音乐修改代码](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRME5d5obj7Dc5cicFUyXF5aVOmjO9siceicwrnCBo69lhnxVHyAensjSCMRTl30iaibne4xbubuspaYrGgiaDwHmalKia4AyVOwXmvafU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![移除背景音乐修改代码](/images/workbuddy-cases/case-23/05.png)
 
-![修复减法逻辑 bug 与弹窗显示](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMLTdUWE6WknVGZa6C7YsxCqL8paA3El8ApJicAkZHDkoXMBEILVbc7q6Bf3icVCab6WoB0dg5hZszgA7cjXXt39GU2w0CyUoqHM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![修复减法逻辑 bug 与弹窗显示](/images/workbuddy-cases/case-23/06.png)
 
-![修复弹窗布局结构问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMfzgYaSopuOogia1O40SNV14Djic8MicFuVn09Mozic6gXNxVI2rwib29tKaQrkArP0NYdR0gXMJZib4ECqOSojCWE26w1diayBUic2V8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![修复弹窗布局结构问题](/images/workbuddy-cases/case-23/07.png)
 
-![升级题目难度并部署更新](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNA7OQHgd5NibhgULdv505ARfSxQtOzpz5jGLouBbhOLXhWvicUBEiaNPFagGPjl62nwyNYmylUW7TBzIvulfMyOWvRpSWIcCGcVs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![升级题目难度并部署更新](/images/workbuddy-cases/case-23/08.png)
 
-![新增题目类型：连加连减乘法与成语](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPpwfJic6fJ8FP1SUakVCojYicatKnntBscWSYIwibVMp2UibnGC8ibJGsE0ticiarHCfwKaoVxssHKL6YPLCE6R0SCHzSnzcqacOjpdw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![新增题目类型：连加连减乘法与成语](/images/workbuddy-cases/case-23/09.png)
 
-![小熊猫历险记游戏开始页面](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMnRIRjRwLyX9HL0egku3smicEntStGLNTrFHFibMPTZX2rq4ktt8q8JBY65t2jEJ4Oj41twKRrBaExHSnhDwtf9547dwFSA5Ooc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=9)
+![小熊猫历险记游戏开始页面](/images/workbuddy-cases/case-23/10.jpg)
 
-![语文成语题目答题界面](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMJicStPYd95CjtOTr74s4qdeITDzoibGWQev54CzbDZ4bVgxqk4jXd0YtQkhIgPPzQ2buo08fPnDgHM5CgIcCQvNP7RIhVPguuQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=10)
+![语文成语题目答题界面](/images/workbuddy-cases/case-23/11.jpg)
 
-![答题结果与正确率统计界面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMGmejPomaFu0o1BqribybpumSXBBWh4pS92kZ7rBtYMu3uK7HFab3BYicL6J6ms8SmFZzMribC1bj6lKqlKgALt8ztKic4co5O2jk/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=11)
+![答题结果与正确率统计界面](/images/workbuddy-cases/case-23/12.jpg)
 
 ### 游戏特色对比表
 

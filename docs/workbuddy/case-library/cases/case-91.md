@@ -58,15 +58,15 @@
 
 ### 结果证明
 
-![WorkBuddy 接收需求并开始开发](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7HMvjrkUR09zDK226YibzPaMotBLrzHaJjwOZV3yx9h0QWqYicrSwKUjIZibbNJWibjXRSoq8nNmgFIVwv26iakpcicYpFmibcibkT58/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![WorkBuddy 接收需求并开始开发](/images/workbuddy-cases/case-91/01.png)
 
-![博客网站开发完成并上线预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNK7icNIJfdmVC9jhLiaHA7D2GPPiahCbXYticSt1ia7cCG4gERiaibwb5kCrWia5o36eZb3Td5F4iarfRBf9olgVyJ1q7YrCQMgntWHISA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![博客网站开发完成并上线预览](/images/workbuddy-cases/case-91/02.png)
 
-![博客首页效果：导航栏 + 文章卡片列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNBjBibD5xIkIyOpIlS5RcibSgVoU1ZzRw1RSBBzibOXQ5ticby4gp4PNRoDRXAl9I8eObBxYibicfSiarX1Xh3ulnjCzUwicd1uJWJ71o/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![博客首页效果：导航栏 + 文章卡片列表](/images/workbuddy-cases/case-91/03.png)
 
-![标签分类页：18个标签按文章数量排列](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqR6ltf0MciaGAvMicJjdBKc1stwNYpVEBsWoYsMDOibBfwM1RGvjN9f3yczZEnNLfKiaDgjSXbkacoHof2Ezt3nib4PPiaBFQ7FXBM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![标签分类页：18个标签按文章数量排列](/images/workbuddy-cases/case-91/04.png)
 
-![部署后的线上效果：文章详情页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO9HuFnNFKiaNdt2mLVLIia3HwRia7xSh0qOnDtVz1tJEbY8icOAVbeFwvW19kqCa30XZjdhCmIlTs78Zws8XG8RP6yVewueT91weQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![部署后的线上效果：文章详情页](/images/workbuddy-cases/case-91/05.png)
 
 ## 八、验收标准
 

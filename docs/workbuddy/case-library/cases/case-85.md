@@ -68,23 +68,23 @@ WorkBuddy 生成 Word 文档。需求分析部分：归纳 7 大核心痛点（�
 
 ### 结果证明
 
-![发送 PDF 让 AI 读完](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROS1NOZHsEnkdB9GCU2txwmPictam3trqHpxEctad2MGfaOazClvbmn5vEoSicLXCiaKwTv4WmO3E8DBwT6aYHWSYIm6SqdkyLicPM/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![发送 PDF 让 AI 读完](/images/workbuddy-cases/case-85/01.png)
 
-![AI 读完 65 页并生成报告](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPUDDf4nMZTbutSG1ljlPB02375iapKQ680ibnMjKt3I7AoYL1vibiawGrBRC2ia7RicKiaiczuNsBmC6GNaMzaSL5T0y1HZ4AropSRkR8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![AI 读完 65 页并生成报告](/images/workbuddy-cases/case-85/02.png)
 
-![Word 报告内容预览](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNBZv2dKkM5Rj5s6TTr5F7ibgqQUyRVgB9PqjWGqgO0MZuYHLpz42dKUPPb1Licq3udS6508mrFvW0CFsAQ36iano4wCibluCg8y5s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![Word 报告内容预览](/images/workbuddy-cases/case-85/03.png)
 
-![9 大类分项报价表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMq7ibdyiajanBxc3mEuXHm8IW1zawY3nPKWxhxJtpqwkFBkGJLNWqQJYApUxoNecgJYcrGtPAPVmm7NYrzjJ4Dp8Y7fzG186G8M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![9 大类分项报价表](/images/workbuddy-cases/case-85/04.png)
 
-![追问纯开发成本和技术难点](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNiaBqRsWRkvIJYIpSkicqExwj4X6KT8C3Ck2ZyPMianPVdAWoP7IjickLdgXBGwRJPiaFYmVOXOKJQ9qdnX2sdznRMnRpoaGJwwxIc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![追问纯开发成本和技术难点](/images/workbuddy-cases/case-85/05.png)
 
-![技术风险分级卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN6txEOuIXYmyHyNr2yntoiczwZiak0RAibVywrASia0HaBs6eBJNnseIs0ic6dNbBfSiccSe6U53WdSv90FqXfibZK8HS7kvgKA0kPfA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![技术风险分级卡片](/images/workbuddy-cases/case-85/06.png)
 
-![HTML 可视化页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROOacNrW7q3y1jmetz4oYAAD40GuAdfju1fBeKTFdicicKibB7W6FtjAseR92KhxhsicBu6icLLs8utJ77icqlzqoeNicZq6pAQo8Bywg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![HTML 可视化页面](/images/workbuddy-cases/case-85/07.png)
 
-![传统 vs AI 辅助成本对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO6qe4XcCNnZ7ZuTKauEHafyRtDqJePXDhCj9yUaiaUtdvUuR2MAqvTfw41ZbUp8gmuIib7UwThTNT49CaAurjduc8YLkrfW3Spg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![传统 vs AI 辅助成本对比](/images/workbuddy-cases/case-85/08.png)
 
-![AI 替代率分模块对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7eLicOMXGx3TVDRoxfnwWmQCqROjc24MoUeWjD5D0NGlwSEPibppstoibfbZq8SeXP8UmOyTaFLibleoyQAnkXXhaQTEEorDRAq4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![AI 替代率分模块对比表](/images/workbuddy-cases/case-85/09.png)
 
 ## 八、验收标准
 

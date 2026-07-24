@@ -77,19 +77,19 @@ wrangler pages deploy . --project-name writeflow --branch main
 
 ### 结果证明
 
-![Web动画设计技能输入需求](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROiaalBJ3poP7ibFHG6NSB1v0pibbq3spAwjicVaxRDpqXUmbYbaoU9c6v3dFawHsIvtp5AmKKe7K7oSTEG1Y2ElWHAhZ6bamHGbpM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![Web动画设计技能输入需求](/images/workbuddy-cases/case-55/01.png)
 
-![技能市场搜索Cloudflare](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROjRJUEbgHmWSIsS5G3wzNpKrOxUbxU3mCwB8dcG0p87mN2jYV5iczGJ1VsjhTn0Zk1UTCNqXsHmlYFQ7fMGFE51PyfT9DArQ8I/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![技能市场搜索Cloudflare](/images/workbuddy-cases/case-55/02.png)
 
-![一句话触发Cloudflare技能部署](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROpPyic4AkK95Rh4MsBSLiaqmmtGicBtpvicVmzR9f2rGDCnyzcaFMxzZiaLmxZlPzl255yM1ADCicnIuwTRgC8ibHn606oFXfAscgFsE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![一句话触发Cloudflare技能部署](/images/workbuddy-cases/case-55/03.png)
 
-![Cloudflare授权页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP7E93T0iasZ4YjHwT8LyVicvQicfWL2fbmHVyMKxibOIF01PTEkHZ5piaSPLq2weuNMqbxSQ90XV00OLNaYHHMGagZWh6WWV4uGsc4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![Cloudflare授权页面](/images/workbuddy-cases/case-55/04.png)
 
-![部署成功返回链接](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN0r5rHZIP8gQmWz6Lb2vmcwiabSHgsd44qqJT0ZDicrfl7z7XibY33yh7uwrBBs9dot7fKxj1C62blQUYkkod7QEkCZDiaias767Ow/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![部署成功返回链接](/images/workbuddy-cases/case-55/05.png)
 
-![WriteFlow页面上线效果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM5miaRS7SM2L94bIv1mSp0sn8tM5SqwHZHTrn1GdQoic6lvZmOMx4gjDySnaHzHjicAicIjedvgj7ia7lnmwITdLBrI1zphIiaJKah0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![WriteFlow页面上线效果](/images/workbuddy-cases/case-55/06.png)
 
-![踩坑404修复截图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROZ6JvTtmKEVQYDLDD2mePibo0bhlGxZmFG8TJ6lB8PMyNfIKYNDU5AcYUCsjlSXCSpkuHyMohV9fAPKB3aibEyy9Nhytv65Dhdo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![踩坑404修复截图](/images/workbuddy-cases/case-55/07.png)
 
 ## 八、验收标准
 

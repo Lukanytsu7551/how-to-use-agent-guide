@@ -64,25 +64,25 @@ gzh-design 专注排版出好看的 HTML，baoyu 专注推送进草稿箱——�
 
 ### 结果证明
 
-![wenyan default vs gzh-design摸鱼绿排版对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNbCvUgIbdnF1T08jCsZNicxrgz73XQx0TCGaiaWKRS4NeLVDAA78xspxFt20NN7X4vSV2rBEGibIwphcmdfgSFRBd2JCwGm4AFV0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![wenyan default vs gzh-design摸鱼绿排版对比](/images/workbuddy-cases/case-98/01.png)
 
-![WorkBuddy 分析 gzh-design Skill 作用](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMfsFtbEMyicbmTLzdnaLCKMm29cPPGBkSpiaK5iagpqJ8XWDgVjXP229F7iazssSEdHZf1yRxFBiax4KQEKEe1HemSNV01hDg6sDRE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![WorkBuddy 分析 gzh-design Skill 作用](/images/workbuddy-cases/case-98/02.png)
 
-![6套主题排版效果对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROm7o4ib4tTTFXECxKgw4GBjsVdO98dsiaxt2QAUNrEc4fug3BgZ8nhcep2YGjPiaKJZuhCJBdIwEkkgYzqmiag3QQDYGrGGr5icR8o/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![6套主题排版效果对比](/images/workbuddy-cases/case-98/03.png)
 
-![安全审计完成：P2安全直接安装](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNGY5ibYPficGxw0HXKM83iazKbhStKHWAVvBsgyNvoxEcdWJfqj1NBeqicOicjmwoO2SadvicOj3OtIMhNOQtuFp8d4eTuhxmYOmD9c/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![安全审计完成：P2安全直接安装](/images/workbuddy-cases/case-98/04.png)
 
-![安全审计详情：逐文件检查](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMnHrFDr5d7D8VjF4RqeE2y3MeMyNXaGLG70zElCiaJmWTNEzTMtsyQZLriaMB2QdCriaO6KV9H3fv0Z0CUenbNC0PDUXfr53wtK0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![安全审计详情：逐文件检查](/images/workbuddy-cases/case-98/05.png)
 
-![安装完成：位置/清理/.git/lint 0 ERROR](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMA80e6KnsWiamRc3SicMeHvuayEQBYRxlurXJ0j8JWsbicicMcdTvlTDowODibz76gIHtUJJZ3icpT3VJzN99DnxzH6NH0Fmeb5NOcg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+![安装完成：位置/清理/.git/lint 0 ERROR](/images/workbuddy-cases/case-98/06.png)
 
-![摸鱼绿主题排版完成：0 ERROR](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMayiccTqicB3cd0rlVn6hRCEQyv1icibMLwBGLFIo1xW2iaGmLUkEIdm0eibdUHxa1rI5uUgor7nkeCN6rkDD7icN0kaRhYLFic7pjxFE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+![摸鱼绿主题排版完成：0 ERROR](/images/workbuddy-cases/case-98/07.png)
 
-![摸鱼绿排版效果预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP1WbX8lcCJKnxic5hTenmW6KDH1WNMFziciavH7WlMLnZ2ecaNMqC7sZyr0xTuickF2oH6swvVicZmAskoiaNq1ZcBecG4iatLJReoss/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+![摸鱼绿排版效果预览](/images/workbuddy-cases/case-98/08.png)
 
-![6套主题全部推送完成](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMFxeQvsmdeO7guQLibsOAPZVW7qHYiaFmVK2ZpS7Ou6ibhdiagPibjJDPZPqctbTBMsyGlk5ngRuj42JoicOxqGERaia4XuXZ7GFeeQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+![6套主题全部推送完成](/images/workbuddy-cases/case-98/09.png)
 
-![6套主题排版效果完整对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPolSptOyImlutgndFSxV6BUIHu1QmD8EcPWkicoIDAqemNAoufl86AG6LGIzCHmia4UQn4tKiba7LZICLTXkDk9rFZvSFC6Ahyicc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+![6套主题排版效果完整对比](/images/workbuddy-cases/case-98/10.png)
 
 ## 八、验收标准
 

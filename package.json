@@ -13,6 +13,7 @@
     "docs:dev": "vitepress dev docs --host 127.0.0.1",
     "test": "vitest run",
     "build": "vitepress build docs",
+    "case-images:localize": "node tools/localize-case-images.mjs",
     "docs:build": "vitepress build docs",
     "preview": "vitepress preview docs --host 127.0.0.1",
     "docs:preview": "vitepress preview docs --host 127.0.0.1"
