@@ -1,0 +1,118 @@
+# Case 41｜使用视频生成专家做脱口秀视频，结果翻车了3次
+
+> **WorkBuddy 案例集 · 第 41 篇**
+> 分类：视频与图像生成
+
+---
+
+## 一、场景描述
+
+上篇调查问卷的文章发出后，互动区有个读者留言说想看用 WorkBuddy 搞个脱口秀视频。既然有人想看，那就试试看。
+
+打开 WorkBuddy，找到视频生成专家，直接 @ 了它。只说了一句话："帮我生成一段脱口秀视频"。专家回得还挺快，问了几个问题：主题是什么？视频多长？什么比例（横屏/竖屏）？回答是：职场打工人主题，30 秒，竖屏（发抖音用）。
+
+然后专家就开始干活了——检查环境（Node.js、npm、ffmpeg 全部就绪）、初始化项目、安装 Remotion 依赖、用 React 写视频代码（7 个场景文件 + 主合成）、渲染视频、生成 AI 配音、混合音轨、重新渲染。整个过程 AI 在背后忙活了八步，从检查环境到最终渲染，全程没写一行代码。
+
+但过程并不是一帆风顺的，来回折腾了 4 版才满意。第一版没声音（哑巴视频），第二版有声音了但男声太正经不像脱口秀，第三版换女声好点了但节奏卡得不太自然，第四版微调节奏后才终于对了。AI 是工具，人的审美和判断还是最重要的——知道什么是"对"的感觉，才能迭代出好东西。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 视频生成专家（基于 Remotion + edge-tts）一句话生成一段 30 秒竖屏职场打工人主题的脱口秀视频，带 AI 配音，可直接发抖音/视频号。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 视频生成专家 | 基于 Remotion 用 React 生成视频，含场景动画、AI 配音、音轨混合 | WorkBuddy 专家中心 | WorkBuddy 账号 |
+| Remotion 框架 | 用 React 代码编写视频场景（弹簧动画、渐入渐出、打字机效果等） | npm 依赖 | 本地文件读写 |
+| edge-tts | 生成 AI 配音（zh-CN-YunxiNeural 男声 / zh-CN-XiaoyiNeural 女声） | Python 库 | 网络访问 |
+| ffmpeg | 混合多段配音音轨到视频 | 系统工具 | 本地执行 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（含专家中心）
+2. 本地环境具备 Node.js（v22.17.1）、npm（10.9.2）、ffmpeg（8.1）
+3. 网络可用，能正常下载 npm 依赖（remotion @remotion/cli react react-dom）
+4. 工作区可写入文件（用于存放视频项目和渲染输出）
+5. 准备好脱口秀主题、时长、比例等基础需求
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：@ 视频生成专家并提需求
+在 WorkBuddy 中找到视频生成专家，直接 @ 它，说一句话："帮我生成一段脱口秀视频"。专家快速回应，问了三个问题：主题是什么？视频多长？什么比例（横屏/竖屏）？回答：职场打工人主题，30 秒，竖屏（发抖音用）。
+**关键步骤**：一句话发起需求，回答专家的澄清问题（主题/时长/比例），专家即可开始干活。
+
+### 步骤 2：AI 在背后干 8 步活
+专家自动完成全流程：①检查环境（Node.js/npm/ffmpeg 全部 OK）→ ②初始化项目（创建文件夹、写 package.json、npm install remotion @remotion/cli react react-dom）→ ③写代码（生成 7 个场景文件：Scene1Hook.tsx 开头标题动画、Scene2Setup.tsx 对话打字机效果、Scene3Escalation.tsx 会议记录滚动、Scene4Punchline.tsx 金句动画、Scene5Tips.tsx 四步法清单、Scene6Outro.tsx 结尾互动引导、VideoComposition.tsx 主合成控制时间轴）→ ④渲染视频（npx remotion render，900 帧，3.1MB）→ ⑤发现没声音，用 edge-tts 生成 AI 配音（zh-CN-YunxiNeural 男声）→ ⑥嫌男声不对味，换成 zh-CN-XiaoyiNeural 女声 → ⑦用 ffmpeg 把 7 段配音按时间轴混合 → ⑧重新渲染最终版（35 秒，3.7MB）。
+**关键步骤**：全程无需手写代码，专家自动完成环境检查、项目初始化、代码生成、视频渲染、配音生成、音轨混合、最终渲染。
+
+### 步骤 3：第一版翻车——没声音
+几分钟后专家说视频渲染好了，打开一看——没声音。画面都挺好看（渐变背景、文字动画、场景切换都有），就是个哑巴视频。直接问专家："为啥没有声音啊"。专家一顿排查，又是检查文件又是看日志，说可能是 BGM 的问题。回复："不是 bgm，脱口秀是要说话的，表达的。" 专家这才明白过来："明白了！脱口秀是要有真人语音/配音的。我来帮你生成 AI 语音配音！"
+**关键步骤**：第一版翻车原因是理解偏差——用户以为默认就有语音，专家以为只要 BGM。明确告诉专家"脱口秀是要说话的"即可纠正。
+
+### 步骤 4：第二版翻车——声音不对味
+专家加上语音后重新渲染，这次有声音了，用的是男声（YunxiNeural），语调挺沉稳。但听了几遍感觉不对劲——这声音太正经了，像是在播新闻，完全没有脱口秀那种轻松调侃的感觉。而且语速和画面切换的节奏也对不上，看着有点别扭。
+**关键步骤**：声音风格不匹配，正经男声不适合搞笑内容。
+
+### 步骤 5：第三版翻车——节奏不自然
+跟专家说："帮我换成女声版本，我看看效果。" 专家立马安排："好的！用活泼女声 zh-CN-XiaoyiNeural 重新生成配音。" 这次用 XiaoyiNeural，声音轻快多了，确实更像脱口秀的感觉。但听了几遍还是觉得有些地方卡得不太自然，笑点没出来。专家说可以再微调一下节奏。
+**关键步骤**：换女声后味道对了，但节奏还需微调。
+
+### 步骤 6：第四版最终版——终于对了
+又让专家微调了一下节奏，主要是把几个停顿和画面切换的时间点对齐。第四版终于满意了——35 秒，女声，节奏顺畅，笑点能出来了。视频 35 秒，竖屏 1080x1920，文件大小 3.7MB，直接就能发抖音/视频号。
+**关键步骤**：微调节奏（停顿与画面切换对齐），最终产出 35 秒竖屏视频。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `帮我生成一段脱口秀视频` | 一句话发起需求，触发视频生成专家 |
+| 2 | `职场打工人主题，30 秒，竖屏（发抖音用）` | 回答专家的澄清问题（主题/时长/比例） |
+| 3 | `为啥没有声音啊` | 第一版翻车后追问原因，触发专家排查 |
+| 4 | `不是 bgm，脱口秀是要说话的，表达的。` | 纠正专家的理解偏差，明确需要真人语音配音 |
+| 5 | `帮我换成女声版本，我看看效果。` | 第二版男声不对味，要求换女声 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一段 35 秒竖屏脱口秀视频（1080x1920，3.7MB，女声配音）
+2. 完整的 Remotion 视频项目（7 个场景文件 + 主合成）
+3. 7 段 AI 配音音频（zh-CN-XiaoyiNeural 女声）
+4. ffmpeg 混合音轨的最终视频文件
+5. 可直接发抖音/视频号的成品
+
+### 结果证明
+
+![读者留言想看脱口秀视频](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNiaOTaRiaV0VZfuw2qWsjy5jkSMzme20fKRibJXe7tBwiba1teuzzBEja990Dp33gY08icZibfqoajajHrMsriciaLO4ibj4M4nFfMwSRE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![WorkBuddy 专家中心找到视频生成专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMf57L3TAOqwicmRMHPqSNkhfcweOic6vB79JPCZmRvvUM65PMXcicSw3bp9Yl9FBY545QE7HLjV7IpJF7lxJyr13AZw2nfqMRVHY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![一句话发起需求与专家澄清问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRME4EFMWV9qAdFMnQUgDMxfJ8TZMdIzLVcibdNR12h6t17ia5LPYyfbrQsiammoS5KH7l2gmJ2ibeSPTrrwUYyRDZASzX4sRFFM9pM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![第一版翻车：没声音，专家排查](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMKLabFpicsSnDdxf2TwY4SXibIw1icia2oyeZhYAkYpNzr5P5VtKD2XqoCjyPEuhmmx5PANUzUJTQdWvPf82foEmadPvnhicUh0bm4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![第三版换女声 zh-CN-XiaoyiNeural](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPnJ51SJicS1XbDOicLXljmlWZBJDFNtrVvtffTqUjVaTGmJx8VxJET2iaIKO5tLic2V3iae2ynvqmmeDLQr2KaHBpcDwWJhAPSUlAA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+### 4 版迭代对比表
+
+| 版本 | 声音 | 问题 | 状态 |
+|---|---|---|---|
+| 第一版 | 无声 | 专家以为只要 BGM，没加配音 | 翻车 |
+| 第二版 | 男声 YunxiNeural | 太正经像播新闻，节奏对不上画面 | 翻车 |
+| 第三版 | 女声 XiaoyiNeural | 味道对了，但节奏卡得不自然，笑点没出来 | 接近 |
+| 第四版（最终） | 女声 XiaoyiNeural | 微调停顿与画面切换对齐，35 秒顺畅 | 通过 |
+
+## 八、验收标准
+
+- [ ] 成功 @ 视频生成专家并一句话发起脱口秀视频需求
+- [ ] 专家自动完成环境检查（Node.js/npm/ffmpeg 全部就绪）
+- [ ] 专家自动初始化 Remotion 项目并安装依赖
+- [ ] 生成 7 个场景文件（Scene1Hook ~ Scene6Outro + VideoComposition）
+- [ ] 第一版视频渲染成功（900 帧，有画面无声音）
+- [ ] 专家识别"脱口秀需要语音配音"的需求，用 edge-tts 生成 AI 配音
+- [ ] 第二版使用男声 YunxiNeural（识别出风格不匹配问题）
+- [ ] 第三版切换为女声 XiaoyiNeural（声音轻快更像脱口秀）
+- [ ] 第四版微调节奏（停顿与画面切换对齐），最终产出 35 秒竖屏视频
+- [ ] 最终视频规格：1080x1920 竖屏，3.7MB，带女声配音
+- [ ] ffmpeg 成功混合 7 段配音音轨到视频
+- [ ] 全程未手写一行代码，从需求到成品约 20 分钟

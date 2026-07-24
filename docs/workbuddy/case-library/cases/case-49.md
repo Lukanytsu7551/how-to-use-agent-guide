@@ -1,0 +1,163 @@
+# Case 49｜开了 1.5 小时的腾讯会议，AI 3 分钟帮我整理出完整纪要
+
+> **WorkBuddy 案例集 · 第 49 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+上周日晚上有幸参加了 WorkBuddy Nova 启航欢迎会。会议从 19:00 开到 20:30，整整 1.5 小时。开完会就想着——"刚才到底说了啥来着？有没有遗漏什么重要信息？"以前遇到这种情况，得反复听录音，边听边记，起码折腾两小时。但这次试了个新方法——把需求直接告诉 WorkBuddy。
+
+第一步先让 WorkBuddy 连上腾讯会议。在 WorkBuddy 左侧边栏找到「连接器」，点「腾讯会议」，点击连接，跳到授权页面用微信或腾讯会议 App 扫码登录确认授权。扫码授权成功后，WorkBuddy 就能读取会议数据了。第二步直接问 AI："我有那些会议？"AI 立刻返回了近期所有已结束的会议列表——5 场会议，带会议号和日期，找到了目标会议 899 171 854（2026-05-17 19:00-20:30）。
+
+第三步让 AI 帮我查看昨天的会议内容并总结。AI 自动找到那场会议，去读取录制文件和智能纪要。但是——问题来了！AI 拿到转写内容一看全是乱码（Unicode 转义字符 \u5c0f\u7d20...），这根本不是正常的中文。AI 开始各种尝试：改语言参数 --lang en（英文正常但我要中文）、设置环境变量 LANG=zh_CN.UTF-8（然并卵）、API 网页直接抓取（失败）。说了句"我不管，你想办法给我总结会议纪要"，AI 开启深度思考模式：获取英文版纪要、搜索转写中的 WorkBuddy/Nova/Agent 相关内容、用 cat -v 查看原始内容、用 Python 解码、设置 PYTHONIOENCODING=utf-8...各种方法都试了。最终方案：把 tmeet 命令输出先写入文件 /tmp/transcript.json，再用 Python 以 UTF-8 编码读取——让 Python 自动处理编码转换。中文终于正常显示了！最终 AI 把完整的会议纪要整理好了，含基本信息、参会人员、会议主要内容（产品故事/Nova 计划/大使手册/Q&A 环节）、后续行动项。以前整理会议纪要至少折腾 2 小时，现在会议结束→告诉 AI→3 分钟出纪要，省下至少 1.5 小时。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 的腾讯会议连接器读取 1.5 小时会议的录制和智能纪要，让 AI 3 分钟整理出含基本信息/参会人员/会议内容/后续行动项的完整会议纪要。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 腾讯会议连接器 | 读取会议列表/详情/录制文件/智能纪要/转写内容 | WorkBuddy 连接器 | 腾讯会议账号扫码授权 |
+| tmeet record smart-minutes | 获取 AI 智能纪要 | 腾讯会议 CLI | 已授权连接器 |
+| tmeet record transcript-get | 获取转写文本 | 腾讯会议 CLI | 已授权连接器 |
+| tmeet record transcript-search | 搜索转写中的关键词 | 腾讯会议 CLI | 已授权连接器 |
+| Python + 文件写入 | 解决终端中文乱码：写入文件再用 UTF-8 读取 | 内置能力 | 本地文件读写 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（v4.22.14 或以上）
+2. 已开过腾讯会议并启用录制+智能纪要功能
+3. 微信或腾讯会议 App 可扫码登录授权
+4. 腾讯会议连接器在 WorkBuddy 连接器面板中可显示
+5. 待整理会议已结束且录制文件可访问
+6. 工作区可执行 Python 3 和 tmeet CLI 命令
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：连接腾讯会议连接器
+在 WorkBuddy 左侧边栏找到「连接器」，点「腾讯会议」，点击连接，跳到授权页面。用微信或腾讯会议 App 扫码登录，确认授权。扫码授权成功后，WorkBuddy 就能读取会议数据了。
+**关键步骤**：连接器面板找到腾讯会议→点击连接→扫码授权。
+
+### 步骤 2：问"我有那些会议"获取会议列表
+直接问 AI："我有那些会议"。AI 立刻返回近期所有已结束的会议列表——5 场会议，带会议号和日期：899 171 854（2026-05-17 19:00-20:30）、200 540 022（2026-05-12 14:30-16:00）、737 990 841（2026-04-29 20:30-21:00）、111 826 633（2026-04-29 20:25-21:25）、185 729 379（2026-04-26 20:35-21:35）。找到了目标会议 899 171 854。
+**关键步骤**：一句话获取 5 场近期会议列表，锁定目标会议号 899 171 854。
+
+### 步骤 3：让 AI 总结昨天会议内容，遇到中文乱码坑
+问 AI："帮我查看下昨天结果的会议，你能总结昨天的会议内容吗"。AI 自动找到那场会议（会议号 899 171 854），去读取录制文件和智能纪要。但是——问题来了！AI 拿到转写内容一看全是乱码！终端里看到的是一串 Unicode 转义字符 `\u5c0f\u7d20\u5f00\u59cb\u4ecb\u7ecd WorkBuddy \u7684\u53d1\u5c55\u5386\u7a0b`，这根本不是正常的中文。AI 让我直接访问录制回放链接去看——但我哪有那个闲工夫。
+**关键步骤**：转写内容全是 Unicode 转义字符，AI 提示去回放链接看（不符合需求）。
+
+### 步骤 4：AI 四次尝试解决乱码全失败
+AI 开始各种尝试：第 1 次改语言参数 `tmeet record transcript-get ... --lang en`（英文正常但我要中文纪要）；第 2 次设置环境变量 `export LANG=zh_CN.UTF-8 export LC_ALL=zh_CN.UTF-8`（然并卵还是乱码）；第 3 次 API 网页直接抓取（抓取失败）；第 4 次继续折腾。AI 折腾了好几轮全失败了。
+**关键步骤**：改语言/设环境变量/网页抓取四种方案全部失败。
+
+### 步骤 5："我不管"指令触发 AI 深度思考模式
+有点不耐烦了，直接说："我不管，你想办法给我总结会议纪要"。AI 真的开始拼命想办法——开启深度思考模式：获取英文版智能纪要、搜索转写中的 WorkBuddy 相关内容、搜索转写中的 Nova 相关内容、搜索转写中的 Agent 相关内容、用 cat -v 查看转写原始内容、用 Python 解码转写文本、检查原始编码、设置 PYTHONIOENCODING=utf-8...各种方法都试了，折腾了好几轮全失败了。
+**关键步骤**："我不管"指令触发 AI 深度思考，多路径并行尝试。
+
+### 步骤 6：终极方案——写入文件 + Python UTF-8 读取
+正当快要放弃时，AI 找到终极方案：不试图"查看"终端输出，而是把输出先写入文件，再用 Python 以 UTF-8 编码读取——让 Python 自动处理编码转换。核心代码：`result = subprocess.run(['tmeet', 'record', 'transcript-get', ...])`，`with open('/tmp/transcript.json', 'wb') as f: f.write(result.stdout)`，再用 Python 读取自动解码成功。大功告成！中文终于正常显示了！
+**关键步骤**：subprocess 拿到 stdout 原始字节 → 写入 /tmp/transcript.json → Python UTF-8 读取解码成功。
+
+### 步骤 7：AI 输出完整会议纪要
+最终完整的会议纪要出现了。会议基本信息：主题 WorkBuddy Nova 启航欢迎会、时间 2026-05-17 19:00-20:30、会议号 899 171 854、录制时长约 1 小时 19 分钟、参会人数约 9 人、主持人 **柔 (yoyo)。会议主要内容：1. 产品故事（*超）——2025 年编程智能体爆发/Cowork 启发/WorkBuddy 产品发展历程；2. Nova 计划（**波）——Nova 大使招募/要求热忱实力连接力行动力；3. 大使手册（**琪）——三大活动方向/贡献值机制/季度考核/权益说明；4. Q&A 环节——OPC 专家团/Token 计费/企业采购/官方宣传口径。后续行动项：Nova 发布相关跟进 @ruibozhang/OPC 文档整理 @ruibozhang/Nova 产品说明待确认/Skill/Token 计费相关讨论 @ruibozhang。
+**关键步骤**：完整纪要含基本信息/参会人员/4 大会议内容/4 项后续行动项。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我有那些会议` | 获取近期已结束会议列表 |
+| 2 | `帮我查看下昨天结果的会议，你能总结昨天的会议内容吗` | 触发读取录制+智能纪要+转写内容 |
+| 3 | `我不管，你想办法给我总结会议纪要` | 触发 AI 深度思考模式，不放弃直到解决 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 近期 5 场会议列表（带会议号和日期）
+2. 完整会议纪要（基本信息+参会人员+会议内容+后续行动项）
+3. 会议基本信息（主题/时间/会议号 899 171 854/录制时长 1 小时 19 分钟/参会 9 人/主持人 yoyo）
+4. 4 大会议内容摘要（产品故事/Nova 计划/大使手册/Q&A 环节）
+5. 4 项后续行动项（含负责人 @ruibozhang）
+6. 解决中文乱码的 Python 文件写入方案（/tmp/transcript.json + UTF-8 读取）
+
+### 结果证明
+
+![WorkBuddy Nova 启航欢迎会海报](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbROibicKrvrUialm6nMdibJ0D4da0Gsiaia5afko6vXH27Wbc6HdIMrWwnSXicWErDNicazUhVLw9Ve13trkMa3b211vPAqjofsnibayiaKnw/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+
+![连接器面板找到腾讯会议](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqhADwPvW7D1JBsEaWQ4vAxicwmqyfzyU0uViabK4GBnemwwysp25ENyT7henh5DdAxV9jU1K7BcoHZYgZFZnImUbcRBLngY7qE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![点击连接腾讯会议](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN97GLCR4icJxkFdpoticNLl0Mhp8kic46PASVhBia9dfebHIyGCWzZuBiaKhZonUBshFpia6Tclchr5B2ogeia33KXKV2VsyK6BhtYtg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![微信或腾讯会议 App 扫码登录授权](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRM4X28kzjXgCuk5JXOBNeicKRTUJrekibvicHofTqWyl8f2Q0s6icXx2yibdfQiaCic6Ry2Z54srIUvMYf2MGjCEMiaHHZU8t6sbFCuot8/640?wx_fmt=jpeg&watermark=1#imgIndex=3)
+
+![扫码授权成功 WorkBuddy 可读取会议数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPZnhxaz0QcuFibeOxW7qAb556AqjmIu2xLtaPibajJCUqE0A2PGSrhc9IeuXD3EINic2iaYdzdNartDMwwRMLXmu1dJqiaq949shR4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![问"我有那些会议"返回 5 场近期会议](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROJT7QZ3VDviadBcOiaHSk5py720iaXBwaHx43RrGSwUMOOAicudWOqxXyZTruYfhrwuBtF1FatgdJFDv3Fm4szLtaADTXMNMZGmOw/640?wx_fmt=png&watermark=1#imgIndex=5)
+
+![AI 获取会议详情和录制内容](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMcn4IXIWvOxQNYSyroCIkvmuKlicMjtPuFE5VibWeKEU1mTJaEqVzbjvpANZiaU4L0Hq5MoU3uSia194tGk9VdnMhprQxslotF11U/640?wx_fmt=png&watermark=1#imgIndex=6)
+
+![AI 返回纪要但底部提示中文编码乱码](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO6RqAhIeBicE7FMSaOKF11N80LpNMNdsDeBeLt5S0LyJMBliaiaugZNF7AXgnibWMC3r0SNnC4LFtkibFaD2lPccqbJCiaRhfyVKANY/640?wx_fmt=png&watermark=1#imgIndex=7)
+
+![说"我不管"后 AI 开启深度思考模式尝试多种方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROxeXHT6eFNxoJyG5C7mEyibiaHSBUyTj8Kw2GkuiccCmqy0F4WsIba7HvYn3H0QicjqibEiaj6pIXD273P6C4ZkbwhmNUPWCicSKDa5w/640?wx_fmt=png&watermark=1#imgIndex=8)
+
+![最终完整会议纪要（含基本信息/参会人员/会议内容）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROJsb59NGXszwybuSC6w0w2SM0rjuecCFyUQyU1qvH3tsVneduNzXNCEKbze4v63zP4iaic3BWU0DHAL26bPvt5pHttsPUw8oWGE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+### 近期会议列表表
+
+| 序号 | 会议号 | 时间 |
+|---|---|---|
+| 1 | 899 171 854 | 2026-05-17 19:00-20:30 |
+| 2 | 200 540 022 | 2026-05-12 14:30-16:00 |
+| 3 | 737 990 841 | 2026-04-29 20:30-21:00 |
+| 4 | 111 826 633 | 2026-04-29 20:25-21:25 |
+| 5 | 185 729 379 | 2026-04-26 20:35-21:35 |
+
+### 后续行动项表
+
+| 事项 | 负责人 |
+|---|---|
+| Nova 发布相关跟进 | @ruibozhang |
+| OPC 文档整理 | @ruibozhang |
+| Nova 产品说明 | 待确认 |
+| Skill/Token 计费相关讨论 | @ruibozhang |
+
+### 乱码解决四次失败 + 终极方案对比表
+
+| 尝试 | 方案 | 结果 |
+|---|---|---|
+| 第 1 次 | 改语言参数 `--lang en` | 英文正常，中文仍乱码 |
+| 第 2 次 | 设置环境变量 `LANG=zh_CN.UTF-8` | 然并卵，还是乱码 |
+| 第 3 次 | API 网页直接抓取 | 抓取失败 |
+| 第 4 次 | 各种解码尝试 | 全失败 |
+| 终极方案 | subprocess 写入 /tmp/transcript.json + Python UTF-8 读取 | 成功，中文正常显示 |
+
+### 适合使用人群表
+
+| 你是…… | 能解决什么问题 |
+|---|---|
+| 项目经理 | 快速了解各会议决策，不怕遗漏 |
+| 销售/运营 | 少花时间整理，多花时间跟进 |
+| 团队负责人 | 随时回溯会议内容，高效复盘 |
+| 知识管理 | 自动沉淀会议内容，不用手动存档 |
+
+## 八、验收标准
+
+- [ ] 在连接器面板找到腾讯会议并点击连接
+- [ ] 微信或腾讯会议 App 扫码授权成功
+- [ ] 一句话"我有那些会议"返回 5 场近期会议列表（带会议号和日期）
+- [ ] 锁定目标会议 899 171 854（2026-05-17 19:00-20:30）
+- [ ] AI 自动读取录制文件和智能纪要
+- [ ] 识别中文乱码问题（Unicode 转义字符 \u5c0f\u7d20...）
+- [ ] 第 1 次尝试改语言参数 --lang en（英文正常但非需求）
+- [ ] 第 2 次尝试设置环境变量 LANG=zh_CN.UTF-8（失败）
+- [ ] 第 3 次尝试 API 网页直接抓取（失败）
+- [ ] "我不管"指令触发 AI 深度思考模式
+- [ ] 终极方案：subprocess 写入 /tmp/transcript.json + Python UTF-8 读取成功
+- [ ] 输出完整会议纪要（含基本信息：会议号 899 171 854/录制时长 1 小时 19 分钟/参会 9 人）
+- [ ] 纪要含 4 大会议内容（产品故事/Nova 计划/大使手册/Q&A 环节）
+- [ ] 纪要含 4 项后续行动项（含负责人 @ruibozhang）
+- [ ] 全程 3 分钟出纪要（对比以前 2 小时，省下至少 1.5 小时）

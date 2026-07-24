@@ -1,0 +1,99 @@
+# Case 76｜微信群里建个内部资料库？IMA知识库0成本搞定
+
+> **WorkBuddy 案例集 · 第 76 篇**
+> 分类：知识管理与学习成长
+
+---
+
+## 一、场景描述
+
+大家有没有这种经历：建了个微信群，想往里丢点资料——PDF、文档、课程链接……结果文件满天飞，找的时候翻半天找不到；新进群的人问「之前发的那个资料在哪」，又得重新发一遍。更头疼的是想建一个内部资料库只有群里的人能看，外面的人进不来，但不知道怎么搞——网盘权限太粗、公众号附件有限制、小程序开发又不会。通过和 WorkBuddy 对话，从「两个知识库有啥区别」一直问到「怎么防外人进来」，全程跑完了整个方案设计。结论：IMA 知识库是目前最适合普通人在微信群里建内部资料库的工具，免费、零门槛、权限可控。
+
+## 二、想要完成的任务
+
+通过 WorkBuddy 调研对比腾讯乐享知识库和 IMA 知识库的区别，确认 IMA 适合微信群场景，了解 IMA 共享知识库的三级权限体系（所有者/编辑者/查看者），掌握通过「仅邀请」或「需审批」方式防止群外人加入的设置方法，并梳理防泄露应对方案。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| IMA 知识库 Skill | 查询现有知识库列表、权限字段（access_status/join_type/visible_export_status） | WorkBuddy 技能 | IMA OpenAPI 凭证 |
+| WebSearch | 搜索腾讯乐享和 IMA 知识库的产品对比信息 | WorkBuddy 内置 | 无 |
+| 知识库 API 查询 | 通过 API 获取共享知识库当前权限状态 | IMA OpenAPI | Client ID + API Key |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 已连接 IMA Skill（在 ima.qq.com/agent-interface 获取 Client ID 和 API Key）
+3. 已有 IMA 共享知识库（或准备创建一个）
+4. 有运营微信群的需求
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：搞清楚乐享和 IMA 的区别
+问 WorkBuddy「腾讯的乐享知识库和 ima 知识库有什么区别？他们那个可以直接放在微信里？作为微信群资料存储，那个更方便？为什么？那个能设置查看权限？」。WorkBuddy 搜了一圈拉了对比图：腾讯乐享是面向企业的知识管理平台（企业付费、103 种格式、四级权限、对接企业微信）；IMA 知识库是面向个人/小团队的智能工作台（个人免费、20+ 种格式、三级角色、有微信小程序）。总结：乐享是公司的档案室，IMA 是你的第二大脑。
+**关键步骤**：乐享面向企业对接企业微信，IMA 面向个人有微信小程序。
+
+### 步骤 2：确认哪个能直接放在微信群
+答案很直接：只有 IMA 能。IMA 有微信小程序「ima知识库」，在共享知识库里生成分享链接或二维码发到微信群，群友点开就能看——不需要下载 App，不需要注册企业微信，零门槛。乐享对接的是企业微信，普通微信群群友根本打不开乐享的内容。
+**关键步骤**：IMA 有微信小程序可分享到普通微信群，乐享只能企业微信。
+
+### 步骤 3：了解 IMA 权限体系
+问「IMA 里如何设置权限？我已经连接了 ima skill，你帮我创建一个知识库做个示例。」。WorkBuddy 先查了现有知识库列表，发现已有一个共享知识库「workBuddy工作区」（13 条内容，所有者）。告诉 IMA 的 OpenAPI 目前不支持通过 API 创建知识库——创建只能在客户端操作。然后详细讲了 IMA 的三级权限：所有者（管理员，管理成员/修改设置/增删内容）、编辑者（上传文件/编辑内容）、查看者（只能浏览和 AI 问答）。
+**关键步骤**：IMA 共享知识库三级角色——所有者/编辑者/查看者。
+
+### 步骤 4：设置加入方式防外人
+问「我这个共享知识库，是不是所有人都能加入？我不想群之外的人加入？如何设置」。WorkBuddy 查了「workBuddy工作区」当前权限状态：access_status 是 1（公开可发现），join_type 是 1（允许自由加入）。这意味着只要别人找到链接就能直接加入不需要审批。两步方案：第一步把加入方式改为「仅邀请」或「需审批」（IMA 客户端 → 知识库 → 右上角「···」→ 知识库设置 → 加入方式 → 改为「仅邀请」）；第二步在微信群里发邀请链接，群友加入完成后撤销分享链接。
+**关键步骤**：join_type 从「自由加入」改为「仅邀请」或「需审批」。
+
+### 步骤 5：了解防泄露方案
+问「群友把内容转发给别人怎么办？」。WorkBuddy 回答：没有任何方案能做到 100% 防泄露，但可以做到「足够麻烦让大多数人懒得折腾」。给了风险应对表：群友转发邀请链接（设「仅邀请」+ 定期更换链接）、群友截图/复制内容（关闭导出权限加水印提示）、成员到期不走（定期清理成员列表）、外人混入（「仅邀请」是第一道门槛定期审成员是第二道）。
+**关键步骤**：关闭导出权限、定期更换链接、定期清理成员列表。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `腾讯的乐享知识库和ima知识库有什么区别？他们那个可以直接放在微信里？作为微信群资料存储，那个更方便？为什么？那个能设置查看权限？` | 对比乐享和 IMA 区别 |
+| 2 | `ima里如何设置权限？我已经连接ima skill了，你帮我创建一个知识库，做个示例。` | 了解 IMA 三级权限体系 |
+| 3 | `我这个共享知识库，是不是所有人都能加入？我不想群之外的人加入？如何设置` | 设置加入方式防外人 |
+| 4 | `群友把内容转发给别人怎么办？` | 了解防泄露应对方案 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 腾讯乐享 vs IMA 知识库对比表（定位/费用/格式支持/AI 能力/适用场景/微信集成/权限管理/使用门槛）
+2. IMA 三级权限体系说明（所有者/编辑者/查看者）
+3. workBuddy工作区当前权限状态查询结果（access_status=1, join_type=1, visible_export_status=3）
+4. 防外人加入的两步方案（加入方式改为「仅邀请」+ 群友加入后撤销链接）
+5. 防泄露风险应对表（4 种风险及应对措施）
+
+### 结果证明
+
+![乐享与 IMA 知识库对比图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMqWR6kiciaEaAoPw4BjmhbAcCZod48zkG3DcP2Jf7y19P8dX5cd2A7nxGHNqcL3jQaZZF3Jxia3UwcibFZO0ic9L8u5RiatibDIpqVd8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![两个产品定位对比详情](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMjU5YnAD2UcRYH0SBtUm1g1JibzNp1LICPFtz23dbTmhV3YZy923TibnPtWgJOZUQvzeluDkMGHuhj9MwRBy7XI6BkEcy0ibNFZ4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![IMA 可直接放微信群乐享不行](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN8STD38AwlibQvfiah1YOKDsribuQMPGoTUq1bTq3y2RwnOEhmntsmibrHSibJ8QQMx5UUK4ia4ZwryFxCLuBQ0DJYX2dlXwZz5UZGw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![IMA 权限设置整体流程图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP89W6AL8PsTlKDjD5XQvl6ORXqNM3kFUf2MwMl4KdpvDwTjeGDrJQNNn0Mz2eg8D1IZSjnHcj5xV8YGhzTBa0eTXfwudiaHjeg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![创建知识库与权限设置指南](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMb1BZ9g1iaRUNEnoXCxKqnE7CoUyYj1BGnhQGhEGtw6icAxOTUeMm42ou4sDhcq5mqXLIJlEiauPGNygJ8OpeaDuoiagZXTkaW0icM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![当前权限状态查询结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM2ibPdrRFZT3s4uXGykP6XHvKUI9AVM4zx1gtghLgU33ibKzPiatzGUMSO0icZp5d0wqLzYwfHgiccOq84otzHJibAc6UjW8OMCmqqE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![防泄露改为仅邀请操作指引](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNvbKxp9ib1m8mb9iaLYghLo5LODMcGXnQrMrhEeE9ib9TWzooG4EKTpibyfvoia6ERH0FKP5lcnGawl9Z8A73KicxVAEJsnibA76I2V8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+## 八、验收标准
+
+- [ ] 腾讯乐享定位为企业级知识管理平台（企业付费、103 种格式、四级权限、对接企业微信）
+- [ ] IMA 知识库定位为个人/小团队智能工作台（个人免费、20+ 种格式、三级角色、有微信小程序）
+- [ ] IMA 有微信小程序「ima知识库」可直接在微信群分享链接/二维码，乐享只能企业微信
+- [ ] IMA 共享知识库三级角色：所有者（管理成员/修改设置/增删内容）、编辑者（上传/编辑）、查看者（浏览+AI 问答）
+- [ ] IMA OpenAPI 不支持通过 API 创建知识库，创建只能在客户端操作
+- [ ] workBuddy工作区当前权限状态：access_status=1（公开可发现）、join_type=1（允许自由加入）
+- [ ] 防外人加入方案：加入方式改为「仅邀请」或「需审批」（IMA 客户端 → 知识库 → 右上角「···」→ 知识库设置 → 加入方式）
+- [ ] 改为「仅邀请」后任何人拿到链接也无法自行加入，只有主动邀请的人才能加入
+- [ ] 防泄露方案：设「仅邀请」+定期更换链接、关闭导出权限+加水印提示、定期清理成员列表
+- [ ] 群友加入完成后可撤销分享链接彻底关闭入口
+- [ ] 整个过程不超过 10 分钟，完全免费

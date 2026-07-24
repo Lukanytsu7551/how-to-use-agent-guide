@@ -1,0 +1,119 @@
+# Case 59｜同事拿10000元闲钱买基金，10分钟搞定了纯债方案
+
+> **WorkBuddy 案例集 · 第 59 篇**
+> 分类：金融投资与专业咨询
+
+---
+
+## 一、场景描述
+
+上午坐旁边的同事大王突然凑过来问："你说 10000 块钱放哪好？放余额宝嫌收益低，买股票又怕亏。"我说你别问我，去跟 WorkBuddy 聊聊，让它帮你梳理一下思路。结果他还真去了，而且全程只花了不到 10 分钟，就敲定了一个彻底隔离股市、100% 纯债的配置方案。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 帮同事大王把 10000 元闲钱配置成纯债基金方案，要求彻底隔离股市（不碰股票、不碰可转债），最终敲定两只基金并给出支付宝实操步骤，全程不到 10 分钟。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| WorkBuddy 对话 | 需求澄清+方案迭代+基金推荐+实操指导 | WorkBuddy 内置 | WorkBuddy 账号 |
+| 可视化图表输出 | 资产配置分布可视化 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 有支付宝账号用于最终下单
+3. 10000 元闲钱，近期不会动用
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：告诉 AI 需求（第 0 分钟）
+大王跟 AI 说的第一件事是："我有10000元，现在想在支付宝买基金，我是稳健型。"AI 先给了一个"标准版"稳健配置：货币基金 2000 元（20%）+纯债基金 4000 元（40%）+固收+混合基金 3000 元（30%）+宽基指数基金 1000 元（10%）。
+**关键步骤**：先想清楚不要什么——"不碰股票"这个思路帮过滤掉 80% 的基金。
+
+### 步骤 2：第一版方案有股票，否决（第 1 分钟）
+方案看着挺合理，但是里面有股票。"固收+"和指数基金都跟股市有关系，不符合大王的要求。大王直接回了一句："不要股票"。AI 马上重新调整了方案，去掉了所有权益类资产。
+
+### 步骤 3：第二版方案有可转债，再次否决（第 3 分钟）
+AI 调整后的方案是"货币基金+短债+纯债+可转债"四层配置。虽然可转债本质是债券，但它跟股价有一定联动。大王进一步要求彻底隔离股票，连可转债也不要："彻底隔离股票，给我推荐适合的基金"。AI 去掉可转债后方案变成"货币基金+短债+纯债"三层。
+**关键步骤**：划重点——"不碰股票"不只是不买股票型基金，还包括不买含可转债的基金、不买"固收+"里股票仓位偏高的产品。
+
+### 步骤 4：去掉货币基金全买债基（第 5 分钟）
+大王做了一个大胆的决定：余额宝那 2000 元也省了，全部买短债基金。"我可以将070009买入5000元，不买货币基金天弘余额宝货币A吗？"
+AI 确认了想法——嘉实超短债C的赎回到账是 T+1，如果突然需要用钱最快也得第二天才能到账。而余额宝可以当天快速赎回秒到，相当于"零钱包"。如果 2000 元确实是短期内不会动用的闲钱，全部买嘉实超短债C没问题还能多赚一点收益。
+大王确认："全是闲钱，近期不用"。
+
+### 步骤 5：最终方案敲定（第 7 分钟）
+最终就两只基金：
+- 嘉实超短债C（070009）：8000 元，80%，短债基金
+- 易方达纯债债券A（110037）：2000 元，20%，中长期纯债
+预期年化收益 2.5%-4%，本金亏损风险极低，股票暴露 0%。
+
+### 步骤 6：支付宝下单（第 10 分钟）
+两步操作：
+1. 支付宝→财富→基金→搜索 070009→找到「嘉实超短债C」→买入 8000 元→确认购买
+2. 同样路径搜索 110037→找到「易方达纯债债券A」→买入 2000 元→确认购买
+费率提醒：嘉实超短债C 选 C 类份额无申购费持有满 30 天免赎回费；易方达纯债债券A 选 A 类份额申购费打 1 折约 0.08% 持有满 30 天也免赎回费。
+
+### 步骤 7：AI 给持有期间建议
+- 不用天天看：短债基金每天波动也就几个基点，盯盘只会增加焦虑
+- 每月看一眼就行：打开支付宝看看净值走势确认没有异常就行
+- 持有满 30 天再赎回：不满 30 天有赎回费 0.1%，满 30 天后免赎回费
+- 赎回到账时间：短债 T+1 到账，纯债 T+1～T+2 到账
+- 预期年化 2%-3% 是常态：2026 年低利率环境下纯债基金就是这个水平
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我有10000元，现在想在支付宝买基金，我是稳健型` | 描述金额+平台+风险偏好，触发 AI 给初始方案 |
+| 2 | `不要股票` | 否决含股票的第一版方案，触发去权益类资产 |
+| 3 | `彻底隔离股票，给我推荐适合的基金` | 进一步要求不碰可转债，触发纯固收方案 |
+| 4 | `我可以将070009买入5000元，不买货币基金天弘余额宝货币A吗？` | 主动调整方案去掉货币基金全买短债 |
+| 5 | `全是闲钱，近期不用` | 确认是闲钱，最终方案敲定 |
+| 6 | `这个我已买好了，接下来我该做些什么？` | 触发 AI 给持有期间建议 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 最终基金配置方案：嘉实超短债C（070009）8000 元 80%+易方达纯债债券A（110037）2000 元 20%
+2. 预期年化收益 2.5%-4%，本金亏损风险极低，股票暴露 0%
+3. 支付宝两步实操指南
+4. 费率提醒（C 类无申购费+A 类申购费打 1 折+满 30 天免赎回费）
+5. 持有期间 5 条注意事项
+6. 决策全过程时间线（第 0/1/3/5/7/10 分钟各做了什么）
+
+### 结果证明
+
+![第一版含股票方案](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNZWibM06Ifiaic9JsqcjgUUlLc2wibdIqJZUcV9TpayDLFT1lbTiaGDkAKCFPWcwibHug8DUuLpWD7VQYujPqibalEKfzA8zFAQcbDRc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+
+![纯固收无股票配置方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPArLZOLtnl1HALcWaSlrXdS7aVoNDlJsj7crO9Vwzgq02RfCKicbGhtADHYhFF0qKnsoWvBZiaF4cIcP5sV3ROricQYzVo8XeT70/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![彻底隔离股票方案](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNh2iaPW2jOqpLtxrF6RAlzLNVXE5AiaaruePKCfD0e0KJudtoiagM9T3B27HSsbscglvR6iayIzVXtfiamEJZyw9gV6rvLZbJUqQJc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+
+![短债基金和纯债基金推荐](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMlS8tajicsXjk4vGJUtqLNGxiaFKFHvQiaxGciakP78e4KHeOQDc4xfPpUvyuYAgia03XskLLHG7DnsfBp0tzO7jUz2quOrb7hKC3c/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3)
+
+![确认去掉货币基金全买短债](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRNtIjAVX7C50PxjSR3bL3yKUsOBho9m8oeQEK1QlN8VapyU3hXyTc7ZEVPlERiacXqWEcibHkzLRzjibykuqicicQgZY1xfHvicfJ4nI/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+
+![最终两只基金方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROs7YZTbemAXclmkw8HopOwia3p80jZdpyf9g9GVIvEf5FlB3tzOjCVElJPQEoriaibwvad6vibst4MWrSlMYvMr3g0WaCebbDDVEs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![支付宝下单完成交易记录](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNzNPZ39AdRWAMPib51zFLMkKsRsBARIOwkpRp03EJB6yJ9QGfXDyOyKicuq0xrTQWfK0Pcb8IRyYTkAbvmicctQ2A1Ij5Wsq2aTY/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=6)
+
+![持有期间建议](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRN2M58icGaib7gmljmdYNSgV43hXmo4uUT22qp3mc7helZlf9qwtd0JpM4ibEzTQRVZfdL9zEZxgypRrFpqtXoYX20PSIdaX2syPU/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=7)
+
+## 八、验收标准
+
+- [ ] 第 0 分钟告诉 AI 需求（10000 元/支付宝/稳健型）
+- [ ] AI 给第一版方案含股票（货币 20%+纯债 40%+固收+ 30%+宽基 10%）
+- [ ] 第 1 分钟否决含股票方案，说"不要股票"
+- [ ] 第 3 分钟否决含可转债方案，说"彻底隔离股票"
+- [ ] 第 5 分钟去掉货币基金全买短债，确认"全是闲钱近期不用"
+- [ ] 第 7 分钟最终方案：嘉实超短债C（070009）8000 元 80%+易方达纯债债券A（110037）2000 元 20%
+- [ ] 预期年化收益 2.5%-4%，本金亏损风险极低，股票暴露 0%
+- [ ] 嘉实超短债C 选 C 类份额无申购费持有满 30 天免赎回费
+- [ ] 易方达纯债债券A 选 A 类份额申购费打 1 折约 0.08% 持有满 30 天免赎回费
+- [ ] 第 10 分钟支付宝两步下单完成（搜索 070009 买 8000+搜索 110037 买 2000）
+- [ ] AI 给持有期间 5 条建议（不用天天看/每月看一眼/持有满 30 天再赎回/T+1 到账/2%-3% 是常态）
+
+> 风险提示：本文仅为理财经历分享，不构成投资建议。基金投资有风险，历史收益不代表未来表现。请根据自身风险承受能力审慎决策。

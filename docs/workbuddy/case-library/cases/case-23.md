@@ -1,0 +1,134 @@
+# Case 23｜半小时给娃做学习游戏，语文数学全覆盖
+
+> **WorkBuddy 案例集 · 第 23 篇**
+> 分类：网站与应用开发
+
+---
+
+## 一、场景描述
+
+今天去妹妹家串门，刚进门就听见小外甥在闹："我要玩 iPad！我要玩游戏！"小外甥今年 7 岁，刚上一年级。每天放学回家第一件事就是抢 iPad，要么看短视频，要么玩各种游戏。广告多、乱扣费、内容没营养，家长特别糟心。
+
+我突然冒出个想法：要不我给他做一个既能玩、又能学的小游戏？零基础、不会代码，全程靠 WorkBuddy，半小时搞定！蹲下来和外甥聊了几句，需求非常明确：语文（拼音拼写、认字、成语）、数学（10 以内/20 以内加减法、连加连减、简单乘法）、风格（卡通可爱、有成就感）、设备（手机、平板直接打开，不用下载）。
+
+市面上儿童 App 要么广告满天飞，要么充钱才能玩，优质教育内容太少。但有了 WorkBuddy，普通人零基础也能给孩子做专属学习工具。不需要会编程，不需要懂设计，把想法说出来，剩下的交给 AI。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 在半小时内为零基础一年级孩子开发一个语文+数学双科目的卡通学习游戏，支持手机/平板即开即玩，无广告无内购，并通过 GitHub + Cloudflare Pages 免费部署上线。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| WorkBuddy 对话生成 HTML | 自然语言描述需求，生成包含语文/数学/成就系统的完整学习游戏 | 内置能力 | WorkBuddy 账号 |
+| 深度思考模式 | 在开发前明确学什么、孩子年龄、游戏风格、设备等关键信息 | 内置能力 | WorkBuddy 账号 |
+| 代码执行能力（Bash） | 自动 git init、git push 部署到 GitHub，本地预览调试 | 内置能力 | 本地 Git 环境 |
+| GitHub + Cloudflare Pages | 免费部署静态游戏页面，手机/平板直接打开 | 第三方平台 | GitHub、Cloudflare 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 已开启"深度思考"模式
+3. 已注册 GitHub 账号并配置好 Git 本地环境
+4. 已注册 Cloudflare Pages 并关联仓库
+5. 明确孩子的年龄段和学习内容需求
+6. 本机可访问 localhost 端口用于实时预览
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：描述需求并明确游戏设计
+我跟 WorkBuddy 说："我小外甥现在上小学一年级了，我想做一个给他做一个小游戏，让他边玩边学。"AI 先了解几个问题：学什么（语文/数学/英语）、孩子几岁、游戏风格偏好（卡通/成就感/竞技）、在什么设备玩。我回答："语文和数学吧，7 岁了，然后游戏风格要卡通、可爱，还有成就感。在手机和平板上都可以玩。"AI 设计出"小熊猫历险记"：主角是超萌小熊猫，答对题收集金币/星星解锁新装扮/场景，包含拼音拼写、认字、10/20 以内加减法、连续答对成就系统，明亮卡通、大按钮适合触摸操作。
+**关键步骤**：描述需求后 AI 反问 4 项关键信息，据此设计"小熊猫历险记"游戏方案。
+
+### 步骤 2：生成完整 HTML 游戏并部署
+AI 做了一个可玩的版本：index.html（+1045 行），包含超萌小熊猫主角、答对题收集星星、答错题消耗、连续答对触发成就、语文模块（拼音拼写妈妈爸爸小狗小猫等）、数学模块（10 以内/20 以内加减法、生活化题目"8 个橘子吃掉 3 个"）、成就感系统（连续答对 5 题/10 题成就、正确率统计）。随后自动部署：cd 到游戏目录，git init，git add index.html，git commit，git branch -M main，git remote add origin，git push。
+**关键步骤**：AI 生成 1045 行完整 HTML 游戏并自动部署到 GitHub。
+
+### 步骤 3：修 bug——背景音乐、减法逻辑、弹窗显示
+实测发现 3 个问题，WorkBuddy 一次性修复：
+1. 音乐链接失效 → 保留核心音效。我说："把那个背景音乐去掉，背景音乐太难听了。"AI 已读取 index.html 并修改（+1 -8）。
+2. 减法逻辑写成加法 → 修正计算代码。我发现"题目的答案不对，选择正确答案之后有个弹窗的提示，那现在为什么也没有了"。AI 找到 bug：数学减法题答案计算错误，第 847 行 `answer: String(q.a + q.b)` 总是加法，对于 5-2=? 算成了 5+2=7，正确答案应该是 3。修复后（+8 -1）。
+3. 弹窗不显示 → 调整布局层级。我说："弹窗还是没显示出来，你再检查一下代码。"AI 全面检查发现 overlay 和 reward-popup 是两个独立元素，但 overlay 设置了 flex 布局，reward-popup 不在 overlay 里面，所以弹窗无法正确显示。修复 HTML 结构（+6 -5）并修改 CSS。
+**关键步骤**：3 个 bug 一次性修复——移除背景音乐、修正减法计算逻辑、调整弹窗布局结构。
+
+### 步骤 4：加难度——连加连减乘法、成语
+根据孩子反馈升级题目难度：数学增加连加（3+4+5=?）、连减（15-4-3=?）、加减混合（8+5-3=?）、简单乘法（2×3=?、3×4=?）；语文增加成语（一鸣惊人、画龙点睛、守株待兔、叶公好龙、塞翁失马等 20 个经典成语）；总题量扩展到 120 道。修改 index.html（+17 -2、+1 -1、+21 -21），部署更新：`cp panda-learning-game/index.html panda-study.html && git add && git commit -m "增加题目难度:连加连减、乘法、成语" && git push`。
+**关键步骤**：升级题目难度，新增连加连减、乘法、成语，总题量扩展到 120 道。
+
+### 步骤 5：三级难度结构上线
+最终结构：开始页面（小熊猫）→ 选择科目 → 选择难度 → 答题 → 结果展示。简单（5 以内加减/基础拼音）、中等（10 以内加减/常用汉字）、困难（连加连减乘法/成语知识）。访问地址：https://panda.yaniw.com/panda-study.html，手机、平板直接打开就能玩，不用下载 App，数据自动保存在浏览器里。
+**关键步骤**：游戏正式上线，支持三级难度，手机/平板即开即玩。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我小外甥现在上小学一年级了，我想做一个给他做一个小游戏，让他边边玩边学` | 触发 AI 反问学什么/年龄/风格/设备 4 项信息 |
+| 2 | `语文和数学吧，7 岁了，然后游戏风格要卡通、可爱，还有成就感。在手机和平板上都可以玩` | 明确需求，AI 设计"小熊猫历险记"并生成 1045 行 HTML |
+| 3 | `把那个背景音乐去掉，背景音乐太难听了，小朋友怎么能听这种背景音乐` | 移除失效的背景音乐链接 |
+| 4 | `你看一下，你写的这个还有 bug 题目的答案不对。还有就是选择原来选择正确答案之后，有个弹窗的提示，那现在为什么也没有了` | 修复减法逻辑 bug 与弹窗显示问题 |
+| 5 | `弹窗还是没显示出来，你再检查一下代码` | 全面检查并修复弹窗布局结构 |
+| 6 | `你这个题目难度还是有点低，题目难度稍微加一点` | 升级难度：连加连减、乘法、成语，总题量扩展到 120 道 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一个完整的"小熊猫历险记"学习游戏（HTML 文件，1045+ 行）
+2. 语文+数学双科目，覆盖一年级知识点
+3. 三级难度（简单/中等/困难），120 道题目
+4. 成就激励系统（连续答对 5 题/10 题成就、正确率统计）
+5. 一个永久可访问的线上地址（https://panda.yaniw.com/panda-study.html）
+6. 手机/平板即开即玩，无广告、无内购，数据自动保存
+
+### 结果证明
+
+![描述需求触发 AI 反问关键信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPlGeW1WM2aib2ZBAl8UzHzwTTYXJ9icmLnuBibraFplPiafwgib4mjHibRBuW7ibCAWiba9I8nVQEdpVXMB9gedA4jZNvyBHwmZ9yZGao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![AI 设计小熊猫历险记游戏方案](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP4R0S3qrPMGhzwES4Lo7kWNkDtWHwqqXtVz81siaOOxT2XmBFB3JoCS8jUynb9iceBYOesdZyOASAxfHf4FIES3YtKDP2ibibPtuM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![生成 index.html 并部署到 GitHub](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMAFBECwWSv7PssMzsXehGpicmEu1VkUiajuWXFvw3LshXmeicdB6fiakkOO2RWp6aP5wzGiarfiaZUj0LVmia6GgDf06aYWkJqvicnLvg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![访问地址与手机平板兼容说明](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPkX14uYEzbrFazVStib39APY4Dbf7EPTxY9dS6IXdJeaibdKugdvAgkiaCgolKc0cSEsQ2qIcmaGmY0d5gtNicKuExdlPaB059GH0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![移除背景音乐修改代码](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRME5d5obj7Dc5cicFUyXF5aVOmjO9siceicwrnCBo69lhnxVHyAensjSCMRTl30iaibne4xbubuspaYrGgiaDwHmalKia4AyVOwXmvafU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![修复减法逻辑 bug 与弹窗显示](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMLTdUWE6WknVGZa6C7YsxCqL8paA3El8ApJicAkZHDkoXMBEILVbc7q6Bf3icVCab6WoB0dg5hZszgA7cjXXt39GU2w0CyUoqHM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![修复弹窗布局结构问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMfzgYaSopuOogia1O40SNV14Djic8MicFuVn09Mozic6gXNxVI2rwib29tKaQrkArP0NYdR0gXMJZib4ECqOSojCWE26w1diayBUic2V8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![升级题目难度并部署更新](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNA7OQHgd5NibhgULdv505ARfSxQtOzpz5jGLouBbhOLXhWvicUBEiaNPFagGPjl62nwyNYmylUW7TBzIvulfMyOWvRpSWIcCGcVs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![新增题目类型：连加连减乘法与成语](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPpwfJic6fJ8FP1SUakVCojYicatKnntBscWSYIwibVMp2UibnGC8ibJGsE0ticiarHCfwKaoVxssHKL6YPLCE6R0SCHzSnzcqacOjpdw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+![小熊猫历险记游戏开始页面](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMnRIRjRwLyX9HL0egku3smicEntStGLNTrFHFibMPTZX2rq4ktt8q8JBY65t2jEJ4Oj41twKRrBaExHSnhDwtf9547dwFSA5Ooc/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=9)
+
+![语文成语题目答题界面](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMJicStPYd95CjtOTr74s4qdeITDzoibGWQev54CzbDZ4bVgxqk4jXd0YtQkhIgPPzQ2buo08fPnDgHM5CgIcCQvNP7RIhVPguuQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=10)
+
+![答题结果与正确率统计界面](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRMGmejPomaFu0o1BqribybpumSXBBWh4pS92kZ7rBtYMu3uK7HFab3BYicL6J6ms8SmFZzMribC1bj6lKqlKgALt8ztKic4co5O2jk/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=11)
+
+### 游戏特色对比表
+
+| 维度 | 市面儿童 App | WorkBuddy 学习游戏 |
+|---|---|---|
+| 广告 | 广告满天飞 | 无广告 |
+| 内购 | 充钱才能玩 | 无内购 |
+| 内容 | 内容没营养 | 语文+数学双科目覆盖一年级知识点 |
+| 难度 | 固定单一 | 三级难度循序渐进 |
+| 激励 | 外部诱导 | 成就激励系统，孩子主动做题 |
+| 部署 | 需下载 App | 即开即玩，手机/平板直接打开 |
+| 开发成本 | 数万元定制 | 半小时零代码零成本 |
+
+## 八、验收标准
+
+- [ ] WorkBuddy 接收需求后能反问 4 项关键信息（学什么/年龄/风格/设备）
+- [ ] 5 分钟内生成完整 HTML 学习游戏（1000+ 行代码）
+- [ ] 游戏包含语文（拼音、认字、成语）和数学（加减法、连加连减、乘法）双科目
+- [ ] 三级难度（简单/中等/困难）覆盖 120 道题目
+- [ ] 包含超萌小熊猫主角、星星收集、连续答对成就、正确率统计
+- [ ] 背景音乐已移除，保留核心音效
+- [ ] 减法计算逻辑已修正（不再把减法算成加法）
+- [ ] 弹窗布局结构已修复（overlay 包含 reward-popup）
+- [ ] 通过 Git 推送到 GitHub 并通过 Cloudflare Pages 部署上线
+- [ ] 手机/平板浏览器直接打开可玩，数据自动保存
+- [ ] 无广告、无内购，全程零代码、零成本

@@ -1,0 +1,123 @@
+# Case 78｜用WorkBuddy连上钉钉，我才发现它这么好用
+
+> **WorkBuddy 案例集 · 第 78 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+前两天有读者留言「哥，出一篇钉钉办公协同吧」。钉钉好久没用了，公司办公主要在企业微信上。但既然有需求就试了一下，没想到真的方便。打开 WorkBuddy 点左上角「连接器」按钮，找到 DingTalk（钉钉），扫码登录授权后，AI 表格、考勤、日历、群聊、机器人、通讯录、文档、钉盘、AI 听记、待办、审批……15 大模块基本覆盖日常用钉钉的所有场景。连上之后第一件事让 AI 帮查消息，一句话拉出来 8 个未读会话，还能直接在对话里回复表情、查待办、看日历、走审批。
+
+## 二、想要完成的任务
+
+在 WorkBuddy 连接器中授权连接钉钉（DingTalk），完成扫码登录和组织选择，验证消息查看、表情回复、待办查询、日历查看、审批查询等核心能力，并梳理钉钉连接器覆盖的 15 大模块能力清单。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| DingTalk 连接器 | 15 大模块：消息群聊/日历日程/待办/OA 审批/通讯录/邮箱/文档多维表/考勤/DING 消息/AI 听记/AI 搜问/钉盘/日志 | WorkBuddy 连接器市场 | 钉钉账号 + 组织管理员开通 CLI 数据访问权限 |
+| 扫码授权 | 手机钉钉扫码登录电脑端授权 | 钉钉 OAuth | 钉钉账号 |
+| 组织选择 | 选择要连接的企业组织 | 钉钉 OAuth | 组织成员身份 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 拥有钉钉账号并已加入某个企业组织
+3. 手机钉钉 App 可扫码
+4. 组织管理员需开通「允许成员通过 CLI 访问其个人数据」权限（否则需发送申请）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：连接钉钉
+打开 WorkBuddy，点左上角「连接器」按钮，找到 DingTalk（钉钉），点「连接」。弹出授权窗口显示钉钉能做什么——AI 表格、考勤、日历、群聊、机器人、通讯录、文档、钉盘、AI 听记、待办、审批……功能比想象的多太多了。
+**关键步骤**：连接器市场找到 DingTalk 点连接。
+
+### 步骤 2：扫码登录
+用手机钉钉扫电脑上的二维码。扫完后手机弹出确认页面，提示「DingTalk-Workspace 要登录你的账号」，点 Log In。然后选择要连接的组织（企业）。
+**关键步骤**：手机扫码 → Log In → 选择组织。
+
+### 步骤 3：确认授权范围
+最后一步确认授权范围——获取个人头像、昵称等基本信息，点 Accept。如果提示「该组织尚未开启 CLI 数据访问权限」别慌，这是正常的说明管理员还没开放权限。页面上有「立即申请」按钮，发给管理员审批就行，管理员同意后自动跳转到授权成功页。整个过程不到 2 分钟。
+**关键步骤**：点 Accept 授权，如遇 CLI 权限未开通点「立即申请」发管理员审批。
+
+### 步骤 4：一句话查消息
+连上后第一件事让 AI 帮查消息：「帮我看下钉钉有什么消息？」。结果一下子拉出来 8 个未读会话：淘宝 ods 更新监控（594 条未读今天 19:50）、魔搭 ModelScope 开发者联盟群（6629 条未读今天 17:48）、小程序智能客服服务群（54 条 6 月 14 日）、rpa+竞争数据沟通群（51 条 6 月 10 日）、账号监控（1 条 6 月 5 日）、工作通知（1 条 5 月 26 日）、美工特训营直播群（1 条去年 12 月）、阿里云开发者社区（1 条去年 6 月）。
+**关键步骤**：一句话查出 8 个未读会话及未读数和最新消息时间。
+
+### 步骤 5：查具体群消息
+问「淘宝ods更新监控都说了啥？」，AI 直接把最近几条消息拉出来：全是机器人 sycm 自动播报的 ODS 数据更新状态（播报-ufirst-XXX-XX），594 条未读全是这类噪音。AI 主动提了设免打扰的建议。再看魔搭群的消息就有意思了——有人在讨论 GLM 5.2 的 API 支持，还有 ICML2026 预讲会的直播通知，信息密度很高。
+**关键步骤**：淘宝 ods 群全是机器人播报噪音，魔搭群有 GLM 5.2 和 ICML2026 有价值信息。
+
+### 步骤 6：在对话里回复表情
+这是最惊喜的功能——可以直接在对话里操作钉钉。说「帮我在魔搭群里回个表情」，AI 先拉取最近 5 条消息让选，然后问回哪个表情。选席朋朋的「有没有新手」回 👏 鼓掌，一秒完成，群里多了一个鼓掌表情回应。整个过程不用打开钉钉 App，就在对话框里搞定。支持的交互方式：发群消息/单聊消息（以本人身份）、表情回应（点赞/鼓掌/大笑/666 等）、引用回复某条消息、机器人发消息（如果有配置机器人）。
+**关键步骤**：在对话里选消息选表情一秒完成群内回复。
+
+### 步骤 7：一句话查待办日历审批
+「看看我今天什么待办？」→ 返回空列表。「看下今天的日历」→ 也没有日程安排。「有没有待审批的流程？」→ 审批列表也是空的。虽然结果都是空的，但这个过程意识到一件事：以前要分别打开三个不同页面/应用才能看完的信息，现在一句话就能全部查到。如果公司重度使用钉钉，待办查看+创建+指派、日程管理+查同事闲忙+订会议室、审批流程查看+同意+拒绝+转交都能在对话里完成。
+**关键步骤**：待办/日历/审批一句话全查到，每次审批操作前 AI 都会先确认不自动执行。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | （扫码登录 + 选择组织 + Accept 授权） | 连接钉钉连接器 |
+| 2 | `帮我看下钉钉有什么消息？` | 查 8 个未读会话列表 |
+| 3 | `帮我看看淘宝ods 更新监控都说了啥？` | 查具体群消息内容 |
+| 4 | `帮我在魔搭ModelScope开发者联盟群①里回复个表情` | 在对话里操作钉钉回表情 |
+| 5 | `看看我今天什么待办事项么？` | 查待办列表 |
+| 6 | `好，看下日历` | 查今天日历日程 |
+| 7 | `有没有待审批的流程` | 查审批列表 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 钉钉连接器授权成功（DingTalk-Workspace 已连接，组织已选择）
+2. 8 个未读会话清单（群名/未读数/最新消息时间）
+3. 淘宝 ods 更新监控群消息内容（全是机器人 sycm 播报噪音）
+4. 魔搭群最近 5 条消息（GLM 5.2 API 支持/ICML2026 预讲会直播通知等）
+5. 魔搭群席朋朋「有没有新手」消息的 👏 鼓掌表情回复
+6. 待办/日历/审批查询结果（均为空但流程验证通过）
+7. 钉钉连接器 15 大模块能力清单
+
+### 结果证明
+
+![读者留言要求出钉钉教程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPVuCkibMKfvMv2IFQNmZibwEDPF5ZExNVonzeAxAoyGsNtiaOENkxYSIicMZIj9fOhDTUzuczpdibI8VwtBUEBDUibkv6kqcoMF1EnM/640?wx_fmt=png&watermark=1#imgIndex=0)
+
+![连接器市场找到 DingTalk](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMGrOfIsrIwTkYzoqiajAh8JQzcj721jcOS2Imb9lWria7D9LTPk2RoibM0GpiajBOGibljytxR4uicOmic1pS8UnsQxChVBjOAvGNCIg/640?wx_fmt=png&watermark=1#imgIndex=1)
+
+![钉钉授权窗口功能列表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPaiaUYHxjB2dEU0lhA9e7aS9oGC5UoHeEyKeVg1bshq0tgufuloM3dS4WLYmJFmq7iabqAHkcaoHg3VDVg7fEtiaGqf6YMt3l53A/640?wx_fmt=png&watermark=1#imgIndex=2)
+
+![手机扫码登录确认](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRMcqibEBGwhZMO3R4ULAdLo3us9n0VliadV9TzoL4YTc7nC431293YRzEZFvz31mht6EUSknricXPnCy2iaGRHq8MjQE9icrVp2pdtA/640?wx_fmt=jpeg&watermark=1#imgIndex=4)
+
+![选择要连接的组织](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROfdEo7mjobxK7CyDrFSwJBchIphPfyVCkQEURSwGnHPGunTOjq8kn7ZGaUmWfIicODsECtRmtGagXyNMAKeyNdubHOSWwwdOyM/640?wx_fmt=png&watermark=1#imgIndex=5)
+
+![CLI 数据访问权限未开通申请页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROWT5mRvCleRRUSibKRjIULZw38uUbduHaeOBr9pqV9K63VBxeSaicmvu7r2EObTwQneRRhgAfahAAibaS56ZV0icHXibAliaiarS8jvM/640?wx_fmt=png&watermark=1#imgIndex=7)
+
+![授权成功页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMcUfoD3UrGMYwxktNbIeN30iavWSzVt2sgiaxMdalor8IAjs6jjnJa8MVSiaDPIjrBqxQB0p1xHSwEoDFlmtprLbSmliaq7RpibMNc/640?wx_fmt=png&watermark=1#imgIndex=8)
+
+![8个未读会话列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMmCIDNdYBDctk1TM8mVodsddFic0R9K9uJrwM2FRXA2klGqxFprZObSuw78veCFXVjoNt2fKyXocYt1GUBpwiaDL56TVG2Xtm5M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+![淘宝ods群全是机器人播报](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP49oYyUbxUJDqKvicdoFic7mNwXYQI8ZibURQlicCcyCMbO6cjM2xX5ajrVYQmfRUvnX4dzK5pLVMZGjGRYr28wicDKfoUyRmPCNibg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+
+![魔搭群回表情操作](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNcGmLN4Tsr5z5ck4QYvKKdQMzMbMicBMriau5qcXUpJtT309q99DuM6TuuDw6S3OfickrH98zZzKobKamulTe95ORdYH4PPcQNaQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+
+![待办查询结果](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPWtk6OCbgJFdj0GE9fEzWnicgkrvEeYE42w8cKBpCGictPqoWImBNBTudqB9MrhiagP63ia1RmtyMbPvIEcxbmoQRelIicPeLcnIHs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+
+## 八、验收标准
+
+- [ ] 连接器市场能找到 DingTalk（钉钉）连接器
+- [ ] 手机钉钉扫码后弹出确认页面「DingTalk-Workspace 要登录你的账号」
+- [ ] 选择要连接的组织（企业）成功
+- [ ] 点 Accept 授权获取个人头像、昵称等基本信息
+- [ ] 如遇「该组织尚未开启 CLI 数据访问权限」可点「立即申请」发管理员审批
+- [ ] 管理员同意后自动跳转授权成功页，整个过程不到 2 分钟
+- [ ] 「帮我看下钉钉有什么消息？」返回 8 个未读会话（含群名/未读数/最新消息时间）
+- [ ] 魔搭 ModelScope 开发者联盟群 6629 条未读为最多
+- [ ] 淘宝 ods 更新监控群全是机器人 sycm 播报（播报-ufirst-XXX-XX 格式）
+- [ ] 「帮我在魔搭群里回个表情」能选消息选表情完成群内回复（👏 鼓掌）
+- [ ] 支持的交互方式：发群消息/单聊消息、表情回应、引用回复、机器人发消息
+- [ ] 「看看我今天什么待办？」「看下日历」「有没有待审批的流程」均能一句话查询
+- [ ] 每次审批操作前 AI 都会先确认不自动执行
+- [ ] 钉钉连接器覆盖 15 大模块（消息群聊/日历日程/待办/OA 审批/通讯录/邮箱/文档多维表/考勤/DING 消息/AI 听记/AI 搜问/钉盘/日志）

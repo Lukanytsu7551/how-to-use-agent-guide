@@ -1,0 +1,120 @@
+# Case 57｜用腾讯问卷连接器3分钟建问卷，还能每天自动汇总
+
+> **WorkBuddy 案例集 · 第 57 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+在日常的用户群和社群里，经常看到有人在聊体验、提建议、吐槽 bug——有些想法真的很好，但群聊一刷就过去了。群消息一多，好想法冲几下就找不到了。于是琢磨——能不能用一个正式点的渠道把大家的反馈收起来？最好还能自动整理、每天看一眼就行。正好 WorkBuddy 前阵子上了连接器（Connector），里面有个「腾讯问卷」。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 的腾讯问卷连接器，一句话生成一份 WorkBuddy 反馈收集问卷（9 道题，含截图上传），并加一个定时任务每天早上 9 点自动拉取数据汇总成 Markdown 报告，有新增回复自动通知，全程不写一行代码。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 腾讯问卷连接器（Tencent Survey） | 创建问卷/拉取回答数据 | WorkBuddy 连接器 | 腾讯问卷账号授权 |
+| 自动化任务（定时任务） | 每天 9 点自动拉取并汇总数据 | WorkBuddy 内置 | WorkBuddy 账号 |
+| deliver attachments | 有新增回复时把报告发给用户 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 有微信账号用于扫码登录腾讯问卷
+3. 有手机号用于绑定腾讯问卷
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：找到腾讯问卷连接器
+打开 WorkBuddy 左侧菜单「连接器」，里面有一堆可用的外部服务——TAPD、GitHub、飞书、Notion……翻到 Tencent Survey（腾讯问卷）。
+**关键步骤**：连接器管理页面找到 Tencent Survey。
+
+### 步骤 2：完成腾讯问卷账号授权
+点进去后完成腾讯问卷账号授权。支持微信扫码登录。为了信息安全还需要绑定手机号并输入验证码。验证通过后可以看到腾讯问卷支持的多种场景——调查、投票、报名、考试、测评。全部完成后显示登录成功，连接器打通。整个过程不到一分钟，连注册新账号都省了。
+**关键步骤**：微信扫码登录+绑定手机号+输入验证码，不到一分钟完成。
+
+### 步骤 3：一句话生成问卷
+指令："我是 Nova 大使，想收集大家使用 WorkBuddy 的建议反馈，要有优化建议和期望功能需求，能上传截图也能输入文字。"
+它直接调腾讯问卷接口，几秒就生成了一份完整问卷。中间还调整了一次——最初版本带了满意度评分和深度访谈意愿两道题，跟"收集反馈"目标不匹配，让 WorkBuddy 删掉重建了一个干净版。
+**关键步骤**：一句话生成 9 题问卷，可迭代调整。
+
+### 步骤 4：最终问卷 9 道题
+1. 使用频率（单选必答）
+2. 主要用途（多选必答）
+3. 最大痛点是什么（多行文本必答）
+4. 希望优先优化哪些方面（多选必答）
+5. 详细描述优化建议（多行文本必答）
+6. 最期望新增哪些功能（多行文本必答）
+7. 截图上传（附件题选填）
+8. 联系方式（单行文本选填）
+9. 其他建议（多行文本选填）
+
+打开链接就能填：https://wj.qq.com/s2/26818177/677d
+
+### 步骤 5：加定时任务每天自动汇总
+指令："有没有办法定时把问卷收集的数据导出汇总？"
+WorkBuddy 给出方案——用自动化任务每天自动拉取并统计。选了"每天一次"之后直接建好任务。
+**关键步骤**：问一句就创建定时任务，WorkBuddy 自动生成配置。
+
+### 步骤 6：定时任务配置说明
+- 任务名：WorkBuddy 反馈问卷每日汇总
+- 频率：每天早上 9:00
+- 问卷 ID：26818177
+- 输出：.workbuddy/reports/survey-26818177-{日期}.md
+- 逻辑：拉取全量数据→统计分布→对比新增→有新增就发给你
+- 提示词核心步骤：调腾讯问卷 MCP 拉取全量回答数据→单选/多选题统计百分比分布，文本题列出全部原文→对比上一次结果标出新增回复→将汇总结果写入本地 Markdown 报告文件→如果有新增回复自动推送通知
+
+### 步骤 7：踩坑——DSL 语法默认必答
+用 DSL 语法创建问卷时踩了个小坑：默认所有题目都是"必答"。像附件上传、联系方式这种选填项，得手动加 [选答] 标签。第一次生成的问卷附件和联系方式都设成了必答，用户如果不想传截图交不了卷，后来逐题改回选填就好了。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我是 Nova 大使，想收集大家使用 WorkBuddy 的建议反馈，要有优化建议和期望功能需求，能上传截图也能输入文字。` | 一句话调腾讯问卷接口生成 9 题问卷 |
+| 2 | `有没有办法定时把问卷收集的数据导出汇总？` | 触发自动化任务方案，建每天 9 点汇总任务 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 腾讯问卷连接器已授权（微信扫码+手机号绑定）
+2. WorkBuddy 反馈问卷 9 道题（含截图上传选填+联系方式选填）
+3. 问卷链接：https://wj.qq.com/s2/26818177/677d
+4. 定时任务"WorkBuddy 反馈问卷每日汇总"（每天 9:00 自动跑）
+5. 输出路径：.workbuddy/reports/survey-26818177-{日期}.md
+6. 有新增回复自动推送通知
+
+### 结果证明
+
+![连接器管理页面找到腾讯问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMhtQ2wvfJEL0iaOMCJSe7fFuqDef4mJibM6cOv67OZHs456hvV2OicBGJ8icXGZ2vaG7CsPP4t0uibldK8CD8ZzNDc6VDqvysibOAj0/640?wx_fmt=png&watermark=1#imgIndex=0)
+
+![微信扫码登录腾讯问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNODvV9TlUyuz7VRGyAM4UiblkRgKIGxk2CKemHTz0FhiaXFq2jasQQa5aVJm6rFYib1pQ3wqKhq8P8LuJyTPs6jzsv17kaian4XXI/640?wx_fmt=png&watermark=1#imgIndex=1)
+
+![绑定手机号输入验证码](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNm44nSO4Ocr8I3qjDXqIejsoJ1BxxrGuBosrnBDuD61To8VFKCibOkNxP0u9bKYAln7YIs2VNU8SplhGArYRnIvLickf0licfCxI/640?wx_fmt=png&watermark=1#imgIndex=2)
+
+![腾讯问卷应用场景](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMx3YvYJm0IZ6Dt2gENWFkuiaVUQKdKW9IZLJFUdMHPhd8kicj1ZlrumtL7j3sPvGDFfUAt2bGHvYn76woW9SVnYWKxasYPdE3mQ/640?wx_fmt=png&watermark=1#imgIndex=3)
+
+![登录成功页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMzaUxo8uLYhvT5AvjHM1CibVHN3gXMBV4MQrGDl5ECjy5JJHttDxOdpibt3POtXhY7aM574PD2eqmIjoxF8lLjEO1DiakiaqJiafVM/640?wx_fmt=png&watermark=1#imgIndex=4)
+
+![定时任务自动创建配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMbtHkdxr3SlTEiaghW7LWdprrKmC8T5NbBy3WficoBH7P1IFvibE5dP3KZFesDKYwyGric5y4KxcW6W6SIEHibACPv4BwCMQibnjlV0/640?wx_fmt=png&watermark=1#imgIndex=5)
+
+![编辑自动化任务详细配置](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPXeWVJGsrEm85hM5rOhLrvM3wCBNrqu4Ymices1LLLRja5lUYMIAOMpG0vlbFKOljkQXWmAmlwgtMX70zrQc9qTd9zGHLVak3Y/640?wx_fmt=png&watermark=1#imgIndex=6)
+
+## 八、验收标准
+
+- [ ] 在连接器管理页面找到 Tencent Survey（腾讯问卷）
+- [ ] 微信扫码登录腾讯问卷
+- [ ] 绑定手机号并输入验证码
+- [ ] 显示登录成功，连接器打通
+- [ ] 一句话生成 9 题问卷（使用频率/主要用途/最大痛点/希望优先优化/详细描述优化建议/最期望新增功能/截图上传/联系方式/其他建议）
+- [ ] 附件题和联系方式设为选填（加 [选答] 标签）
+- [ ] 问卷链接可访问：https://wj.qq.com/s2/26818177/677d
+- [ ] 问一句创建定时任务"WorkBuddy 反馈问卷每日汇总"
+- [ ] 任务频率每天早上 9:00
+- [ ] 任务逻辑：调腾讯问卷 MCP 拉全量数据→统计百分比分布→对比新增→写入本地 Markdown 报告→有新增自动推送通知
+- [ ] 输出路径 .workbuddy/reports/survey-26818177-{日期}.md
+- [ ] 全程不写一行代码

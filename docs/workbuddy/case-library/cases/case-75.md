@@ -1,0 +1,117 @@
+# Case 75｜和AI来回改了6轮，终于把海报做出来了
+
+> **WorkBuddy 案例集 · 第 75 篇**
+> 分类：内容创作与新媒体运营
+
+---
+
+## 一、场景描述
+
+WorkBuddy v5.1.0 更新了「创意设计」模块，一排场景模板：网页、App、幻灯片、品牌视觉、视觉海报。点了「科技峰会海报」模板，直接出来一句话提示词：「设计一张科技峰会的活动海报，需要突出三位演讲嘉宾头像、活动时间地点和报名二维码」。第一版翻车不意外——标题断行、二维码是白色方块、三位嘉宾没对齐。之后和 AI 来回改了 6 轮：第一轮修二维码和对齐，第二轮修字体和溢出，第三轮 AI 自己否掉第一版，第四轮从零重制，第五轮修配色，第六轮确认收工。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy v5.1.0 创意设计模块的「视觉海报」场景模板，设计一张科技峰会活动海报（含三位演讲嘉宾头像、活动时间地点、报名二维码），通过 6 轮迭代修复标题断行、二维码占位、嘉宾对齐、布局不居中、配色重叠等问题，最终导出 2x 高清 PNG（3840×2160）。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 创意设计-视觉海报 | 科技峰会海报场景模板，自动选配色字体布局 | WorkBuddy v5.1.0 内置 | WorkBuddy 账号 |
+| Ardot 设计 | 在画布上创建元素、调整布局、生成头像、导出 PNG | WorkBuddy 内置 | WorkBuddy 账号 |
+| Python qrcode | pip install qrcode[pil] 生成真二维码（青色模块+深色底色 300×300） | Python 库 | 本地 Python 环境 |
+| AI 生图 | 生成赛博朋克粒子光效背景和嘉宾专业肖像 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（v5.1.0 或以上）
+2. 创意设计模块可用（含视觉海报场景模板）
+3. 本地 Python 环境可 pip install qrcode[pil]
+4. 已连接 Ardot 设计画布
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：第一版翻车
+点「科技峰会海报」模板，自动出来提示词「设计一张科技峰会的活动海报，需要突出三位演讲嘉宾头像、活动时间地点和报名二维码」。WorkBuddy 自动选赛博朋克暗色风格，量子计算界面配色，Space Grotesk + DM Sans 字体，左右分栏布局。问题：标题「全球科技峰会」断成两行（120px 字号在 768px 宽度放不下）、报名二维码只是白色方块占位符、三位嘉宾没对齐（陈思源职位字数多文字换行卡片被撑高）、第一个嘉宾机构名溢出。
+**关键步骤**：第一版自动生成但存在 4 个问题。
+
+### 步骤 2：第一轮修复——补二维码 + 对齐嘉宾
+跟 WorkBuddy 说「报名二维码怎么没有的，还有三个人，怎么没对齐？」。它做了三件事：1. 生成真二维码，调 Python pip install qrcode[pil] 装好库，写代码生成青色 #00FFFF 模块+深色 #101823 底色 300×300 分辨率二维码，上传画布替换白色占位方块；2. 对齐三张嘉宾卡，counterAxisAlignItems 设为 CENTER；3. 给头像生成真实照片，调 AI 生成三位嘉宾专业肖像。同时加了渐变霓虹分隔线和标题青色辉光效果。
+**关键步骤**：真二维码生成 + 嘉宾卡居中对齐 + AI 生成真实肖像。
+
+### 步骤 3：第二轮修复——标题字号 + 卡片高度
+跟 WorkBuddy 说「标题为什么换了一行，第一个人的介绍超出边框了？」。它把标题字号从 120px 降到 92px，行高 132→104，「全球科技峰会」稳稳一行。三张卡片高度从 400 涨到 420px，机构名字号从 28 缩到 26px，溢出问题解决。第一版所有功能性 bug 修完了。
+**关键步骤**：标题 120→92px，卡片 400→420px，机构名 28→26px。
+
+### 步骤 4：第三轮——让 AI 自己看效果
+把截图丢给 WorkBuddy 问「你自己看这个设计好看吗？」。它直接认了：不好看，问题不在细节对齐，而是整体设计方向有根本性问题。列了 5 个结构性问题：1. 像暗色模式后台管理面板不像活动海报；2. 背景完全空白零氛围感；3. 嘉宾卡片是默认 UI 组件；4. 标题存在感不够强；5. 信息层级扁平。然后主动提了重新设计方案：全画幅沉浸式布局、标题做大做满、背景加科技纹理、嘉宾横向排列融入构图、底部收拢信息。
+**关键步骤**：AI 自己看截图列出 5 个结构性问题并主动提重制方案。
+
+### 步骤 5：第四轮——从零重制
+跟 WorkBuddy 说「重新做一版看看」。它没在旧文件打补丁，直接建新文件。布局从左右分栏改居中沉浸式；Color 选 Gaming 不是 Quantum Computing Interface；标题直接提到 160px（原来近两倍）；背景调 AI 生成赛博朋克粒子光效+电路纹理；嘉宾改圆形头像+姓名直排各自发光描边；底部半透明暗带统一收拢时间地点二维码。标题加了五层不同半径的青色辉光（从 80px 到 3px）。
+**关键步骤**：重制版居中沉浸式布局，标题 160px，AI 生成背景纹理。
+
+### 步骤 6：第五轮——修配色
+重制版不完美：第一位陈思源机构名「智源研究院」和第三位林若曦「字节跳动」用青色 #00FFFF，跟背景蓝色粒子纹理重叠看不清。跟 WorkBuddy 说「第一位和第三位的公司所用的字体，和背景的颜色有重叠，看不清楚，字体配色优化下」。它把两个机构名颜色从青色 #00FFFF 改成暖金色 #FFD166——暖金色在冷色调背景上对比度最高，也不破坏科技感。
+**关键步骤**：机构名配色 #00FFFF → #FFD166 暖金色。
+
+### 步骤 7：第六轮——确认收工
+跟 WorkBuddy 说「我不懂啊，我看着这样就可以了」。它没有说「好的完成了」，而是自己又总结了这版还有什么可改进的：做得好的（标题霓虹辉光、嘉宾圆形头像、底部信息栏收拢）、还不够的（背景缺少真正科技纹理层次、颜色层次略单调、留白偏大）。最终帮把海报导出到桌面——2x 高清 PNG，3840×2160，直接能用。
+**关键步骤**：导出 2x 高清 PNG 3840×2160 到桌面。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `设计一张科技峰会的活动海报，需要突出三位演讲嘉宾头像、活动时间地点和报名二维码` | 模板自带提示词，生成第一版 |
+| 2 | `报名二维码怎么没有的，还有三个人，怎么没对齐？` | 第一轮修复：补真二维码+对齐嘉宾 |
+| 3 | `标题为什么换了一行，第一个人的介绍超出边框了？` | 第二轮修复：标题降字号+卡片加高 |
+| 4 | `你自己看这个设计好看吗？` | 让 AI 自评，列出 5 个结构性问题 |
+| 5 | `重新做一版看看。` | 第四轮从零重制，居中沉浸式布局 |
+| 6 | `第一位和第三位的公司所用的字体，和背景的颜色有重叠，看不清楚，字体配色优化下。` | 第五轮修配色，机构名改暖金色 |
+| 7 | `我不懂啊，我看着这样就可以了。` | 第六轮确认收工，导出高清 PNG |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 科技峰会活动海报最终版（2x 高清 PNG，3840×2160，导出到桌面）
+2. 居中沉浸式布局，160px 标题五层霓虹青色辉光
+3. AI 生成赛博朋克粒子光效+电路纹理背景
+4. 三位嘉宾圆形头像+姓名直排+各自发光描边（陈思源/张明达/林若曦）
+5. 底部半透明暗带统一收拢时间地点二维码
+6. 机构名暖金色 #FFD166 配色（智源研究院/深蓝科技/字节跳动）
+
+### 结果证明
+
+![WorkBuddy v5.1.0 创意设计模块](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNOVKtgrR4raLPaYkbpOBFl8qsiaf4kicjbdeBROXwlu87z1uMtBD8r9BYIoyD6tRib6gNWqqxLdFiaBayEXTG4B4nrgiaSYPfEo1RY/640?from=appmsg&watermark=1#imgIndex=0)
+
+![视觉海报场景模板列表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP0ZypyIOMiag6K6XwNZzV3NyukRKKaI90bbvmW6RAkBONsSmcf6JQWOvrYlv0PFthCqfpCmFxR3mXeFj9pbB47mWic7fJxwnha0/640?from=appmsg&watermark=1#imgIndex=1)
+
+![第一版翻车：标题断行二维码占位嘉宾没对齐](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROUMlg8hZKxF9puDCSBC3SVxvDC0b3BCCOPqeDtsb8XStcicE70KzSZBibXn6mOqwE6wfuGmQO3dNdoCQepyx5pnuIWYokINLhaM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![第一轮修复：补真二维码+对齐嘉宾](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMRl5j2qxEP8BG5UiaYcwiblmzmIEUrqQ2G8pbjwaadon6xgWFWbAw1tkR4bdUE6icAO094CvoPuUnvgsJkB4icbjTuj6eEgYY3CrQ/640?from=appmsg&watermark=1#imgIndex=4)
+
+![第二轮修复：标题降字号卡片加高](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM5LUt8u96b12CVYHWeLkOvgVuibMtq0IzEyB7Qtz2cmpMQ38BgykXh09rPB0jCia0vyBD5ZGOPQhQ2KbhjsWJr4ibiafHckZISTEM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![让 AI 自己看效果列出5个结构性问题](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROos9mKwj1sNqUjnlsChjIHuFPibHibah7LdtPytuBYicYABGupT2pJ00EjrpJE7nDDTRX4g64vOfeT4nqqBwicV0EmVibMTEaz7Ww4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![重制版居中沉浸式布局](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPwia4s2UDT2kNLsAcFt8GFrUcMC0Ujwmhl9ibm8ficSibiaZnLhfpgxZ3xnqxrsIZVyEoPZtA8QZnVaM5ORFUpoicN9FD42FpCIfEhI/640?from=appmsg&watermark=1#imgIndex=9)
+
+![配色重叠问题：机构名青色与背景重叠](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN2gJCpZquk8LpQ2Uql5Ug2uQEyk11z70fWDvJ8wCaShCudDeHILn8Kux4qmJFMicKMXHrolfDMg9NIODsibFUKN95v5PshqHdVU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+
+![最终版：机构名改暖金色](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNgrWqdjpDIKYsvUoG47q6zby9Q4TkF1LDZJ7AQl37W0WqBNicNdg4GEyKYNwTXOP5Kohb8cmJ9n9StCbSMIeMsx8foibiaF8eozE/640?from=appmsg&watermark=1#imgIndex=11)
+
+## 八、验收标准
+
+- [ ] WorkBuddy v5.1.0 创意设计模块包含视觉海报场景模板
+- [ ] 第一版存在 4 个问题：标题断行、二维码白色方块、嘉宾没对齐、机构名溢出
+- [ ] 第一轮修复：pip install qrcode[pil] 生成真二维码（青色 #00FFFF 模块+深色 #101823 底色 300×300）
+- [ ] 第一轮修复：counterAxisAlignItems 设为 CENTER 对齐三张嘉宾卡
+- [ ] 第二轮修复：标题字号 120→92px，行高 132→104，卡片 400→420px，机构名 28→26px
+- [ ] 第三轮 AI 自评列出 5 个结构性问题（像后台管理面板/背景空白/默认 UI 组件/标题存在感不够/信息层级扁平）
+- [ ] 第四轮重制版：居中沉浸式布局，Color 选 Gaming，标题 160px，AI 生成赛博朋克粒子光效背景
+- [ ] 重制版标题加五层不同半径青色辉光（80px 到 3px）
+- [ ] 第五轮配色修复：机构名从青色 #00FFFF 改暖金色 #FFD166
+- [ ] 最终海报导出 2x 高清 PNG 3840×2160 到桌面
+- [ ] 底部半透明暗带统一收拢时间地点二维码
+- [ ] 全程 6 轮迭代（修二维码对齐/修字体溢出/AI 自否/从零重制/修配色/确认收工）

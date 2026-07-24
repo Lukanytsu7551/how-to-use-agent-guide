@@ -37,3 +37,8 @@
 - [09 / 一句话召唤 AI 视频团队](%E7%AC%AC%2019%20%E7%AB%A0%20%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%8F%AC%E5%94%A4%20AI%20%E8%A7%86%E9%A2%91%E5%9B%A2%E9%98%9F/index.md)
 - [10 / 自媒体不只是靠努力，而是一条增长闭环](%E7%AC%AC%2020%20%E7%AB%A0%20%E8%87%AA%E5%AA%92%E4%BD%93%E4%B8%8D%E5%8F%AA%E6%98%AF%E9%9D%A0%E5%8A%AA%E5%8A%9B%EF%BC%8C%E8%80%8C%E6%98%AF%E4%B8%80%E6%9D%A1%E5%A2%9E%E9%95%BF%E9%97%AD%E7%8E%AF/index.md)
 - [11 / WorkBuddy 也能做 GEO 专家](%E7%AC%AC%2021%20%E7%AB%A0%20WorkBuddy%E4%B9%9F%E8%83%BD%E5%81%9AGEO%E4%B8%93%E5%AE%B6/index.md)
+
+## 继续探索 100 个真实案例
+
+上面的 11 篇适合按学习路线完整实践。如果你已经有明确任务，可以进入
+[100 个真实案例库](../../workbuddy/case-library/index.md)，按办公协同、网站开发、内容运营、数据分析、AI 能力扩展等场景筛选，也可以直接搜索任务、产出或 Skill。

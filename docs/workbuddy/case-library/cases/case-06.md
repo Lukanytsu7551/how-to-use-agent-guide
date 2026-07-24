@@ -1,0 +1,150 @@
+# Case 06｜零代码！30 分钟用 AI 做个 MBTI 测试网站，直接上线
+
+> **WorkBuddy 案例集 · 第 6 篇**
+> 分类：网站与应用开发
+
+---
+
+## 一、场景描述
+
+作者在 WorkBuddy 技能列表里偶然看到一个叫「MBTI 人格诊断」的 Skill，但完全不懂它具体是干嘛的、怎么实现的。出于好奇，让 WorkBuddy 去研究一下这个 Skill 的原理，结果开启了一个从好奇到上线的完整过程。
+
+WorkBuddy 几分钟后回复：这个测试基于一个叫 OEJTS 的开源量表，一共 32 道题，测 4 个维度，每道题选 1 到 5 分，最后算总分得出人格类型。所有计算在本地就能完成，不需要服务器，也不花钱。作者意识到这就是个答题算分的工具，完全可以在线上跑。
+
+接下来只说了几句话，WorkBuddy 就做出了一个完整可用的网站。但给别人用时发现了不少问题——用户看不懂滑块怎么操作、手机上结果页排版挤在一起、想保存图片发朋友圈、微信里保存不了图片……每一个问题反馈给 WorkBuddy，它都自动查资料、自己试方案、自己绕弯路，最后给出能用的结果。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 基于开源 OEJTS 量表，零代码开发一个 MBTI 人格测试网站并部署上线，支持 32 道题答题、结果分析、图片保存分享、手机端兼容、微信内置浏览器适配。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| MBTI 人格诊断 Skill | 研究并调用 openmbti/core 项目的 openjung-api | WorkBuddy 技能市场 | 无额外权限 |
+| 网站开发能力 | 生成首页、答题页、结果页的完整前端代码 | WorkBuddy 内置能力 | 无额外权限 |
+| 部署上线能力 | 推代码、配置、上线到 panda.yaniw.com | WorkBuddy 内置能力 | 无额外权限 |
+| 截图反馈修改 | 根据截图反馈定位问题并修改代码 | WorkBuddy 内置能力 | 无额外权限 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 桌面端。
+2. WorkBuddy 技能列表中已安装「MBTI 人格诊断」Skill。
+3. 之前曾用 WorkBuddy 部署过其他项目（部署目标 panda.yaniw.com 已有记录）。
+4. 无需具备任何编程、前端开发或部署经验。
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：让 AI 搞清楚 MBTI 测试原理
+
+对 WorkBuddy 说："MBTI 人格诊断这个 skill，你去学习下，这个是怎么实现的。"WorkBuddy 几分钟后回复了原理：基于开源 OEJTS 量表，调用 openjung.org 的 API，32 道题测 4 个维度，每道题 1-5 分李克特量表，最后 POST 到 /api/calculate 返回 MBTI 类型。
+
+**关键步骤**：确认 API 是免费开源的、没有调用限制、不需要付费，可以直接用。
+
+### 步骤 2：10 分钟生成完整网站
+
+问 WorkBuddy："能使用这个 API 做一个线上的测试网站吗？里面的 API 调用有什么要求？要钱吗？"得到肯定答复后说："那就帮我做一个。"大概过了 10 分钟，网站就做好了。
+
+**关键步骤**：生成的网站包含三个页面——首页（深色背景、大标题"MBTI 人格测试"、三个特点"3 分钟完成""科学评估""详细分析"、底部"开始测试"按钮）、答题页（每道题是滑块，左右两边各有一段描述，顶部有进度条）、结果页（显示四字母人格类型、每个维度百分比分析、性格描述文字、可复制的分享文案）。手机端也能正常显示，不用单独适配。
+
+### 步骤 3：发现问题反馈修改
+
+网站能用后，发给朋友试用，发现了 4 个问题，每个都通过截图反馈给 WorkBuddy 让它修改。
+
+**关键步骤**：
+
+- 问题 1：用户不知道怎么答题——截图发给 WorkBuddy 说"用户看不懂怎么操作，加个文字提醒"。它在首页加了"每道题选择两个描述中更符合你的一个"，在答题页加了"左右滑动圆点，选择更符合你的描述"。
+- 问题 2：手机上结果页排版挤在一起——WorkBuddy 把横向排列改成了一张张卡片竖着堆叠，手机上立刻正常了。
+- 问题 3：想保存结果图片发朋友圈——说"用户做完测试，想保存一张图片发朋友圈，你帮我加上这个功能"。这个需求折腾了好几轮：第一版把底部"重新测试"按钮也截进去了，改了；又发现人格类型标题颜色不对，再改；又发现底部公众号二维码不见了，又改。前前后后改了四五轮，最后终于搞定。
+- 问题 4：微信里保存不了图片——微信内置浏览器不支持直接下载文件，WorkBuddy 自己想了个办法：检测到用户是在微信里打开的，就弹出一个全屏的图片展示页面，提示"长按图片即可保存到相册"。
+
+### 步骤 4：部署上线
+
+对 WorkBuddy 说："把这个网站部署上线。"它问部署到哪里，作者说："跟上次一样，部署到之前的那个地方。"WorkBuddy 自己翻了之前的记录文件，找到了仓库地址和部署方式，接着推代码、配置、上线全自己搞定。
+
+**关键步骤**：过了一会儿 WorkBuddy 报告"已经上线了"，打开链接真的能用了。从说"部署"到网站能访问，只多说了一句提醒，剩下的全是它自己查资料、自己动手的。
+
+### 步骤 5：补充小功能
+
+网站上线后又提了几个小需求：加网站图标（浏览器标签上显示 🧠 小图标）、加访问统计（看每天有多少人打开测试）、加公众号二维码（用户保存的图片底部自动带上二维码和引导关注文案）。
+
+**关键步骤**：每张被分享出去的测试结果图，都变成了一个引流入口。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `"MBTI 人格诊断这个 skill，你去学习下，这个是怎么实现的。"` | 让 WorkBuddy 研究 MBTI Skill 原理 |
+| 2 | `"能使用这个 API 做一个线上的测试网站吗？里面的 API 调用有什么要求？要钱吗？"` | 确认 API 可用性和成本 |
+| 3 | `"那就帮我做一个。"` | 触发网站开发 |
+| 4 | `"用户看不懂怎么操作，加个文字提醒。"` | 反馈问题 1 |
+| 5 | `"用户做完测试，想保存一张图片发朋友圈，你帮我加上这个功能。"` | 反馈问题 3 |
+| 6 | `"把这个网站部署上线。"` | 触发部署 |
+| 7 | `"跟上次一样，部署到之前的那个地方。"` | 指定部署目标 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+
+1. **1 个完整可用的 MBTI 人格测试网站**（首页 + 答题页 + 结果页三页完整结构）
+2. **网站已部署上线**（访问地址：panda.yaniw.com）
+3. **手机端兼容**（响应式布局，无需单独适配）
+4. **微信内置浏览器适配**（自动弹出长按保存提示）
+5. **结果图片保存功能**（标题清晰、二维码可见、按钮不乱入）
+6. **附加功能**：网站图标 🧠、访问统计、公众号二维码引流
+
+### 结果证明
+
+**WorkBuddy 研究 MBTI Skill 原理**
+
+![WorkBuddy研究MBTI人格诊断Skill原理](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPeckX9E9GhYvhF1DRakzTNCbGcNThvicrhEWSaRaKnW7UpYtfbQhMhtg33YRibLgSa8x0zrPFqDaNuRibeOlRLhboOCoazGl8Coc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+**网站首页**
+
+![MBTI人格测试网站首页深色背景大按钮](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRM9K5OMsAIpoNUaYzA36ib5nqBKYFTy2QR9U3TiaAgB8wiaH6piaOCuwtWb8HDKTBGClHqE0RQXJ2nlDicYAEZd1fz0xiacsyXr1C3EQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=1)
+
+**答题页**
+
+![MBTI答题页滑块选择左右描述](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRM2ZicXfaMNI3uUFpxn8d18O0J6MsstEmMT8RMSm29MEHP7BLANuB71icMurx5Cial8sVckuJibSmo3OAvZhyjyyaPU3pqkDbFz0pM/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=2)
+
+**结果页**
+
+![MBTI测试结果页人格类型和维度分析](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRPhxvg0K3DDaFPwfZsUWrPFh5h7Ayz7wqP5MRrAmibbodRcakJOoP6bzYqsLhicHRibxhbLNsWfEd6NlibS1Cu9Micicy2RUvRWPRtIU/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=3)
+
+**手机端访问上线后的网站**
+
+![手机端访问上线后的MBTI测试网站](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRM9AibVWL9jOlwOeU09gddM32C0qjMuVQWVw4jiagrskL6ClSp8S0Ve74DwGE3bCicTM5fbCzkMjme1Zv0wpicVy6icgJ3q0SlZpkPI/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=4)
+
+**作者测试结果**
+
+![作者MBTI测试结果INTP逻辑学家](https://mmbiz.qpic.cn/mmbiz_jpg/s516EMWvbRNZX5iaGfS4Haibgic2s6TewRmWGvVx7la4KjRF4QnnWliaXROhiaq83yOe33NpiaibFpStXKUhick2ttkFZYHvJtwEHnObfLYKdXrpeib4/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=5)
+
+### 整个过程耗时
+
+| 我做了什么 | 花了多少时间 |
+|---|---|
+| 让它研究 MBTI 原理 | 说 1 句话 |
+| 让它做网站 | 说 1 句话 |
+| 发现问题，提修改意见 | 说 5 次反馈 |
+| 让它部署上线 | 说 1 句话 |
+| **总计** | **不到 30 分钟** |
+
+## 八、验收标准
+
+- [ ] 对 WorkBuddy 说"MBTI 人格诊断这个 skill，你去学习下"后，能正确解释 OEJTS 量表原理
+- [ ] 确认 API 免费开源、无调用限制
+- [ ] 说"那就帮我做一个"后，10 分钟内生成完整网站
+- [ ] 网站首页包含标题、特点说明、"开始测试"按钮
+- [ ] 答题页包含 32 道题、滑块选择、进度条
+- [ ] 结果页显示四字母人格类型、维度百分比、性格描述
+- [ ] 手机端能正常显示，无需单独适配
+- [ ] 反馈"用户看不懂怎么操作"后，能加上文字提醒
+- [ ] 反馈"手机排版挤在一起"后，能改成卡片竖向堆叠
+- [ ] 结果图片保存功能：标题清晰、二维码可见、按钮不乱入
+- [ ] 微信内置浏览器打开时，能弹出全屏图片提示"长按图片即可保存到相册"
+- [ ] 说"把这个网站部署上线"后，能自动找到之前部署位置并上线
+- [ ] 上线后访问 panda.yaniw.com 能正常使用
+- [ ] 网站图标显示 🧠
+- [ ] 访问统计功能可用
+- [ ] 结果图片底部带公众号二维码和引导关注文案
+- [ ] 全流程耗时 **< 30 分钟**

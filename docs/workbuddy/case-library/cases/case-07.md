@@ -1,0 +1,165 @@
+# Case 07｜定时任务收不到结果？邮件推送一键搞定
+
+> **WorkBuddy 案例集 · 第 7 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+作者用语音跟 WorkBuddy 说："帮我创建一个定时任务，每天早上播报兰州天气预报。"WorkBuddy 说行，任务创建好了，9:42 执行。到了 9:42，作者问"推送的东西哪里去了？"WorkBuddy 说任务执行了，但收不到通知。
+
+原来 WorkBuddy 的定时任务只负责执行任务本身，没有主动推送到微信的能力。任务执行后的结果只是保存在本地，不会自动发到微信。这就尴尬了——任务做了，但不知道结果。作者问 WorkBuddy 有没有类似的邮件收发 Skill，能不能给写一个。不想要那个脚本，要常驻运行在电脑上、能自动收发邮件的。WorkBuddy 设计了一个完整的邮件收发 Skill，思路是：定时任务执行完把结果发邮件，打开邮箱就能看到，不用依赖微信推送。
+
+配置完成后，还可以扩展应用到远程取文件、自动化报告推送、耗时任务完成通知等场景。
+
+## 二、想要完成的任务
+
+让 WorkBuddy 开发一个邮件收发 Skill，解决定时任务结果无法推送到微信的问题——通过邮件接收任务结果，并支持远程指令执行。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 定时任务 | 创建定时天气预报播报任务 | WorkBuddy 内置能力 | 无额外权限 |
+| Skill 开发能力 | 创建邮件收发 Skill（email-controller） | WorkBuddy 内置能力 | 无额外权限 |
+| 邮件收发 Skill | 发送邮件、接收指令、执行指令、结果反馈 | 自定义开发 | 126 邮箱授权码 |
+| Python 依赖管理 | 安装 yagmail、imaplib2 等依赖 | WorkBuddy 自动调用 | 无额外权限 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 桌面端。
+2. 拥有 126 邮箱账号（或其他支持 POP3/SMTP/IMAP 的邮箱）。
+3. 邮箱已绑定手机号，可接收短信验证码。
+4. 电脑可常驻运行（用于接收邮件指令并执行）。
+5. 无需具备任何编程或邮箱配置经验。
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：发现定时任务推送问题
+
+用语音对 WorkBuddy 说："帮我创建一个定时任务，每天早上播报兰州天气预报。"WorkBuddy 创建了任务，9:42 执行。到了时间后问"推送的东西哪里去了？"发现 WorkBuddy 的定时任务只负责执行，结果保存在本地，不会主动推送到微信。
+
+**关键步骤**：确认问题根源——WorkBuddy 定时任务没有主动推送到微信的能力，任务执行后的结果只保存在本地。
+
+### 步骤 2：让 WorkBuddy 设计邮件收发 Skill
+
+问 WorkBuddy："有没有类似的邮件收发 Skill？能不能给我写一个 Skill？我不想要那个脚本，要常驻运行在电脑上，能自动收发邮件的。"WorkBuddy 设计了完整的 Skill，核心功能包括：发送邮件（文本/文件到指定邮箱）、接收邮件（检查新邮件并解析指令）、指令执行（根据邮件内容执行对应任务）、结果反馈（把执行结果发回邮箱）。
+
+**关键步骤**：支持的指令包括"查股价 股票代码"（查询股价并邮件回复）、"查天气 城市名"（查询天气并邮件回复）、"发送文件 文件路径"（把电脑上的文件发给你）、"执行命令 命令内容"（执行 shell 命令并返回结果）。使用场景：你发指令 → 电脑收到 → 执行任务 → 结果发回你邮箱。
+
+### 步骤 3：配置 126 邮箱授权码
+
+126 邮箱需要用授权码（不是登录密码）才能被第三方程序调用。获取步骤共 6 步：进入设置 → 选择 POP3/SMTP/IMAP → 开启 IMAP/SMTP 服务 → 安全验证（点击"继续开启"）→ 手机验证（输入短信验证码）→ 获取授权码（一串 16 位左右的字符）。
+
+**关键步骤**：授权码只显示一次，务必复制保存！WorkBuddy 需要的信息包括：你用哪个邮箱、发送邮件用哪个邮箱、接收指令的邮箱地址。
+
+### 步骤 4：让 WorkBuddy 自动配置 Skill
+
+把授权码发给 WorkBuddy 后，它自动完成了所有配置：在 `~/.workbuddy/skills/email-controller/` 目录下创建 Skill 框架（包含 SKILL.md、config.json、requirements.txt 和 scripts 目录下的 email_sender.py、email_receiver.py、command_executor.py、monitor.py）、填写 config.json（邮箱、授权码、服务器地址）、安装依赖（yagmail、imaplib2）、发送测试邮件。
+
+**关键步骤**：只需提供邮箱地址和授权码，其他都是 WorkBuddy 自动搞定。
+
+### 步骤 5：测试邮件收发功能
+
+让 WorkBuddy 把电脑桌面上的 PNG 图片发送邮件到 126 邮箱。WorkBuddy 找到桌面上的 workbuddy-invite-poster.png，发送了一封带附件的邮件。在手机上打开邮箱，成功收到了这封邮件。
+
+**关键步骤**：邮件主题为"测试邮件:带附件的图片"，邮件正文说明"这是一封测试邮件，附带了一张桌面上的图片。如果收到这封邮件，说明邮件收发 Skill 工作正常！"附件为 workbuddy-invite-poster.png。测试成功说明邮件 Skill 已能正常工作。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `"帮我创建一个定时任务，每天早上播报兰州天气预报。"` | 创建定时任务（发现推送问题） |
+| 2 | `"推送的东西哪里去了？"` | 确认定时任务结果未推送 |
+| 3 | `"有没有类似的邮件收发 Skill？能不能给我写一个 Skill？我不想要那个脚本，要常驻运行在电脑上，能自动收发邮件的。"` | 触发邮件 Skill 开发 |
+| 4 | `"把桌面上的 PNG 文件随便发一个图片，发我邮箱，我看看效果。"` | 测试邮件发送功能 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+
+1. **1 个邮件收发 Skill**（位于 `~/.workbuddy/skills/email-controller/`）
+2. **Skill 完整文件结构**（SKILL.md、config.json、requirements.txt、4 个 Python 脚本）
+3. **定时任务结果推送方案**（任务执行完 → 邮件发送结果）
+4. **远程指令执行能力**（查股价、查天气、发送文件、执行命令）
+
+### 结果证明
+
+**定时任务对话（发现问题）**
+
+![定时任务对话发现推送结果丢失](https://mmbiz.qpic.cn/sz_mmbiz_jpg/s516EMWvbRPZIwibKADtLibicbicmqmO0xU8XK9PN07w0HRoIYJLGe5HcHoe2RB2JIrGpWlnxzgVLA1YyD0rdSrcT0KeO8jgJKaX9t4ETK57bV4/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+
+**WorkBuddy 设计邮件收发 Skill**
+
+![WorkBuddy设计邮件收发Skill功能表格](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM8zvlezmKpg5wgz5OYQnLH4wAD1nNCK2sgWibzXicgzmIdlSsI69stFSnBXicYNRNibYyc4aLYibeickLiaDPU0ZTtYmPrPBMo10haxk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+**第 1 步：进入 126 邮箱设置**
+
+![126邮箱设置入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO3YqOrOaIJQ6GWqdjiaT1fqfIsvFNsofyMia4rOyl7pMy7H96w2SppvNlUZCxAic7QefPMsPVu0yIhpHicq4Fz1woDmzKb4pswyHs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+**第 2 步：选择 POP3/SMTP/IMAP**
+
+![126邮箱设置选择POP3SMTPIMAP](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPWrTyOxxtngIaGfgoCjjiaExQNpnUyFBicxhwKNMlqeWb0yPHQ3u8yn1jvDRQcmu1rxgQKibsDMeWDBhYS7VaicktChEgqPZgXIaE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+**第 3 步：开启 IMAP/SMTP 服务**
+
+![126邮箱开启IMAPSMTP服务](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN8TJL3yrRLI5mQRpeMMt5gS4xD4icWEqqFzmWvBNVH6VWUIViaJDGVfOXfocRJJRtBq78prN8HcHZic8G349vCjJva8VJhvSONN8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+**第 4 步：安全验证继续开启**
+
+![安全验证点击继续开启](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMZnnsHgqeicibCZV1kjBDcB72z0gUYsc0dAXIk7lPxOlHbnc4BASMe9oxLlGcJLm7acU7LicKVE7hibbYTh2NklQcFKBIwHUSoHK8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+**第 5 步：手机短信验证**
+
+![手机短信验证输入验证码](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP42GR78v5vz2ic6P3kKoI0BXDS18jTjbiaUJkPTK1cKu634nZhJfJiaM4p5v9pngk7C5BHoQshRhMncHa57LwUZ8Uic2ibMaFj8mjk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+**第 6 步：获取授权码**
+
+![获取126邮箱授权码16位字符](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROMvoT4mbMprlCuryoak3JQ78kT9QcmeWspKzbU3vHlDD0zvmJ0b88T5PzydN0jTgzRpG8TR1wicicrhre3QK1EbfXbMgN3rWtkE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+**WorkBuddy 发送测试邮件**
+
+![WorkBuddy发送带附件的测试邮件](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMbMX9waqykXnrO9LfibicUFGNLmmogOqP2Rp7LeyiaKGnpxxNZsGbJVekYsYoib90lyhibibGT9EKNNEox9wKv2wNicRlXmCNDNWyqQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+**手机收到测试邮件**
+
+![手机收到带附件的测试邮件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMUcsPkLjQc3DxBPw5CaMowDBMo4M6EJ0xeNqk7NPToEXAicdYFibPNS3iaK2gxGQ3z3O9FvcOZ3y9icxicNPNeibcicjOiaiaqTmhpoepY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+### 支持的指令
+
+| 指令 | 功能 |
+|---|---|
+| 查股价 股票代码 | 查询股价并邮件回复 |
+| 查天气 城市名 | 查询天气并邮件回复 |
+| 发送文件 文件路径 | 把电脑上的文件发给你 |
+| 执行命令 命令内容 | 执行 shell 命令并返回结果 |
+
+### 优缺点对比
+
+| 类型 | 说明 |
+|---|---|
+| **优点** | 解决了定时任务/自动化结果推送的痛点 |
+| | 邮件支持大附件（126 邮箱支持 50MB） |
+| | 格式完整，PDF、Excel、图片都能发 |
+| | 有记录，邮箱里能随时查历史 |
+| **缺点** | 需要多一步看邮件 |
+| | 实时性不如微信（延迟几秒到几分钟） |
+| | 需要配置邮箱授权码 |
+
+## 八、验收标准
+
+- [ ] 对 WorkBuddy 说"帮我创建一个定时任务"后，能正确创建任务
+- [ ] 确认定时任务执行后结果只保存在本地，不会推送到微信
+- [ ] 对 WorkBuddy 说"有没有类似的邮件收发 Skill"后，能设计完整 Skill 方案
+- [ ] Skill 包含 4 个核心功能：发送邮件、接收邮件、指令执行、结果反馈
+- [ ] 支持 4 种指令：查股价、查天气、发送文件、执行命令
+- [ ] 在 126 邮箱设置中找到 POP3/SMTP/IMAP 入口
+- [ ] 成功开启 IMAP/SMTP 服务
+- [ ] 通过手机短信验证获取授权码并保存
+- [ ] 把授权码发给 WorkBuddy 后，能自动完成 config.json 配置
+- [ ] 自动安装依赖（yagmail、imaplib2）
+- [ ] Skill 文件结构完整（SKILL.md、config.json、requirements.txt、4 个 Python 脚本）
+- [ ] 测试邮件发送成功：手机邮箱能收到带附件的邮件
+- [ ] 邮件主题、正文、附件均正确显示
+- [ ] 扩展场景可用：远程取文件、自动化报告推送、耗时任务完成通知

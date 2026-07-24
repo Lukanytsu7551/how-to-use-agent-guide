@@ -2400,6 +2400,25 @@ body.wb-lightbox-open {
 }
 
 .VPDoc .content-container { max-width: 840px !important; }
+
+.case-library-page .VPDoc .container {
+  max-width: 1180px;
+}
+
+.case-library-page .VPDoc .content,
+.case-library-page .VPDoc .content-container {
+  width: 100%;
+  max-width: none !important;
+}
+
+.case-library-page .VPDoc .content {
+  padding-right: 0;
+}
+
+.case-library-page .VPDoc .vp-doc {
+  font-size: 16px;
+  line-height: 1.65;
+}
 .VPDoc .vp-doc { color: var(--agent-reading-ink); font-size: 16px; line-height: 1.82; }
 .VPDoc .vp-doc h1,
 .VPDoc .vp-doc h2,

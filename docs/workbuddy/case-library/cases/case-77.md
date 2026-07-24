@@ -1,0 +1,111 @@
+# Case 77｜一句话生成后台管理系统，改到好用只要动嘴
+
+> **WorkBuddy 案例集 · 第 77 篇**
+> 分类：网站与应用开发
+
+---
+
+## 一、场景描述
+
+脑子里有个想法，想做个小工具——比如管理笔记的后台系统，有登录、有看板、有列表、能增删改查。但不会写前端，或者懒得搭环境、装依赖、写样式。以前碰到这种情况要么找开源项目改半天，要么花几百块找外包。现在随便点了几下，WorkBuddy 直接生成了一个完整的后台管理系统。重点在后面——生成之后遇到的那些坑、怎么改、怎么调到好用。五个问题全是对着聊天框反馈然后自动修好的，一行代码都没自己写。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy 代码开发模块的「网站开发 → 后台管理系统」场景模板，一句话生成笔记内容管理系统（含登录页、数据看板、列表管理、表单编辑、响应式布局），通过对话反馈修复编辑不回填、列表页太空、点击标题行为不对、布局不居中、笔记消失等 5 个问题。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 代码开发-网站开发-后台管理系统 | 场景模板自动生成提示词，生成单文件 HTML 后台管理系统 | WorkBuddy v5.1.1 内置 | WorkBuddy 账号 |
+| Craft + Auto 技能 | 代码生成与自动执行 | WorkBuddy 内置 | WorkBuddy 账号 |
+| HTML/CSS/JS 单文件 | 零外部依赖，数据存浏览器 localStorage，刷新不丢 | 生成产物 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（v5.1.1 或以上）
+2. 代码开发模块可用（含网站开发场景模板）
+3. 本地有浏览器可打开 HTML 文件预览
+4. 本地有 HTTP 服务器（如 WorkBuddy 内置预览服务）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：一句话生成系统
+点【代码开发】→「网站开发」→【后台管理系统】，自动出来提示词「帮我开发一个后台管理系统，用于管理笔记内容。要求：包含登录页、数据看板、列表管理、表单编辑功能，支持响应式布局。」点发送。WorkBuddy 用了不到一分钟，生成了单文件 HTML，零外部依赖，数据存浏览器 localStorage。登录页账号 admin 密码 admin123，数据看板有笔记总数/总字数/分类分布柱状图/最近更新列表，笔记列表有搜索/分类筛选/分页（每页 6 条），表单编辑是模态弹窗（标题+分类+内容三要素，字数实时统计），响应式桌面端侧边栏平板手机自动折叠成汉堡菜单。暗色主题琥珀色强调，内置 7 条种子数据。
+**关键步骤**：一句话生成单文件 HTML 后台管理系统，不到一分钟。
+
+### 步骤 2：修复编辑不回填
+试用时点编辑按钮弹窗出来了，但标题和内容是空的，没有回填原来数据。反馈给 WorkBuddy，它检查代码后找到原因：种子数据的 id 是用 Date.now() 生成的数字类型，但 HTML 里的 onclick="editNote('...')" 传过来的是字符串。JavaScript 的 === 严格匹配不上，find 返回空，表单不回填。修复方法：把 id 比较的地方统一加上 String() 转换。改了三处——openEditor、saveNote、deleteNote——刷新就好了。
+**关键步骤**：id 类型不匹配（数字 vs 字符串），统一 String() 转换修复。
+
+### 步骤 3：列表页加统计条
+列表页能用了但感觉不对——看板页面有统计卡片有图表视觉充实，笔记列表页就一个光秃秃的表格显得空旷。跟 WorkBuddy 说能不能让列表页也像看板那样顶部有个统计条。它在列表页顶部加了一条 4 格概览统计——总笔记数、总字数、分类数、最近更新时间——和看板页顶部那排卡片风格一致。
+**关键步骤**：列表页顶部加 4 格概览统计条。
+
+### 步骤 4：修复点击标题行为
+在列表里点了一条笔记的标题，弹出来的是编辑窗口——这不太对。正常逻辑应该是点标题看详情，点编辑按钮才编辑。反馈给 WorkBuddy 后它改了两件事：1. 点击标题打开只读详情弹窗，显示分类、字数、创建/更新时间、完整内容；2. 详情弹窗底部有「编辑此笔记」按钮，点它才进编辑模式。点遮罩层或按 Escape 关闭。
+**关键步骤**：点击标题改为打开只读详情弹窗，详情弹窗底部「编辑此笔记」按钮才进编辑模式。
+
+### 步骤 5：修复布局不居中
+整个内容区域是靠右的，不是居中显示的。侧边栏占了左边 240px，剩下的内容区域理论上应该在剩余空间里居中，但它贴在了左边。第一次改加 max-width、margin auto 不行。第二次说之前 max-width 太大了不行。第三次终于找到真正的问题——.main-content 只有 margin-left: 240px 没有显式的 width，block 元素默认 width: auto 填充父级，但子元素的 margin: 0 auto 因为没有明确的父级宽度锚点，居中计算会失效。最终方案：.main-content 设置 width: calc(100% - 240px)，.content-area 设置 max-width: 1100px; margin: 0 auto。
+**关键步骤**：.main-content 设 width: calc(100% - 240px)，.content-area 设 max-width: 1100px; margin: 0 auto。
+
+### 步骤 6：修复笔记消失
+所有功能都调顺了开始正经用。加了几条笔记，切出去再切回来——笔记没了，只剩 7 条种子数据。WorkBuddy 检查后发现：HTTP 服务器挂了。开发过程中反复修改文件重启预览，原本跑在 8898 端口的服务器不知道什么时候停了，页面自动切到了另一个端口 8899 上加载。但 localStorage 是按「域名+端口」隔离的——之前保存在 8898 的数据在 8899 上读不到。重启服务器修好，顺便给 saveNotes 加了 try/catch 和失败提示，不再静默保存失败。
+**关键步骤**：端口切换导致 localStorage 隔离，重启服务器+加 try/catch 错误处理。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `帮我开发一个后台管理系统，用于管理笔记内容。要求：包含登录页、数据看板、列表管理、表单编辑功能，支持响应式布局。` | 模板自带提示词，一句话生成系统 |
+| 2 | （反馈编辑不回填问题） | WorkBuddy 排查 id 类型不匹配，统一 String() 转换 |
+| 3 | `能不能让列表页也像看板那样，顶部有个统计条？` | 列表页加 4 格概览统计 |
+| 4 | （反馈点击标题行为不对） | 改为先看详情再编辑 |
+| 5 | `你到底会不会布局，这是居中吗？你懂不懂前端啊` | 第三次终于找到 .main-content 缺 width 的问题 |
+| 6 | `我添加的笔记怎么没有在里面？` | 排查端口切换导致 localStorage 隔离 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 单文件 HTML 笔记后台管理系统（零外部依赖，数据存 localStorage）
+2. 登录页（admin/admin123，表单校验加错误提示）
+3. 数据看板（笔记总数/总字数/分类分布柱状图/最近更新列表）
+4. 笔记列表（搜索/分类筛选/分页每页 6 条/顶部 4 格概览统计）
+5. 表单编辑（模态弹窗，标题+分类+内容三要素，字数实时统计）
+6. 只读详情弹窗（显示分类/字数/创建更新时间/完整内容，底部「编辑此笔记」按钮）
+7. 响应式布局（桌面端侧边栏，平板手机自动折叠汉堡菜单，内容区域居中）
+8. 7 条种子数据（覆盖技术笔记/读书笔记/工作日志/个人随笔）
+
+### 结果证明
+
+![代码开发模块网站开发场景](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROfPqsJGyICvBxVwiadh8Lf0YbUp1LFhXlbu8Pc7AwL1x1eSPOHDyLS1PpZyg7REGiajuhwfrP3MJIcx0SJv4rzZlTlbbg7BpF0I/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=0)
+
+![后台管理系统场景模板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMKjvSRSW4PX2S1c1D0sib8DsXibhicT4WgXfn178YJOHx7ggKOOegVib8ic5Ho2EFtuTRosaOkAWKx0iaBxEFyicdg4EP74ybAQmQREc/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=1)
+
+![提示词自动填入](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMwY9CZbv9vTgn7ibvCZXFUdS6KSibkibPkic9AnbVsu0nKbic9MQ8gbmyL3Cm6IcwwpXRUVPopxwVjuTeaF7esaw4LXwBOpIM5ZKic8/640?from=appmsg&wx_fmt=png&watermark=1#imgIndex=2)
+
+![登录页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPunoyobCQia3aH79LRSgiaCadOY9WPspibEPllAnibHWl5ZcRxyBE8Uibk9l9LRDQXIoS3WHkGmWLxggzWhTiaFbKpmAXRs2qtMWFCw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![数据看板](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO1JlAElXmZYS85CspibFByxHRB68qxICWjST5vg64kFur18hgUOkw1mpACqPJxUGz2qRwmSyEp7icia1h6cTKzrZNXubv5TV6brI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![笔记列表页加统计条](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPL6zwaZpibxvLOIj4EyBLSnKoutbq9pw3zF4mwL8BHKsZ6kgicUGO930AW6jicMfFyF0fVBWClicrdTXJvib7TVm0bibyflicQtIzyds/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![表单编辑弹窗](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMIYziafibibrG5ibrOjzGNgiaBZCiaP8WsbEgf2eWiaQ3pZMTbY9EJnBQ5wENo90qicMD3jknF4nIQoR8a6et3Vs1ZXTNGHybdAuGPvCE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+## 八、验收标准
+
+- [ ] 代码开发模块 → 网站开发 → 后台管理系统场景模板可用
+- [ ] 提示词「帮我开发一个后台管理系统，用于管理笔记内容。要求：包含登录页、数据看板、列表管理、表单编辑功能，支持响应式布局。」自动填入
+- [ ] 不到一分钟生成单文件 HTML，零外部依赖，数据存 localStorage
+- [ ] 登录页账号 admin 密码 admin123，表单校验加错误提示
+- [ ] 数据看板包含笔记总数/总字数/分类分布柱状图/最近更新列表
+- [ ] 笔记列表包含搜索/分类筛选/分页（每页 6 条）/顶部 4 格概览统计
+- [ ] 编辑不回填问题修复：id 类型不匹配，统一 String() 转换（openEditor/saveNote/deleteNote 三处）
+- [ ] 列表页顶部加 4 格概览统计（总笔记数/总字数/分类数/最近更新时间）
+- [ ] 点击标题改为打开只读详情弹窗，底部「编辑此笔记」按钮才进编辑模式
+- [ ] 布局居中修复：.main-content 设 width: calc(100% - 240px)，.content-area 设 max-width: 1100px; margin: 0 auto
+- [ ] 笔记消失问题修复：端口切换导致 localStorage 隔离，重启服务器+saveNotes 加 try/catch
+- [ ] 7 条种子数据覆盖技术笔记/读书笔记/工作日志/个人随笔
+- [ ] 响应式：桌面端侧边栏，平板手机自动折叠汉堡菜单
+- [ ] 暗色主题琥珀色强调

@@ -1,0 +1,119 @@
+# Case 34｜用股票研究专家，判断腾讯该不该买
+
+> **WorkBuddy 案例集 · 第 34 篇**
+> 分类：金融投资与专业咨询
+
+---
+
+## 一、场景描述
+
+朋友这两天盯着腾讯的股价发呆：467 港元，从高点跌了不少，PE 也到了历史低位，问我该不该买？想认真回答这个问题，至少要搞清楚四件事：技术面有没有见底信号？基本面增速能不能撑住估值？市场情绪和机构怎么看？最大的风险是什么？四件事，任何一件没搞清楚，回答"该不该买"都是拍脑袋。
+
+于是把这个问题直接丢给了 WorkBuddy 的股票研究专家。WorkBuddy 调用的是 NeoData Financial Search，实时拉取港股行情、财报和机构研报数据，不是靠训练数据在"编答案"。几分钟后，一份完整的分析报告出来了，覆盖技术面、基本面、市场情绪、风险四大维度，并给出综合评级与分批建仓方案。
+
+整个流程从一句话提问到完整决策链输出，压缩到了 20 分钟。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 的股票研究专家，综合技术面、基本面、市场情绪和风险四个维度，深度分析腾讯控股（00700.HK）该不该买，并给出明确的买卖持有建议和具体操作方案。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 专家能力（股票研究专家） | 综合四维度输出投资分析报告与操作方案 | WorkBuddy 专家市场 | WorkBuddy 账号 |
+| NeoData Financial Search | 实时拉取港股行情、财报、机构研报数据 | 内置 Skill | 调用金融数据服务 |
+| 金融云连接能力 | 获取访问凭证并保存以调用数据服务 | 内置能力 | 网络、账号认证 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 在专家市场找到并激活"股票研究专家"
+3. 账号具备调用 NeoData Financial Search 的权限（含积分额度）
+4. 网络可用，可正常访问金融数据服务
+5. 提问时明确股票代码（00700.HK）与分析维度要求
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：一句话提问，AI 先拉数据再给结论
+把"腾讯该不该买"的问题直接丢给股票研究专家。WorkBuddy 调用 NeoData Financial Search，实时拉取港股行情、财报和机构研报数据。获取访问凭证后，查询腾讯控股的多维度数据并保存凭证，再生成完整深度分析报告。
+**关键步骤**：AI 先调用金融数据服务拉取实时数据（行情、财报、机构研报），再基于数据生成报告，而非凭训练数据编答案。
+
+### 步骤 2：技术面分析——见底信号判断
+截至 2026 年 4 月 30 日，腾讯报收 467.80 港元，52 周区间 380 ~ 890 港元。AI 给出均线系统数据：MA5 478.56、MA10 494.40、MA20 496.70、MA60 522.22、MA120 569.83，股价在所有均线之下，短期趋势明显偏弱。关键技术指标：MACD（DIF -10.57，DEA -8.03，MACD 柱持续为负，空头动能仍在释放）、KDJ（K 14.04，D 25.24，J -8.38，已进入超卖区间）。
+**关键步骤**：技术面小结——趋势偏弱，但 KDJ 已进入超卖区，暗示短期有反弹需求，关键支撑在 466-467，跌破则考验 450。
+
+### 步骤 3：基本面分析——增速与估值
+AI 把基本面拆成三层分析。营收增长：2025 全年 7,517.66 亿元（+14%），2026 Q1 2,014 亿元（+11.89%），三个业务板块（游戏 +11.14%、网络广告 +18.5%、金融科技/企业服务 +9%）均未失速。利润质量：Non-IFRS 归母净利润 Q1 685 亿元（+11.67%），Non-IFRS 净利率 34% 保持高位。估值水平：PE（TTM）17.15 倍（行业参考 20-25 倍，低估）、PB 3.37（合理）、ROE 21.13%（优秀）、股息率 0.97%（偏低但回购在替代）。
+**关键步骤**：基本面小结——增长没有失速，利润质量在提升，PE 17 倍是近 5 年低位区间，基本面不支撑继续大跌。
+
+### 步骤 4：市场情绪与机构观点
+AI 整理了 56 家覆盖腾讯的机构评级：买入/强力推荐 53 家（95%）、中性/观望 2 家（4%）、减持 0 家（0%）。机构目标价区间 730 ~ 780 港元，按 467.80 现价计算上涨空间 56% ~ 67%，最乐观目标价 890 港元对应上涨空间约 90%。主要持股方：Prosus 持股 23.05%（战略股东长期持有）、腾讯管理层 7.87%、Vanguard + BlackRock 合计约 5.65%（美股长线资金持续配置）。
+**关键步骤**：95% 的买入评级在港股大市值标的里是非常强烈的共识信号。
+
+### 步骤 5：风险梳理
+AI 主动梳理四大风险：1）宏观/地缘政治风险（中美关系、香港市场流动性可能导致估值长期承压）；2）监管政策风险（游戏版号、平台经济监管历史上曾造成股价大幅波动）；3）竞争风险（字节跳动在广告、短视频持续挤压，AI 赛道新玩家入局）；4）技术面破位风险（若跌破 450，技术派资金可能进一步减仓造成踩踏）。
+**关键步骤**：四个风险没有一个是否定"买入"的充分理由，但都是需要在仓位管理里留缓冲的原因。
+
+### 步骤 6：综合结论与分批建仓方案
+综合四个维度，AI 给出判断：中长期（1-3 年）值得买入（基本面稳健 + 估值历史低位 + 机构高度一致看多 + AI 布局开始贡献利润）；短期（1-3 个月）谨慎分批，不追涨（技术面仍弱，KDJ 超卖但未出现金叉确认信号，需要等待）。具体操作给出两种策略。
+**关键步骤**：策略 A 分批建仓（第一批 465-475 港元 30%、第二批 440-460 港元 30%、第三批 400-430 港元 20%、预留仓位 20%，止损 400，目标价 730-780）；策略 B 等待明确信号再出手（等 MACD 金叉 + KDJ 低位拐头，胜率更高但可能错过初始仓位）；催化剂观察清单（Q2 财报、混元 3.0 商业化、港股情绪修复、海外游戏新品）。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `帮我深度分析腾讯控股(00700.HK)该不该买，综合技术面、基本面、市场情绪和风险，给出明确的买卖持有建议和具体操作方案。` | 触发股票研究专家调用 NeoData 拉取数据并生成完整分析报告 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一份完整的腾讯控股（00700.HK）深度投资分析报告
+2. 技术面分析（均线系统、MACD、KDJ、布林带，含技术指标图表）
+3. 基本面分析（营收增长、利润质量、估值水平，含财务数据图表）
+4. 机构评级与目标价汇总（56 家机构评级分布、主要持股方）
+5. 四大风险梳理（宏观/监管/竞争/技术面破位）
+6. 综合评级与两种建仓策略（分批建仓方案 + 等待信号方案）
+7. 催化剂观察清单（Q2 财报、混元 3.0、港股情绪、海外游戏新品）
+
+### 结果证明
+
+![股票研究专家接收需求并调用 NeoData 拉取数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROZZzVXMwxYgoklzXz4g4MYFt1pwSyd9gsDe3rYTyJ4IlMLyrWs6qlk87iaicZrFLzFCjt8pPSlOxOb0OQRwNYBQymSfktMKERnE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![WorkBuddy 获取访问凭证并查询腾讯数据](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMxhftJk6Ypib98KSC6uKgOgvq78GJZ5jX42s2eYxMsKgHpWSlSOz9YH8pZEOppLxIbficiawibwIboouUG70MsHicXlxBxrz4vnITY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![技术面分析：股价与均线系统图表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP7aCJpQFkMZ1L9cSynzokNeDJ39k7iaNN5UwACvx9PHUkVXsoXVib67clCq80lGK8bgX6K9LqYgia20zGzqx6K96YZmSRrWHUhBw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![技术指标分析：布林带与 MACD](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNlksypNUVDKwHmWz3YYZyNUTTRcT1d3gWnibYg6smfV7TWSLYxAqyjzhjasIrPoDL2gUomd5fjwlSfbpkZN13L3W1mTaDQRtNw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![基本面分析：营收与净利润图表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPm60PAlw9sXnNbXibiajc6xEzT563rU8kTPsy3iak1QAoM6GQdG1hsDc2eNIfTTNicibDJgznZdhBFm3rwur8Z1vCppdL53ZR18WGk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![估值分析与机构评级分布](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNq8cW940L7piazzGqCYcicsLsFCRcxTeKicMZWFJzptFmoSmbic3EWVBR1cGj7RWkUlpCvsPdZgsgj1PYh4Yiby40Toc1QCjicD1hso/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![目标价分布与上涨空间](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROU5aOfiaEYE0HUY9UxMsM9QClic2dsoNOWge8L31lHfbDibG16L7jpS8YRrNPotNo0l9h4r188l8rBbMWFqhZg3Db6ZGEd2cZreg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![综合分析报告：评级买入，目标价 730-780 HKD](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNQoTydZly90djIt4ZSE9hia07tbFS6RIREEWO6gKGXUgea0mMag9QCamSCiaMl2SUIqYpXglpgIB1ytzNHjP4u4UEEazLBYO0wI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![分批建仓方案 A 与 B](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPa9hd6kn3HabbAbsSBlcSalQS2563RjHKFjgD7s8BoEf0CgCVZjAW7Ye3wzFY3zOogoQokdO0VOA3eVWmj2xre8Ah2mVibDaWg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+
+![风险因素汇总表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNyyZnTDgEUf923oHFYia1DWYZDP3ELlibxMYNIJzwd8ITyEwicZXATicicO1Id65XEDBTzffX89C8ZN4NEues9w61EKCNaHicmTXEh8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+
+### 效率对比
+
+| 方式 | 耗时 |
+|---|---|
+| 自己做技术分析 + 财报解读 + 机构调研 + 风险评估 | 半天工作量 |
+| 用 WorkBuddy 股票研究专家 | 20 分钟 |
+
+## 八、验收标准
+
+- [ ] 成功激活股票研究专家并发送包含股票代码（00700.HK）的分析需求
+- [ ] AI 调用 NeoData Financial Search 实时拉取港股行情、财报、机构研报数据
+- [ ] 技术面分析覆盖均线系统（MA5/10/20/60/120）、MACD、KDJ、布林带，给出超卖判断与关键支撑位
+- [ ] 基本面分析覆盖营收增长（2025 全年 + 2026 Q1）、利润质量（Non-IFRS 净利率）、估值水平（PE/PB/ROE/股息率）
+- [ ] 机构评级统计 56 家覆盖机构，买入评级占比 95%，给出目标价区间 730-780 港元
+- [ ] 主动梳理四大风险（宏观/监管/竞争/技术面破位）
+- [ ] 输出综合评级（中长期买入、短期谨慎分批）与两种建仓策略（分批/等待信号）
+- [ ] 给出催化剂观察清单（Q2 财报、混元 3.0、港股情绪、海外游戏新品）
+- [ ] 报告附"AI 辅助分析不构成投资建议"声明
+- [ ] 全程 20 分钟内完成

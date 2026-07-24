@@ -1,0 +1,116 @@
+# Case 86｜6个AI组了个调研团队，半天拆完10家竞品
+
+> **WorkBuddy 案例集 · 第 86 篇**
+> 分类：多Agent协作与团队
+
+---
+
+## 一、场景描述
+
+朋友老板让搞一份企业协同办公赛道竞品调研报告，覆盖飞书、钉钉、企微、Teams、Slack、Notion 等国内外主流 10 家，功能、定价、用户规模、增长策略、优劣势 5 个维度全过一遍，周一交。10 家 × 5 个维度，光收集数据就得一周。本篇记录如何用 WorkBuddy 的「深度研究团队」模式，6 个 AI 角色分工按 5 阶段流程跑完整研究——谭溯源调研、季要纲定大纲、明鉴秋审稿、任润泽修订、程文成写框架、傅梓铭发布。最终 1.5 万字 Markdown 报告 + HTML 可视化版（功能矩阵 + 五维雷达图 + SWOT 卡片 + 5 条差异化机会点）+ cloudstudio-deploy 一键上云。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy「深度研究团队」5 阶段完整模式，产出《2026 企业协同办公赛道竞品调研报告》。覆盖 10 家竞品（国内飞书/钉钉/企业微信/WPS 协作，海外 Teams/Slack/Notion/Google Workspace/ClickUp/Asana/Monday），五大维度（功能/定价/用户规模/增长策略/优劣势），至少 3 张核心对比表 + 每家完整 SWOT + 5 条差异化机会点（含适合客群/防御难度/落地路径），额外交付 HTML 可视化版并用 cloudstudio-deploy 部署上线。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 深度研究团队（多 Agent 协作） | 6 个 AI 角色分工按 5 阶段流程跑完整研究 | WorkBuddy 内置 | WorkBuddy 账号 |
+| frontend-design | 生成 HTML 可视化版（功能矩阵 + 雷达图 + SWOT 卡片） | WorkBuddy 内置 | WorkBuddy 账号 |
+| cloudstudio-deploy | 把 HTML 报告部署到云端生成公网链接 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 进入「深度研究团队」模式
+3. 需求描述要具体：明确竞品名单、5 个维度、报告结构、对比表数量、机会点格式
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：发需求启动深度研究团队
+把朋友转来的需求整理一下发给 WorkBuddy：「我们公司准备进入企业协同办公赛道，请用深度研究团队5阶段完整模式，产出一份《2026企业协同办公赛道竞品调研报告》。覆盖8-10家竞品：国内飞书、钉钉、企业微信、WPS协作，海外Teams、Slack、Notion、Google Workspace、ClickUp、Asana、Monday。五大维度：功能、定价、用户规模、增长策略、优劣势。」补几个具体要求：至少 3 张核心对比表（功能矩阵/定价/用户规模）、每家完整 SWOT、5 条差异化机会点（每条含机会描述/适合客群/竞品防御难度/落地路径）、额外交付 HTML 可视化版。WorkBuddy 启动深度研究团队，建立 research-cowork-2026 协作任务。
+**关键步骤**：明确需求（10 家竞品 + 5 维度 + 3 张表 + 每家 SWOT + 5 条机会点 + HTML 版）启动深度研究团队。
+
+### 步骤 2：Phase 1 初始调研
+谭溯源上场，对整个赛道做广泛搜索。覆盖学术论文、权威机构报告（Gartner/IDC/QuestMobile）、行业分析、主流媒体、财报数据。出了一份 800 字左右研究摘要，关键数据：全球市场规模 2026 年约 664 亿美元 CAGR 11.7%、中国市场钉钉 32.7% 份额但飞书 ARPU 是钉钉的 4.9 倍、Teams 日活 3.2 亿、Monday.com FY2025 营收 12.32 亿美元、WPS 月活 6.18 亿。附带 16 条「来源池」供后续章节复用。
+**关键步骤**：谭溯源初始调研出 800 字摘要 + 16 条来源池，覆盖学术/机构/行业/媒体四类。
+
+### 步骤 3：Phase 2 规划大纲
+季要纲基于调研摘要规划章节结构：赛道总览、竞品横评功能矩阵、定价与商业模式、用户规模与增长策略、SWOT 矩阵汇总、差异化机会点、结论。完整模式下大纲需用户确认才能继续。确认结构合理后进入下一步。
+**关键步骤**：季要纲规划 7 章大纲，用户确认后继续。
+
+### 步骤 4：Phase 3 逐章深度研究
+最耗时也最有料。每章走完整闭环：谭溯源写草稿 → 明鉴秋审稿 → 不合格任润泽改 → 明鉴秋再审。谭溯源写每章要求：至少 5 个不同来源、不少于 3 种类型（学术/机构/行业/媒体）、800-1500 字、所有事实性陈述必须带超链接引用、呈现多元观点区分事实和观点。比如功能矩阵章做了 11 列星级评分表——10 家竞品 × 9 维度（IM/文档协作/项目管理/视频会议/知识管理/日历/AI 能力/自动化/集成生态），逐一打分。
+**关键步骤**：每章走「调研→审稿→修订」闭环，至少 5 来源 3 类型 800-1500 字带超链接引用。
+
+### 步骤 5：Phase 4 & 5 撰写框架 + 发布输出
+所有章节通过审稿后，程文成上场写引言和结论，傅梓铭做最终整合。最终交付 Markdown 报告约 1.5 万字，结构完整：引言、赛道总览（全球「两超多强」+ 中国「三足鼎立 + WPS 突围」）、功能矩阵（11 家 × 9 维度星级评分表）、定价与商业模式（免费版到企业版完整价格对比）、用户规模与增长策略（MAU/企业客户数/收入横向对比）、SWOT 矩阵（每家竞品优势/劣势/机会/威胁）、5 条差异化机会点（每条含机会描述/适合客群/防御难度/三阶段落地路径）、结论（5 条战略建议）、参考文献（20 条 APA 格式）。
+**关键步骤**：程文成写引言结论，傅梓铭整合 1.5 万字 Markdown 报告，结构完整含 20 条 APA 参考文献。
+
+### 步骤 6：HTML 可视化版
+让 WorkBuddy 生成 HTML 可视化版。单页内联样式、零 CDN 依赖、浏览器直接打开。包含：纯 CSS 竞品功能矩阵（星级评分表颜色分级）、内联 SVG 五维雷达图（8 家核心竞品各一张，功能覆盖度/定价竞争力/用户规模/增长动能/AI 能力五轴）、SWOT 四宫格卡片（绿/红/蓝/黄分色，优势-劣势-机会-威胁一目了然）、5 条差异化机会点卡片（每条带编号/适合客群/防御难度/三阶段落地路径）。
+**关键步骤**：HTML 可视化版含功能矩阵 + SVG 雷达图 + SWOT 四宫格 + 5 条机会点卡片。
+
+### 步骤 7：一键上云
+用 cloudstudio-deploy 把 HTML 部署到云端，几秒钟一条链接出来：https://1b1e84d222144c47b231d861a24cf578.app.codebuddy.work。点开就是完整可视化报告，手机电脑都能看，不用下载任何文件。
+**关键步骤**：cloudstudio-deploy 一键上云，返回公网链接。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我们公司准备进入企业协同办公赛道，请用深度研究团队5阶段完整模式，产出一份《2026企业协同办公赛道竞品调研报告》。覆盖8-10家竞品：国内飞书、钉钉、企业微信、WPS协作，海外Teams、Slack、Notion、Google Workspace、ClickUp、Asana、Monday。五大维度：功能、定价、用户规模、增长策略、优劣势。至少3张核心对比表（功能矩阵/定价/用户规模），每家完整SWOT，5条差异化机会点，每条含机会描述、适合客群、竞品防御难度、落地路径。额外交付HTML可视化版。` | 启动深度研究团队 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. Markdown 调研报告约 1.5 万字（含引言/赛道总览/功能矩阵/定价/用户规模/SWOT/5 条机会点/结论/20 条 APA 参考文献）
+2. HTML 可视化报告（单页内联样式零 CDN，含 CSS 功能矩阵 + SVG 五维雷达图 + SWOT 四宫格 + 5 条机会点卡片）
+3. 公网访问链接：https://1b1e84d222144c47b231d861a24cf578.app.codebuddy.work
+
+### 结果证明
+
+![深度研究团队启动](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNLpJWmj88hmquLFwcA1V8xPic2usiaJrY5ibKhpShL2oXM0MibdvRxvjJ95kwMk1OKQhInzmRx4aqdMQ6Kq5EPJtFOXSicX03SLwcc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![Phase 1 初始调研摘要 + 大纲](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROIzQXztBnRP659YkEq5z0tMiaTicX3xpL4upxknMvvGvcxTFn5hU3p8XkqY4cNadWdLfFOS7jyRB31WK7xdx5v9esibhuoDV11jk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![Phase 3 功能矩阵章节草稿](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMGQZnvEhRbVNhZgJEeCZtnibxd8oK8thkoJkAOj6Uq7kFqQf4AmXzVt36blNHD3VqLHHDh3222vJeAlOdSoClUjS4rDE6C5LXk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![HTML 报告顶部标题区](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM7d4STricYdbKX8cNq9BicfKz8jVV3oKQokamxXLWYWp8GxJKIUrO2UtMdUxKl0PiaWx0VTic6hicPTCibByRSPGA68vwjRk90iaiaNz4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![CSS 竞品功能矩阵星级表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROLy6B01DbL7TJzcDBjxRqqRRrHicUWAWFeLMQWnQKQv9ow4Zfod7TgzTANvM35Maul6uAjUicWcSZF3z4fQjukBD9Yp9ZzFHeUw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![SVG 五维雷达图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMBkSULElpicYdtRIV37zz8MqA5JJPqy79Yajstiaavj2iaqjSo39lJLPGalPsoTsvzTnh8bO13Jq9lbg1icsibRvdgC9ib7wlSWloxk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![SWOT 四宫格卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNWrqt6ibT2ibp1icgYQcJurG2wuVzPrYsiaVYwGhL1g1icZxer0r4olEHeExHgK2Kmy7fWnWD1pdV56bDYSpKwGf36eYZBudvibqmdY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![5 条差异化机会点卡片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMo7v03UgASepZhsGC6rlJL54rpmdA3NAqlRHfIC0r8mb620F47VGv88gYhQt3g7cTv5Kl9McYibG4CcCdoQXKT6z88tZfjQuR4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![cloudstudio-deploy 部署上线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNe83YicGZclDPvNiceJlR7M3unySTK9RhWtml60rtOxmPMFrkuqwhTURxLYgEgQfDHf6N9C6yBKVDnSicHaW12icvGiaLZKwXgXXQ0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+![部署成功返回公网链接](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNXgCdDBibVtEwDFU4j5u9XJPaarxiaRdasnGQtODJCiaFkQZpuHRLMw9ux6uRb2UXzZqsdPEtvziadwBBLicYbeaTvgsvyEkicIBYDI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+## 八、验收标准
+
+- [ ] 已启动「深度研究团队」5 阶段完整模式
+- [ ] 覆盖 10 家竞品（飞书/钉钉/企微/WPS/Teams/Slack/Notion/Google Workspace/ClickUp/Asana/Monday）
+- [ ] 五大维度（功能/定价/用户规模/增长策略/优劣势）
+- [ ] Phase 1 初始调研摘要约 800 字，含 16 条来源池
+- [ ] Phase 2 规划大纲含 7 章，用户确认后继续
+- [ ] Phase 3 每章至少 5 来源 3 类型 800-1500 字带超链接引用
+- [ ] 每章走「调研→审稿→修订」闭环
+- [ ] 功能矩阵 11 列星级评分表（10 家 × 9 维度）
+- [ ] 至少 3 张核心对比表（功能矩阵/定价/用户规模）
+- [ ] 每家竞品完整 SWOT
+- [ ] 5 条差异化机会点，每条含机会描述/适合客群/防御难度/三阶段落地路径
+- [ ] Markdown 报告约 1.5 万字
+- [ ] 含 20 条 APA 格式参考文献
+- [ ] HTML 单页内联样式零 CDN 依赖
+- [ ] HTML 含纯 CSS 竞品功能矩阵（颜色分级）
+- [ ] HTML 含内联 SVG 五维雷达图（8 家核心竞品各一张）
+- [ ] HTML 含 SWOT 四宫格卡片（绿/红/蓝/黄分色）
+- [ ] HTML 含 5 条差异化机会点卡片
+- [ ] 已用 cloudstudio-deploy 部署上线
+- [ ] 公网链接可访问：https://1b1e84d222144c47b231d861a24cf578.app.codebuddy.work

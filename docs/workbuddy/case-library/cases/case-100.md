@@ -1,0 +1,114 @@
+# Case 100｜朋友发来两个文件：这比赛能报吗？我丢给WorkBuddy，看着它跑完了一整条流水线
+
+> **WorkBuddy 案例集 · 第 100 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+朋友微信甩过来两个文件，附了一句「看下这个比赛，我们小企业能报不？」。一个是 .pptx（企业组报名流程），一个是 .pdf（大赛通知）。一个都没点开，直接把两个文件拖进 WorkBuddy 的对话框，回了一句让读取总结出解读报告，然后去倒了杯水。100期了，这一篇不聊功能，就是一段真实对话——朋友甩来两个文件，看都没看直接丢进去，WorkBuddy 自己跑通了整条流水线：读文件、出报告、认错、查官网、改格式、部署上线。
+
+## 二、想要完成的任务
+
+把朋友发来的两个文件（.pptx 企业组报名流程 + .pdf 大赛通知）丢给 WorkBuddy，让它读取总结出解读报告，判断小微企业（主营业务企业数字化）能否报名。追问截止日期出处后让它去官网核实实时状态。改需求要 HTML 格式报告并补全奖励和报名准备清单。最后部署上线拿到可分享链接，跑通读文件→出报告→认错→查官网→改格式→部署上线整条流水线。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| WorkBuddy Agent | 文件解析 + 报告生成 + 自我纠错 + 部署 | WorkBuddy 内置 | WorkBuddy 账号 |
+| PPTX 解包 | 把 .pptx 当压缩包解包从 slideN.xml 抽步骤文字 | WorkBuddy 内置 | 无 |
+| OCR（tesseract + chi_sim） | 识别扫描版 PDF 12页全文 | WorkBuddy 内置 | 无 |
+| 真实浏览器 | 渲染官网首页 JS 拿实时倒计时 | WorkBuddy 内置 | 无 |
+| docx / HTML 生成 | 输出 Word 版和 HTML 版解读报告 | WorkBuddy 内置 | 无 |
+| CloudStudio 部署 | 一键推上线拿分享链接 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 朋友发来两个文件（.pptx 企业组报名流程 + .pdf 大赛通知）
+3. 服务器上有 tesseract（含 chi_sim 中文包）和 poppler 可用
+4. 有 CloudStudio 部署能力可用
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：丢文件让它读取出报告
+把两个文件拖进对话框说「读取下这两份文件，总结下讲了什么，给我一份解读报告。我是一家小微企业，主营业务是企业数字化，可以报名这个比赛吗？」。PPTX 是 19 步报名系统的截图操作手册文字极少全是图，WorkBuddy 把它当压缩包解包从 slideN.xml 里把步骤文字抽了出来。PDF 是 OFD 转出来的扫描件 12 页用常规工具提取一个字都拿不到，WorkBuddy 调起 OCR（tesseract + 中文包）把 12 页全文识别了出来。一会儿工夫一份解读报告躺在那儿：资格判定、赛道匹配、行动清单，还附了官方咨询电话。结论是资格完全符合，大赛面向科技型中小企业不设规模下限只设2025年营收≤2亿元上限，小微企业天然达标，企业数字化业务最匹配「新一代信息技术」赛道，真正硬门槛是自主知识产权（软著/专利）。但报告里写报名截止2026年6月30日 deadline 已过。
+**关键步骤**：丢文件 → PPTX 解包 + 扫描PDF用OCR读出12页 → 出解读报告。
+
+### 步骤 2：追问截止日期出处
+多嘴问了一句「这个截止日期你从哪来的？」。WorkBuddy 说出自第二份 PDF 第 6 页原文，还把那句话贴了出来——「地方赛参赛报名截止日期为2026年6月30日」，并补了一句它用北京赛区公告做了交叉核对一致。
+**关键步骤**：追问出处 → 贴出 PDF 第6页原文 + 交叉核对说明。
+
+### 步骤 3：让它去官网核实——它认错了
+说「你去官网看看，有显示地方赛还有6天」。它真去了。官网首页要靠 JS 渲染普通抓取拿不到——它启了真实浏览器把页面渲染出来，读到了首页实时倒计时：地方赛参赛报名截止日期6天11小时44分钟20秒。也就是说实际截止约2026年7月15日，比通知写的6月30日延后了半个月。它主动认错：「你看到的没错，是我之前只依据那份通知、没去官网核实实时状态，结论下早了。抱歉。」
+**关键步骤**：让去官网核实 → 真实浏览器渲染JS → 读到实时倒计时 → 推翻原结论主动认错。
+
+### 步骤 4：改需求要HTML格式+补奖励和报名准备
+说「更新报告，不要docx，用html；另外看下这比赛有奖励吗？报名需要什么准备？」。它去官网抓了《参赛企业注册报名操作指南》那份 PDF，把材料清单、7大系统填写模块、6步流程全抽了出来，然后重做成一份单文件 HTML 报告（自带样式离线也能看），新增了两整块：比赛奖励（地方赛现金奖各地自定北京最高30万、全国赛荣誉五类赛道一二三等奖+创新创业50强、高价值非现金资源国家级基金推荐通道/银行授信/资质绿色通道/大企业融通对接/北京积分落户加分）和报名准备（实物材料营业执照/软著专利/财务数据、系统要填7大模块、6步操作流程并标了企业认证审核要1-3个工作日是最容易卡在最后一天翻车的坑）。时间线也更正为「官网倒计时约6天窗口仍开放≈7月15日截止」。
+**关键步骤**：改HTML格式+补奖励准备 → 抓官方指南 → 重做HTML报告新增两整块。
+
+### 步骤 5：部署上线
+说「部署上线」。它把 HTML 整理成 index.html，一键推到云端（CloudStudio），回了一个可分享链接——手机、电脑直接打开就是完整报告，还能转给同事。
+**关键步骤**：说「部署上线」→ 一键推到云端拿可分享链接。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `读取下这两份文件，总结下讲了什么，给我一份解读报告。我是一家小微企业，主营业务是企业数字化，可以报名这个比赛吗？` | 丢文件出报告 |
+| 2 | `报名截止日期，这个信息你是从哪里获得的？` | 追问截止日期出处 |
+| 3 | `你去官网看看，有显示地方赛还有6天。` | 让它去官网核实 |
+| 4 | `更新报告，不要docx格式的，报告使用html格式的出一份，还有看下这个比赛有奖励吗？报名需要什么准备？` | 改HTML格式+补奖励和准备 |
+| 5 | `部署上线` | 一键部署拿链接 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. PPTX 解包结果（19步报名系统操作手册步骤文字）
+2. 扫描 PDF OCR 12页全文识别结果
+3. 第一版解读报告（docx 格式，含资格判定/赛道匹配/行动清单）
+4. 截止日期出处溯源（PDF 第6页原文 + 北京赛区交叉核对）
+5. 官网实时倒计时核实结果（6天11小时44分20秒，≈7月15日截止）
+6. 主动认错（承认之前只依据通知没去官网核实结论下早了）
+7. HTML 版解读报告（自带样式离线可看，新增比赛奖励+报名准备两整块）
+8. 在线分享链接：https://15468f1645f54c0ebe08973432e51ae5.app.codebuddy.work
+
+### 结果证明
+
+![把两个文件丢进 WorkBuddy 开始流水线](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPGn89ejbPLzMb1Wq6hC07vy50Zumx8wbEtKaibgal8U2d1wxdwRhc25wLbzk9o3STrXBu4VYZfHZnzkUpsYqiaicGs5eUZ7nt2Nk/640?from=appmsg&watermark=1#imgIndex=0)
+
+![PPTX解包+扫描PDF用OCR读出12页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNdZkgziardSian83auicrVic67W7WRxLAeIpIs4HpaaTOoic63uFJicodvw84vEZ6bom9vic4Cll7SNC4kMk6vPejRc4bMR6FxpsMeMI/640?from=appmsg&watermark=1#imgIndex=1)
+
+![追问截止日期出处：贴出PDF第6页原文](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMic4Mdwjed8ghibmTAfgtcAdEOxUdmS6mFpOqDjianuZ1wibmouV2BaibfgagjRUzzuOBe9clseicKGWOzBJfZBpJFydTUcyzFQ0Hec/640?from=appmsg&watermark=1#imgIndex=2)
+
+![官网实时倒计时：还剩6天推翻原结论](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPsGP6a20Y5zZlsE4NLpiakYklcK1FhQ3BbUNjX9TOw7Y8MLtSk2CoDmIp7icVGluuctSVYM7QocD8KDmSY3tjfes8PGbr7tZmrQ/640?from=appmsg&watermark=1#imgIndex=3)
+
+![HTML版解读报告：一句话结论+两份文件解读](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMibEefibRrJwiazIVDhiabWWIh3zGiapfMia400viaKevp8oHIOY52ibibEcUbNcl96J5dYt8KUoxUs7QWGicq83tXfJzryqERoKxa9wqDU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![改HTML格式+补奖励和报名准备清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO23vWTMqqtOn4HjVcjKLiaOPsibSPmClQx4JUsA316eRfXgibhk1fDVOZicXicHDXUBdicyYzIJ0tAD038UVveZJEhuVZ7ptAicib5Fu8/640?from=appmsg&watermark=1#imgIndex=5)
+
+![一键部署上线拿到可分享链接](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPwYZzv5gXdwdZL1HJe4rcKFrnwAooCstyT0tq6te2JLHrib4OAaicfpWz9uO6NjeRubopRu9lUFHypRxe72kzZuB5eLsx6rHTUc/640?from=appmsg&watermark=1#imgIndex=6)
+
+## 八、验收标准
+
+- [ ] 两个文件拖进对话框后 WorkBuddy 自动解析
+- [ ] PPTX 当压缩包解包从 slideN.xml 抽出19步操作文字
+- [ ] 扫描版 PDF（OFD转的）用 tesseract + chi_sim OCR 识别12页全文
+- [ ] 第一版解读报告含资格判定（完全符合/营收≤2亿/新一代信息技术赛道）
+- [ ] 报告附官方咨询电话
+- [ ] 追问截止日期出处后贴出 PDF 第6页原文
+- [ ] 说明用北京赛区公告做了交叉核对
+- [ ] 让去官网核实后启真实浏览器渲染JS页面
+- [ ] 读到官网实时倒计时（6天11小时44分20秒）
+- [ ] 推翻原结论（6月30日→约7月15日）并主动认错
+- [ ] 改需求后重做成单文件 HTML 报告（自带样式离线可看）
+- [ ] 新增比赛奖励三块（地方赛现金奖/全国赛荣誉/高价值非现金资源）
+- [ ] 新增报名准备三块（实物材料/7大系统模块/6步流程）
+- [ ] 标注企业认证审核要1-3个工作日是最容易卡最后一天翻车的坑
+- [ ] 时间线更正为「官网倒计时约6天窗口仍开放≈7月15日截止」
+- [ ] 说「部署上线」后一键推到 CloudStudio 返回可分享链接
+- [ ] 链接格式为 .app.codebuddy.work
+- [ ] 手机、电脑直接打开就是完整报告
+- [ ] 整条流水线跑通：读文件→出报告→认错→查官网→改格式→部署上线

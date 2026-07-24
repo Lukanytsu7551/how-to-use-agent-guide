@@ -1,0 +1,96 @@
+# Case 58｜随手点了个专家，它就帮我做了一套AI课还自己发布了
+
+> **WorkBuddy 案例集 · 第 58 篇**
+> 分类：内容创作与新媒体运营
+
+---
+
+## 一、场景描述
+
+下午在 WorkBuddy 里无意间翻到了专家面板，看到一个有点意思的东西——「AI师傅课程制作专家」，图标是个戴帽子的 AI 小师傅，描述写着：帮助老师快速做一门 AI 师傅课程。抱着"看看你是怎么个事"的心态点了进去。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 的「AI师傅课程制作专家」，从点召唤到课程上线，全自动完成一套以"为什么要学习AI"为主题的 AI 一对一互动课（4 个小节，针对不同背景用户个性化授课），包括写脚本、做 PPT、登录平台、导入课程、发布上线全流程。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| AI师傅课程制作专家 | 自动填 prompt+写脚本+做 PPT+登录平台+导入课程+发布上线 | WorkBuddy 专家中心 | WorkBuddy 账号 |
+| AI师傅平台 | 承载课程内容，学员可在线学习 | ai-shifu.cn | AI师傅账号（短信验证码登录） |
+| MarkdownFlow 授课脚本格式 | 生成 AI 一对一互动课脚本 | AI师傅平台内置 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 在专家中心能找到「AI师傅课程制作专家」
+3. 手机号可用于接收 AI师傅平台短信验证码
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：点召唤，话都没说出口
+进到专家对话界面，啥也没敲，就点了一下「召唤」。结果专家自己把 prompt 填好了："以「为什么要学习AI」为主题做一个AI师傅课程。整体不超过4个小节，需要针对不同背景的用户来进行个性化授课。希望通过PPT结合文字的方式进行授课，制作完成后直接部署到AI师傅平台"
+**关键步骤**：点召唤后专家自己填好 prompt，不用自己写。
+
+### 步骤 2：AI 自动完成 6 步
+- 步骤 1 理解任务：自己填好了 prompt，规划 4 个小节
+- 步骤 2 写脚本：四节课 MarkdownFlow 授课脚本，共 1.3 万字符
+- 步骤 3 做 PPT：自动生成 6 页课件（封面+4 节+总结）
+- 步骤 4 登录平台：发短信到手机号，自动登录 AI师傅
+- 步骤 5 导入课程：把四节课逐一上传，建章节建课程
+- 步骤 6 发布上线：自动发布，生成公开链接
+
+### 步骤 3：短信验证码登录 AI师傅平台
+最意外的是第 4 步——它直接调了手机号发短信，让回个验证码。把收到的 4 位验证码告诉它，它马上完成登录并部署课程。没碰 AI师傅平台网页，它在命令行里把登录和发布全做了。
+**关键步骤**：专家自动发短信+回验证码+命令行完成登录和发布。
+
+### 步骤 4：课程内容设计亮点
+最满意的是第二节课"AI × 你的领域：找到属于你的切入点"。它不是给所有人讲一样的东西，而是根据学员身份自动切换内容：
+- 程序员 → AI 是你写代码的十倍杠杆
+- 产品经理 → AI 是你理解用户的超级外脑
+- 学生 → AI 是你弯道超车的秘密武器
+- 传统行业 → AI 是你抵御淘汰的第一道防线
+不同人进来看到的内容不一样，这是 AI 自动做的教学分层——不是人工策划的，是它在设计阶段自己想出来的。
+
+### 步骤 5：课程公开发布
+课程已经公开发布了，不用注册就能看：https://app.ai-shifu.cn/c/c92a2c12fe694e67878762d98748dfb7
+四节课，每节课 5-10 分钟看完，附带互动问题和 PPT 课件。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | （点召唤后专家自动填好的 prompt）`以「为什么要学习AI」为主题做一个AI师傅课程。整体不超过4个小节，需要针对不同背景的用户来进行个性化授课。希望通过PPT结合文字的方式进行授课，制作完成后直接部署到AI师傅平台` | 触发 6 步全自动流程（写脚本+做 PPT+登录平台+导入课程+发布上线） |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 4 节课 MarkdownFlow 授课脚本（共 1.3 万字符）
+2. 6 页 PPT 课件（封面+4 节+总结）
+3. AI师傅平台课程已发布（含 4 节课，每节 5-10 分钟）
+4. 课程根据学员身份自动切换内容（程序员/产品经理/学生/传统行业四套）
+5. 公开链接：https://app.ai-shifu.cn/c/c92a2c12fe694e67878762d98748dfb7
+
+### 结果证明
+
+![专家中心AI师傅课程制作专家](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO6PZrX5Z9uZDickqJ92zZjhgkcg8Jp6jlZ7XMSQM79XY1WVPBMujfKM1SmPibniaWjgiaKvicvzr7lcPv9rtjBOwicvAG8MC31FxxSA/640?from=appmsg&watermark=1#imgIndex=0)
+
+![专家自动填好prompt开始干活](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMK1tCwOBAoiaW730UmkWdo67suEt26VicxSMSqL2WoicdIjTAbibn95pOZzEEkNeA8oVoazKpstyMLWogygCFnu7tJJl2orFVG9Kk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![短信验证码登录AI师傅](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN49NibgSNJzLUkr31l1L3RhafaJibibrzr0bnHjBkhK4Rcjxf3T7mM5DAzicObwpxC7CEpuPQhjw1J1sD3OPQOxpxI0rrwcQc2apo/640?from=appmsg&watermark=1#imgIndex=2)
+
+![课程上线页面](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROFnr5NAicLicXU37wPr2jw090cJuXHxWKkfLvTLAAia3uJYib2s43vu5cVdvzoJMcvZdbjIJXiasZJ10XVCSQwO3APhoLjHwajsrIM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+## 八、验收标准
+
+- [ ] 在专家中心找到「AI师傅课程制作专家」并点召唤
+- [ ] 专家自动填好 prompt（以"为什么要学习AI"为主题+4 小节+个性化授课+PPT 结合文字+部署到 AI师傅平台）
+- [ ] 自动写脚本：4 节课 MarkdownFlow 授课脚本共 1.3 万字符
+- [ ] 自动做 PPT：6 页课件（封面+4 节+总结）
+- [ ] 自动发短信到手机号，回验证码后命令行完成 AI师傅平台登录
+- [ ] 自动导入课程：四节课逐一上传，建章节建课程
+- [ ] 自动发布上线生成公开链接
+- [ ] 课程第二节课根据学员身份自动切换内容（程序员/产品经理/学生/传统行业四套）
+- [ ] 公开链接可访问：https://app.ai-shifu.cn/c/c92a2c12fe694e67878762d98748dfb7
+- [ ] 每节课 5-10 分钟看完，附带互动问题和 PPT 课件

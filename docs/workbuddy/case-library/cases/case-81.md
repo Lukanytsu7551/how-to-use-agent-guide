@@ -1,0 +1,106 @@
+# Case 81｜一句话生成三口之家一周膳食规划，还能一键变成网页
+
+> **WorkBuddy 案例集 · 第 81 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+在 WorkBuddy 的「灵感」页面里看到一个「每周膳食规划表」效果卡片，顺手点了下方的「开同款」按钮。整个需求提示词自动填好，连格式都排好了。从「搜灵感 → 点开同款 → 发送」三步搞定。本篇记录如何用一句话让 WorkBuddy 生成完整 Excel 膳食规划，再用第二句话转成精美网页，最后用第三句话部署上线，全程三次对话拿到三种形态的成果。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy 为三口之家（两位成人 + 一位 8 岁儿童）生成完整一周膳食规划 Excel，包含周餐计划、采购清单、营养摘要三个 Sheet；再用 frontend-design 技能把 Excel 转成交互式 HTML 网页（三 Tab 切换、暖奶油色 + 陶土色配色、暗色模式）；最后用 cloudstudio-deploy 部署到线上，生成公网可访问链接。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| Excel 文件处理（openpyxl） | 生成结构化 Excel 膳食规划，含公式、颜色标识 | WorkBuddy 内置 | WorkBuddy 账号 |
+| frontend-design | 把 Excel 数据重新组织成响应式交互网页 | WorkBuddy 内置 | WorkBuddy 账号 |
+| cloudstudio-deploy | 把 HTML 页面部署到沙箱环境生成公网链接 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 进入「灵感」页面，找到「每周膳食规划表」效果卡片
+3. 本地浏览器可访问 cloudstudio.work 域名
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：点「开同款」发指令
+在「灵感」页面找到「每周膳食规划表」卡片，点下方的「开同款」按钮。WorkBuddy 自动把完整提示词填好：三口之家（两位成人 + 一位 8 岁儿童），Sheet 1 周餐计划 7 天 3 餐、Sheet 2 采购清单、Sheet 3 营养摘要。一个字都没改，直接点发送。
+**关键步骤**：「灵感」页点「开同款」自动填好完整提示词，直接发送。
+
+### 步骤 2：Excel 生成
+WorkBuddy 调用 Excel 处理技能，用 Python 的 openpyxl 库生成 Excel 文件。Sheet 1 周餐计划周一到周日每天 3 餐，每顿含菜名、主要食材、热量（kcal/人均）、蛋白质、碳水、脂肪、准备时间；每天底部 SUM 公式汇总，最后一行 AVERAGE 公式算全周均值。Sheet 2 采购清单按蔬菜/肉蛋/乳制品/主食/调味品 5 大类分类，每项有用量、单价、小计公式，底部汇总全周总预算 ¥586.70。Sheet 3 营养摘要把 7 天数据拉成表，周均值对标《中国居民膳食指南（2022）》，偏差百分比自动计算。整个过程不到 2 分钟。
+**关键步骤**：Excel 三 Sheet 全部生成，含 SUM/AVERAGE 公式、颜色区分餐次、营养偏差对比。
+
+### 步骤 3：Excel → HTML 网页
+觉得 Excel 太静态，发邮件传文件体验差。补一句「帮我把这个规划做成 HTML 格式的」。WorkBuddy 切换到 frontend-design 技能，把 Excel 数据全部提取出来重新设计交互式网页：暖奶油色底色、陶土色点缀、标题手写体、三 Tab 切换、卡片式布局、彩色 badge 区分餐次、采购清单预算柱状图、营养摘要进度条 + 改进建议卡。整个页面支持暗色模式切换，响应式布局适配手机。
+**关键步骤**：frontend-design 把 Excel 转成交互式网页，三 Tab + 暗色模式 + 响应式。
+
+### 步骤 4：部署上线
+网页做好了想让别人也能直接打开看。再说一句「帮我把这个页面使用 cloudstudio-deploy，部署到线上」。几秒钟后返回公网链接，任何人都能访问。每周更新内容，链接不用换。
+**关键步骤**：cloudstudio-deploy 一键部署，返回公网可访问链接。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `请为一个三口之家（两位成人 + 一位 8 岁儿童）设计一份完整的一周膳食规划 Excel。要求：1. Sheet 1 周餐计划：周一到周日共 7 天、每天早/午/晚 3 餐；以中式家常菜为主、荤素搭配合理；每餐含菜名、主要食材、估算热量（kcal/人均）、准备时间；每天底部汇总人均热量、蛋白质、碳水、脂肪。2. Sheet 2 采购清单：按蔬菜/肉蛋/乳制品/主食/调味品分类汇总全周食材，含预估用量、参考单价、小计，底部汇总全周总预算。3. Sheet 3 营养摘要：7 天每日热量与三大营养素汇总、周均值，并与中国居民膳食指南推荐量对比。不同颜色区分早/午/晚餐，热量超标/达标分别标色。输出为 Excel 文件。` | 灵感页自动填好的膳食规划指令 |
+| 2 | `帮我把这个规划做成 HTML 格式的。` | 把 Excel 转成交互式网页 |
+| 3 | `帮我把这个页面使用cloudstudio-deploy，部署到线上。` | 部署到云端生成公网链接 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. Excel 膳食规划文件（3 个 Sheet：周餐计划 / 采购清单 / 营养摘要）
+2. HTML 交互式网页（三 Tab 切换、暗色模式、响应式布局、彩色 badge、预算柱状图、营养进度条）
+3. 公网访问链接：https://d75772c3b49a4cf7a72b5cf1af093e0c.app.codebuddy.work
+
+### 结果证明
+
+![灵感页面膳食规划卡片](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROVibMVwoGn2qcD6Q256mGibAfd3iaR5cWYBFSKxAerYJpwe9cLAtib6Pdic5dIpkTmIlS61ZrcapSuicOGvfmSeN0cOhtjzhXMj5fMk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![开同款后自动填好提示词](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNEI01icysv3APVomZLVq0rLvzicnxQC7xmkLdvcP8erOqlIm4KXBjmmlUz8cXwVyibyuFXeAWuCs7Swwk2N62XzKvlicuFMgcf3NE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![Excel 周餐计划 Sheet](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROtUR24XevQ9N3fEE9K9l8Nk2xbqbibYqEFUhVKmT9ibMCrM2S8dbec06vTibulnyDe8oHxDRAyAQUuDf8TyUzcia7iaT7aTtCUERCg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![Excel 采购清单 Sheet](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROqZvpjh57eXh0acPwaKX4iaTt5xqQC9Fa2IE5RncXQxSicDXcxmCLEXgKUPp8y6oz3EfM5DT1EgRKlyVMicLgibBnwhLjxJRC77xs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![Excel 营养摘要 Sheet](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRP4lic7PmnNhZyAcicUYMeY1ic98icS6iaynEfFwTvyxiccyHUlWw9KKp0KD2hHZqAhOy4zD3os5HiblZR3joa6H3pLEodr9icbicR8NJKw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![HTML 版生成完成](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMrRZN7eY48xXicLtLhGb05xdsoHxHTMb1MNZ4ibGic9jrOsM1sX4TgvqooiaibcZ7vpTk4OqibIhNInbldAT4lPvsIxerrNNTdN4umU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![网页顶部三 Tab 切换](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMHic1wbpBNwMN4fYELRSZjMOw91ialmPzqgfGoqgIyfnDMNiaI96SLC7LNcARfwT5Gcr3Dg9HWTDYlbnn4VQ52WWp3FkdWkJMaCQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![周餐计划 Tab 卡片布局](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMlkcJXP4dasgmypjykcFr0bPQgf8LnRw2s8Gic4kV8fcrCdiaqndyQpicP6BSLRtD52zcZcwJbRcH7iat856UlBH0ibPVnkAVbZkOU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![采购清单 Tab 预算柱状图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPJufCWc5109leiagyR7cwwJp4GbczYEq9ca1DWGodnW55FuPMibt1fgBPWM1GnJv3MWqnkJibIK8sETC3muxPI7qhBYDlX0ea2f4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+![营养摘要 Tab 进度条对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPMLHSYqiakXZNV7ogwOf4ibqNWeI81t9xWficsMmV8unia8VYbphqial5wVqMnBa8ibicAh6K8Jx0STFtEnb0tibWou05nzqpLwTKibuhI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+![部署上线返回公网链接](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNuicxS5BOUIWER0lxqloEXNBpV3O15lvaGa2G9eBmnPpXGRIgSRJNEPqQLo6bsicicuibb0FWJ2aex7ibZST9IZmscBM5ibqlwiaJXM8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+
+## 八、验收标准
+
+- [ ] 从「灵感」页点「开同款」自动填好膳食规划提示词，无需手改
+- [ ] Excel Sheet 1 周餐计划：周一到周日 7 天 × 3 餐，含菜名/食材/热量/蛋白质/碳水/脂肪/准备时间
+- [ ] 每天底部 SUM 公式汇总人均热量与三大营养素
+- [ ] 最后一行 AVERAGE 公式算全周均值
+- [ ] Excel Sheet 2 采购清单按蔬菜/肉蛋/乳制品/主食/调味品 5 类分类
+- [ ] 每项含预估用量、参考单价、小计公式
+- [ ] 底部汇总全周总预算 ¥586.70，人均日均食材成本 ¥27.90
+- [ ] Excel Sheet 3 营养摘要对标《中国居民膳食指南（2022）》
+- [ ] 偏差百分比自动计算，达标/超标分别标色
+- [ ] HTML 网页三 Tab 切换：周餐计划/采购清单/营养摘要
+- [ ] 配色为暖奶油色底 + 陶土色点缀，标题手写体
+- [ ] 餐次用彩色 badge 区分（早浅橙/午浅蓝/晚浅绿）
+- [ ] 采购清单 Tab 含彩色预算柱状图（肉蛋占 46%）
+- [ ] 营养摘要 Tab 含四维度对比卡 + 可视化进度条
+- [ ] 营养摘要给出具体改进建议（蛋白质偏高/碳水偏低/脂肪偏高）
+- [ ] 网页支持暗色模式切换与手机响应式布局
+- [ ] 公网链接可访问：https://d75772c3b49a4cf7a72b5cf1af093e0c.app.codebuddy.work
+- [ ] 全程三次对话拿到三种形态成果（Excel/HTML/在线链接）

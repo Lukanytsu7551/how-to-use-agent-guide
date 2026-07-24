@@ -1,5 +1,7 @@
 import { defineAsyncComponent, h } from "vue";
 import DefaultTheme from "vitepress/theme-without-fonts";
+import CaseLibrary from "./components/CaseLibrary.vue";
+import CaseLibraryContext from "./components/CaseLibraryContext.vue";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import CodexIssueAssistant from "./components/CodexIssueAssistant.vue";
 import HomePage from "./components/HomePage.vue";
@@ -44,9 +46,11 @@ export default {
   extends: DefaultTheme,
   Layout: () =>
     h(DefaultTheme.Layout, null, {
+      "doc-before": () => h(CaseLibraryContext),
       "layout-bottom": () => [h(ImageLightbox), h(SidebarToggles)],
     }),
   enhanceApp({ app, router }) {
+    app.component("CaseLibrary", CaseLibrary);
     app.component("GroupQrMenu", GroupQrMenu);
     app.component("CodexIssueAssistant", CodexIssueAssistant);
     app.component("HomePage", HomePage);

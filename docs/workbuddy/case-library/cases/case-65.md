@@ -1,0 +1,83 @@
+# Case 65｜灵感里偶遇卡神，一句话AI日报自动上线
+
+> **WorkBuddy 案例集 · 第 65 篇**
+> 分类：内容创作与新媒体运营
+
+---
+
+## 一、场景描述
+
+逛 WorkBuddy 的时候，随手点进「更多」→「灵感」，想看看最近有什么新专家。翻着翻着，在「数据智能」分类里看到了一个眼熟的名字——「资讯速递专家」，作者是「数字生命卡兹克」。卡神啊，那必须召唤一下。找到专家后随手发了条消息问今天 AI 圈有什么新动态，本来以为就是个普通的问答，结果这哥们直接搞了个大活——把 26 条内容整理成了精美的 HTML 简报页面，还顺手部署上线了。
+
+## 二、想要完成的任务
+
+在 WorkBuddy 灵感库找到「资讯速递专家」（作者数字生命卡兹克），一句话召唤后调用 aihot 技能拉取当天最新 AI 资讯生成 HTML 简报，再用 cloudstudio-deploy 技能一键部署到线上获取可分享链接。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 灵感库（专家市场） | 找到「资讯速递专家」（数字生命卡兹克） | WorkBuddy 内置 | WorkBuddy 账号 |
+| aihot 技能 | 去 aihot.virxact.com 拉取最新 AI 资讯，整理成中文简报 HTML | WorkBuddy 技能市场 | 无 |
+| cloudstudio-deploy 技能 | 把 HTML 拷贝到部署目录、启动静态文件服务、返回可分享链接 | WorkBuddy 技能市场 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 已安装 aihot 技能
+3. 已安装 cloudstudio-deploy 技能
+4. aihot 数据每天北京时间 08:00 更新（早上 8 点前查会 fallback 到昨天日报）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：灵感库里找专家
+点击 WorkBuddy「更多」→「灵感」，在「数据智能」分类里找到「资讯速递专家」，作者是「数字生命卡兹克」，描述是「一句话查到每天精选的 AI 模型/产品/行业/论文动态，自动整理成中文简报，免配置登录」。点「召唤」。
+**关键步骤**：「更多」→「灵感」→「数据智能」分类找到卡神的专家。
+
+### 步骤 2：一句话拉资讯生成简报
+随手发一条：「今天 AI 圈有什么新动态？」。WorkBuddy 调用 aihot 技能，去 aihot.virxact.com 把最新的 AI 资讯全拉下来了，然后把 26 条内容整理成一个精美的 HTML 简报页面。页面在浏览器中打开，五大版块卡片式布局：模型发布、产品更新、行业动态、论文研究、技巧与观点，每条资讯都有可点击的标题、来源、相对时间、摘要，深色/浅色主题自适应，完全内联 CSS 零外部依赖。
+**关键步骤**：一句话触发 aihot 拉取 26 条资讯 + 生成 HTML 简报。
+
+### 步骤 3：部署到线上
+说一句：「把这个部署到线上去」。WorkBuddy 调用 cloudstudio-deploy 技能：把 HTML 拷贝到部署目录、启动静态文件服务、返回可分享链接。点开链接完整页面就出来了，和在本地打开一模一样。
+**关键步骤**：cloudstudio-deploy 三步完成部署。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `今天 AI 圈有什么新动态？` | 调用 aihot 技能拉取最新 26 条资讯，生成精美 HTML 简报 |
+| 2 | `把这个部署到线上去` | 调用 cloudstudio-deploy 技能，生成可分享链接 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. AI HOT 今日简报 HTML 页面（26 条近 24 小时精选资讯）
+2. 五大版块卡片式布局：模型发布/产品更新/行业动态/论文研究/技巧与观点
+3. 深色/浅色主题自适应，完全内联 CSS 零外部依赖
+4. 今日头条摘要表（如微软 AI 负责人吐槽 Anthropic 模型太贵、互联网机器人流量首超人类 57.5%、Suno 完成 4 亿美元 D 轮融资等）
+5. 在线可分享链接：https://7fb7c1efb9cc43fd8f7baad189ba1360.app.codebuddy.work
+
+### 结果证明
+
+![灵感库入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMQVxic2g16FGrdIb9CDOIo2vDibSY1wSqr3oN5upt6l0p2sr8aS7QOMzk7f0ibGCkJ1WkNOjLsQ1nedO2DWsQAiaNjNrjdKk5iaNf0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![资讯速递专家](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMaJkx8szRBatiacd5nX57AcibaL4zj8Iae7urVnNsTakq5IpIEPbzFUhL71SmZ2kia55JFWXjAeicjozahtuVCFH0yeuicr9yHOfico/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![一句话生成简报](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROAc11KDEgVVaPUcF988lpx3xGRffGkBYxqKsiamib7xq3JtG7vRibjZ5dwtwdJfOyxNLuvUHPUDGBKbSWHia7uA26W6FGlT3ruJDw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![AI HOT 简报页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO6bElTfMQWHKtUzXEqFhcLG6xXF1DNKDcMxdD5UvTThXxpBibLoJ73k2iaB9A8hW8sraZmJRv2T3pL6oaaanvdLezKPRnlL5IGo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+## 八、验收标准
+
+- [ ] 点击「更多」→「灵感」进入专家市场
+- [ ] 在「数据智能」分类找到「资讯速递专家」（作者数字生命卡兹克）
+- [ ] 点「召唤」后发「今天 AI 圈有什么新动态？」
+- [ ] aihot 技能被调用，拉取 26 条近 24 小时 AI 资讯
+- [ ] 生成 HTML 简报页面，五大版块卡片式布局（模型发布/产品更新/行业动态/论文研究/技巧与观点）
+- [ ] 每条资讯有可点击标题、来源、相对时间、摘要
+- [ ] 深色/浅色主题自适应，完全内联 CSS 零外部依赖
+- [ ] 「把这个部署到线上去」触发 cloudstudio-deploy
+- [ ] 返回可分享链接 https://7fb7c1efb9cc43fd8f7baad189ba1360.app.codebuddy.work
+- [ ] 点开链接完整页面与本地打开一致
+- [ ] 从召唤专家到拿到分享链接全程不到 2 分钟

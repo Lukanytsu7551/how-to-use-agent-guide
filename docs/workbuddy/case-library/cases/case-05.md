@@ -1,0 +1,144 @@
+# Case 05｜即梦 AI 接口，自动生成公众号封面图
+
+> **WorkBuddy 案例集 · 第 5 篇**
+> 分类：内容创作与新媒体运营
+
+---
+
+## 一、场景描述
+
+在 WorkBuddy 100 种用法第 1 篇里，作者用 HTML+CSS 模板解决了公众号封面自动化生成的问题，但模板化的视觉风格始终不够灵活。最近听说即梦 AI 图片生成模型有 200 张的免费生成额度，还能创造出无限种视觉风格——只要让 WorkBuddy 对接上即梦 AI 的 API，就能让公众号封面从"模板化"升级为"定制化"。
+
+以前接入一个新 API，需要啃几十页文档、搞懂鉴权签名加密、写代码调试处理异常，至少大半天。而把这件事交给 WorkBuddy，只需要把密钥给它、告诉它要实现什么，剩下的全部由 AI 自动完成——从查阅文档、实现签名算法、处理异步流程到本地保存文件，全程不到半小时。
+
+更省心的是：API 文档太长，可以直接截图标注发给 WorkBuddy，它看图就能解析参数，完全不用手动整理。
+
+## 二、想要完成的任务
+
+对接即梦 AI 的图片生成 API，让 WorkBuddy 实现"一句话生成高质量公众号封面图"——从开通 API、开发 Skill 到生成首张封面，全程自动化。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| Skill 开发能力 | 创建全局可用的即梦 AI 图片生成 Skill | WorkBuddy 内置能力 | 无额外权限 |
+| 火山引擎即梦 AI API | 调用即梦 AI 图片生成 4.0 模型生成背景图 | 火山引擎模型广场 | 即梦 API 免费试用额度（200 张） |
+| Playwright 截图 | 用 HTML 渲染标题文字后截图输出标准封面 | WorkBuddy 自动调用 | 无额外权限 |
+| HTML+CSS 文字叠加 | 在 AI 生成的背景图上叠加标题文字 | WorkBuddy 内置能力 | 无额外权限 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 桌面端。
+2. 拥有即梦 AI 官网账号（jimeng.jianying.com）。
+3. 拥有火山引擎账号，用于开通即梦 AI API 服务。
+4. 已完成火山引擎实名认证，可开通免费试用。
+5. 无需具备任何编程或 API 对接经验，WorkBuddy 全自动处理。
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：开通即梦 AI API 免费额度
+
+打开即梦官网（jimeng.jianying.com）并登录账号，在左侧边栏最底部找到「API」按钮，点击进入。页面会自动跳转到火山引擎即梦产品页（volcengine.com/product/jimeng），点击「立即开通」。
+
+**关键步骤**：进入火山引擎控制台，打开「模型广场 → 即梦AI」，在服务列表里找到「即梦AI-图片生成4.0」系列，点击「开通服务」。弹窗选择「免费试用」（包含 200 张图片生成额度），点击「去开通」，确认服务用量限额后点击「确认开通」。页面提示「开通成功」，状态变为绿色「免费试用」，说明 API 服务已成功激活。
+
+### 步骤 2：创建 API 密钥
+
+开通完成后，进入火山引擎「密钥管理」创建一对 API 密钥：Access Key ID + Secret Access Key，这是调用接口的身份凭证。
+
+**关键步骤**：Secret Access Key 只在创建时显示一次，务必立即复制保存，丢失后只能重置。
+
+### 步骤 3：让 WorkBuddy 开发即梦图片生成 Skill
+
+把密钥发给 WorkBuddy，对它说："帮我做一个即梦图片生成的 Skill。"WorkBuddy 会给出两个方案：方案 A 做成 Skill（全局可用，集成到 WorkBuddy，所有项目通用，支持对话触发、命令行调用，一次配置长期使用）；方案 B 做成项目脚本（仅当前目录生效，换项目需要重新拷贝）。选择方案 A 后，WorkBuddy 全自动完成以下工作：
+
+- 查阅 API 文档——自动理解请求格式、签名方式、轮询机制
+- 实现签名算法——火山引擎 HMAC-SHA256 签名全程自动处理
+- 处理异步流程——提交任务 → 获取 task_id → 轮询结果 → 下载图片
+- 本地保存文件——一键保存到本地目录
+
+**关键步骤**：API 文档可以直接截图标注发给 WorkBuddy，它看图就能解析参数。密钥保存在 `~/.workbuddy/config/jimeng.json`，权限设为 600，仅本机可读，不会上传到任何服务器。整个过程只聊了几轮，从提出需求到功能可用不到半小时。
+
+### 步骤 4：一句话生成公众号封面图
+
+配置完成后，对 WorkBuddy 说："根据这篇文章生成公众号封面图。"WorkBuddy 会自动完成一整套流程：首先生成背景图——分析文章内容，自动生成一段高质量中文提示词，确认后调用即梦 API 生成高清背景图。然后用 HTML 叠加标题文字——因为 AI 直接生成文字容易乱码或错位，WorkBuddy 用即梦负责画背景、HTML 负责渲染文字、最后用 Playwright 截图输出 900×383 标准封面的稳妥方案。
+
+**关键步骤**：即梦 API 对图片分辨率有要求，公众号封面 900×383 不满足最小尺寸。WorkBuddy 会先生成 2K 大图（2304×976），再自动缩放到标准尺寸，这些细节全部自动处理。整个过程不到 1 分钟，只需确认一次提示词，剩下全部自动化完成。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `"帮我做一个即梦图片生成的 Skill。"` | 让 WorkBuddy 创建即梦 AI 图片生成 Skill |
+| 2 | `"根据这篇文章生成公众号封面图。"` | 触发自动生成封面流程 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+
+1. **1 个全局可用的即梦 AI 图片生成 Skill**（一次配置，长期使用）
+2. **1 张 AI 生成的公众号封面图**（900×383 标准尺寸）
+3. **API 密钥本地安全存储**（`~/.workbuddy/config/jimeng.json`，权限 600）
+
+### 结果证明
+
+**即梦官网 API 入口**
+
+![即梦官网左侧边栏API入口](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRP8ZHmviamBLoNrlRGVJ4dl3jn8IbD0Ix46m2jxnnEAHf3h5zAicntlT5icfiaRt7XSfGnadOJU9CKhV6kvUCMX2JibQbQ6yS5oEicXE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+**火山引擎即梦产品页**
+
+![火山引擎即梦产品页立即开通](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNvic2xaUXib36nAAEJTERVBsOxiaKl7jTV8Dqx5BoYYTPyBVbOHT1mjicWnDHAico5pqfGjOyibIcialFw9Sw6Uia6jY2LGRUYyS0FlCo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+**模型广场开通服务**
+
+![火山引擎模型广场即梦AI图片生成4.0开通服务](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPvYuDJ0NtKX2EYV7rUibfODAyUZaia9aNyXos03zCufribnQGw7yVruCicJvILo1tr4oSGCHicjH8FTjOgVbt9Xbb2rjlJic3Ggb3Dg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+**免费试用确认**
+
+![免费试用200张额度确认开通](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROT4Y1QgKg97FiaT0yiaYjWvmSUaKmXhuToViaRJOWDTuZlATQaBJQYb3909C2eI5vmWicfhVCNzviaBAEXliay01MAAn4PJ2RE40YEI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+**服务用量限额确认**
+
+![服务用量限额生成量200张确认开通](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNKTgElEBJ4CwCxwnabgwcr02dlqU6bKIHDeRyyOCuBu9TV88XjVNTByk1m2hTFClDW8OwciclTJJfpOpiaeBiaLTtiaryTF1eibLKo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+**开通成功状态**
+
+![开通成功状态变为绿色免费试用](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLBd2bzr2YprtUBL7c6CCUC1qF9Ae9VzxweB9HUIe4QsDVBdemWH1RNH3zPaEsqpBtaZFWHXY819ADC6icpjfeJeHtibzpRFz4A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+**WorkBuddy 自动查阅 API 文档并开发 Skill**
+
+![WorkBuddy自动查阅API文档并开发完成即梦AI图片生成Skill](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROEiaPhzclcagPg4s3S2DIuGqfiaGnOVyExc6sEsVWYSbkibC47Ptpx9zruibt6QTreV3avciapMRlTKdLswU0WGvgCYHozBA0jiaUUw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+**AI 生成的公众号封面背景图**
+
+![WorkBuddy调用即梦API生成的高清背景图](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROJc5icl7hgeyJdn46Ll4EfWSVxakvoibiaNtGveL6pqiaHquibxXexIhVazNyUfhCWh1PFszauXxwJE0mIZp3e7X6MaUGZ9QQk6cAU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+**最终生成的公众号封面图**
+
+![最终生成的公众号封面图带标题文字](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNaccdsnAicXCiaaPoVFE67vEeuEDEPeibSlQFBVWILAtSneRPKNficTGSdBnAQImrrNlQxjyiaIh3ESHeWP6hOLbbsZcbYEUQqD3Y4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+### 与第一篇 HTML+CSS 方案对比
+
+| 对比项 | 第一篇：HTML+CSS | 第五篇：即梦 AI |
+|---|---|---|
+| 封面风格 | 预设模板，风格有限 | AI 生成，无限可能 |
+| 操作步骤 | 选风格 → 自动截图 | 确认提示词 → 生成 |
+| 视觉效果 | 代码绘制，简洁干净 | AI 绘图，画面精致 |
+| 使用成本 | 完全免费 | 每月免费 200 张 |
+| 技术难度 | 低 | 极低（WorkBuddy 全包） |
+
+## 八、验收标准
+
+- [ ] 在即梦官网左侧边栏能找到「API」入口
+- [ ] 点击后能跳转到火山引擎即梦产品页
+- [ ] 在火山引擎控制台「模型广场 → 即梦AI」能找到「即梦AI-图片生成4.0」
+- [ ] 选择「免费试用」后能看到 200 张生成量限额
+- [ ] 点击「确认开通」后状态变为绿色「免费试用」
+- [ ] 在「密钥管理」创建 Access Key ID 和 Secret Access Key 并保存
+- [ ] 对 WorkBuddy 说"帮我做一个即梦图片生成的 Skill"后，能自动完成 Skill 开发
+- [ ] Skill 测试通过：用一段提示词能在约 30 秒内生成 PNG 图片
+- [ ] API 密钥保存在 `~/.workbuddy/config/jimeng.json` 且权限为 600
+- [ ] 对 WorkBuddy 说"根据这篇文章生成公众号封面图"后，能自动生成 900×383 标准封面
+- [ ] 全流程（开发 Skill + 生成封面）耗时 **< 1 小时**
+- [ ] 封面图标题文字清晰、布局正确，无乱码或错位

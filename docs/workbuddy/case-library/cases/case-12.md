@@ -1,0 +1,116 @@
+# Case 12｜下载文件夹乱成一锅粥？AI 30秒一键清爽！
+
+> **WorkBuddy 案例集 · 第 12 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+你有没有这种经历？下载文件夹堆了几十个文件，懒得整理。想找某个文件？只能用搜索。每次想整理，一看那么乱，就放弃了。
+
+今天我试了试让 WorkBuddy 帮我整理文件夹。结果：我全程没动手，它自己就把一切搞定了。它直接读取了我的下载文件夹，列出了里面所有的文件，然后给出了分类方案，并在遇到模糊情况时主动提问确认，最后自动执行整理。
+
+以前用 AI 整理文件，你需要自己截图、自己描述文件、自己判断分类、自己操作移动。现在用 WorkBuddy，你只需要说一句话、回答几个问题（它会给出建议，你选是/否就行），剩下的 WorkBuddy 自己会看、自己会做。
+
+## 二、想要完成的任务
+
+让 WorkBuddy 自动读取下载文件夹、识别文件类型、规划分类方案、在模糊处主动确认，并自动创建分类文件夹、移动文件，完成一键整理。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 文件系统操作能力（Bash/Read/Glob） | 读取下载目录文件列表、创建分类文件夹、移动文件 | 内置能力 | 下载目录读写权限 |
+| AskUserQuestion 交互能力 | 在遇到模糊情况时主动向用户提问确认 | 内置能力 | 对话交互 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. WorkBuddy 有权访问本机下载目录（~/Downloads）
+3. 下载目录中确实存在需要整理的散乱文件
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：下达整理指令
+我只说了一句话："帮我整理下载文件夹"。WorkBuddy 接到指令后自动读取下载目录、识别 32 个文件类型、规划分类方案。
+**关键步骤**：直接说"帮我整理下载目录的文件"，无需截图或手动描述。
+
+### 步骤 2：WorkBuddy 自动分析并给出分类方案
+WorkBuddy 自动读取下载目录文件列表，识别 32 个文件类型，规划分类方案：图片、PDF 文档、Word 文档、文本文件、音频、压缩包、待确认。
+**关键步骤**：AI 自动完成读取、分析、规划，遇到模糊情况主动提问确认。
+
+### 步骤 3：回答 AI 的确认问题
+整理过程中，遇到几个需要确认的问题，WorkBuddy 直接列出来问我：学籍报告 3 份名字不同建议建「证件资料」文件夹放一起是否可以；jihuo-py 文件夹看起来是激活工具保留还是删除；QQ 号码文件是否保留。我只回了一句："1. 按照你的建议来。2. 保留。3. 保留。"
+**关键步骤**：AI 给出建议方案，用户只需选择是/否。
+
+### 步骤 4：WorkBuddy 自动执行整理
+确认后 WorkBuddy 创建 7 个分类文件夹，移动 32 个文件到对应位置，完成整理。
+**关键步骤**：AI 自动创建文件夹、移动文件，无需用户手动操作。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `帮我整理下载目录的文件。` | 触发 WorkBuddy 读取目录并规划整理方案 |
+| 2 | `1. 按照你的建议来。2. 保留。3. 保留。` | 确认 AI 提出的 3 个模糊问题，授权执行 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 7 个分类文件夹（图片、PDF 文档、Word 文档、文本文件、音频、压缩包、证件资料）
+2. 32 个文件按类型归位
+3. 完整的整理前后目录结构对比
+
+### 结果证明
+
+![WorkBuddy 读取下载目录并给出分类方案](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRND06biaicrtCPgzoOphzs8qbuQQiaIVTXMEDXtbJDBvve2sUZronkcIpiareibiaGBQp2hMr4SUZQ34bcw1qSzCofQvK0knwJvvQfO4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![WorkBuddy 主动提出 3 个确认问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROVRHcW8QYiay0TqPJfvPzUsJd255WqhfCjHtRFQpSgocQGxibqviaaVJ0CuaGYQfJOWexNsglezJnjRwD3JIF4gjUdKxGXPo4b6Y/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![整理前后效果对比](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLOagaUGEicDKwTqBkW24el293qmicOSbNFc27vOZMIItTxraaEyuaWjSmsOqg47gJaRFcq0ZzoI3Px7HX0akwuv89JkDbE9vdI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![整理后下载目录全貌](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNCrPsUVHhh6Vc2AI0AlRL5jY7P3ciaTIKmaeoa0EibCgycSG7pdLiah4WOLOBhYNZ3Wfo2C2lRyCJYVdgCia9RhkPMWPINXSIPBibs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+### 整理前后目录结构对比
+
+```
+整理前：~/Downloads/ 32 个文件乱成一锅粥
+
+整理后：
+~/Downloads/
+├── 📷 图片/        (10张)
+├── 📄 PDF文档/     (9份)
+├── 📝 Word文档/    (2份)
+├── 📃 文本文件/    (3个)
+├── 🎵 音频/        (1个)
+├── 📦 压缩包/      (1个)
+├── 🪪 证件资料/     (3份)
+└── ...
+```
+
+### 我 vs WorkBuddy 工作量对比
+
+| 谁做的 | 做什么 |
+|---|---|
+| 我 | 说了一句话 + 回答 3 个问题 |
+| WorkBuddy | 读取、分析、规划、提问、执行 |
+
+### 效率对比
+
+| 维度 | 以前手动整理 | 用 WorkBuddy |
+|---|---|---|
+| 耗时 | 15-30 分钟 | 说一句话，等 30 秒 |
+| 心态 | 烦躁，不想动 | 爽，有人帮我干活 |
+| 找文件 | 靠搜索 | 直接进对应文件夹 |
+
+## 八、验收标准
+
+- [ ] WorkBuddy 能自动读取下载目录所有文件
+- [ ] 自动识别 32 个文件的类型
+- [ ] 给出合理的分类方案（图片/PDF/Word/文本/音频/压缩包/证件资料等）
+- [ ] 遇到模糊情况（如学籍报告名字不同、疑似激活工具）主动提问确认
+- [ ] 用户确认后自动创建 7 个分类文件夹
+- [ ] 自动将 32 个文件移动到对应文件夹
+- [ ] 整理完成后目录结构清晰可读
+- [ ] 全程耗时约 30 秒

@@ -1,0 +1,114 @@
+# Case 56｜做个西游记PPT→15页网页演示上线，全程零操作
+
+> **WorkBuddy 案例集 · 第 56 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+群里有人问"有没有快速做PPT的工具？下周要汇报，PPT还没动。"我随口回了一句："你试试直接在 WorkBuddy 里说'帮我做个PPT'。"然后为了验证这句话不是吹牛，当场在 WorkBuddy 里敲了一句："请生成一个关于介绍西游记的PPT。"结果从一句话到 15 页精致的 HTML PPT，全程不用动一下手指——有封面、目录、章节过渡、内容页、结束页的完整演示文稿，最后还直接部署到了线上，打开链接就能翻页浏览。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 一句话生成一个关于西游记的完整 PPT（15 页 HTML 网页演示文稿），包含素材收集、风格定义、内容规划、模板选择、逐页生成、AI 生图、部署上线全流程，全程零操作。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| PPT 生成技能（ppt-implement） | 自动完成素材收集/风格定义/内容规划/模板选择/逐页生成 | WorkBuddy 内置 | WorkBuddy 账号 |
+| ImageGen / 混元 3.0 | 生成封面背景图和取经路线图 | WorkBuddy 内置 | WorkBuddy 账号 |
+| Cloudflare 技能（cloudflare-deploy） | 自动部署到 CloudStudio 沙箱返回公网链接 | WorkBuddy 技能市场 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 已安装 cloudflare-deploy 技能（或 CloudStudio 沙箱可用）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：输入一句话需求
+指令："请生成一个关于介绍西游记的PPT。"
+WorkBuddy 在后台自动做了 7 件事：素材收集（自动搜索西游记背景/人物/经典情节/文化价值）→风格定义（定下中国古典风配色朱砂红/金色/深蓝/米色底）→内容规划（拆成 5 个章节 15 页幻灯片）→模板选择（从模板库挑了 11 个中国风模板）→逐页生成（写了 15 个 HTML 页面）→AI 生图（生成封面背景国风山水和取经路线图）→部署上线（build 完自动部署到 CloudStudio 返回公网链接）。
+**关键步骤**：一句话丢进去，7 个阶段全自动，没有任何一步需要选择或确认。
+
+### 步骤 2：PPT 结构说明
+WorkBuddy 生成的不是 .pptx 文件，而是完整的 HTML 网页演示文稿——一套带翻页动效、自适应手机屏幕的网页，不是 PowerPoint 那种文件。15 页结构：
+- 第 1 页 封面："西游记"大字标题+"中国古典四大名著"副标题+国风山水背景
+- 第 2 页 目录：5 个章节导航
+- 第 3 页 过渡页：第一章 作品概览
+- 第 4 页 内容页：作品简介（文学地位/规模体量/核心主题等 6 个信息卡）
+- 第 5 页 内容页：作者吴承恩（生平+数据卡+创作背景）
+- 第 6 页 过渡页：第二章 故事梗概
+- 第 7 页 内容页：故事结构（三大部分+取经路线图）
+- 第 8 页 过渡页：第三章 主要人物
+- 第 9 页 内容页：师徒四人（孙悟空/唐僧/猪八戒/沙僧四人对比卡）
+- 第 10 页 过渡页：第四章 经典章回
+- 第 11 页 内容页：经典故事（大闹天宫/三打白骨精/真假美猴王）
+- 第 12 页 过渡页：第五章 文化价值与深远影响
+- 第 13 页 内容页：文化价值（儒释道三栏）
+- 第 14 页 内容页：深远影响（影视改编/全球传播/衍生作品）
+- 第 15 页 结束页：印章设计+"谢谢观看"
+
+每一页都有固定的中国古典风格：朱砂红标题、金色装饰线、米色纸底、云纹元素。过渡页统一红黑渐变，章节数字淡入背景。
+
+### 步骤 3：踩坑——AI 生图水印问题
+PPT 生成完成后，AI 生成的图片带水印。第一次让它换图，用 ImageGen 重新出了两张但还是有水印。第二次说"用混元无水印生图"，它才反应过来——调用混元 3.0 的 LogoAdd=0 参数，出了干净的国风山水封底和取经路线图。
+**关键步骤**：明确工具名比模糊描述更有效——说"换张无水印图"不如说"用混元无水印技能给我重出"。
+
+### 步骤 4：自动部署上线
+PPT 写完后自动调用 CloudStudio 沙箱部署，几秒钟返回公网链接：https://7163acfc8b4f4c6690120ef81e7e4005.app.codebuddy.work/?page=1
+打开链接，键盘左右键就能翻页，手机也能自适应浏览。完全不用配服务器、域名、HTTPS——全是自动的。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `请生成一个关于介绍西游记的PPT。` | 一句话触发 PPT 生成全流程（素材收集→风格定义→内容规划→模板选择→逐页生成→AI 生图→部署上线） |
+| 2 | `用混元无水印生图` | 调用混元 3.0 的 LogoAdd=0 参数生成无水印图 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 15 页 HTML 网页演示文稿（不是 .pptx 文件）
+2. 中国古典风格视觉体系（朱砂红标题/金色装饰线/米色纸底/云纹元素）
+3. 5 章节结构（作品概览/故事梗概/主要人物/经典章回/文化价值与深远影响）
+4. 封面背景图+取经路线图（混元 3.0 无水印生成）
+5. 在线地址：https://7163acfc8b4f4c6690120ef81e7e4005.app.codebuddy.work/?page=1
+6. 三端自适应（PC 键盘翻页+手机自适应浏览）
+
+### 结果证明
+
+![一句话触发PPT生成全流程](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNy9WbdgicLOyB7KQWKf8lgLt8ErcNx6r9nDzPdZW3ia9ojW7I1gZAYiaTbs7XOzjBoiabjwKh1WqibiacwXdnp3LnFXmiarJX6Ed1Qms/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![西游记封面页](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM8WZkedg0sIibP7ptsiaB4YvhQuDG93nsu8rRs2ngKZdO6hWgYib7rPRLRFAsk6mhHuEam7J9gpDaJy6BxI2N9tu4BFlOrPQ6oo4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![西游记内容页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN95fomw2diaFoUgkonk5GWuOuP9tW7AmANTFomu3GQSzHOq92iaWWyZxp5SnTXX5rSa8fVu0SVzcwNPXAFdBj4OtTvw5z5x21LQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![西游记章节过渡页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPe6jnWE2FejjImYP3hdkwkNcT1txkI6x5cel11SU1RLyiaFndMVR0b9uRR4GQ6I5UHYoswSyoz7CyfmUrUApKkXPS9XFSI2zSM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![西游记人物对比卡](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROStuy3x8VjibQXZ9p6PU9Vk7EkkJzs587ojX8O9CMkSqvXE71MQO7oPA2cdnnD6Ag30MX0b9QTVBoquic1sXnvgmynY8BibibHtlY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![西游记文化价值页](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROuQok0fbAVsL1ibAJ3vjq4aG0drqicM5JeSmZvNPjrzt5akkQRuOEcicMH28dfDXgeOQOyxugLm25OFWYKQDrvLouYRNKkATKDQU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![混元无水印生图结果](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMDVw3iaiaYYAgf5ibuHDUiatIlgP2oOiclISmU8b4JhBMic2DCr1E2icQMFmaoZM5LycwoDmCQXfcS2b5r82jibia6Jn8eicMIs2QarDePo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![在线网页PPT翻页效果](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPPCc2xB9WDvibAqn3yMurBq0cbma7xuicBaO7FLVtWOMAl8K4WUj12icc1cx6aWjMrK3ibzibKia36m7Z0VzV6GwhH7dIq17QNSxkBw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+## 八、验收标准
+
+- [ ] 一句话"请生成一个关于介绍西游记的PPT"触发全流程
+- [ ] 自动完成 7 个阶段：素材收集/风格定义/内容规划/模板选择/逐页生成/AI 生图/部署上线
+- [ ] 生成 15 页 HTML 网页演示文稿（不是 .pptx 文件）
+- [ ] 第 1 页封面（西游记大字标题+中国古典四大名著副标题+国风山水背景）
+- [ ] 第 2 页目录（5 个章节导航）
+- [ ] 第 3/6/8/10/12 页过渡页（5 个章节）
+- [ ] 第 4/5/7/9/11/13/14 页内容页（7 个内容页）
+- [ ] 第 15 页结束页（印章设计+谢谢观看）
+- [ ] 中国古典风格视觉统一（朱砂红标题/金色装饰线/米色纸底/云纹元素）
+- [ ] 过渡页统一红黑渐变，章节数字淡入背景
+- [ ] 用混元 3.0 的 LogoAdd=0 参数生成无水印封面背景图和取经路线图
+- [ ] 自动部署到 CloudStudio 沙箱返回公网链接
+- [ ] 链接打开键盘左右键能翻页，手机自适应浏览
+- [ ] 全程零操作，没有任何一步需要选择或确认

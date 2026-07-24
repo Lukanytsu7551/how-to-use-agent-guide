@@ -1,0 +1,120 @@
+# Case 40｜5 分钟生成一份调查问卷并上线
+
+> **WorkBuddy 案例集 · 第 40 篇**
+> 分类：网站与应用开发
+
+---
+
+## 一、场景描述
+
+在 WorkBuddy 探索模块随便翻，突然看到一个"在线问卷调查"的功能入口，顺手点了一下，就填了个公众号名称，其他什么都没管。没想到几分钟之后，真给生成了一个超完整的问卷页面——欢迎页、进度条、各种题型、甚至还带平滑过渡动画。按传统方式写这个页面，HTML + CSS + JS 起码要搞半天，结果在这里动动手指就出来了。
+
+当然，第一版有点小瑕疵：点击下一题时页面会抖动一下，移动端体验不太好。后来又让 WorkBuddy 帮着修了 Bug、做了移动端适配，最后还让它把文件复制到项目目录并改名。整个过程不到 10 分钟，全是"动动嘴"完成的。
+
+问卷涵盖的题型很全：单选题（了解渠道）、多选题（常用内容类型，最多选 4 项）、NPS 评分（0-10 量表，标注贬损者/中立者/推荐者）、满意度矩阵（5 个维度 x 5 星评分）、开放问答（改进建议）、下拉单选（职位）、是否题配条件分支追问。每屏一题，提供上一题/下一题导航，完成页含 SVG 勾选动画与回答摘要，全部样式内联零外部依赖。最终问卷上线地址：https://panda.yaniw.com/survey。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 探索模块一句话生成一个交互式在线问卷页面（含欢迎页、进度条、7 种题型、完成页摘要），修复切题抖动 Bug 与移动端适配问题，复制到项目目录并改名上线。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 探索模块 · 在线问卷 | 一句话生成交互式问卷单文件 HTML | WorkBuddy 探索模块 | WorkBuddy 账号 |
+| Craft Auto 技能 | 自动调用前端开发能力构建问卷页面 | 内置技能 | 本地文件读写 |
+| 代码自检与修复能力 | 定位切题抖动 Bug（position 混用）与移动端适配问题 | 内置能力 | 本地文件读写 |
+| 文件复制与改名能力 | 把生成的 HTML 复制到目标项目目录并改名 | 内置能力 | 本地文件读写 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（版本含「探索」模块）
+2. 网络可用，能正常加载探索模块能力
+3. 准备好问卷主题与题型清单（也可让 WorkBuddy 自己判断）
+4. 工作区可写入文件（用于保存问卷 HTML）
+5. 如需上线，准备好目标项目目录路径
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：说出需求
+直接告诉 WorkBuddy："请为「我与AI那些事 用户满意度调查 2026」设计一个交互式在线问卷页面。需包含欢迎页、进度条、单选/多选/NPS/矩阵/开放/下拉/是否题+分支，每屏一题，平滑过渡，完成页含摘要，全中文，单 HTML，禁止外部资源"。没有设计稿没有参考图，WorkBuddy 直接开始生成。
+**关键步骤**：需求越具体越好——题型清单、交互效果、设计风格、技术约束（单 HTML、禁止外部资源）一次性给全。
+
+### 步骤 2：一次生成，9 屏全搞定
+大约几十秒后，一份完整的问卷页面就出现在面前：欢迎页（标题、简介、匿名提示、预计用时 5 分钟、开始按钮）、7 道题目（涵盖所有题型）、完成页（SVG 勾选动画 + 回答摘要）、进度指示器、所有样式内联零外部依赖。页面结构共 9 屏：欢迎页、第 1 题单选题（了解渠道 5 个选项）、第 2 题多选题（常用内容类型 8 个复选项最多选 4 项）、第 3 题 NPS 评分（0-10 量表红/黄/绿三段配色）、第 4 题满意度矩阵（5 个维度 x 5 星评分带弹跳动画）等。
+**关键步骤**：一次生成即覆盖所有题型与交互，无需分步迭代。
+
+### 步骤 3：发现 Bug，快速修复
+第一版有个小问题：点击下一题时页面会抖动一下，移动端体验不太好。又发了一条："这里有个 bug，点击下一题后，滚动有问题，二是移动端适配处理下"。WorkBuddy 读取 survey-2026.html 后定位到三个核心问题：① 滚动 Bug——切题后页面不会自动滚到顶部，旧 slide position: absolute 与新 slide position: relative 混用，导致 viewport 高度计算乱跳，引发页面抖动/滚动错位；② 过渡动画竞态——直接操控 style.transform/opacity 与 CSS class 过渡冲突，新 slide 进场方向不稳定；③ 移动端——NPS 按钮太小、矩阵在窄屏溢出、触摸目标高度不足、进度百分比被按钮遮挡。
+**关键步骤**：直接描述看到的现象（"点击下一题后滚动有问题"+"移动端适配处理下"），不用解释原因，WorkBuddy 自己定位。
+
+### 步骤 4：WorkBuddy 重写过渡逻辑
+修复方案：旧 slide 先切为 absolute + 退场动画（不再撑高容器），新 slide 立即 active（position: relative）撑高容器然后触发入场过渡，切屏后立即执行 window.scrollTo(0, 0, behavior: 'instant') 彻底消除滚动偏移。进度百分比改为居中悬浮小胶囊样式，内容改为"第 N/7 题 · XX%"。移动端适配：NPS 按钮最小高度 44px 间距收窄至 3px、星号评分触摸区保证 32x36px、多选题 ≤520px 改为单列布局、是否题 ≤360px 竖排按钮、条件分支 max-height 放大至 320px 防止选项被截断、导航按钮最小高度 48px、底部 env(safe-area-inset-bottom) 适配刘海屏。
+**关键步骤**：对 survey-2026.html 进行多处编辑（进度百分比节点、goToSlide 函数重写、移动端媒体查询），修复后切题无抖动、移动端体验正常。
+
+### 步骤 5：文件复制，更名上线
+调查表做好了，需要复制到项目目录并改名。直接说："帮我把生成的调查表重命名简单的名字，复制到这个目录..."。WorkBuddy 自动检查目录、复制文件、验证结果，一步到位。原文件 /Users/zgedu/Desktop/works/survey-2026.html 复制为新文件 /Users/zgedu/WorkBuddy/Claw/panda-bamboo-game/survey.html，重命名为简洁的 survey.html 方便后续引用。
+**关键步骤**：单 HTML 文件直接可以部署，无需构建。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `请为「我与AI那些事 用户满意度调查 2026」设计一个交互式在线问卷页面。需包含欢迎页、进度条、单选/多选/NPS/矩阵/开放/下拉/是否题+分支，每屏一题，平滑过渡，完成页含摘要，全中文，单 HTML，禁止外部资源` | 一次性丢出完整问卷需求，触发自动生成 |
+| 2 | `这里有个bug，点击下一题后，滚动有问题，二是移动端适配处理下` | 描述 Bug 现象，触发 WorkBuddy 自检与修复 |
+| 3 | `帮我把生成的调查表重命名简单的名字，复制到这个目录...` | 触发文件复制与改名，准备上线 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一个交互式在线问卷单文件 HTML（survey.html，零外部依赖）
+2. 9 屏页面结构（欢迎页 + 7 道题 + 完成页）
+3. 7 种题型全覆盖（单选、多选、NPS、满意度矩阵、开放问答、下拉单选、是否题+条件分支）
+4. 顶部进度条（实时展示完成度百分比，居中悬浮小胶囊样式）
+5. 完成页（SVG 勾选动画 + 回答摘要 + 重新填写按钮）
+6. Bug 修复（切题抖动 + 过渡动画竞态 + 移动端适配）
+7. 在线访问地址：https://panda.yaniw.com/survey
+
+### 结果证明
+
+![WorkBuddy 探索模块入口与在线问卷功能](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRM9DT2MeTJebYO41yhTcsbhXkCxwOouWYnTNoXhGmEaJ42GxcJKx9vzXKXsZVcISUpmpuXr23H4hN08bk980icXQZ1HKNlhHBsw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![一次性提交完整问卷需求与 WorkBuddy 响应](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPSKSibkcSSgyyE8TJHWKTEQ8o7kuRZQytTk9fCz7QIgoX7QVYfiawppcV1CZytvRNOL80quMLTvQRb18bU1T7Zot2byBnEqM03c/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![问卷欢迎页（标题、简介、预计用时、开始按钮）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN8uNvwDWSI8oWQH8glk1XaGG1n1GO9jgkY4sCFibiahM6iaMyGcblYRKhcfYyhwqXceyO59Ct4SyUhkCkQianvVnopeM3BjviaAWXk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![完成页（SVG 勾选动画 + 回答摘要）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfpmwuUWScRPJichLvqZsg8nAjNp66z6DpibNZ6zSdsQoX1GScqdokXptLC7zmpAib29FTLTGIG2cWEPIcOwziaAl2bj0ibrn6ZB0w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![第一版 Bug：切题时页面抖动](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROia6AUA4mK8zBsIwaYZxEjbWZDwWaYFSic9JNAcLvwnBv3BjDcwMnFoosJVZicroV9NKszlGyYAvPYI0m3kEVnCv6On2z2rhPxJQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![WorkBuddy 定位 Bug 根源并重写 goToSlide 函数](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROe1gfI8K4icXUicJeRYtDQmxfQYf7f8yibugfzoMaia9VVKKvM5YwLot8T5n9IQj6yhustiaNWDzxJibaNeG0IYVjpG8NzfYPscfRMM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![Bug 修复方案与移动端适配细节](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMZKNjPkv96dddNFXRsNvzmDpv7f9icpuic3scNgiaufRJpI4ibSvIYNkaYBI2hIqwH8A0LxyBBYQs97rItD8ibeLkQfyic1TKKicreuU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![文件复制改名上线](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNLsg1Xsa5aSd0m6JNyOhtrZtQfwwuAsC9RXiaE0TDEmzBAxexibWKy1AWbC7ibpQMuqFmNx9kjFXF24EduqAGnTOAzy4icRtjgPbA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+### 传统方式 vs WorkBuddy 方式
+
+| 维度 | 传统方式 | WorkBuddy 方式 |
+|---|---|---|
+| 开发 | HTML + CSS + JS 起码半天 | 一句话几十秒生成 |
+| 题型覆盖 | 逐个实现 | 一次生成 7 种题型 |
+| Bug 修复 | 人工排查 position 混用 | 描述现象，AI 自检修复 |
+| 移动端适配 | 手写媒体查询 | 自动适配 NPS/矩阵/按钮/刘海屏 |
+| 上线 | 构建部署 | 单 HTML 复制即上线 |
+| 总耗时 | 半天 | 不到 10 分钟 |
+
+## 八、验收标准
+
+- [ ] 成功在「探索」模块触发在线问卷能力
+- [ ] 一次性提交完整需求（含题型清单、交互效果、设计风格、技术约束）
+- [ ] 生成单文件 HTML，全部样式内联，零外部依赖
+- [ ] 页面结构包含 9 屏（欢迎页 + 7 道题 + 完成页）
+- [ ] 覆盖 7 种题型（单选、多选、NPS、满意度矩阵、开放问答、下拉单选、是否题+条件分支）
+- [ ] 顶部进度条实时展示完成度百分比
+- [ ] 完成页含 SVG 勾选动画与回答摘要
+- [ ] 修复切题抖动 Bug（重写 goToSlide 函数，先 absolute 入场再 relative 撑高再滚顶）
+- [ ] 移动端适配（NPS 按钮 ≥44px、星号触摸区 32x36px、多选 ≤520px 单列、是否题 ≤360px 竖排、导航按钮 ≥48px、底部 safe-area 适配）
+- [ ] 成功把文件复制到目标项目目录并改名为 survey.html
+- [ ] 问卷可在线访问（https://panda.yaniw.com/survey）
+- [ ] 全流程从需求到上线不到 10 分钟

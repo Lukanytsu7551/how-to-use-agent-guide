@@ -1,0 +1,131 @@
+# Case 35｜112.33 积分体验中文法律咨询团，避坑合伙开公司法律风险
+
+> **WorkBuddy 案例集 · 第 35 篇**
+> 分类：金融投资与专业咨询
+
+---
+
+## 一、场景描述
+
+朋友问：和人合伙创业，技术入股，合伙协议需要注意什么？这种问题以前只能花几百上千块去问律师，或者在网上搜一堆说不清楚的文章。正好 WorkBuddy 新上线了"专家团"功能，里面有中文法律咨询团，就拿这个真实场景测了一下。
+
+按以往经验，AI 这时候要么直接说废话，要么甩一篇大而全的文章。但这次不一样——专家团先来收集信息。方助理（信息采集专员）没有直接回答，而是发来一份结构化问卷，覆盖合伙人基本信息、公司基本信息、合伙协议现状、核心关切点、特殊情形五大类问题。信息填得越完整，报告质量差距就越大。
+
+填完问卷后，系统启动多专家协作流程：方助理整理案情、周法官检索法条、沈判官查找判例、钱顾问撰写建议、林律师统筹汇总。整个过程几分钟完成，消耗积分 112.33，远低于请律师动辄上千块的咨询费。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 中文法律咨询团（专家团 Beta），针对"3 位合伙人、技术入股、拟设立股份有限公司"的真实场景，输出含案情摘要、适用法条、参考判例、风险评估、行动建议的完整法律咨询报告，帮助技术出资方避坑合伙开公司的法律风险。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 专家团（中文法律咨询团 Beta） | 4 阶段 SOP 多角色协作：案情采集 → 法条研究 + 判例分析 → 综合建议 → 咨询报告 | WorkBuddy 专家市场 | WorkBuddy 账号 + 积分 |
+| 多 Agent 协作能力 | 方助理 / 周法官 / 沈判官 / 钱顾问 / 苏文书 / 林律师 6 个角色分工协作 | 内置能力 | 调用专家团 |
+| 文件落盘能力 | 把最终咨询报告以 Markdown 格式保存到 deliverables 目录 | 内置能力 | 本地文件读写 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 在专家中心找到"专家团 Beta"分类，激活"中文法律咨询团"
+3. 账号具备足够积分（本次消耗 112.33 积分）
+4. 准备好真实案情信息（合伙人数量与关系、出资方式、公司类型、行业、注册资本、当前阶段等）
+5. 网络可用，可正常调用专家团
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：提出问题，触发 4 阶段 SOP
+直接扔一个很泛的问题："我和朋友合伙开公司，请帮我梳理合伙协议中需要注意的法律风险"。中文法律咨询团主理人林律师回应，说明将按 4 阶段 SOP 提供服务：Phase 1 案情采集（方助理 Iris 结构化采集）→ Phase 2 法律研究（周法官 Rex 检索法条 + 沈判官 Cara 分析判例，并行）→ Phase 3 综合建议（钱顾问 Adam 撰写初稿）→ Phase 4 咨询报告（苏文书 Fiona 整合成正式报告）。
+**关键步骤**：专家团不直接回答，而是先发结构化问卷采集信息。
+
+### 步骤 2：方助理发送结构化问卷
+方助理（Iris）发来一份覆盖五大类的结构化问卷：一、合伙人基本信息（数量、关系、出资方式、出资比例）；二、公司基本信息（类型、行业、注册资本、注册地）；三、合伙协议现状（是否已起草、是否已签署、当前阶段）；四、核心关切点（最担心的风险、特定争议点）；五、特殊情形（隐名合伙、股权代持、特殊约定、竞业限制、知识产权归属）。
+**关键步骤**：问卷明确标注"本环节仅做信息收集，不提供任何法律建议"。
+
+### 步骤 3：补充具体情况，启动多专家协作
+按问卷填了真实信息："3 位合伙人，一位朋友，一个亲戚，我出技术，他们出钱，股份有限公司，行业：互联网、技术研发、AI 培训，拟注册资本：100 万，其他事项都没有考虑。"系统启动多专家协作：方助理整理当事人信息、周法官检索法条、沈判官查找判例、钱顾问撰写建议、林律师统筹汇总。
+**关键步骤**：5 个角色分工协作，周法官与沈判官并行工作提升效率。
+
+### 步骤 4：查看法条部分——47 条适用法条
+周法官梳理了整整 47 条相关法条，涵盖《公司法》（2024 年 7 月 1 日新修订版）核心条款、《民法典》合伙合同章节（第 967-978 条）、《合伙企业法》相关条款。其中两条最关键：第 116 条（股份有限公司"一股一权"，谁出钱多谁话语权大，这是技术出资方的最大隐患）、第 48 条（技术出资必须评估作价，不得高估或低估，需委托法定评估机构）。
+**关键步骤**：识别出技术出资方的两大法律隐患——控制权弱势与评估作价合规要求。
+
+### 步骤 5：查看判例部分——10 个参考判例
+沈判官找来 10 个相关判例，其中几个很有参考价值：判例 1 技术专家甲与 A 公司案（技术出资必须签书面专利权转让合同，公司不得擅自登记专利权）；判例 2 技术"缩水"案（因经营不善导致技术价值减损，股东无需补足出资，对技术出资方是利好）；判例 3（2012）沪二中民四（商）终字第 65 号（发起人协议与公司章程冲突时，涉及第三人利益以章程为准，不涉及以发起人协议为准）。
+**关键步骤**：判例带相似度评级与"与本案关联性"说明，可直接对应到技术出资方的具体场景。
+
+### 步骤 6：查看核心建议——5 条具体行动建议
+钱顾问和林律师给出 5 条具体行动建议，最重要的 3 条：① 建议改设有限责任公司（股份有限公司"一股一权"无法约定差异化投票权，有限责任公司可在章程中约定"不按出资比例行使表决权"，对技术出资方是最关键的控制权保护）；② 技术出资必须走完整合规流程（委托法定评估机构出具评估报告 → 签书面技术/专利权转让合同 → 办理权属转移手续，缺任何一步都是出资瑕疵）；③ 发起人协议要明确 12 项核心条款（各方信息、出资方式与金额、技术评估方法、表决权安排、利润分配、退出机制、违约责任、争议解决方式等）。
+**关键步骤**：胜诉风险综合评级为🟡中，首选处置路径为协商（推荐度 95% 成功率）。
+
+### 步骤 7：下载完整 Markdown 咨询报告
+最终输出一份完整的 Markdown 格式咨询报告，包含：案情摘要、47 条适用法条（带全文）、10 个参考判例（带相似度评级）、权利义务分析、风险评估（综合评级🟡中）、5 条具体行动建议（带时间窗口）、重要声明。文档可直接下载，留存备用。
+**关键步骤**：报告附"基于当事人自述的初步法律意见，不构成正式法律意见"声明，建议正式签约前咨询执业律师复核。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `我和朋友合伙开公司，请帮我梳理合伙协议中需要注意的法律风险` | 触发中文法律咨询团启动 4 阶段 SOP |
+| 2 | `3位合伙人，一位朋友，一个亲戚，我出技术，他们出钱，股份有限公司，行业：互联网、技术研发、AI培训，拟注册资本：100万，其他事项都没有考虑。` | 按方助理问卷补充真实案情，触发多专家协作 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一份完整 Markdown 格式法律咨询报告（案情摘要 + 47 条法条 + 10 个判例 + 权利义务分析 + 风险评估 + 5 条行动建议 + 重要声明）
+2. 47 条适用法条清单（带全文与生效日期，涵盖 2024 年新版《公司法》、《民法典》、《合伙企业法》）
+3. 10 个参考判例清单（带相似度评级与"与本案关联性"说明）
+4. 5 条具体行动建议（含改设有限责任公司、技术出资合规流程、12 项核心条款）
+5. 风险评估（综合评级🟡中，首选协商 95% 成功率）
+6. 股份有限公司 vs 有限责任公司对比表
+
+### 结果证明
+
+![WorkBuddy 专家团 Beta 入口与中文法律咨询团](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNDrGOUcwZ0glBh63TYYDlqBrMRpVj5thNKWW6ksGfA8119zxCKTkhIacMr1l8cHu2m4zhAkgX7vZKa7v15cHvrlFrKL5Juiazw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![林律师说明 4 阶段 SOP 咨询流程](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMYicMekLtsvbCb5yhqZ6FrF6y7NgA8Q5JngLg1nEw8icmnknTsWsDHziamlLxyDVqz7QQ7aQiaoviaTSdRda4gmvOqJyNmZlCpiaSL4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![方助理发送结构化信息采集问卷](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROT3eEHseXghojPGbW1TrfnoG9XxkThLlGw81FjVk8WRxLX9gFv1iaAP2csZd3ib882tNGRktPS3yXibybUDHR4UWYL7Iibv8Iksrs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![补充真实案情后多专家协作启动](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMpv49SnFTcYG0Gs8SHfzR4oHSVJ2SKJzAQL2Zdn4vK1IuDQkbc904SznBEiaddic1YLyAmNghAjOQ0UNdH6fd6JNib1LticGOJVoI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![任务收尾总结：4 阶段 SOP 完成情况](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMJTgFeVtLloIG2UVZib66MY4XPuTttTE2p86sQG42GCIk1iaEd0kocyHib7wnUATwh6FCYDz0eZKHAZ6vA7AMM8aueD0j4WD8kpA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![周法官检索的 47 条适用法条清单](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROUun4Z3tYJbtZqMY6Of461vfY1PxFMqxsaCtulAVexSnrw6gribRe6cibIudIibEC9vEPkxrp5xeWBAkhaXJ5VFW9tMSoaicfCe9Q/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![沈判官检索的参考判例清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMr2wesp9jd4I9VM1kQkiaDrBSkxkgXT4cYqOaRFnrFCL8Xqd1TJ4FDunicdiaXWQuiaml2XqNm3844zEyXl11h6dsFWz9KF0GxxSI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![技术出资相关判例补充](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROafxoShF2iabaaqS2Z6euicfVuV511EhA0eXtnInu3KSUJW9ag2iayjtYTvkzicibPguYBe8IqIvr1z5vZ0snOGFE40CBZsrfghUxw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![股份有限公司 vs 有限责任公司对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMOGW0Prul5ciaCwq9OkAPicTne6PGMvdXyrlNTlJDSv2Vf6auRdENzo6ezKthObkD28SgubfNn8Q09IXWfLn3iaHsGO3Vqra5nAM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+![完整咨询报告目录结构](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPxTgmpAmze3W5JEhuW4cPAzibcMF02CYFB2EU9ibvV2Pdz9bQ2IwhuoyV20QJjjWian6QaoYhibxc2o9etGsq2OvudPgbqudaBnl0/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9)
+
+![咨询报告 TL;DR 一页摘要与核心结论卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN1ol9DABJtwUHlxYYy8DTLm9m4P5xGyD7Mgg7hxvNiaFLkOIeKyMuGKdibL31JPiaWWQTnW57bJD6ad3vQ26cNTkH5l4eC1OBZbo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10)
+
+![案情时间线与当事人诉求](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMmd4e6Xc5Xf5WibBQS5iaax4Hbk5RWLLGvFPxOA8GkMO9pz3h7h8bC1vtOR9dlsapvqL6Lpicz7RxPgwzkdTK1Utzjr6oWRun6MA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11)
+
+![风险与时效提醒及待补充信息](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPBErALz1ol4MjdQLO1P07DRM2PLVd1SFs8sBwtN1OLKSaF1HLia5VoJ369aa9Tw71bibTEA54fzJWppFM51icrfoE3DOySSSE9LQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12)
+
+### 成本对比
+
+| 方式 | 成本 |
+|---|---|
+| 请执业律师咨询 | 几百至上千元 |
+| 用 WorkBuddy 中文法律咨询团 | 112.33 积分 |
+
+## 八、验收标准
+
+- [ ] 成功在专家团 Beta 激活"中文法律咨询团"
+- [ ] 林律师说明 4 阶段 SOP（案情采集 → 法条研究 + 判例分析 → 综合建议 → 咨询报告）
+- [ ] 方助理发送结构化问卷，覆盖五大类信息（合伙人基本信息、公司基本信息、协议现状、核心关切点、特殊情形）
+- [ ] 用户提供真实案情后，5 个角色（方助理/周法官/沈判官/钱顾问/林律师）分工协作
+- [ ] 周法官检索至少 47 条适用法条，含 2024 年新版《公司法》、《民法典》、《合伙企业法》
+- [ ] 沈判官检索至少 10 个参考判例，带相似度评级与"与本案关联性"说明
+- [ ] 钱顾问与林律师给出至少 5 条具体行动建议（含改设有限责任公司、技术出资合规流程、12 项核心条款）
+- [ ] 输出股份有限公司 vs 有限责任公司对比表
+- [ ] 输出风险评估（综合评级🟡中）与首选处置路径（协商 95% 成功率）
+- [ ] 最终报告以 Markdown 格式落盘保存，可直接下载
+- [ ] 报告附"不构成正式法律意见"声明
+- [ ] 整个流程消耗积分约 112.33

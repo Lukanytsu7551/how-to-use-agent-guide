@@ -1,0 +1,111 @@
+# Case 69｜微信开放AI生态了，我问WorkBuddy开发者能做什么
+
+> **WorkBuddy 案例集 · 第 69 篇**
+> 分类：AI能力扩展
+
+---
+
+## 一、场景描述
+
+收到微信开发者推送消息——微信 AI 生态开放给开发者接入了。作为一个开发者，第一反应是「我能做什么？」直接把问题丢给 WorkBuddy。它没有泛泛而谈，而是做了三件事：① 实时搜索当天最新信息，搜到 2026 年 6 月 8 日华尔街见闻的报道；② 抓取微信官方开发文档，拿到第一手接入指引（接入方式、运行机制、调试指南、最佳实践、设计规范）；③ 给出结构化分析（两种接入模式对比表 + 关键时间线 + 12 步操作清单 + 每步代码示例）。当天消息当天给方案，不是"我无法获取最新信息"的回复。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 实时搜索微信 AI 生态开放新闻，抓取微信官方开发文档，输出结构化的开发者操作清单（3 个阶段 12 个步骤），包含 SKILL 架构（SKILL.md/mcp.json/index.js/apis/components）、mcp.json 示例、原子接口实现、原子组件 GUI 卡片、中间件写法等代码示例。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| WebSearch 实时搜索 | 搜索当天最新新闻报道（华尔街见闻） | WorkBuddy 内置 | 无 |
+| WebFetch 网页抓取 | 抓取微信官方开发文档多个子页面 | WorkBuddy 内置 | 无 |
+| 结构化分析 | 把模糊需求变成对比表+时间线+操作清单+代码示例 | WorkBuddy 内置 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 拥有微信小程序开发者账号
+3. 能访问 developers.weixin.qq.com 官方文档
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：直接问核心问题
+把问题丢给 WorkBuddy：「今天微信开放微信AI了，我作为开发者，能做什么？」
+**关键步骤**：直接问模糊需求，WorkBuddy 自动调研。
+
+### 步骤 2：WorkBuddy 做三件事
+① 实时搜索当天最新信息：搜到 2026 年 6 月 8 日华尔街见闻报道——微信发布《关于开发者接入微信AI生态的指引》；② 抓取微信官方开发文档：直接访问微信开放平台开发者文档，拿到第一手接入指引，把相关子页面都抓了一遍（接入方式、运行机制、调试指南、最佳实践、设计规范）；③ 给出结构化分析：不是一段文字打发，而是分成清晰层次。
+**关键步骤**：AI 先搜索新闻再抓官方文档，基于一手资料给结论。
+
+### 步骤 3：WorkBuddy 给出答案
+微信AI = 内置在微信里的 AI 智能体，用户右滑就能对话，最大想象空间是调用小程序完成真实任务（订餐、预约、查订单、买票）。开发者核心要做的是把小程序变成微信AI可调用的"能力模块"。两种接入模式：自动模式（零开发，平台自动分析小程序页面，适合快速上车）；开发模式（需写代码，自己封装 Skill/接口，有定制需求）。两种可同时开启。关键时间线：2026-01 AI 成长计划启动→2026-04 扩展全行业→2026-06-08 发接入指引→近期合规审批→灰度测试→正式上线。
+
+### 步骤 4：要一份可执行清单
+说「好，给我一个具体的接入操作清单」。WorkBuddy 去抓了微信官方文档所有相关子页面，基于第一手资料输出 3 阶段 12 步操作清单。
+**关键步骤**：从"能做什么"到"具体怎么做"，每步有代码示例。
+
+### 步骤 5：第一阶段零成本上车
+Step 1 申请 AI 小程序成长计划（免费云开发环境 6 个月 + 腾讯混元 1 亿 Token + 流量激励）；Step 2 后台开「自动模式」（微信公众平台→基础功能→AI能力，或「微信开发者助手」小程序→管理→微信AI管理，授权平台读取源码，10 分钟搞定）。
+
+### 步骤 6：第二阶段开发模式
+SKILL 架构：每个 SKILL 是独立子包，包含 SKILL.md（业务说明书给 AI 看 ≤16KB）、mcp.json（接口定义输入输出 Schema ≤24KB）、index.js（注册所有原子接口必须）、apis/（原子接口代码实现）、components/（原子组件代码 GUI 卡片）。WorkBuddy 给了 mcp.json 示例（getWeather 接口定义）、原子接口实现代码、index.js 注册代码、原子组件 Component 代码、中间件写法（统一登录/日志/错误处理）。
+
+### 步骤 7：第三阶段调试与提交
+下载 Nightly 版微信开发者工具；用官方 Demo（github.com/wechat-miniprogram/ai-mode-demo）跑通流程；提交平台评测→通过后即可被微信AI调用；当前内测阶段暂未开放代码提审，可以先开发准备好。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `今天微信开放微信AI了，我作为开发者，能做什么？` | 触发实时搜索+文档抓取+结构化分析 |
+| 2 | `好，给我一个具体的接入操作清单` | 抓官方文档输出 3 阶段 12 步操作清单含代码示例 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 微信AI 开放新闻实时搜索结果（2026-06-08 华尔街见闻报道）
+2. 微信官方开发文档抓取内容（接入方式/运行机制/调试指南/最佳实践/设计规范）
+3. 两种接入模式对比表（自动模式零开发 vs 开发模式需写代码）
+4. 关键时间线（2026-01 AI成长计划→2026-04 全行业→2026-06-08 接入指引→近期灰度测试→正式上线）
+5. 3 阶段 12 步操作清单
+6. SKILL 架构说明（SKILL.md/mcp.json/index.js/apis/components）
+7. mcp.json 示例代码（getWeather 接口定义）
+8. 原子接口实现代码（apis/getWeather.js）
+9. index.js 注册代码
+10. 原子组件 Component 代码（GUI 卡片）
+11. 中间件写法代码（统一登录/日志/错误处理）
+
+### 结果证明
+
+![微信开放公告](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPgnC66H88Zgzc9W8IicQr5ibH9hpY7D7LAoibR8CB49Nh5UlO1HhjD4XAKgahFUgJcE7zKxOg2XJxzXzs8XcbQenBpdA1yPeufCE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![直接问核心问题](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRN7JicmJUDicLIacfHjbNqosWnPt2kuwpMwHicYFBQgmn459W0ETMDFhEibticYYDEcQ4ObFS5X5mfePhXk9A4rprQ2KHSYoWCBs1Ys/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![你能做的事](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7MibJ2Wpv5oSK9faPgarib3GfauMUDEfzPmZCibicmeMDtyzSuD44GYqFfuqn9EQQUiayDzA8yPP8AiapNgJqSAd18eFQaNmMVic5rc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![要操作清单](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPc8MiaZEfp1hZq9qOYpPzwzKl8uIptKQEZrrvTOXBayibvZuI2CnDepIroiaiaPIFr2P3vrQTej3fu0lrxx8JgN5exxicl6kzBtVicc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![后台开自动模式](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPQyvLrv4AK1wMtMdibKS0ciaH2VjTEAibc4AQmGBWsWLcK57GroKLibAF5r0MAqndGBkEbEALnLDVxtsAc87TYKmewwC0s3hxXL34/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![SKILL 架构](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRO5ULv53LNhsGyGBibcCm5QmyKkfUSpMy1P422YTSZHTuC5gicTykTCUHYtC2CcBzYXBaBs6JVAwhvE3xp97jM2Iavvp5qO5q0vQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![清单概览表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNIKK3wtxaSUuGcckiaicKnQa7zq5pHbAmQ6t4GdcH6iaqroZgZcAAL1Qdsia8WAS1cpibh7YqgbdW2hY1tMtZUiblkzkcsFljEwf6Ko/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+## 八、验收标准
+
+- [ ] 「今天微信开放微信AI了，我作为开发者，能做什么？」触发实时搜索
+- [ ] 搜到 2026-06-08 华尔街见闻报道
+- [ ] 抓取微信官方文档多个子页面（接入方式/运行机制/调试指南/最佳实践/设计规范）
+- [ ] 输出两种接入模式对比表（自动模式零开发 vs 开发模式需写代码）
+- [ ] 输出关键时间线（2026-01/2026-04/2026-06-08/近期灰度测试/正式上线）
+- [ ] 「给我一个具体的接入操作清单」输出 3 阶段 12 步操作清单
+- [ ] 第一阶段：申请 AI 成长计划（6 个月云环境 + 1 亿 Token + 流量激励）
+- [ ] 第一阶段：后台开自动模式（10 分钟搞定）
+- [ ] 第二阶段：SKILL 架构包含 SKILL.md（≤16KB）/mcp.json（≤24KB）/index.js/apis/components
+- [ ] 第二阶段：有 mcp.json 示例代码（getWeather 接口定义）
+- [ ] 第二阶段：有原子接口实现代码（apis/getWeather.js）
+- [ ] 第二阶段：有 index.js 注册代码
+- [ ] 第二阶段：有原子组件 Component 代码
+- [ ] 第二阶段：有中间件写法代码
+- [ ] 第三阶段：下载 Nightly 开发者工具 + 跑官方 Demo + 提交评测
+- [ ] 当天消息当天给方案，不是"无法获取最新信息"回复

@@ -1,0 +1,92 @@
+# Case 62｜API报错了？AI换了个办法，把公众号后台数据全拉下来了
+
+> **WorkBuddy 案例集 · 第 62 篇**
+> 分类：数据分析与可视化
+
+---
+
+## 一、场景描述
+
+日更了两个多月的公众号，想看看最近哪些文章受欢迎、哪篇爆了、每天阅读量是涨还是跌。微信后台有「内容分析」功能，本以为应该有接口可以直接拉数据，结果让 WorkBuddy 一查——订阅号没有数据接口权限。微信开放平台的 getarticletotal 只有服务号才能用，订阅号只配肉眼翻页。正门不让进，那就走窗户：让 WorkBuddy 打开浏览器，模拟登录公众号后台，把数据抓下来。
+
+## 二、想要完成的任务
+
+用 WorkBuddy + Playwright 浏览器自动化技能，模拟登录微信公众平台后台，翻页抓取全部 63 篇文章的标题、日期、阅读量、分享数、收藏数等数据，写 Python 脚本把原始数据结构化成 JSON，然后按任意条件（时间段、系列）进行统计分析。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| Playwright 浏览器自动化 | 打开浏览器模拟登录微信公众平台，翻页抓取已发布内容列表数据 | WorkBuddy 内置 | 微信公众号账号 |
+| Python 脚本执行 | 解析原始数据为结构化 JSON，支持多种日期格式识别 | WorkBuddy 内置 | 无 |
+| 数据统计与分析 | 按时间段、系列过滤条件统计阅读量、分享数、日均等 | WorkBuddy 内置 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 拥有微信公众号订阅号或服务号账号
+3. 能用手机微信扫码登录微信公众平台后台
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：API 路线走不通
+让 WorkBuddy 查微信开放平台的数据接口，发现订阅号没有数据接口权限，getarticletotal 只有服务号才能用。
+**关键步骤**：确认 API 不可用后，切换到浏览器自动化方案。
+
+### 步骤 2：Playwright 打开后台扫码登录
+WorkBuddy 用 Playwright 打开微信公众平台后台页面，用手机微信扫码登录。登录后自动跳转到「已发布」内容列表页，每篇文章的标题、日期、阅读量、分享数、收藏数都列在那里。一页 20 条，63 篇得翻 4 页。
+
+### 步骤 3：逐页抓取原始数据
+WorkBuddy 一页一页翻，一条一条记。几分钟不到，63 篇文章的全部数据拉下来了，保存为 wechat-article-data.json 和 wechat-may16-31stats.json。
+**关键步骤**：Playwright 自动翻页抓取，无需手动操作。
+
+### 步骤 4：写 Python 脚本结构化数据
+原始数据标题和数字混在一起，日期格式也不统一（「昨天 14:57」「星期六 18:26」「05月25日」三种格式）。WorkBuddy 写了个 Python 脚本，自动识别日期格式，自动提取系列编号，把阅读量、分享数、收藏数整理干净，放进结构化 JSON。total_articles: 63，total_reads: 77164，avg_reads: 1224.8。
+
+### 步骤 5：按条件统计
+第一次统计 5 月 16 到 31 号的数据，发现多出了两篇非系列文章（「AI实操交流群」「ChatGPT 注册协助服务」）。于是加过滤条件：只统计标题里带「100种用法」的。结果：16 篇系列文章总阅读量 6,360，总分享 140，日均阅读 398。
+
+### 步骤 6：多维度分析
+最火文章：第 48 期（用官方 Skill 让 WorkBuddy 接管微信读书），721 阅读；全系列真正爆款是第 18 期（Gemma 4 接入），16133 阅读，是平均水平的 13 倍。最冷文章：第 57 期（腾讯问卷连接器），201 阅读。趋势：5 月上半月日均 455，下半月日均 340，下降 25%。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | （原文未直接引用，为 WorkBuddy 自动查接口发现 API 不可用） | 确认订阅号无数据接口权限，切换到浏览器自动化方案 |
+| 2 | （Playwright 自动打开后台扫码登录并翻页抓取） | 模拟登录微信公众平台后台，抓取 63 篇文章全部数据 |
+| 3 | （WorkBuddy 自动写 Python 脚本解析原始数据） | 把三种日期格式的原始数据结构化为 JSON |
+| 4 | （原文：只统计标题里带「100种用法」的） | 加过滤条件排除非系列文章，统计 5 月 16-31 日数据 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. wechat-article-data.json：63 篇文章完整数据（标题、日期、阅读量、分享数、收藏数、系列编号）
+2. wechat-may16-31stats.json：5 月 16-31 日统计数据
+3. 结构化 JSON（total_articles: 63，total_reads: 77164，avg_reads: 1224.8）
+4. 5 月 16-31 日系列文章统计表（16 篇，总阅读 6,360，总分享 140，日均 398）
+5. 多维度分析结论（最火第 48 期 721 阅读/全系列爆款第 18 期 16133 阅读/最冷第 57 期 201 阅读/下半月日均下降 25%）
+
+### 结果证明
+
+![Playwright 打开微信后台](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM4fJeUlH8Swnf58Teia8yMo8ic0ziaAiaaU8596A5NJs0H8CukFS5zCkgovLNARhy0T800xX7xax729Q1SzpgfIicXoITFiaTnFG8fE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![抓取的数据文件](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNfPL4JjgjI8wtgJBcias1wK3HIoFXSo8URKa4uw851oLd2prVn7wMrFQa0fG2Zks0tiaTDMBTTohwvayZbyiao8hAweoRLuzDQ8k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![结构化 JSON 数据](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPpKLqH7aKAZPd7hM6NRQCWUNXQdlbOwrfjoGQeRhSZVW4PSiafJFt89go4TXjicFoCxQ5kQWb1d5KGWlYuzicypT9hiaicsuNTqqYo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![5月16-31日统计表](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMpdzYYqeN0aWhCvTaue9ud5f4S2DsZFop5uDYH6hicE57YEXUdFkQAKGYffsN0Lq9uhv0tyu2bp6HMKiaaEEE2hkJNcknjoicG1E/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+## 八、验收标准
+
+- [ ] 确认微信开放平台 getarticletotal 接口订阅号无权限
+- [ ] Playwright 打开微信公众平台后台并扫码登录成功
+- [ ] 自动翻页抓取 63 篇文章数据（每页 20 条，共 4 页）
+- [ ] 生成 wechat-article-data.json 和 wechat-may16-31stats.json 文件
+- [ ] Python 脚本能识别三种日期格式（昨天/星期X/MM月DD日）
+- [ ] 结构化 JSON 包含 total_articles: 63，total_reads: 77164，avg_reads: 1224.8
+- [ ] 5 月 16-31 日系列文章统计：16 篇，总阅读 6,360，总分享 140，日均 398
+- [ ] 过滤条件排除非系列文章（AI实操交流群、ChatGPT 注册协助服务）
+- [ ] 最火文章第 48 期 721 阅读，全系列爆款第 18 期 16133 阅读
+- [ ] 最冷文章第 57 期 201 阅读
+- [ ] 趋势分析：5 月上半月日均 455，下半月日均 340，下降 25%

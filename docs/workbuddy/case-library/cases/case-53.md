@@ -1,0 +1,100 @@
+# Case 53｜探索模块一句话，3个AI分析师自动开圆桌
+
+> **WorkBuddy 案例集 · 第 53 篇**
+> 分类：数据分析与可视化
+
+---
+
+## 一、场景描述
+
+有个朋友问："港股最近南向资金疯狂扫货，到底在买什么？三条主线追哪条？"这种问题以前得自己查半天数据——恒指多少点、南向净买入多少亿、科技股 PE 多少、高股息股息率几个点……查完还得自己琢磨。但这次直接打开 WorkBuddy 的「探索」模块，选【港股资金往哪流？三条主线怎么选】，点击制作我的版本。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 探索模块的「腾讯自选股股票投研专家团」自动调度 3 个 AI 分析师（星望远产业策略师、文衡价估值分析师、洲四方信号派首席），并行分析港股资金流向三条主线（科技估值修复、创新药、高股息），最终汇总成一份结构化 HTML 圆桌报告。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| 探索模块 | 预置场景库，一键触发圆桌分析 | WorkBuddy 内置 | WorkBuddy 账号 |
+| NeoData 金融搜索服务 | 并行拉取恒生指数/恒生科技/南向资金/核心个股实时行情 | WorkBuddy 技能市场 | WorkBuddy 账号 |
+| 腾讯自选股股票投研专家团 | 6 个 AI 分析师按问题自动选人组圆桌 | WorkBuddy 专家中心 | WorkBuddy 账号 |
+| Team 模式 | 自动创建 stock-partner-roundtable 协作团队 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 在专家中心能访问「腾讯自选股股票投研专家团」
+3. NeoData 金融搜索服务技能可用
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：在探索模块选场景
+打开 WorkBuddy「探索」模块，选【港股资金往哪流？三条主线怎么选】，点击制作我的版本。该场景使用的工具集是 NeoData 金融搜索服务，自动拉取全球多市金融数据。
+**关键步骤**：探索模块选港股资金流向场景并制作我的版本。
+
+### 步骤 2：输入分析需求
+指令原文："帮我分析港股资金流向，三条主线（科技估值修复、创新药、高股息）哪个持续性最好？当前该追涨还是等回调？"
+
+### 步骤 3：自动拉数据（NeoData 技能）
+WorkBuddy 自动调用 NeoData 金融搜索服务技能，并行查实时数据：恒生指数 25,606 点（5 日跌 1.37%，YTD 跌 0.1%）、恒生科技 4,870 点（YTD 跌 11.72%）、南向资金年内净买入 2,281 亿港元、核心标的行情（腾讯 441 港元、移动 85 港元、百济 34 港元）。每个数字都有数据来源可追溯。
+**关键步骤**：NeoData 技能并行拉取实时行情并标注来源。
+
+### 步骤 4：自动建团队调度三个分析师
+数据到手后，WorkBuddy 自动在「腾讯自选股股票投研专家团」里创建 stock-partner-roundtable 团队，把星望远、文衡价、洲四方三个成员拉进来。三人同时 spawn，并行工作，互不干扰。
+**关键步骤**：按问题自动选人——不是 6 个人全上，而是按问题类型选 3 个匹配视角。
+
+### 步骤 5：三人各干各的（用不同方法论看同一组数据）
+- 星望远（产业策略师）：景气度排序创新药>高股息>科技估值修复；创新药景气最高（ASCO 下周开会是催化剂、CDE 审批提速、出海放量）；科技修复持续性存疑；中东资本"半真半假"。
+- 文衡价（估值分析师）：高股息 PE 才 5.8-12 倍、股息率 4.75-6.11% 性价比碾压；中芯 PE 117 倍、康方 PE 70 倍贵得离谱；核心仓位高股息 50%+创新药 30%+科技 20%。
+- 洲四方（信号派首席）：四层信号对齐高股息 3.5 分/4 分、创新药 3 分/4 分、科技只有 2 分/4 分；5/21 大跌是技术回调不是趋势反转；恒指 25,000 是关键分水岭；中芯单日 42 亿净流入是异常值不可持续。
+
+### 步骤 6：汇总成 HTML 报告
+三人分析完，WorkBuddy 自动把结果汇总成结构化报告并渲染成 HTML 页面：结论卡（综合视角/关键数据/立场分布）→子专家观点（每人一张卡）→深度思考（主持人提醒你可能误读的）→后续关注（什么变了应该重新评估）。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `帮我分析港股资金流向，三条主线（科技估值修复、创新药、高股息）哪个持续性最好？当前该追涨还是等回调？` | 一句话触发 NeoData 拉数据+专家团组圆桌 |
+| 2 | `港股最近资金在往哪流？有什么主线？三条主线（科技估值修复、创新药、高股息）哪个持续性最好？中东资本真的来了吗？当前该追涨还是等回调？` | 扩展版问题，加入中东资本追问 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 港股实时数据集（恒生指数 25,606 点/恒生科技 4,870 点/南向资金 2,281 亿港元/核心个股行情）
+2. 三人圆桌分析报告：
+   - 星望远产业策略分析（景气度排序/产业链拆解/中东资本判断）
+   - 文衡价估值分析（PE 估值水位/PEG 分档/仓位配置建议）
+   - 洲四方信号分析（四层信号矩阵/追涨 vs 等回调/信号衰减风险）
+3. 三个意外发现：南向资金重仓科技≠看好科技（可能是 ETF 被动配置）、高股息的"利率悖论"（短期逻辑和长期逻辑打架）、中东资本一厢情愿（基石投资是 IPO 端被动配置非二级市场主动买入）
+4. HTML 圆桌报告在线版（结论卡+子专家观点+深度思考+后续关注四部分）
+
+### 结果证明
+
+![探索模块港股资金流向场景](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPV2JS2S7bO26wuUnYKCYQ6UbXl5PB9lGgarBOD8leYIMZYnRpSGcchldT2w4qPTCHhEQGDnGaIwt8uE0XWLHDibibwyBiahSC74g/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![圆桌团队创建并行调度三人](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROUVwYNwEAubiajZSgreTMAgmWemNia8qq4fSLSGbsXZiac1AgeH6qKrAxjaN3gubW1iblEKAIAEhhlksufK2KGjUvthzu0wb8TtJA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![NeoData并行拉取实时行情](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMIcClbTrQiahgsiaB6CHtJg2icbEazAdXvklwItSZVkPUz0UpWJcXo1UPBFQyp8uL97nstHYt8jCq3WLUBc98CmBOGArX2UUN2nQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![三人并行独立查询分析状态](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROCdTd8U1t9ibL1T8T9TNsZzcARbL4eeJMhjG7rBKF71N18hXJSPfwB1RHuF5PVoNtUtvaOdbibFtIDKGkYPUEtPiazTaFnGwribQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![三位成员核心结论汇总](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRMYMrbP1IOiaB12sjuy8HRUME3mtF5WaIbzHV8vXhSm02ic36SF7WghkFKdcibgOQXKL9bS0kPDWxmN4oLWqPQu0WeHGV0p876SmY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![HTML圆桌报告在线版](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMsguT5fdzAC5lTsf7SzA5QwbfDsXFguJqicOO0SUnhQ8gF5iaoaotVSW62rtG6s9qZBQn7QuNhMicI3VVLsPv9J4iaicXlFPYUcS7w/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+## 八、验收标准
+
+- [ ] 在探索模块选【港股资金往哪流？三条主线怎么选】并制作我的版本
+- [ ] NeoData 技能并行拉取实时数据（恒生指数 25,606 点/恒生科技 4,870 点/南向资金 2,281 亿港元/核心个股行情）
+- [ ] 每个数据点都有来源可追溯
+- [ ] 自动创建 stock-partner-roundtable 协作团队
+- [ ] 按问题自动选 3 个匹配分析师（星望远/文衡价/洲四方），不是 6 个全上
+- [ ] 三人同时 spawn 并行工作，互不干扰
+- [ ] 星望远输出产业策略分析（景气度排序创新药>高股息>科技估值修复）
+- [ ] 文衡价输出估值分析（高股息 PE 5.8-12 倍性价比最优，核心仓位 50%）
+- [ ] 洲四方输出信号分析（四层信号矩阵高股息 3.5/4 分最强）
+- [ ] 三人用不同方法论看同一组数据，得出不同但互补的结论
+- [ ] 自动汇总成结构化 HTML 报告（结论卡+子专家观点+深度思考+后续关注四部分）

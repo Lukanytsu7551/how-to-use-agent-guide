@@ -1,0 +1,108 @@
+# Case 42｜一句话生成专业数据清洗 Excel 报告
+
+> **WorkBuddy 案例集 · 第 42 篇**
+> 分类：数据分析与可视化
+
+---
+
+## 一、场景描述
+
+有个做电商的朋友找来吐槽，客户给了一份交易数据让他出分析报告，结果打开一看——1000 行数据，各种脏：重复的、缺失的、日期格式三四种混着写、金额还有负数。他说光整理这批数据就得两天，心态快崩了。让他把需求发过来，然后打开了 WorkBuddy。
+
+在「探索」里翻了一下，看到有个 CSV 数据清洗分析报告的功能，正好对症。点进去，把朋友描述的问题直接粘贴进去，发。20 分钟后，给他发了一个 .xlsx 文件。他打开沉默了很久，然后回了一句：就这？
+
+那份数据里有几十条完全重复的记录、几十个缺失值（客户邮箱/手机号/金额）、几十条日期格式不统一（2024/01/15、2024-01-15、2024.01.15 混着写）、多条金额明显异常（负数或超大值）、多条邮箱格式错误、多条手机号格式错误、商品分类名称还有 3 类写法不一致（「数码」「数码产品」「数码类」）。正常来说，这种数据要手工标记问题 → 写清洗日志 → 统计汇总 → 出报告，没两天搞不定。WorkBuddy 生成的那个文件，打开是 5 个 Sheet，全部搞定。
+
+## 二、想要完成的任务
+
+用 WorkBuddy 探索模块的 CSV 数据清洗分析报告功能，把一份包含 1000 条脏交易记录的 Excel 文件，一句话生成一份含 5 个 Sheet（原始数据标记/清洗日志/质量评分/统计汇总/清洗后数据）的专业数据清洗分析报告 Excel。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| CSV 数据清洗分析报告 | 一句话生成 5 Sheet 数据清洗分析报告 Excel | WorkBuddy 探索模块 | WorkBuddy 账号 |
+| Excel 文件处理 | 读取源文件结构、写入多 Sheet Excel 报告 | 内置技能 | 本地文件读写 |
+| xlsx_reader.py | 读取源 Excel 文件了解数据结构 | 内置脚本 | 本地文件读写 |
+| 数据质量评分模型 | 完整性/一致性/准确性/及时性四维评分（公式自动计算） | 内置能力 | 无 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端（含「探索」模块）
+2. 网络可用，能正常加载探索模块能力
+3. 准备好待清洗的源数据文件（如 origin_data.xlsx，含 1000 条交易记录）
+4. 工作区可写入文件（用于保存生成的 Excel 报告）
+5. 准备好业务背景描述与各 Sheet 的具体要求（颜色标记规则、字段定义等）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：在探索模块找到 CSV 数据清洗分析报告功能
+打开 WorkBuddy，在「探索」里搜索"清洗"，找到 4 个结果，其中一个是「CSV 数据清洗分析报告」，描述是"脏数据一键清洗，数据质量评分自动生成"，正好对症。点进去进入功能对话窗口。
+**关键步骤**：探索模块搜索"清洗"关键词，定位到 CSV 数据清洗分析报告功能。
+
+### 步骤 2：把朋友描述的问题直接粘贴进去发出去
+把业务背景和 5 个 Sheet 的具体要求一次性粘贴进去：业务背景是电商平台导出的 1000 条交易记录 CSV 文件，数据存在大量质量问题需要系统性清洗和分析；Sheet 1 原始数据要展示所有行原始数据样本，有问题的单元格用特殊底色标记（重复行浅红色 FFCCCC、缺失值浅黄色 FFFFCC、格式错误浅橙色 FFE0CC、异常值浅紫色 E8CCFF），首行冻结添加自动筛选；Sheet 2 清洗日志要记录每一步清洗操作（序号、问题类型、影响字段、问题描述、处理方法、影响行数、处理前示例、处理后示例、处理时间）等。
+**关键步骤**：需求一次性丢全——业务背景 + 5 个 Sheet 的详细规格（颜色标记规则、字段定义、冻结筛选要求），不用反复沟通。
+
+### 步骤 3：WorkBuddy 自动读取源文件了解数据结构
+WorkBuddy 先读取源文件 origin_data.xlsx 的结构，调用 xlsx_reader.py 脚本了解数据列、行数、字段类型，然后基于数据结构自动生成完整的清洗分析报告。任务列表显示 4/4 所有任务已完成。
+**关键步骤**：WorkBuddy 自动读取源文件结构，无需手动描述数据字段。
+
+### 步骤 4：生成 5 个 Sheet 的完整 Excel 报告
+20 分钟后生成 .xlsx 文件，打开是 5 个 Sheet：①Sheet1 原始数据（1050 行含重复，问题单元格全部颜色标记：浅红=重复、浅黄=缺失、浅橙=格式错误、浅紫=异常值，首行冻结+自动筛选）→ ②Sheet2 清洗日志（每一步操作都有记录：问题类型、影响行数、处理方法、处理结果，不是随便写写"已处理"，是真正能交给客户看的日志）→ ③Sheet3 数据质量评分（清洗前后对比，用 Excel 公式自动算的，不是填死的数字：完整性 92%→100%、一致性 85%→100%、准确性 87%→97%、综合评分 72 分→97 分）→ ④Sheet4 统计汇总（按商品分类 + 按月份两张汇总表，含销售额、订单量、客单价，清洗完直接能拿去分析）→ ⑤Sheet5 清洗后数据（1000 行干净数据，交给客户没问题）。
+**关键步骤**：5 个 Sheet 一次生成，颜色标记分 4 种对应不同问题类型，质量评分用 Excel 公式自动计算，Sheet 名中英双语。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `Excel 文件处理 根据这个文件 origin_data.xlsx 帮我生成一份完整的CSV数据清洗分析报告Excel，具体要求如下：**业务背景**：我们是一家电商平台，最近导出了一份包含1000条交易记录的CSV文件，数据存在大量质量问题需要系统性清洗和分析。**Sheet 1「原始数据 Raw Data」**：展示前所有行原始数据样本，有问题的单元格用特殊底色标记：重复行用浅红色(FFCCCC)、缺失值用浅黄色(FFFFCC)、格式错误用浅橙色(FFE0CC)、异常值用浅紫色(E8CCFF)，首行冻结，添加自动筛选。**Sheet 2「清洗日志 Cleaning Log」**：记录每一步清洗操作，字段：序号、问题类型、影响字段、问题描述、处理方法、影响行数、处理前示例、处理后示例、处理时间` | 一次性丢出完整需求（业务背景 + 5 Sheet 规格 + 颜色规则 + 字段定义），触发自动生成 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 一个 .xlsx 文件，含 5 个 Sheet（原始数据/清洗日志/数据质量评分/统计汇总/清洗后数据）
+2. Sheet1 原始数据（1050 行含重复，4 色问题标记，首行冻结+自动筛选）
+3. Sheet2 清洗日志（每步操作完整记录：问题类型/影响行数/处理方法/处理结果/处理时间）
+4. Sheet3 数据质量评分（四维评分公式自动计算：完整性/一致性/准确性/及时性，综合 72→97 分）
+5. Sheet4 统计汇总（按商品分类+按月份两张汇总表，含销售额/订单量/客单价）
+6. Sheet5 清洗后数据（1000 行干净数据，去重+补全+统一格式）
+
+### 结果证明
+
+![探索模块搜索清洗找到 CSV 数据清洗分析报告功能](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRM3haVH2MlVRL9XFdzCe7Auicg2arZaE8v1YnEyey5Tcuv5P7gWTKgenuVuwSKRMUa5uqoLPh5k5krg91GM99FZqWZ3icCegI1ib4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![一次性粘贴完整需求与 WorkBuddy 自动读取源文件](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNnw168VWWoYczOhg19LiaQANhF0kBmy4RkYYqFDBqpibeDkLomNQrPaZfC4X5cWh7KHicCUf8SbZpdbh3ibia9ianousdQ5K3CLHueY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![Sheet1 原始数据（4 色问题标记）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROjibqo219mozaKBAkNrSBt9AfOBBwIicBnMjhFAneypATjDtXibqVCzNFACib6WTmrrwjnMeyicyz8MQN7sxBBXpmibSdhugUviaRvIM/640?wx_fmt=png&watermark=1#imgIndex=2)
+
+![Sheet2 清洗日志（每步操作完整记录）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPuWfNGJZuUJpK0fz1f03jCibEg8qboMicLLJgpTwoLmLldDT2LbGL03IewC7Kct0sib8qmRNsx4y7oXVseIGiaInK9VicC7sIDUudk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![Sheet3 数据质量评分（公式自动计算清洗前后对比）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROnxSRiay11JAyicDdibpLwPicrXsIF73GyTticUUdvWgPdcRZHriazN7Q1tFlznVNuUmxZHNxqxpyeldib92FRtPnrzgvdTymib1o9wibU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![Sheet4 统计汇总（按分类+按月份汇总表）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNxsySWRpTt3l1TshgqaxrPJQjgUTCQP24d4KlA8v1I0JSquftUFia54cPvOr7UP9D97RAicXGu3jSnTw8wKS86ibBHkgAlQqtvSw/640?wx_fmt=png&watermark=1#imgIndex=5)
+
+![Sheet5 清洗后数据（1000 行干净数据）](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNJvkabxIpKibSndNeQNtxHxs8Th0r2WJ5s3KOxjw03IW6GuckNfgkR9E3hbdgAVSR8e6SOgibaibWPjNoeEjW0wW0rL0NOViaDfxo/640?wx_fmt=png&watermark=1#imgIndex=6)
+
+### 数据质量评分对比表
+
+| 维度 | 权重 | 清洗前 | 清洗后 | 备注 |
+|---|---|---|---|---|
+| 完整性 | 30% | 92% | 100% | 缺失值已全部补全或标记 |
+| 一致性 | 25% | 85% | 100% | 格式与分类名称已统一 |
+| 准确性 | 30% | 87% | 97% | 异常值与格式错误已修正 |
+| 综合评分 | 100% | 72 分 | 97 分 | — |
+
+## 八、验收标准
+
+- [ ] 成功在「探索」模块搜索到 CSV 数据清洗分析报告功能
+- [ ] 一次性提交完整需求（业务背景 + 5 Sheet 规格 + 颜色规则 + 字段定义）
+- [ ] WorkBuddy 自动读取源文件 origin_data.xlsx 的数据结构
+- [ ] 生成 .xlsx 文件含 5 个 Sheet（原始数据/清洗日志/质量评分/统计汇总/清洗后数据）
+- [ ] Sheet1 原始数据 1050 行，4 色问题标记（浅红=重复/浅黄=缺失/浅橙=格式错误/浅紫=异常值），首行冻结+自动筛选
+- [ ] Sheet2 清洗日志含完整字段（序号/问题类型/影响字段/问题描述/处理方法/影响行数/处理前示例/处理后示例/处理时间）
+- [ ] Sheet3 数据质量评分用 Excel 公式自动计算（非填死数字），综合评分从 72 分提升至 97 分
+- [ ] Sheet4 统计汇总含按商品分类+按月份两张汇总表（销售额/订单量/客单价）
+- [ ] Sheet5 清洗后数据 1000 行（去重+补全+统一格式）
+- [ ] Sheet 名使用中英双语
+- [ ] 全流程从需求到成品约 20 分钟，无需反复沟通

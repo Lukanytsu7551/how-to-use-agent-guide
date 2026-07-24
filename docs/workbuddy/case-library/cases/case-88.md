@@ -1,0 +1,113 @@
+# Case 88｜我说要清内存，它却给我画了一套系统设计稿
+
+> **WorkBuddy 案例集 · 第 88 篇**
+> 分类：网站与应用开发
+
+---
+
+## 一、场景描述
+
+Mac 又弹「存储空间不足」。256G 硬盘，系统数据占了 80G，各种项目文件、截图、视频素材堆在一起，根本不知道哪些能删、哪些不能动。想起 WorkBuddy 有存储分析的 skill，打开试了一下，说了句「存储分析」——结果可能点错了，几秒钟后屏幕上出现的不是清理建议、不是空间报告，而是一个设计稿。一个存储分析仪表盘的设计稿。本篇记录这次「阴差阳错」的设计过程：从一页设计稿到六页完整系统（存储概览/存储管理/文件浏览/智能清理/扫描历史/设置），保持一致设计语言，考虑真实产品逻辑。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy 生成一套存储分析仪表盘（StorageLens）的完整设计稿，6 个页面：存储概览（Bento Modular 风格卡片布局 + 存储总览环形图 + 分类占比进度条 + 大文件 Top 10）、存储管理（卷概览 + 磁盘健康 SMART 表）、文件浏览（左侧文件夹树 + 右侧文件列表双栏布局）、智能清理（可回收项目分类 + 实时预览 + 一键清理）、扫描历史（存储趋势折线图 + 扫描记录表）、设置（扫描计划 + 通知偏好 + 清理策略 + toggle 开关）。整体配色白色卡片浮浅灰底 + Stripe 紫色品牌强调色。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| WorkBuddy 设计能力 | 生成 Bento Modular 风格存储分析仪表盘设计稿 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. 本地有浏览器可打开 HTML 设计稿
+3. 不需要真实磁盘扫描数据（本案例是设计稿，非真实清理工具）
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：「存储分析」意外触发设计稿
+打开 WorkBuddy 说了句「存储分析」。几秒钟后屏幕上出现的不是清理建议，而是一个设计稿——存储分析仪表盘（StorageLens）。Bento 风格卡片布局，左侧存储总览环形图，右边分类占比进度条，底下大文件列表。配色偏紫的蓝色（Stripe Purple），字体清爽，排版干净。本来想关掉重来，犹豫三秒——看着不比大多数 SaaS 后台差，决定不关了，让它把整个系统都画出来。
+**关键步骤**：「存储分析」指令意外触发设计稿，Bento Modular 风格 + Stripe Purple 配色。
+
+### 步骤 2：扩展到第二页 存储管理
+说「你帮我把这个设计做完啊，这只是一个页面」。WorkBuddy 开始搭六页完整系统。第二页存储管理：卷概览卡 + 磁盘健康 SMART 表。每个卷的容量、已用空间、健康状态一目了然。磁盘温度、通电时间、坏道数、读取错误率、重分配区这些硬核参数都列出来——IT 运维看到会感动的那种。
+**关键步骤**：第二页存储管理含卷概览卡 + SMART 磁盘健康表（温度/通电时间/坏道数）。
+
+### 步骤 3：第三页 文件浏览
+左侧文件夹树 + 右侧文件列表，双栏布局。可以按目录一层层往下钻，每个文件的大小、类型、修改时间都清清楚楚。比 Finder 好用。
+**关键步骤**：第三页文件浏览左侧文件夹树 + 右侧文件列表双栏布局。
+
+### 步骤 4：第四页 智能清理
+最实用的页面。自动识别出可以清理的项目：临时文件、缓存、重复文件、大文件、下载文件夹。每类旁边标了可释放的空间量，勾选后右侧实时显示预览。风险等级标注「安全 - 仅包含安全删除的文件」。一键清理按钮——当然它不会真的清理，但设计上是这么走的。
+**关键步骤**：第四页智能清理自动识别 5 类可清理项目 + 风险等级 + 实时预览 + 一键清理。
+
+### 步骤 5：第五页 扫描历史
+存储趋势折线图，可以看到过去一段时间空间是怎么被吃掉的。下面是每次扫描的记录表，时间、释放量、操作类型、最大新增文件都有。
+**关键步骤**：第五页扫描历史含存储趋势折线图 + 扫描记录表（时间/释放量/操作类型）。
+
+### 步骤 6：第六页 设置
+扫描计划、通知偏好、清理策略。扫描频率、空间不足警告阈值（20%）、每周报告。那一排 toggle 开关做得有模有样，细节到位。版本号 v2.4.1（Build 142）。
+**关键步骤**：第六页设置含扫描计划 + 通知偏好 + 清理策略 + toggle 开关。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `存储分析` | 意外触发设计稿（本意是清内存） |
+| 2 | `你帮我把这个设计做完啊，这只是一个页面啊。` | 扩展到六页完整系统 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. 存储分析仪表盘（StorageLens）6 页完整设计稿
+2. 第 1 页 存储概览（Bento Modular 卡片 + 环形图 + 分类进度条 + 大文件 Top 10）
+3. 第 2 页 存储管理（卷概览卡 + 磁盘健康 SMART 表）
+4. 第 3 页 文件浏览（左侧文件夹树 + 右侧文件列表双栏）
+5. 第 4 页 智能清理（5 类可清理项目 + 风险等级 + 实时预览 + 一键清理）
+6. 第 5 页 扫描历史（存储趋势折线图 + 扫描记录表）
+7. 第 6 页 设置（扫描计划 + 通知偏好 + 清理策略 + toggle 开关）
+
+### 结果证明
+
+![意外触发的设计稿](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNPs8pFeQdDS5dzXNooMFnty2xBJdiandV4ommq9vUlic9HyPcQSnpm2r0ic7g4Yl9q74DRGTVPnplxhS01HdbfPlFwVicxjzagUKs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+
+![第一页存储概览仪表盘](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROlOTm784zUUF0OCWfZcOP1yYz3NB9e2Uianm3QKg0ZxB8RmMoIBOY9oSk9N7yFYT3kY6ia929mEbWV1gQFPFemxgL1qMcs7CJgc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![扩展到完整系统指令](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROk5tl1Z5bTREoNlfhTR7eicmTqBgh2ia9xKo0dddF98UqgK9An9HVK6Y7gzZibWzM18jWTxcBBh8G7YGmhG2icbiagKs1rCtmlvBibw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![第二页存储管理 SMART 表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMFPVYYP4WQbVdKfIfDfVmHt2JdTwUR8ic4CeStWzlp1Ykn3YJC7HAaS5EianIoDoz29CY264ibianpJ2dBD1bCfp0yVXJGod0cfUU/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![第三页文件浏览双栏布局](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNiahAPCue3zc86CRibuKVsFQARdISQCEIPV74BQUklzPr6eTEsBK0X9Sic6icSZakeGGria6Hg0zodynPNZbeDFG2ktXh4QEAOGRao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![第四页智能清理预览](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN3ic7fZWpHdPhberQScRTa9qsd7QP25uLmp5n8DFw9XdlMXg7ias9pSCfelqDpE5rvib0KeNSjlibSibViacJD6esh4lwxtW5j0eibRI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![第五页扫描历史趋势图](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROY2SEhspBIAKevZPoGSMsjMNiblw4fU5AzxbyX9RRx9dy1mkulaN7nknQFcvq8OE62kvFlq7duCS9ictb5Tzn1q6h12yicgmLnUQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![第六页设置 toggle 开关](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRPvUH87Hudfyibo492ohVl6LibibGNSuxDPGH5pzJVgL3hrtA3r5xheg0z7hzFQnr39PtcLvTpP96pnuwV32N4j7v5ru0YwrzmUEg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+## 八、验收标准
+
+- [ ] 第 1 页 存储概览：Bento Modular 风格卡片布局
+- [ ] 含存储总览环形图（已使用 487.3 GB / 可用 12.4 GB）
+- [ ] 含分类占比进度条（应用程序 98.2 GB / 视频 76.8 GB / 文档）
+- [ ] 含大文件 Top 10 列表（final_cut_project.fcpbundle 24.6 GB 等）
+- [ ] 配色白色卡片浮浅灰底 + Stripe Purple 紫色品牌强调色
+- [ ] 第 2 页 存储管理：卷概览卡 + 磁盘健康 SMART 表
+- [ ] SMART 表含温度、寿命写入量、坏道数、读取错误率、重分配区
+- [ ] 第 3 页 文件浏览：左侧文件夹树 + 右侧文件列表双栏布局
+- [ ] 文件列表含文件名、类型、大小、修改时间
+- [ ] 第 4 页 智能清理：5 类可清理项目（临时文件/缓存/重复文件/大文件/下载文件夹）
+- [ ] 每类标注可释放空间量
+- [ ] 风险等级标注「安全 - 仅包含安全删除的文件」
+- [ ] 勾选后右侧实时显示预览
+- [ ] 含「执行清理 · 释放 21.1GB」按钮
+- [ ] 第 5 页 扫描历史：存储趋势折线图
+- [ ] 扫描记录表含时间、已使用、变化、最大新增文件、操作
+- [ ] 第 6 页 设置：扫描计划 + 通知偏好 + 清理策略
+- [ ] 含 toggle 开关（自动扫描/空间不足警告/每周报告）
+- [ ] 版本号 v2.4.1（Build 142）
+- [ ] 六页之间配色、字体、间距、圆角全部统一
+- [ ] 页面之间导航、状态切换合理
+- [ ] 全程从「一页到六页」十来分钟完成

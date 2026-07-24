@@ -1,0 +1,109 @@
+# Case 85｜朋友丢来65页PDF，我用AI拆完了报价和技术风险
+
+> **WorkBuddy 案例集 · 第 85 篇**
+> 分类：办公协同与效率提升
+
+---
+
+## 一、场景描述
+
+朋友微信甩了个 65 页 PDF——某商融合平台项目方案手册，让帮忙看下需求、出一份分析报告和报价。目录、需求、技术架构、功能清单、数据对象、部署方案、运营规划全在里面。如果是以前，至少花一天通读，再花两三天写报告、做报价表。本篇记录如何用 WorkBuddy 十分钟读完 65 页 PDF，生成 Word 分析报告 + 9 大类分项报价，追问拿到岗位级人力成本拆解 + 技术风险分级 + 隐性成本，再用 frontend-design 做成可视化 HTML，最后追问「AI 能不能省钱」拿到传统 vs AI 辅助成本对比。
+
+## 二、想要完成的任务
+
+使用 WorkBuddy 调用 pdf 技能读完 65 页 PDF，生成 Word 需求分析报告 + 9 大类分项报价（软件平台/内容数据/AI 能力/硬件/云资源/安全合规/实施培训/运营/运维），追问拿到岗位级人力成本拆解（PM/前端/后端/AI 工程师/运维/UI/测试）和技术风险分级（高/中/低），用 frontend-design 把成本和技术难点做成 HTML 可视化页面，最后追问 AI 辅助开发能省多少钱拿到传统 vs AI 对比。
+
+## 三、使用的 Skill
+
+| Skill / 能力 | 用途 | 来源 | 所需权限 |
+|---|---|---|---|
+| pdf（pdfplumber） | 读完 65 页 PDF 提取全部内容 | WorkBuddy 内置 | WorkBuddy 账号 |
+| docx 生成 | 生成 Word 分析报告 | WorkBuddy 内置 | WorkBuddy 账号 |
+| frontend-design | 把成本和技术难点做成 HTML 可视化页面 | WorkBuddy 内置 | WorkBuddy 账号 |
+
+## 四、前置条件
+
+1. 已安装并登录 WorkBuddy 客户端
+2. PDF 是原生文字型 PDF（非扫描件），65 页可全部提取
+3. 本地有 Word 或预览工具查看 docx
+4. 本地有浏览器可打开 HTML
+
+## 五、在 WorkBuddy 中的操作
+
+### 步骤 1：发 PDF 让 AI 读完 65 页
+把 PDF 文件直接发给 WorkBuddy，说「看下这个项目需求，帮我分析下，给我一份分析报告和项目报价」。WorkBuddy 调 pdf 技能装 pdfplumber，一口气把 65 页全读完，返回「内容全部读完了，65 页，信息量很大。现在来生成分析报告和报价」。不是「我大概看了看」，而是全部读完——后面所有分析、报价、风险判断都建立在完整阅读基础上，不是摘要。
+**关键步骤**：PDF 发给 WorkBuddy，pdfplumber 读完 65 页。
+
+### 步骤 2：生成分析报告 + 报价
+WorkBuddy 生成 Word 文档。需求分析部分：归纳 7 大核心痛点（文旅资源分散/游客服务链路不完整/商家数字化能力不均衡/非遗传播转化脱节/运营管理缺少闭环/AI 应用缺乏治理/数据支撑不足），每个对应平台解决方案；拆解 4 类服务对象（游客端/商家端/政府后台/AI 导览）需求；梳理核心功能模块（6 端 + 1 中心 + 1 底座架构）；评估现有演示原型技术栈（哪些可用/哪些需要升级/哪些必须替换）。报价部分：9 大类别分项报价——软件平台建设 62 万、内容数据建设 14.5 万、AI 能力服务（首年）18 万、硬件终端 36 万、云资源基础设施（首年）7.1 万、安全合规 15 万、实施培训 7 万、运营服务（首年）21 万、运维服务（首年）11 万，首年合计约 191.6 万。第二年起年度续约约 57 万。末尾给 3 个方案档位（基础/标准/完整）。
+**关键步骤**：Word 报告含 7 大痛点 + 4 类对象需求 + 6+1+1 架构 + 9 类分项报价 + 3 档位方案。
+
+### 步骤 3：追问纯开发成本和技术风险
+报告写的是项目整体报价，含硬件、云资源、运营、安全合规等非开发成本。追问「这里面的需要多少人工开发成本，和可能出现的技术难点？」。WorkBuddy 把人力成本拆到岗位级别：项目经理 1 人 6 个月 ¥15 万、前端开发 4 人 4-6 个月 ¥48 万、后端开发 2 人 6 个月 ¥26.4 万、AI 工程师 2 人 3-4 个月 ¥21 万、运维/安全 1 人 4 个月 ¥8 万、UI 设计 1 人 3 个月 ¥5.4 万、测试工程师 1 人 4 个月 ¥6.4 万。核心人力 131.8 万 + 30% 管理利润 39.5 万 + 差旅 15 万 = 总报价 186.3 万。技术风险分三级：高风险（多租户数据隔离、真实支付闭环、等保三级合规、AI 内容安全），中风险（SQLite→PG 迁移、数字人终端部署、微信小程序适配），低风险（对象存储、短信通知、埋点、报表导出）。还算了隐性成本 68-105 万（内容采集人力、等保测评第三方费、AI 模型 API 调用费、硬件采购、运营团队首年人力）。
+**关键步骤**：追问拿到岗位级人力成本 + 三级技术风险 + 隐性成本 68-105 万。
+
+### 步骤 4：把分析做成 HTML 可视化
+让 WorkBuddy 用 frontend-design 技能把成本和技术难点做成 HTML 页面。深海军蓝底色 + 琥珀金点缀，数据新闻风格。6 张岗位成本卡片各带进度条，4 阶段实施时间线，技术风险按红黄绿分级排列，底部隐性成本提醒框。不是 PPT 截图，不是 Word 表格，是浏览器直接打开的交互页面。发给客户打开就能看懂。
+**关键步骤**：frontend-design 生成深海军蓝 + 琥珀金 HTML 可视化页面。
+
+### 步骤 5：追问 AI 能不能省钱
+最后问「我如何使用 AI 开发，成本会不会少一点？」。WorkBuddy 做了逐模块对比：AI 能有效辅助的 6 类工作（CRUD API 批量生成省 42%、前端页面组件省 38%、测试用例生成省 38%、文档和脚本省 50%、数据驾驶舱图表省 40%、运营后台标准功能省 33%）；AI 完全帮不上忙的 4 块（多租户架构设计、支付闭环接入、等保三级合规、民族宗教内容安全）。最终结论：传统开发 186.3 万 → AI 辅助开发 148 万，省约 38 万（~20%）。建议不是「用 AI 砍人」，而是用 AI 省下来的钱多投一个资深架构师专门把控 4 个核心模块的质量。
+**关键步骤**：追问拿到传统 vs AI 辅助对比，省 38 万（~20%），4 个高风险模块必须人工。
+
+## 六、提示词或任务指令
+
+| 步骤 | 指令 | 作用 |
+|---|---|---|
+| 1 | `看下这个项目需求，帮我分析下，给我一份分析报告和项目报价。` | 让 AI 读完 65 页 PDF 生成报告 + 报价 |
+| 2 | `这里面的需要多少人工开发成本，和可能出现的技术难点？` | 追问岗位级人力成本 + 技术风险分级 |
+| 3 | `用 frontend-design 把成本和技术难点做成 HTML 页面。` | 生成 HTML 可视化页面 |
+| 4 | `我如何使用AI开发，成本会不会少一点？` | 追问传统 vs AI 辅助成本对比 |
+
+## 七、在 WorkBuddy 中的效果
+
+### 交付物
+1. Word 需求分析与报价报告（含 7 大痛点 + 4 类对象需求 + 6+1+1 架构 + 9 类分项报价 + 3 档位方案）
+2. HTML 可视化页面（深海军蓝 + 琥珀金，岗位成本卡片 + 实施时间线 + 技术风险分级 + 隐性成本提醒）
+3. 传统 vs AI 辅助成本对比分析（186.3 万 → 148 万，省 38 万 ~20%）
+
+### 结果证明
+
+![发送 PDF 让 AI 读完](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbROS1NOZHsEnkdB9GCU2txwmPictam3trqHpxEctad2MGfaOazClvbmn5vEoSicLXCiaKwTv4WmO3E8DBwT6aYHWSYIm6SqdkyLicPM/640?wx_fmt=png&from=appmsg#imgIndex=0)
+
+![AI 读完 65 页并生成报告](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRPUDDf4nMZTbutSG1ljlPB02375iapKQ680ibnMjKt3I7AoYL1vibiawGrBRC2ia7RicKiaiczuNsBmC6GNaMzaSL5T0y1HZ4AropSRkR8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+![Word 报告内容预览](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRNBZv2dKkM5Rj5s6TTr5F7ibgqQUyRVgB9PqjWGqgO0MZuYHLpz42dKUPPb1Licq3udS6508mrFvW0CFsAQ36iano4wCibluCg8y5s/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+
+![9 大类分项报价表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRMq7ibdyiajanBxc3mEuXHm8IW1zawY3nPKWxhxJtpqwkFBkGJLNWqQJYApUxoNecgJYcrGtPAPVmm7NYrzjJ4Dp8Y7fzG186G8M/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+
+![追问纯开发成本和技术难点](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRNiaBqRsWRkvIJYIpSkicqExwj4X6KT8C3Ck2ZyPMianPVdAWoP7IjickLdgXBGwRJPiaFYmVOXOKJQ9qdnX2sdznRMnRpoaGJwwxIc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+
+![技术风险分级卡片](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN6txEOuIXYmyHyNr2yntoiczwZiak0RAibVywrASia0HaBs6eBJNnseIs0ic6dNbBfSiccSe6U53WdSv90FqXfibZK8HS7kvgKA0kPfA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5)
+
+![HTML 可视化页面](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbROOacNrW7q3y1jmetz4oYAAD40GuAdfju1fBeKTFdicicKibB7W6FtjAseR92KhxhsicBu6icLLs8utJ77icqlzqoeNicZq6pAQo8Bywg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6)
+
+![传统 vs AI 辅助成本对比](https://mmbiz.qpic.cn/mmbiz_png/s516EMWvbRO6qe4XcCNnZ7ZuTKauEHafyRtDqJePXDhCj9yUaiaUtdvUuR2MAqvTfw41ZbUp8gmuIib7UwThTNT49CaAurjduc8YLkrfW3Spg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7)
+
+![AI 替代率分模块对比表](https://mmbiz.qpic.cn/sz_mmbiz_png/s516EMWvbRN7eLicOMXGx3TVDRoxfnwWmQCqROjc24MoUeWjD5D0NGlwSEPibppstoibfbZq8SeXP8UmOyTaFLibleoyQAnkXXhaQTEEorDRAq4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8)
+
+## 八、验收标准
+
+- [ ] 65 页 PDF 全部读完，非摘要式
+- [ ] Word 报告含 7 大核心痛点（文旅资源分散/游客服务链路不完整/商家数字化能力不均衡/非遗传播转化脱节/运营管理缺少闭环/AI 应用缺乏治理/数据支撑不足）
+- [ ] 每个痛点对应平台解决方案
+- [ ] 拆解 4 类服务对象需求（游客端/商家端/政府后台/AI 导览）
+- [ ] 梳理 6 端 + 1 中心 + 1 底座架构
+- [ ] 评估现有演示原型技术栈（可用/需升级/必须替换）
+- [ ] 9 大类分项报价：软件 62 万、内容 14.5 万、AI 18 万、硬件 36 万、云 7.1 万、安全 15 万、培训 7 万、运营 21 万、运维 11 万
+- [ ] 首年合计约 191.6 万，次年续约约 57 万
+- [ ] 3 个方案档位（基础/标准/完整）
+- [ ] 人力成本拆到岗位级别：PM/前端/后端/AI 工程师/运维/UI/测试
+- [ ] 核心人力 131.8 万 + 30% 管理利润 39.5 万 + 差旅 15 万 = 总报价 186.3 万
+- [ ] 技术风险三级：高风险 4 项（多租户隔离/支付闭环/等保三级/AI 内容安全）
+- [ ] 中风险 3 项（SQLite→PG 迁移/数字人部署/小程序适配）
+- [ ] 低风险 4 项（对象存储/短信/埋点/报表）
+- [ ] 隐性成本 68-105 万单独列出
+- [ ] HTML 可视化页面深海军蓝 + 琥珀金风格
+- [ ] 传统 vs AI 辅助对比：186.3 万 → 148 万，省 38 万（~20%）
+- [ ] 4 个高风险模块必须人工（多租户架构/支付闭环/等保合规/内容安全）
+- [ ] 建议用 AI 省的钱多投一个资深架构师把控核心模块
