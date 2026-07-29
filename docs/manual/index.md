@@ -11,9 +11,9 @@ permalink: /manual/
 
 | 栏目 | 内容 |
 | --- | --- |
-| [精选资源](./resources.md) | Codex、WorkBuddy 和模型能力的优先阅读资料 |
+| [精选资源](./resources.md) | 按使用目标整理官方指南、开源项目、协议、评测与论文 |
 | [近期 Codex 更新](./01-codex-updates.md) | 依据 OpenAI 官方 Changelog 整理 |
-| [近期 WorkBuddy 更新](./workbuddy-updates.md) | 以 WorkBuddy 官网与开源仓库为核对入口 |
+| [近期 WorkBuddy 更新](./workbuddy-updates.md) | 筛选官方发布说明中与 Agent 工作流相关的变化 |
 | [参考来源和致谢](./02-credits.md) | 第三方工具、教程、仓库和改编来源 |
 
 

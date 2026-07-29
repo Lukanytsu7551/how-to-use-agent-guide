@@ -1,14 +1,17 @@
 ---
-description: "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex changelog 自 2025 年起整理，包含月份导航和官方原文链接。"
+description: "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex Changelog 自 2025 年起整理，包含关键变化、使用影响、建议动作和官方原文链接。"
 ---
 
-# 近期Codex更新
+# 近期 Codex 更新
 
 
-本页用于快速了解 Codex 近期变化，涵盖桌面 App、移动端、CLI、模型、插件、权限与远程控制等内容。为保持阅读清晰，本文自 2025 年起整理，并不逐项搬运官方 GitHub PR 清单。
+本页用于快速了解 Codex 近期变化，涵盖桌面 App、移动端、CLI、模型、插件、权限与远程控制等内容。内容经过中文翻译、合并和场景化整理，不逐项搬运官方 GitHub PR 清单。
+
+> **最近同步：2026-07-29。** 功能可用性可能受客户端版本、账号套餐、所在地区和管理员策略影响，请以 [Codex 官方 Changelog](https://learn.chatgpt.com/docs/changelog) 为准。
 
 <div class="codex-update-layout">
 <nav class="codex-update-months" aria-label="2026 年 Codex 更新月份导航">
+  <a href="#july-2026">2026 年 7 月</a>
   <a href="#june-2026">2026 年 6 月</a>
   <a href="#may-2026">2026 年 5 月</a>
   <a href="#april-2026">2026 年 4 月</a>
@@ -25,6 +28,80 @@ description: "近期 Codex 更新中文摘要，依据 OpenAI 官方 Codex chang
 </nav>
 
 <div class="codex-update-content">
+
+<h2 id="july-2026">2026 年 7 月</h2>
+
+[官方原文：July 2026](https://learn.chatgpt.com/docs/changelog#july-2026)
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-07-29</p>
+
+### Codex CLI <span class="codex-update-version">0.146.0</span>
+
+**重点变化：** CLI 支持为新会话命名、固定重要 thread，并可在不关闭主对话的情况下切换 side conversation。Agent Plugins 增加 manifest、workspace 发布和更多 marketplace 支持；thread fork、远程 Code Mode host、独立 Web Search 和 executor skills 的发现能力也得到扩展。
+
+**实际影响：** 长周期项目的会话管理更清晰，团队可以在工作区内分发插件；代理、MCP、远程执行和 WebSocket 对系统代理的兼容性也更稳定。终端渲染、Windows 沙盒进程、Skills 上下文保留及中断后的消息恢复均有修复。
+
+**建议动作：** 经常使用 CLI、MCP、代理网络或多会话工作流的用户建议升级，并在升级后验证插件、代理、远程执行和审批设置。
+
+</article>
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-07-23</p>
+
+### ChatGPT Voice 与多文件夹项目 <span class="codex-update-version">26.715</span>
+
+**重点变化：** ChatGPT 桌面端可通过语音启动、检查和引导 Chat、Work 与 Codex 中的任务；本地项目可以加入多个相关文件夹，并指定一个主文件夹。
+
+**实际影响：** 适合跨仓库、前后端分离或文档与代码分开的项目。Git 操作、`AGENTS.md`、Skills 和 `config.toml` 自动发现以主文件夹为准，其他文件夹仍可被搜索、读取和编辑。
+
+**建议动作：** 多仓库项目应先确认主文件夹，避免 Codex 从错误目录读取项目规则；语音协作前也应检查屏幕上下文中是否包含敏感信息。
+
+</article>
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-07-21</p>
+
+### Codex CLI <span class="codex-update-version">0.145.0</span>
+
+**重点变化：** 新增实验性分页 thread 历史、持久化名称与 memories；`/import` 可迁移 Cursor 和 Claude Code 的设置、MCP、插件、会话与项目记忆。Multi-agent V2、音频输入、Amazon Bedrock 登录及自定义端点也得到扩展。
+
+**实际影响：** 迁移其他开发 Agent 的成本下降，长对话和多代理任务的恢复速度更好。MCP 启动、OAuth、Windows 沙盒、长会话终端响应和安全审批也获得稳定性修复。
+
+**建议动作：** 使用 `/import` 前备份现有配置；启用实验性多代理和 memories 时，先在非关键项目验证模型、并发量和权限边界。
+
+</article>
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-07-09</p>
+
+### Codex 并入 ChatGPT 桌面 App <span class="codex-update-version">26.707</span>
+
+**重点变化：** Codex 成为 macOS 与 Windows ChatGPT 桌面 App 的一部分，原 Codex App 用户可保留项目、设置和工作流。桌面端新增 Markdown / 代码直接编辑、选区批注、PR Chat，以及 Sites 自定义域名连接。
+
+**实际影响：** 编码、内容编辑、Pull Request 审查与网站发布集中到同一桌面入口；Computer Use、插件管理、任务恢复、移动连接和 Windows 配置也得到优化。
+
+**建议动作：** 更新后检查默认视图、项目路径、插件和权限配置；团队在使用 PR Chat 前应继续保留人工审查和 CI 验证。
+
+</article>
+
+<article class="codex-update-entry">
+
+<p class="codex-update-date">2026-07-09</p>
+
+### Codex CLI <span class="codex-update-version">0.144.0 / 0.144.1</span>
+
+**重点变化：** Apps 新增只读操作可直接执行、写操作仍需确认的 `writes` 审批模式；MCP 工具可直接发起交互式认证。CLI 也改善了 pnpm 安装识别、reset credits 展示、Ultra 多代理用量提醒和托管登录流程。
+
+**实际影响：** 权限控制更适合企业工具接入；代理、自定义证书、Windows 沙盒和 Intel Mac 上的 Code Mode 稳定性更好。0.144.1 重点修复独立安装与 macOS Code Mode 可靠性。
+
+**建议动作：** 管理员可评估 `writes` 模式是否符合团队审批策略；使用 0.144.0 的用户建议至少升级到 0.144.1。
+
+</article>
 
 <h2 id="june-2026">2026 年 6 月</h2>
 
