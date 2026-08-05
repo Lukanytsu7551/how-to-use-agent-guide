@@ -8,7 +8,7 @@
 
 ## 验证方式 / Validation
 
-- [ ] `npm run docs:build`
+- [ ] `pnpm run build`
 - [ ] 已检查相关链接、图片和视频
 - [ ] 已检查桌面和移动端可读性
 

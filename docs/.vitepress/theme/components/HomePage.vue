@@ -93,9 +93,9 @@ onMounted(() => {
           <p class="wb-pixel-label">HOW TO USE AGENT · CODEX + WORKBUDDY</p>
           <h1 id="agent-hero-title">How to Use Agent</h1>
           <p class="wb-hero__summary">
-            一个教你选择、使用并真正用好 Agent 的教程中心。这里整理 Codex 和
-            WorkBuddy 的快速上手、进阶教程、实战案例与问题排查。先选适合自己的
-            Agent，再沿着对应路径完成第一个真实任务。
+            一个教你选择、理解、使用并真正用好 Agent 的教程中心。这里整理
+            Codex、WorkBuddy 的产品路径，以及 Agent 的系统知识路线。先选适合自己的
+            入口，再沿着对应路径完成第一个真实任务。
           </p>
           <div class="wb-hero__actions">
             <a class="wb-button wb-button--primary" href="#agent-choice">
@@ -174,9 +174,9 @@ onMounted(() => {
       <div class="wb-section__heading">
         <div>
           <p class="wb-pixel-label">STEP 01 · CHOOSE YOUR AGENT</p>
-          <h2 id="agent-choice-title">先选对工具，再开始学习。</h2>
+          <h2 id="agent-choice-title">先选对入口，再开始学习。</h2>
         </div>
-        <p>两种 Agent 的目标不同。根据工作任务、使用环境与执行方式，进入更合适的学习路径。</p>
+        <p>Codex 和 WorkBuddy 解决具体工作问题，Agent Guide 帮你理解背后的共通原理。根据当前目标进入合适的学习路径。</p>
       </div>
       <div class="agent-choice__grid">
         <a class="agent-choice__card agent-choice__card--codex" :class="{ 'is-recommended': selectedAgent === 'codex' }" href="./codex/" @click="selectAgent('codex')">
@@ -198,6 +198,15 @@ onMounted(() => {
           <b>进入 WorkBuddy Guide <PixelIcon name="arrow-right" /></b>
         </a>
       </div>
+      <a class="agent-foundation-card" href="./agent/">
+        <PixelIcon name="robot" />
+        <span>
+          <small>03 / AGENT GUIDE</small>
+          <strong>系统学习 Agent 原理与工程实践</strong>
+          <em>模型 · 上下文 · 工具 · 评估 · 多 Agent 协作</em>
+        </span>
+        <b>进入 Agent Guide <PixelIcon name="arrow-right" /></b>
+      </a>
     </section>
 
     <section id="agent-learning" class="wb-section wb-reading" aria-labelledby="agent-learning-title">
@@ -206,7 +215,7 @@ onMounted(() => {
           <p class="wb-pixel-label">STEP 02 · LEARNING PATH</p>
           <h2 id="agent-learning-title">选好 Agent 后，按路径把它用起来。</h2>
         </div>
-        <p>两个产品分别有独立的教程和问题排查。选择一条路线，从第一个任务开始逐步深入。</p>
+        <p>两个产品分别有独立的使用路径，Agent Guide 提供共通原理。选择一条路线，从第一个任务开始逐步深入。</p>
       </div>
       <ol class="agent-path" aria-label="Agent 学习路径">
         <li class="agent-path__entry">

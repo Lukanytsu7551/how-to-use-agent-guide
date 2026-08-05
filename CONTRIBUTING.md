@@ -5,7 +5,7 @@
 ## 可以贡献什么
 
 - 修正失效链接、过时截图、错别字和不准确表述。
-- 补充 Codex 或 WorkBuddy 的可复现教程、案例与问题排查。
+- 补充 Codex、WorkBuddy 或 Agent Guide 的可复现教程、案例、章节与问题排查。
 - 改进学习路径、导航、搜索、响应式体验与无障碍。
 - 补充已核验的产品更新，并附原始来源和核对日期。
 
@@ -21,6 +21,8 @@
 
 - Codex 教程入口位于 `docs/start/`、`docs/recipes/`、`docs/advanced/` 与 `docs/codex/`。
 - WorkBuddy Guide 的入口位于 `docs/workbuddy/`；请沿现有侧栏和章节结构补充内容。
+- Agent Guide 的现役书籍型入口位于 `docs/agent/index.md`、`docs/agent/preface.md`、`docs/agent/part-01/` 至 `docs/agent/part-10/` 和 `docs/agent/appendix-*.md`。
+- `docs/agent/start/`、`docs/agent/recipes/`、`docs/agent/advanced/` 等旧入口仅用于兼容历史链接；新增 Agent 内容应进入现役 Part 目录。
 - 参考手册位于 `docs/manual/`。
 - 站点导航、主题与组件位于 `docs/.vitepress/`。
 

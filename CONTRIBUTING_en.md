@@ -5,7 +5,7 @@ Thank you for improving How to Use Agent. Each contribution should help readers 
 ## Contributions Welcome
 
 - Fix broken links, outdated screenshots, typos, and inaccurate statements.
-- Add reproducible Codex or WorkBuddy tutorials, cases, and troubleshooting notes.
+- Add reproducible Codex, WorkBuddy, or Agent Guide tutorials, chapters, cases, and troubleshooting notes.
 - Improve learning paths, navigation, search, responsive behavior, and accessibility.
 - Add verified product updates with a source and review date.
 
@@ -24,6 +24,11 @@ pnpm install
 pnpm run build
 pnpm test
 ```
+
+The current Agent Guide lives under `docs/agent/`: `index.md`, `preface.md`,
+`part-01/` through `part-10/`, and the appendix pages. The older `start/`,
+`recipes/`, and `advanced/` routes remain only for historical link compatibility;
+new chapters should use the current Part structure.
 
 Before opening a pull request, confirm that edited pages and internal links work, media loads, text does not overlap on desktop or mobile, and no secrets or generated files are included.
 

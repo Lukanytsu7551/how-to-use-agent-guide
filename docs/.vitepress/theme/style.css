@@ -545,6 +545,36 @@ button {
 .agent-choice__card--codex { --agent-accent: var(--agent-codex); --agent-surface: var(--agent-codex-soft); }
 .agent-choice__card--workbuddy { --agent-accent: var(--agent-workbuddy); --agent-surface: var(--agent-workbuddy-soft); }
 
+.agent-foundation-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  margin-top: 18px;
+  padding: 20px 24px;
+  border: 1px solid var(--im-line, var(--wb-line));
+  border-left: 4px solid #627c4c;
+  color: var(--wb-ink);
+  background: #edf1e8;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.agent-foundation-card:hover {
+  color: var(--wb-ink);
+  border-color: #627c4c;
+  background: #e4ebdf;
+  transform: translateY(-2px);
+}
+
+.agent-foundation-card > .hn { width: 42px; height: 42px; color: #4d6b42; }
+.agent-foundation-card span { display: grid; gap: 5px; }
+.agent-foundation-card small { color: #627c4c; font-family: var(--wb-pixel); font-size: 10px; }
+.agent-foundation-card strong { font-size: 20px; }
+.agent-foundation-card em { color: var(--vp-c-text-2); font-size: 13px; font-style: normal; }
+.agent-foundation-card b { display: inline-flex; align-items: center; gap: 10px; color: #4d6b42; font-size: 15px; white-space: nowrap; }
+.agent-foundation-card b .hn { width: 20px; height: 20px; }
+
 .codex-issue-assistant {
   margin: 24px 0;
   padding: 24px;
@@ -1973,6 +2003,8 @@ body.wb-lightbox-open {
 .agent-home .agent-choice__card + .agent-choice__card { border-left: 1px solid var(--im-line); background: #e7eee7; }
 .agent-home .agent-choice__card:hover { border-color: transparent; box-shadow: none; background: #e3e8da; transform: none; }
 .agent-home .agent-choice__card--workbuddy:hover { background: #dcebdd; }
+.agent-home .agent-foundation-card { margin-top: 0; border-color: var(--im-line); border-left-color: #59783e; border-top: 0; border-radius: 0; background: #eef2ea; }
+.agent-home .agent-foundation-card:hover { border-color: #59783e; border-left-color: #59783e; background: #e3e9df; transform: none; }
 .agent-home .agent-choice__tag { font-size: 10px; }
 .agent-home .agent-choice__card > .agent-product-mark { width: 84px; height: 84px; }
 .agent-home .agent-choice__card > strong { font-size: clamp(29px, 2.8vw, 42px); letter-spacing: -0.05em; }

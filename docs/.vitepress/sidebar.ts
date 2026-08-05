@@ -161,6 +161,90 @@ const workbuddyItems: DefaultTheme.SidebarItem[] = [
   ]),
 ];
 
+const agentBookSection = (
+  text: string,
+  overview: string,
+  chapters: Array<[label: string, link: string]>,
+): DefaultTheme.SidebarItem => ({
+  text,
+  link: overview,
+  collapsed: false,
+  items: chapters.map(([label, link]) => item(label, link)),
+});
+
+const agentItems: DefaultTheme.SidebarItem[] = [
+  item("Agent Guide 首页", "/agent/"),
+  item("前言", "/agent/preface"),
+  agentBookSection("Part 1 概述", "/agent/part-01/", [
+    ["第 1 章：Agent 的本质", "/agent/part-01/chapter-01-agent-nature"],
+    ["第 2 章：ReAct 循环", "/agent/part-01/chapter-02-react-loop"],
+  ]),
+  agentBookSection("Part 2 概述", "/agent/part-02/", [
+    ["第 3 章：工具调用基础", "/agent/part-02/chapter-03-tool-calling"],
+    ["第 4 章：MCP 协议详解", "/agent/part-02/chapter-04-mcp"],
+    ["第 5 章：Skills 技能系统", "/agent/part-02/chapter-05-skills"],
+    ["第 6 章：Hooks 与事件系统", "/agent/part-02/chapter-06-hooks"],
+  ]),
+  agentBookSection("Part 3 概述", "/agent/part-03/", [
+    ["第 7 章：上下文工程", "/agent/part-03/chapter-07-context"],
+    ["第 8 章：记忆架构", "/agent/part-03/chapter-08-memory"],
+    ["第 9 章：多轮对话设计", "/agent/part-03/chapter-09-multi-turn"],
+  ]),
+  agentBookSection("Part 4 概述", "/agent/part-04/", [
+    ["第 10 章：Planning 模式", "/agent/part-04/chapter-10-planning"],
+    ["第 11 章：Reflection 模式", "/agent/part-04/chapter-11-reflection"],
+    ["第 12 章：Chain-of-Thought", "/agent/part-04/chapter-12-chain-of-thought"],
+  ]),
+  agentBookSection("Part 5 概述", "/agent/part-05/", [
+    ["第 13 章：编排基础", "/agent/part-05/chapter-13-orchestration"],
+    ["第 14 章：DAG 工作流", "/agent/part-05/chapter-14-dag"],
+    ["第 15 章：Swarm 模式", "/agent/part-05/chapter-15-swarm"],
+    ["第 16 章：Handoff 机制", "/agent/part-05/chapter-16-handoff"],
+  ]),
+  agentBookSection("Part 6 概述", "/agent/part-06/", [
+    ["第 17 章：Tree-of-Thoughts", "/agent/part-06/chapter-17-tree-of-thoughts"],
+    ["第 18 章：Debate 模式", "/agent/part-06/chapter-18-debate"],
+    ["第 19 章：Research-Synthesis", "/agent/part-06/chapter-19-research-synthesis"],
+  ]),
+  agentBookSection("Part 7 概述", "/agent/part-07/", [
+    ["第 20 章：三层架构设计", "/agent/part-07/chapter-20-three-layer"],
+    ["第 21 章：Temporal 工作流", "/agent/part-07/chapter-21-temporal"],
+    ["第 22 章：可观测性", "/agent/part-07/chapter-22-observability"],
+  ]),
+  agentBookSection("Part 8 概述", "/agent/part-08/", [
+    ["第 23 章：Token 预算控制", "/agent/part-08/chapter-23-token-budget"],
+    ["第 24 章：策略治理", "/agent/part-08/chapter-24-policy"],
+    ["第 25 章：安全执行", "/agent/part-08/chapter-25-secure-execution"],
+    ["第 26 章：多租户设计", "/agent/part-08/chapter-26-multi-tenant"],
+  ]),
+  agentBookSection("Part 9 概述", "/agent/part-09/", [
+    ["第 27 章：Deep Research", "/agent/part-09/chapter-27-deep-research"],
+    ["第 28 章：Computer Use", "/agent/part-09/chapter-28-computer-use"],
+    ["第 29 章：Agentic Coding", "/agent/part-09/chapter-29-agentic-coding"],
+    ["第 30 章：Background Agents", "/agent/part-09/chapter-30-background-agents"],
+    ["第 31 章：分层模型策略", "/agent/part-09/chapter-31-model-routing"],
+    ["第 32 章：OpenClaw 时代", "/agent/part-09/chapter-32-openclaw-era"],
+    ["第 33 章：Building on the Harness — Kocoro", "/agent/part-09/chapter-33-harness-kocoro"],
+  ]),
+  agentBookSection("Part 10 概述", "/agent/part-10/", [
+    ["第 34 章：从 DAG 到 Agent Loop", "/agent/part-10/chapter-34-dag-to-loop"],
+    ["第 35 章：上下文压缩", "/agent/part-10/chapter-35-context-compression"],
+    ["第 36 章：Tool Result 预算与外溢", "/agent/part-10/chapter-36-tool-result-budget"],
+    ["第 37 章：分层压缩", "/agent/part-10/chapter-37-layered-compression"],
+    ["第 38 章：Deferred Tool Loading 与 Tool Search", "/agent/part-10/chapter-38-deferred-tool-loading"],
+    ["第 39 章：Prompt Cache 稳定性", "/agent/part-10/chapter-39-prompt-cache"],
+    ["第 40 章：持久化 Agent Loop", "/agent/part-10/chapter-40-persistent-loop"],
+    ["第 41 章：运行中操控 Agent", "/agent/part-10/chapter-41-runtime-control"],
+    ["第 42 章：Agent 超时与 Watchdog", "/agent/part-10/chapter-42-watchdog"],
+    ["第 43 章：卡循环检测", "/agent/part-10/chapter-43-loop-detection"],
+    ["第 44 章：并行工具执行", "/agent/part-10/chapter-44-parallel-tools"],
+    ["第 45 章：Computer Use 上下文管理", "/agent/part-10/chapter-45-computer-use-context"],
+  ]),
+  item("附录 A：术语表", "/agent/appendix-a"),
+  item("附录 B：模式选择指南", "/agent/appendix-b"),
+  item("附录 C：常见问题 FAQ", "/agent/appendix-c"),
+];
+
 const manualItems: DefaultTheme.SidebarItem[] = [
   item("参考手册首页", "/manual/"),
   item("精选资源", "/manual/resources"),
@@ -177,5 +261,6 @@ export const siteSidebar: DefaultTheme.Sidebar = {
   "/troubleshooting/": codexItems,
   "/workbuddy/": workbuddyItems,
   "/bluebook/": workbuddyItems,
+  "/agent/": agentItems,
   "/manual/": manualItems,
 };
