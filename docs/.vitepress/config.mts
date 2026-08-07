@@ -103,6 +103,7 @@ export default defineConfig({
           { text: "附录 C：常见问题 FAQ", link: "/agent/appendix-c" },
         ],
       },
+      { text: "AI News", link: "/news/" },
       {
         text: "参考手册",
         items: [

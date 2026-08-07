@@ -5,6 +5,7 @@ import CaseLibraryContext from "./components/CaseLibraryContext.vue";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import CodexIssueAssistant from "./components/CodexIssueAssistant.vue";
 import HomePage from "./components/HomePage.vue";
+import AiNewsPage from "./components/AiNewsPage.vue";
 import ImageLightbox from "./components/ImageLightbox.vue";
 import SidebarToggles from "./components/SidebarToggles.vue";
 
@@ -54,6 +55,7 @@ export default {
     app.component("GroupQrMenu", GroupQrMenu);
     app.component("CodexIssueAssistant", CodexIssueAssistant);
     app.component("HomePage", HomePage);
+    app.component("AiNewsPage", AiNewsPage);
     app.component(
       "MermaidDiagram",
       defineAsyncComponent(() => import("./components/MermaidDiagram.vue")),

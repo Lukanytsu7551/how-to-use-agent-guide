@@ -10,7 +10,11 @@ const chapterSidebarCollapsed = ref(false);
 const outlineSidebarCollapsed = ref(false);
 
 const isDocumentPage = computed(
-  () => !page.value.isNotFound && frontmatter.value.layout !== "home" && frontmatter.value.layout !== false,
+  () =>
+    !page.value.isNotFound &&
+    frontmatter.value.layout !== "home" &&
+    frontmatter.value.layout !== "page" &&
+    frontmatter.value.layout !== false,
 );
 
 const applyState = () => {

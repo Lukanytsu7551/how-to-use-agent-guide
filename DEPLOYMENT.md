@@ -19,7 +19,9 @@ pnpm run preview
 ## 自动部署行为
 
 - 推送到 `main`：发布生产版本。
+- 每小时第 17 分钟：同步 AI HOT 公开数据并重新发布 `AI News`。
 - 构建输出是纯静态文件，不需要数据库或服务端密钥。
+- `pnpm run news:sync` 会更新 `docs/.vitepress/data/aihot.json`；同步失败时保留上一次成功数据，避免发布空页面。
 - 当前主目录是 `docs/agent/` 的 Agent Guide 书籍型结构；未列入主导航的历史页面仍会随构建生成，以兼容旧链接。
 
 发布前建议运行：

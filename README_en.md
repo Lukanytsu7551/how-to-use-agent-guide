@@ -22,6 +22,8 @@ A Chinese learning center for choosing agents, understanding their foundations, 
 
 The current Agent Guide follows “Preface → Parts 1–10 → 45 chapters → Appendices”. Earlier Agent quick-start, recipe, and advanced pages remain as compatibility routes but are no longer the primary navigation.
 
+`AI News` uses the public AI HOT API for selected news, recent signals, trending topics, and the daily briefing. GitHub Actions refreshes the data and redeploys the site every hour, with a visible source notice on the page.
+
 ## Local Development
 
 Node.js 22 and pnpm are required.
@@ -30,6 +32,7 @@ Node.js 22 and pnpm are required.
 pnpm install
 pnpm run dev
 pnpm run build
+pnpm run news:sync
 ```
 
 ## License
