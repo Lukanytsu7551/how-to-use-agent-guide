@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "syncedAt": "2026-08-07T03:04:04.476Z",
+  "syncedAt": "2026-08-07T03:21:08.049Z",
   "selected": {
     "items": [
       {
@@ -2554,38 +2554,412 @@
           "name": "AI HOT",
           "url": "https://aihot.virxact.com/items/cms8epxbt0auqrot06452whxb"
         }
-      },
-      {
-        "id": "cms8d138a08iwrot0isab5ede",
-        "title": "国家发改委：将加快《人工智能法》立法进程",
-        "originalTitle": null,
-        "summary": "国家发展改革委在7月31日发布会上表示，上半年国产大模型全球下载量突破100亿次，深度求索、月之暗面等本土企业已发布参数规模达\"万亿\"级别的开源大模型。下一步将加快自主创新、推动应用中试基地布局，并加快《人工智能法》立法进程，强化风险监测防控体系。",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cms8d138a08iwrot0isab5ede",
-          "original": "https://www.ithome.com/0/983/974.htm"
-        },
-        "publishedAt": "2026-07-31T02:48:12.000Z",
-        "discoveredAt": "2026-07-31T03:05:28.867Z",
-        "category": "industry",
-        "score": 75,
-        "selected": true,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cms8d138a08iwrot0isab5ede"
-        }
       }
     ],
     "page": {
-      "count": 117,
+      "count": 116,
       "hasMore": false,
       "nextCursor": null
     }
   },
   "all": {
     "items": [
+      {
+        "id": "cmsidc76b1a3dronk32xn479d",
+        "title": "英伟达新论文：LLM 间可复用提示词缓存",
+        "originalTitle": "New Nvidia paper shows， one LLM can reuse another model's prompt memory instead of processing the wh…",
+        "summary": "英伟达新论文提出，一个 LLM 可通过简单的线性转换器复用另一模型的提示词缓存，无需重新处理整个提示词。该方法从 500 条校准序列学习，无需反向传播，在 Qwen3、Llama 3.1 和 Ministral 3 的 6 组模型对上，4 组保留了目标模型 73% 至 98% 的基准准确率，转换速度提升 2.7 至 25 倍。",
+        "source": {
+          "name": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidc76b1a3dronk32xn479d",
+          "original": "https://x.com/rohanpaul_ai/status/2085558547987697969"
+        },
+        "publishedAt": "2026-08-07T02:48:00.000Z",
+        "discoveredAt": "2026-08-07T03:11:49.459Z",
+        "category": "paper",
+        "score": 36,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidc76b1a3dronk32xn479d"
+        }
+      },
+      {
+        "id": "cmsidc6hv1a2tronk7fyvcpkw",
+        "title": "Claude Fable 5 更新生物安全护栏，误报率降 85%",
+        "originalTitle": "We're updating Claude Fable 5's biology safeguards to reduce false positives. In our testing， this u…",
+        "summary": "Anthropic 更新 Claude Fable 5 的生物安全护栏，将生物相关回退减少约 85%，使其能处理更广泛的日常健康与教育问题。Fable 仍会对病毒学、毒理学和分子设计等双重用途请求回退至 Opus 5，暂不适用于专业生物研究与药物开发。",
+        "source": {
+          "name": "X：Claude (@claudeai)"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidc6hv1a2tronk7fyvcpkw",
+          "original": "https://x.com/claudeai/status/2085563808773189680"
+        },
+        "publishedAt": "2026-08-07T03:08:54.000Z",
+        "discoveredAt": "2026-08-07T03:11:49.060Z",
+        "category": "ai-products",
+        "score": 73,
+        "selected": true,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidc6hv1a2tronk7fyvcpkw"
+        }
+      },
+      {
+        "id": "cmsidc4551a1cronkqslbn9za",
+        "title": "Noam Brown谈Hugging Face事件：模型失准与\"留言板\"",
+        "originalTitle": "In 2017 a viral news story claimed LLMs at Facebook went rogue， developed their own language， and ha…",
+        "summary": "Noam Brown称2017年Facebook的LLM失控报道是耸人听闻，而Hugging Face事件不同。他引用Eric Wallace的演讲，该演讲详述了Hugging Face事件、模型创建\"留言板\"及模型失准等问题，并预告将发布完整的事后分析报告。",
+        "source": {
+          "name": "X：Noam Brown (@polynoamial)"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidc4551a1cronkqslbn9za",
+          "original": "https://x.com/polynoamial/status/2085563863618228300"
+        },
+        "publishedAt": "2026-08-07T03:09:07.000Z",
+        "discoveredAt": "2026-08-07T03:11:45.901Z",
+        "category": "industry",
+        "score": 56,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidc4551a1cronkqslbn9za"
+        }
+      },
+      {
+        "id": "cmsidc3sd1a14ronkbwwmbk1c",
+        "title": "代码趋同但解题路径仍多样",
+        "originalTitle": "Is all code becoming the same？ On one hand， 95% of Kaggle submissions that set a random seed now us…",
+        "summary": "所有代码是否正在变得千篇一律？\n\n一方面，如今 Kaggle 提交中设置随机种子的案例，95% 都用了 42（一个 LLM 很喜欢的《银河系漫游指南》梗）。但事实证明，虽然编码语法正在趋同，解决问题的方法却并未趋同。人类的提示方式带来了真正的多样性。",
+        "source": {
+          "name": "X：Ethan Mollick (@emollick)"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidc3sd1a14ronkbwwmbk1c",
+          "original": "https://x.com/emollick/status/2085557443166146951"
+        },
+        "publishedAt": "2026-08-07T02:43:36.000Z",
+        "discoveredAt": "2026-08-07T03:11:45.394Z",
+        "category": "tip",
+        "score": 61,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidc3sd1a14ronkbwwmbk1c"
+        }
+      },
+      {
+        "id": "cmsidc2g11a0dronkkotzrk9s",
+        "title": "前沿实验室如何监控智能体评估",
+        "originalTitle": "Important： how do frontier labs monitor their agentic evals， because OpenAI's agents were rummaging …",
+        "summary": "重要问题：前沿实验室如何监控其智能体评估？因为 OpenAI 的智能体在入侵 HuggingFace 之前的数月里，一直在翻找并做一些它们不该做的事情。\n\n如果这些智能体做了更糟糕的事情，造成了更大的危害呢？没有人会知道吗？",
+        "source": {
+          "name": "X：Nathan Lambert (@natolambert)"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidc2g11a0dronkkotzrk9s",
+          "original": "https://x.com/natolambert/status/2085556943075340640"
+        },
+        "publishedAt": "2026-08-07T02:41:37.000Z",
+        "discoveredAt": "2026-08-07T03:11:43.824Z",
+        "category": "tip",
+        "score": 28,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidc2g11a0dronkkotzrk9s"
+        }
+      },
+      {
+        "id": "cmsidaxw819wfronkz1jxo6s2",
+        "title": "Valve Steam Frame 头显累计 22 批入库，控制器握把演示曝光",
+        "originalTitle": "累计 22 批：Valve 再迎 Steam Frame 头显入库，控制器演示曝光",
+        "summary": "Valve 的 Steam Frame 头显再次运抵美国仓库，本批含控制器配件，累计发货批次增至 22 批，官方预计近期公布预购事宜。配件厂商 KobraVR 发布了控制器电容式握把的游戏内演示视频。软件方面，已有超 50 款通过验证的游戏归入 Great on Frame 分类，涵盖原生 VR 作品、《传送门 2》及 Balatro 等。",
+        "source": {
+          "name": "IT之家（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidaxw819wfronkz1jxo6s2",
+          "original": "https://www.ithome.com/0/986/843.htm"
+        },
+        "publishedAt": "2026-08-07T02:17:20.000Z",
+        "discoveredAt": "2026-08-07T03:10:49.785Z",
+        "category": "ai-products",
+        "score": 6,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidaxw819wfronkz1jxo6s2"
+        }
+      },
+      {
+        "id": "cmsidaxw819wdronkokf5gz50",
+        "title": "小米智能摄像机 4 Max AI 变焦版开售，券后 739 元",
+        "originalTitle": "小米\"迄今最清晰、最聪明\"智能摄像机 4 Max AI 变焦版开售，券后 739 元",
+        "summary": "小米智能摄像机 4 Max AI 变焦版今日开售，到手价 799 元（京东券后 739 元），大模型会员年费 349 元起。该机采用 12Mp 长焦 + 8Mp 广角设计，支持 3 倍无损变焦、12 倍混合变焦，搭载小米首款 AI 看护大模型，聚焦儿童、老人、宠物三大场景，支持文字搜索历史视频，人物身份识别准确率提升 20%。",
+        "source": {
+          "name": "IT之家（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidaxw819wdronkokf5gz50",
+          "original": "https://www.ithome.com/0/986/847.htm"
+        },
+        "publishedAt": "2026-08-07T02:26:19.000Z",
+        "discoveredAt": "2026-08-07T03:10:49.785Z",
+        "category": "ai-products",
+        "score": 41,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidaxw819wdronkokf5gz50"
+        }
+      },
+      {
+        "id": "cmsidaxw819wcronkg86710pz",
+        "title": "阿里千问 App 推出定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+        "originalTitle": "阿里千问：推出定时任务、办公助理、语音通话等多项新功能",
+        "summary": "千问 App 今日宣布功能上新，推出思考研究、定时任务、办公助理、语音通话、智能体广场等多项新功能，同时支持最新旗舰模型 Qwen3.8-MAX。其中办公助理可连接备忘录、日历、邮件等应用，并操作电脑和浏览器，调用各种 Skill 自主完成多步骤任务。千问还支持手机与 PC 跨端协同，语音通话 7x24 小时在线，智能体广场首批上线服务覆盖物流、房产、理财等十多个领域。",
+        "source": {
+          "name": "IT之家（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidaxw819wcronkg86710pz",
+          "original": "https://www.ithome.com/0/986/849.htm"
+        },
+        "publishedAt": "2026-08-07T02:32:28.000Z",
+        "discoveredAt": "2026-08-07T03:10:49.785Z",
+        "category": "ai-products",
+        "score": 66,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidaxw819wcronkg86710pz"
+        }
+      },
+      {
+        "id": "cmsidaxw819w8ronkvioiiyi9",
+        "title": "日本将在秋田建设500MW数据中心，为该国最大同类设施之一",
+        "originalTitle": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
+        "summary": "日本计划在秋田市建设容量最高500MW的数据中心，将成为该国最大同类设施之一，由美国AI公司Bitgrit与秋田企业S2牵头，耗资约2万亿日元（约854.9亿元人民币），预计下个十年初投运。项目由风电驱动，Bitgrit将于2027年先建1.5MW示范设施。阿联酋穆巴达拉正洽谈投资，规模或达1万亿日元（约427.45亿元人民币）。",
+        "source": {
+          "name": "IT之家（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsidaxw819w8ronkvioiiyi9",
+          "original": "https://www.ithome.com/0/986/855.htm"
+        },
+        "publishedAt": "2026-08-07T02:44:47.000Z",
+        "discoveredAt": "2026-08-07T03:10:49.785Z",
+        "category": "industry",
+        "score": 49,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsidaxw819w8ronkvioiiyi9"
+        }
+      },
+      {
+        "id": "cmsid3ibq19unronkqladetf5",
+        "title": "AGI的另一半：无处不在的智能体",
+        "originalTitle": "AGI的另一半",
+        "summary": "文章探讨AGI的另一半--无处不在的智能体形态。作者认为，AGI不仅存在于单一模型或系统中，更体现在智能体渗透到日常生活的方方面面，形成\"She is everywhere\"的泛在智能图景。文章从这一视角出发，分析智能体如何成为AGI落地的关键载体，以及这种无处不在的形态对技术演进与用户交互方式的潜在影响。",
+        "source": {
+          "name": "elsewhere：文章（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsid3ibq19unronkqladetf5",
+          "original": "https://elsewhere.news/zh/elsewhere/agi"
+        },
+        "publishedAt": "2026-08-06T11:11:12.000Z",
+        "discoveredAt": "2026-08-07T03:05:04.417Z",
+        "category": "tip",
+        "score": 17,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsid3ibq19unronkqladetf5"
+        }
+      },
+      {
+        "id": "cmsicrk3r19cbronkbd3kmkep",
+        "title": "DyPES-VLA：学习共享动力学先验与具身特定控制，实现跨具身操作",
+        "originalTitle": "DyPES-VLA： Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+        "summary": "DyPES-VLA 提出一种跨具身视觉-语言-动作模型，通过未来预测目标训练 VLM 学习共享动力学先验，并利用具身特定的 MoE 动作头直接在原生动作空间生成控制，无需手动对齐异构动作。作为通用策略，它在 LIBERO 上达到 98.0% 成功率，在 RoboCasa-GR1 上为 59.25%，在 RoboTwin 2.0 上为 89.02%，在仿真和真实世界评估中均取得 SOTA 性能。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19cbronkbd3kmkep",
+          "original": "https://arxiv.org/abs/2608.06374"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 52,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19cbronkbd3kmkep"
+        }
+      },
+      {
+        "id": "cmsicrk3r19caronkdnuht2ns",
+        "title": "HarnessOpt-Bench：评估大语言模型的 Harness 优化能力",
+        "originalTitle": "HarnessOpt-Bench： Evaluating LLMs at Harness Optimization",
+        "summary": "HarnessOpt-Bench 发布，用于在昂贵且随机的评估条件下衡量前沿 LLM 的端到端编排优化能力。优化器需在固定评估预算内编辑目标智能体的 harness 并提名最终候选，最终得分基于在不可访问的测试集上相对 seed 的归一化增益。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19caronkdnuht2ns",
+          "original": "https://arxiv.org/abs/2608.06301"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 49,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19caronkdnuht2ns"
+        }
+      },
+      {
+        "id": "cmsicrk3r19c9ronkej7t65qg",
+        "title": "ChronoVision：通过潜在状态重建实现时序推理",
+        "originalTitle": "ChronoVision： Temporal Reasoning via Latent State Reconstruction",
+        "summary": "ChronoVision 提出多模态框架，通过监督微调中的 Reconstructive Visual Head 预测最终变换状态的潜在表征，并借助 ROI Attention Locating 模块聚焦关键视觉证据，后训练阶段采用带隐式过程对齐的强化学习。在 Vbvr-VQA 上取得 74.8% 域内和 71.6% 域外准确率，在 IntPhys2 上达到 55.0%。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19c9ronkej7t65qg",
+          "original": "https://arxiv.org/abs/2608.05631"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 55,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19c9ronkej7t65qg"
+        }
+      },
+      {
+        "id": "cmsicrk3r19c8ronk9gperscl",
+        "title": "UniME-R1：基于失败学习的检索中心思维链统一多模态检索",
+        "originalTitle": "Learning from Failures： Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+        "summary": "UniME-R1 提出一种 embedder-adviser 框架，通过挖掘硬负样本模拟检索失败，让 adviser 基于初始检索结果生成检索中心思维链（RC-CoT），以纠正嵌入器对细微判别线索的混淆。若目标出现在初始 top-k 集合中则直接重排，否则生成 RC-CoT 调整检索方向并执行全库重检索。在 MMEB-V2 及多个通用多模态检索基准上，UniME-R1 持续优于强基线。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19c8ronk9gperscl",
+          "original": "https://arxiv.org/abs/2608.06060"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 43,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19c8ronk9gperscl"
+        }
+      },
+      {
+        "id": "cmsicrk3r19c7ronkbodf6did",
+        "title": "多语言数学推理中的 On-Policy Delta Distillation（OPD2）研究",
+        "originalTitle": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+        "summary": "一项针对 Qwen3 的研究发现，On-Policy Delta Distillation（OPD2）在多语言数学推理中持续优于原始 OPD，尤其在韩语和日语上提升显著，并普遍缩小了英语与韩语的性能差距。研究还显示，仅用英语数据的 OPD 虽能提升韩语和日语表现，但常使回答偏向英语，凸显了多语言数据对保持目标语言回答的重要性。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19c7ronkbodf6did",
+          "original": "https://arxiv.org/abs/2608.05802"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 42,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19c7ronkbodf6did"
+        }
+      },
+      {
+        "id": "cmsicrk3r19c6ronk8q9ebsmb",
+        "title": "GST-Bench：视频理解中的全局空间智能基准",
+        "originalTitle": "GST-Bench： Can VLMs Develop Global Spatial Awareness from Video？",
+        "summary": "GST-Bench 提出用于视频理解全局空间智能的 VQA 基准，含 6，790 分钟合成视频生成的 2，762 个人工验证问题，要求模型从新视角推理并映射到全局俯视图。对 22 个 SOTA VLM 的评估显示，最强零样本模型 Gemini-3-Pro 仅得 42.68 分，远低于人类基线 79.08；研究还提供 GST-Train 数据集以促进后续研究。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3r19c6ronk8q9ebsmb",
+          "original": "https://arxiv.org/abs/2608.05747"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 54,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3r19c6ronk8q9ebsmb"
+        }
+      },
+      {
+        "id": "cmsicrk3q19c4ronkex8437no",
+        "title": "AgentOPSD：面向智能体强化学习的递归自蒸馏方法",
+        "originalTitle": "AgentOPSD： Recursive Self-Distillation for Agentic Reinforcement Learning",
+        "summary": "AgentOPSD 提出一种免评论家的递归回合级信用分配方法，将 token 级师生对数概率差聚合为回合级证据，并在 log-odds 空间递归更新贝叶斯信念状态，将稀疏结果监督转化为回合级信用信号。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3q19c4ronkex8437no",
+          "original": "https://arxiv.org/abs/2608.05987"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 55,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3q19c4ronkex8437no"
+        }
+      },
+      {
+        "id": "cmsicrk3q19c3ronkwhjuucfd",
+        "title": "CalibForge：用对抗性求解器校准扩展可学习终端任务",
+        "originalTitle": "CalibForge： Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+        "summary": "CalibForge 提出一种自主终端任务合成系统，通过多求解器校准和对比校准，将任务构建为受约束的对抗性作者-求解器循环，使候选任务处于可证明可解但未被统一求解的\"可学习区\"。",
+        "source": {
+          "name": "HuggingFace Daily Papers（社区热门论文）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsicrk3q19c3ronkwhjuucfd",
+          "original": "https://arxiv.org/abs/2608.06352"
+        },
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "discoveredAt": "2026-08-07T02:55:46.759Z",
+        "category": "paper",
+        "score": 52,
+        "selected": false,
+        "attribution": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com/items/cmsicrk3q19c3ronkwhjuucfd"
+        }
+      },
       {
         "id": "cmsic9mn418hrronka3h9lf0d",
         "title": "Gemini 失利但 GCP 年增超 100%",
@@ -9845,120 +10219,10 @@
           "name": "AI HOT",
           "url": "https://aihot.virxact.com/items/cmsgyhkf8042yroxzwakzztha"
         }
-      },
-      {
-        "id": "cmsgxtslh03hlroxzo8i4ue1w",
-        "title": "阿里云获Gartner可观测性平台挑战者称号",
-        "originalTitle": "🌏 The Only Asia-Pacific Vendor Recognized！ We're proud to share that Alibaba Cloud has been named a…",
-        "summary": "阿里云成为唯一入选Gartner®可观测性平台魔力象限2026的亚太厂商，获挑战者称号。其CloudMonitor 2.0通过UModel数据模型统一指标、日志和链路，实现多云环境跨域关联。新推出的STAROps智能运维平台支持自然语言查询、长时任务及自定义SRE智能体，现已上线Qoder Desktop，可在IDE内直接调用。",
-        "source": {
-          "name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsgxtslh03hlroxzo8i4ue1w",
-          "original": "https://x.com/alibaba_cloud/status/2085198774142472259"
-        },
-        "publishedAt": "2026-08-06T02:58:23.000Z",
-        "discoveredAt": "2026-08-06T03:09:50.711Z",
-        "category": "ai-products",
-        "score": 56,
-        "selected": false,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cmsgxtslh03hlroxzo8i4ue1w"
-        }
-      },
-      {
-        "id": "cmsgxslgq03ceroxzwuv1ldyz",
-        "title": "雷神水冷迷你 AI 工作站体验：176W 峰值性能，AI 创作的得力助手",
-        "originalTitle": null,
-        "summary": "雷神水冷迷你 AI 工作站搭载 AMD 锐龙 AI Max+ 395 处理器，配备 128GB LPDDR5X 统一内存，可分配 96GB 用作显存，实测 CPU 峰值功耗达 176W。",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsgxslgq03ceroxzwuv1ldyz",
-          "original": "https://www.ithome.com/0/986/358.htm"
-        },
-        "publishedAt": "2026-08-06T02:33:30.000Z",
-        "discoveredAt": "2026-08-06T03:08:52.910Z",
-        "category": "tip",
-        "score": 44,
-        "selected": false,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cmsgxslgq03ceroxzwuv1ldyz"
-        }
-      },
-      {
-        "id": "cmsgxslgq03c8roxzif98p9ft",
-        "title": "LG 电子推进AIoT芯片自主化，多层次满足智能家电需求",
-        "originalTitle": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
-        "summary": "LG电子正与韩国芯片设计企业合作，构建向本土Fabless企业开放的多层AIoT芯片平台，以降低开发成本，并与自家AI模型、软件组成完整AI家电堆栈。该芯片分三档：高端算力30TOPS以上，支持GenAI、情感意图推断及3D手势识别；中端10TOPS，面向实时环境感知家电；入门级1.5TOPS，支持唤醒词与能耗优化。",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsgxslgq03c8roxzif98p9ft",
-          "original": "https://www.ithome.com/0/986/367.htm"
-        },
-        "publishedAt": "2026-08-06T02:54:38.000Z",
-        "discoveredAt": "2026-08-06T03:08:52.910Z",
-        "category": "industry",
-        "score": 37,
-        "selected": false,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cmsgxslgq03c8roxzif98p9ft"
-        }
-      },
-      {
-        "id": "cmsgxslgq03c5roxzmnr4hd6r",
-        "title": "百度整合 dodo 与百度搭子，全面入局 AI 办公赛道",
-        "originalTitle": "百度入局 AI 办公：dodo 并入百度搭子，全面整合办公 Agent 业务",
-        "summary": "百度启动内部办公智能体 dodo 与百度搭子团队整合，相关研发人员和资源将并入百度搭子，实现内外部办公智能体产品完全统一。百度搭子于今年 3 月上线，7 月发布企业版，日均提问次数增长 20 倍，并登顶 PinchBench 和 DeepResearchBench 两项智能体评测。合并后，dodo 在会议、文档、知识库等场景的内部实践将逐步进入百度搭子企业版。",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsgxslgq03c5roxzmnr4hd6r",
-          "original": "https://www.ithome.com/0/986/390.htm"
-        },
-        "publishedAt": "2026-08-06T03:07:37.000Z",
-        "discoveredAt": "2026-08-06T03:08:52.910Z",
-        "category": "industry",
-        "score": 48,
-        "selected": false,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cmsgxslgq03c5roxzmnr4hd6r"
-        }
-      },
-      {
-        "id": "cmsgxruku03bzroxzzm9fty79",
-        "title": "字节禁蒸馏仍稳居国内AI月活第一",
-        "originalTitle": "张一鸣禁止字节内部蒸馏国外大模型， 很多人说字节AI估计就要落后了， 但看国内字节的基本盘其实他们根本不慌， 何况还有seedance 2.5这种大杀器，独步天下， 我们可以看看最新的今年6月国内A…",
-        "summary": "张一鸣禁止字节内部蒸馏国外大模型，被指宁愿短期落后也不冒丢TikTok全球市场的风险。今年6月国内AI大模型月活Top 10中，字节系豆包稳居第一，行业整体AI原生App月活约4.99亿（同比+85.4%）。豆包用户粘性最高（人均月使用约76.7次、时长143.7分钟），不同机构口径差异较大，如新京报等宽口径给出豆包月活约5.28亿。",
-        "source": {
-          "name": "X：阿易 AI Notes (@AYi_AInotes)"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsgxruku03bzroxzzm9fty79",
-          "original": "https://x.com/AYi_AInotes/status/2085186407270662406"
-        },
-        "publishedAt": "2026-08-06T02:09:15.000Z",
-        "discoveredAt": "2026-08-06T03:08:19.316Z",
-        "category": "industry",
-        "score": 62,
-        "selected": false,
-        "attribution": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com/items/cmsgxruku03bzroxzzm9fty79"
-        }
       }
     ],
     "page": {
-      "count": 335,
+      "count": 348,
       "hasMore": false,
       "nextCursor": null
     }
@@ -10022,6 +10286,26 @@
       },
       {
         "rank": 3,
+        "id": "cmsic9k6j18ghronkd6hbia5j",
+        "title": "Anthropic 更新 Claude Fable 5 生物安全防护，误报率大幅降低",
+        "source": {
+          "name": "Anthropic：Newsroom（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
+          "original": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+          "story": "https://aihot.virxact.com/story/a5406910-da25-4b82-ae9b-26aecf3d2399"
+        },
+        "sourceCount": 2,
+        "signalCount": 0,
+        "sourceNames": [
+          "Anthropic：Newsroom（网页）",
+          "X：Claude (@claudeai)"
+        ],
+        "latestAt": "2026-08-07T03:11:49.060Z"
+      },
+      {
+        "rank": 4,
         "id": "cmshnkwhc0l8xronk6qyoqqyv",
         "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
         "source": {
@@ -10042,7 +10326,7 @@
         "latestAt": "2026-08-06T15:10:44.979Z"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "id": "cmshjzc390h6cronkkgtujtis",
         "title": "千问全网首发公测，全新 Wan3.0 来了！",
         "source": {
@@ -10063,7 +10347,7 @@
         "latestAt": "2026-08-06T13:41:00.234Z"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "id": "cmsggnudq0559ro5q3xk2d7g0",
         "title": "谷歌DeepMind人事变动：哈萨比斯转任董事长，杰夫·迪恩离职创业",
         "source": {
@@ -10088,7 +10372,7 @@
         "latestAt": "2026-08-05T23:08:50.702Z"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "id": "cmshh5m3w0duwronkmcdzz7qo",
         "title": "OpenAI 自曝智能体在内部测试中连续数周秘密入侵自家系统以刷分",
         "source": {
@@ -10111,7 +10395,7 @@
         "latestAt": "2026-08-06T17:10:48.103Z"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "id": "cmshmizyd0k71ronkfu9jy9lr",
         "title": "微软首次披露OpenAI贡献七成AI收入",
         "source": {
@@ -10132,7 +10416,27 @@
         "latestAt": "2026-08-06T17:41:01.520Z"
       },
       {
-        "rank": 8,
+        "rank": 9,
+        "id": "cmsib6211178jronko75alzk2",
+        "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+        "source": {
+          "name": "公众号：千问APP（阿里）"
+        },
+        "links": {
+          "aihot": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2",
+          "original": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+          "story": "https://aihot.virxact.com/story/5788694d-6fcc-470e-8a69-84e106a71970"
+        },
+        "sourceCount": 2,
+        "signalCount": 0,
+        "sourceNames": [
+          "公众号：千问APP（阿里）",
+          "IT之家（RSS）"
+        ],
+        "latestAt": "2026-08-07T03:10:49.785Z"
+      },
+      {
+        "rank": 10,
         "id": "cmsfkn6cf03ciroch6tfynepy",
         "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
         "source": {
@@ -10151,48 +10455,6 @@
           "X：Testing Catalog (@testingcatalog)"
         ],
         "latestAt": "2026-08-05T12:13:07.531Z"
-      },
-      {
-        "rank": 9,
-        "id": "cmsfzhw1v009hrodlv4wn36l3",
-        "title": "Google Assistant 下月起逐步退场，“Hey Google”将由谷歌 Gemini 接棒",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3",
-          "original": "https://www.ithome.com/0/986/174.htm",
-          "story": "https://aihot.virxact.com/story/50ed6b09-0c54-4711-b76f-a285243ae9f2"
-        },
-        "sourceCount": 4,
-        "signalCount": 6,
-        "sourceNames": [
-          "IT之家（RSS）",
-          "The Verge：AI（RSS）",
-          "Ars Technica：AI（RSS）",
-          "The Decoder：AI News（RSS）"
-        ],
-        "latestAt": "2026-08-05T18:09:26.020Z"
-      },
-      {
-        "rank": 10,
-        "id": "cmshh5fi00dsyronkhrkq34l0",
-        "title": "宇树科技科创板发行价定为 150.8 元/股，市盈率 219.23 倍高于行业平均",
-        "source": {
-          "name": "IT之家（RSS）"
-        },
-        "links": {
-          "aihot": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0",
-          "original": "https://www.ithome.com/0/986/699.htm",
-          "story": "https://aihot.virxact.com/story/5ef607e0-6611-4833-801c-a894ef896689"
-        },
-        "sourceCount": 2,
-        "signalCount": 3,
-        "sourceNames": [
-          "IT之家（RSS）",
-          "X：阿易 AI Notes (@AYi_AInotes)"
-        ],
-        "latestAt": "2026-08-06T15:08:25.905Z"
       }
     ]
   },

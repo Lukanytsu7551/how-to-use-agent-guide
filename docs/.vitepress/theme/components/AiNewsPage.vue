@@ -213,7 +213,7 @@ const selectView = (view: NewsView) => {
       <div class="ai-news-hero__status" aria-live="polite">
         <span :class="{ 'is-live': syncedAt }"></span>
         <div>
-          <strong>每小时同步</strong>
+          <strong>随站点发布同步</strong>
           <small>{{ formatSyncTime }}</small>
         </div>
       </div>

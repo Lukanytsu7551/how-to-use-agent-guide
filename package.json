@@ -12,6 +12,7 @@
     "dev": "vitepress dev docs --host 127.0.0.1",
     "docs:dev": "vitepress dev docs --host 127.0.0.1",
     "test": "vitest run",
+    "prebuild": "node tools/sync-aihot.mjs",
     "build": "vitepress build docs",
     "news:sync": "node tools/sync-aihot.mjs",
     "case-images:localize": "node tools/localize-case-images.mjs",
